@@ -1,5 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
+import router from './router/index'
+
 import '@/assets/_nuxt-portal/css/da524e6.css'
 import '@/assets/_nuxt-portal/css/ea4cf36.css'
 import '@/assets/_nuxt-portal/css/cc0f050.css'
@@ -19,4 +21,5 @@ Vue.config.productionTip = false
 
 new Vue({
   render: h => h(App),
+  router
 }).$mount('#app')

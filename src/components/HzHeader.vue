@@ -669,7 +669,7 @@
                 <div class="flex items-center gap-20px whitespace-nowrap pr-8px">
                   <div data-v-d8e0da7c class="relative inline-flex items-center h-full login-popover-move">
                     <div data-v-d8e0da7c>
-                      <a class="text-primaryText text-16px cursor-pointer leading-40px text-center" href="/asia/login" target="_self" rel="nofollow">Log in</a>
+                      <a class="text-primaryText text-16px cursor-pointer leading-40px text-center" href="#/login" target="_self" rel="nofollow">Log in</a>
                     </div>
                     <div data-v-d8e0da7c class="popover absolute z-1000 opacity-0 invisible left" lt-md="fixed left-0" style="top: calc(100% + 0px); padding-top: 0px;"><!----><!----><i data-v-d8e0da7c class="absolute -top-6px !right-20px w-12px h-12px rounded-[3px_0_0_0] rotate-45deg transition-opacity light:shadow-popover light:border-1px light:border-line light:bg-bg dark:bg-cardBg !border-b-0px !border-r-0px" style="display: none;"></i>
                     </div>
