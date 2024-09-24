@@ -15,7 +15,6 @@ import '@/assets/_nuxt-portal/css/style-4087bdf9.css'
 import '@/assets/_nuxt-portal/css/d6b9013.css'
 import '@/assets/_nuxt-portal/css/7bf17ae.css'
 
-
 Vue.config.productionTip = false
 
 new Vue({
