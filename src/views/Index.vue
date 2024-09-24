@@ -12,13 +12,10 @@
 </template>
 
 <script>
-import HzFooter from "@/components/HzFooter.vue";
-import HzHeader from "@/components/HzHeader.vue";
-import HzTabbar from "@/components/HzTabbar.vue";
 import HzMain from "@/components/HzMain.vue";
 
 export default {
-  components: {HzMain, HzTabbar, HzHeader, HzFooter}
+  components: {HzMain}
 }
 </script>
 

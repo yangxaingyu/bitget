@@ -2,6 +2,14 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router/index'
 
+// 注册全局组件
+import HzHeader from "@/components/HzHeader"
+import HzFooter from "@/components/HzFooter"
+import HzTabbar from "@/components/HzTabbar"
+Vue.component('HzHeader', HzHeader)
+Vue.component('HzFooter', HzFooter)
+Vue.component('HzTabbar', HzTabbar)
+
 import '@/assets/_nuxt-portal/css/da524e6.css'
 import '@/assets/_nuxt-portal/css/ea4cf36.css'
 import '@/assets/_nuxt-portal/css/cc0f050.css'
