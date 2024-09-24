@@ -1,0 +1,330 @@
+.bit-carousel__item, .bit-carousel__mask {
+    position: absolute;
+    height: 100%;
+    top: 0
+}
+
+[dir=ltr] .bit-carousel__item, [dir=ltr] .bit-carousel__mask {
+    left: 0
+}
+
+[dir=rtl] .bit-carousel__item, [dir=rtl] .bit-carousel__mask {
+    right: 0
+}
+
+.bit-carousel__item {
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    z-index: 0
+}
+
+.bit-carousel__item.is-active {
+    z-index: 2
+}
+
+.bit-carousel__item--card, .bit-carousel__item.is-animating {
+    transition: transform .4s ease-in-out
+}
+
+[dir] .bit-carousel__item--card, [dir] .bit-carousel__item.is-animating {
+    -webkit-transition: -webkit-transform .4s ease-in-out
+}
+
+.bit-carousel__item--card {
+    width: 50%
+}
+
+.bit-carousel__item--card.is-in-stage {
+    z-index: 1
+}
+
+[dir] .bit-carousel__item--card.is-in-stage {
+    cursor: pointer
+}
+
+.bit-carousel__item--card.is-in-stage.is-hover .bit-carousel__mask, .bit-carousel__item--card.is-in-stage:hover .bit-carousel__mask {
+    opacity: .12
+}
+
+.bit-carousel__item--card.is-active {
+    z-index: 2
+}
+
+.bit-carousel__mask {
+    width: 100%;
+    opacity: .24;
+    transition: .2s
+}
+
+[dir] .bit-carousel__mask {
+    background-color: var(--bit-color-white);
+    -webkit-transition: .2s
+}
+
+[dir] .bit-carousel--multiple .bit-carousel__item {
+    background-color: transparent
+}
+
+.bit-carousel, .bit-carousel__container {
+    position: relative
+}
+
+[dir] .bit-carousel, [dir] .bit-carousel__container {
+    border-radius: 8px
+}
+
+.bit-carousel--horizontal {
+    overflow-x: hidden
+}
+
+.bit-carousel--vertical {
+    overflow-y: hidden
+}
+
+.bit-carousel__container {
+    height: 300px;
+    overflow: hidden
+}
+
+.bit-carousel__arrow {
+    outline: 0;
+    height: 32px;
+    width: 32px;
+    transition: .3s;
+    color: var(--bit-color-text-tertiary);
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    -webkit-transform: translateY(-50%);
+    font-size: 16px;
+    line-height: 36px
+}
+
+[dir] .bit-carousel__arrow {
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    -webkit-transition: .3s;
+    border-radius: 50%;
+    background-color: var(--bit-carousel-arrow-background);
+    transform: translateY(-50%);
+    text-align: center
+}
+
+[dir=ltr] .bit-carousel__arrow--left {
+    left: 20px
+}
+
+[dir=rtl] .bit-carousel__arrow--left {
+    left: unset;
+    right: 20px
+}
+
+[dir=ltr] .bit-carousel__arrow--right {
+    right: 20px
+}
+
+[dir=rtl] .bit-carousel__arrow--right {
+    right: unset;
+    left: 20px
+}
+
+[dir] .bit-carousel__arrow:hover {
+    background-color: var(--bit-carousel-arrow-hover-background)
+}
+
+[dir=rtl] .bit-carousel__arrow .bit-icon svg {
+    transform: rotateY(180deg)
+}
+
+.bit-carousel--multiple {
+    overflow: unset
+}
+
+[dir=ltr] .bit-carousel--multiple .bit-carousel__arrow--left {
+    left: -36px
+}
+
+[dir=rtl] .bit-carousel--multiple .bit-carousel__arrow--left {
+    left: unset;
+    right: -36px
+}
+
+[dir=ltr] .bit-carousel--multiple .bit-carousel__arrow--right {
+    right: -36px
+}
+
+[dir=rtl] .bit-carousel--multiple .bit-carousel__arrow--right {
+    right: unset;
+    left: -36px
+}
+
+.bit-carousel__indicators {
+    position: absolute;
+    list-style: none;
+    z-index: 2;
+    line-height: 0
+}
+
+[dir] .bit-carousel__indicators {
+    margin: 0;
+    padding: 0
+}
+
+.bit-carousel__indicators--horizontal {
+    bottom: 20px
+}
+
+[dir=ltr] .bit-carousel__indicators--horizontal {
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+[dir=rtl] .bit-carousel__indicators--horizontal {
+    right: 50%;
+    transform: translateX(50%)
+}
+
+.bit-carousel__indicators--vertical {
+    top: 50%;
+    -webkit-transform: translateY(-50%)
+}
+
+[dir] .bit-carousel__indicators--vertical {
+    transform: translateY(-50%)
+}
+
+[dir=ltr] .bit-carousel__indicators--vertical {
+    right: 20px
+}
+
+[dir=rtl] .bit-carousel__indicators--vertical {
+    left: 20px
+}
+
+.bit-carousel__indicators--outside {
+    bottom: 26px;
+    position: static;
+    -webkit-transform: none;
+    line-height: 24px
+}
+
+[dir] .bit-carousel__indicators--outside {
+    text-align: center;
+    transform: none
+}
+
+.bit-carousel__indicators--labels {
+    -webkit-transform: none
+}
+
+[dir] .bit-carousel__indicators--labels {
+    transform: none;
+    text-align: center
+}
+
+[dir=ltr] .bit-carousel__indicators--labels, [dir=rtl] .bit-carousel__indicators--labels {
+    left: 0;
+    right: 0
+}
+
+.bit-carousel__indicators--labels .bit-carousel__button {
+    height: auto;
+    width: auto;
+    font-size: 12px
+}
+
+[dir] .bit-carousel__indicators--labels .bit-carousel__button {
+    padding: 2px 18px
+}
+
+[dir] .bit-carousel__indicators--labels .bit-carousel__indicator {
+    padding: 6px 4px
+}
+
+[dir] .bit-carousel__indicator {
+    background-color: transparent;
+    cursor: pointer
+}
+
+.bit-carousel__indicator--horizontal {
+    display: inline-block
+}
+
+[dir] .bit-carousel__indicator--horizontal {
+    padding: 0 4px
+}
+
+.bit-carousel__indicator.is-active button {
+    width: 12px
+}
+
+[dir] .bit-carousel__indicator.is-active button {
+    background-color: var(--bit-color-text-primary)
+}
+
+.bit-carousel__indicator.is-active .bit-carousel__button-small {
+    width: 8px
+}
+
+[dir] .bit-carousel__indicator--vertical {
+    padding: 4px 0
+}
+
+.bit-carousel__indicator--vertical .bit-carousel__button {
+    width: 6px;
+    height: 6px
+}
+
+.bit-carousel__indicator--vertical.is-active button {
+    width: 6px
+}
+
+.bit-carousel__button {
+    display: block;
+    width: 6px;
+    height: 6px;
+    outline: 0;
+    transition: all .3s
+}
+
+[dir] .bit-carousel__button {
+    background-color: var(--bit-color-text-disabled);
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    border-radius: 4px
+}
+
+.bit-carousel__button-small {
+    width: 4px;
+    height: 4px
+}
+
+.carousel-arrow-left-enter, .carousel-arrow-left-leave-active {
+    opacity: 0
+}
+
+[dir=ltr] .carousel-arrow-left-enter, [dir=ltr] .carousel-arrow-left-leave-active {
+    transform: translateY(-50%) translateX(-10px)
+}
+
+[dir=rtl] .carousel-arrow-left-enter, [dir=rtl] .carousel-arrow-left-leave-active {
+    transform: translateY(-50%) translateX(10px)
+}
+
+.carousel-arrow-right-enter, .carousel-arrow-right-leave-active {
+    opacity: 0
+}
+
+[dir=ltr] .carousel-arrow-right-enter, [dir=ltr] .carousel-arrow-right-leave-active {
+    transform: translateY(-50%) translateX(10px)
+}
+
+[dir=rtl] .carousel-arrow-right-enter, [dir=rtl] .carousel-arrow-right-leave-active {
+    transform: translateY(-50%) translateX(-10px)
+}

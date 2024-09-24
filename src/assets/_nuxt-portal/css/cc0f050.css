@@ -1,0 +1,187 @@
+[dir] .bit-popover, [dir] .bit-popover--plain {
+    padding: 12px 20px
+}
+
+.bit-popover, .bit-popover__title {
+    color: var(--bit-color-text-primary)
+}
+
+.bit-popper .popper__arrow, .bit-popper .popper__arrow:after {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid
+}
+
+.bit-popper .popper__arrow {
+    border-width: 6px;
+    filter: drop-shadow(0 2px 12px rgba(0, 0, 0, .03))
+}
+
+.bit-popper .popper__arrow:after {
+    content: " ";
+    border-width: 6px
+}
+
+[dir] .bit-popper[x-placement^=top] {
+    margin-bottom: 12px
+}
+
+.bit-popper[x-placement^=top] .popper__arrow {
+    bottom: -6px;
+    left: 50%;
+    margin-right: 2.5px;
+    border-top-color: var(--bit-border-color-primary);
+    border-bottom-width: 0
+}
+
+.bit-popper[x-placement^=top] .popper__arrow:after {
+    bottom: 1px;
+    margin-left: -6px;
+    border-top-color: var(--bit-bg-color-dialog);
+    border-bottom-width: 0
+}
+
+[dir=rtl] .bit-popper[x-placement^=top] .popper__arrow:after {
+    margin-left: unset;
+    margin-right: -6px
+}
+
+[dir] .bit-popper[x-placement^=bottom] {
+    margin-top: 12px
+}
+
+.bit-popper[x-placement^=bottom] .popper__arrow {
+    top: -6px;
+    left: 50%;
+    margin-right: 2.5px;
+    border-top-width: 0;
+    border-bottom-color: var(--bit-border-color-primary)
+}
+
+.bit-popper[x-placement^=bottom] .popper__arrow:after {
+    top: 1px;
+    margin-left: -6px;
+    border-top-width: 0;
+    border-bottom-color: var(--bit-bg-color-dialog)
+}
+
+[dir=rtl] .bit-popper[x-placement^=bottom] .popper__arrow:after {
+    margin-left: unset;
+    margin-right: -6px
+}
+
+[dir=ltr] .bit-popper[x-placement^=right] {
+    margin-left: 12px
+}
+
+[dir=rtl] .bit-popper[x-placement^=right] {
+    margin-right: 12px
+}
+
+.bit-popper[x-placement^=right] .popper__arrow {
+    top: 50%;
+    left: -6px;
+    margin-bottom: 2.5px;
+    border-right-color: var(--bit-border-color-primary);
+    border-left-width: 0
+}
+
+.bit-popper[x-placement^=right] .popper__arrow:after {
+    bottom: -6px;
+    left: 1px;
+    border-right-color: var(--bit-bg-color-dialog);
+    border-left-width: 0
+}
+
+[dir=ltr] .bit-popper[x-placement^=left] {
+    margin-right: 12px
+}
+
+[dir=rtl] .bit-popper[x-placement^=left] {
+    margin-left: 12px
+}
+
+.bit-popper[x-placement^=left] .popper__arrow {
+    top: 50%;
+    right: -6px;
+    margin-bottom: 2.5px;
+    border-right-width: 0;
+    border-left-color: var(--bit-border-color-primary)
+}
+
+.bit-popper[x-placement^=left] .popper__arrow:after {
+    right: 1px;
+    bottom: -6px;
+    margin-left: -6px;
+    border-right-width: 0;
+    border-left-color: var(--bit-bg-color-dialog)
+}
+
+.bit-popover {
+    position: absolute;
+    min-width: 150px;
+    z-index: 2000;
+    line-height: 1.4;
+    font-size: 14px;
+    -webkit-box-shadow: var(--bit-box-shadow-light);
+    word-break: break-word
+}
+
+[dir] .bit-popover {
+    background: var(--bit-bg-color-dialog);
+    border-radius: 4px;
+    border: 1px solid var(--bit-border-color-primary);
+    text-align: justify;
+    box-shadow: var(--bit-box-shadow-light)
+}
+
+.bit-popover--icon {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start
+}
+
+.bit-popover--icon .bit-popover__message-icon {
+    font-size: 14px;
+    line-height: 1
+}
+
+[dir] .bit-popover--icon .bit-popover__message-icon {
+    padding: 8px 0 4px
+}
+
+[dir=ltr] .bit-popover--icon .bit-popover__message-icon {
+    margin-right: 8px
+}
+
+[dir=rtl] .bit-popover--icon .bit-popover__message-icon {
+    margin-right: unset;
+    margin-left: 8px
+}
+
+.bit-popover__title {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 500
+}
+
+[dir] .bit-popover__title {
+    padding: 8px 0 4px
+}
+
+.bit-popover__content {
+    color: var(--bit-color-text-secondary)
+}
+
+[dir] .bit-popover__content {
+    padding: 4px 0 8px
+}
+
+.bit-popover:focus, .bit-popover:focus:active, .bit-popover__reference:focus:hover, .bit-popover__reference:focus:not(.focusing) {
+    outline-width: 0
+}

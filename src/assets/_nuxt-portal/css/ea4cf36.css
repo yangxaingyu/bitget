@@ -1,0 +1,24 @@
+[dir=ltr] .global-theme .main-box, [dir=rtl] .global-theme .main-box {
+    margin-left: auto;
+    margin-right: auto
+}
+
+[dir] .global-theme.black .main-box.ipadClass {
+    background: #1e1e1e !important
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .main-box {
+        overflow-y: overlay;
+        min-width: auto;
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .main-box {
+        overflow-y: overlay;
+        min-width: auto;
+        width: 100%
+    }
+}

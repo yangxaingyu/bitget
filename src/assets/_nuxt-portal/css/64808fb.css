@@ -1,0 +1,2156 @@
+.bit-checkbox, .bit-checkbox__input {
+    white-space: nowrap
+}
+
+.bit-checkbox__input {
+    outline: 0;
+    vertical-align: middle
+}
+
+.bit-checkbox-button__inner, .bit-tag {
+    -webkit-box-sizing: border-box;
+    white-space: nowrap;
+    font-weight: 400
+}
+
+.bit-checkbox-button__inner {
+    vertical-align: middle;
+    outline: 0;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none
+}
+
+[dir] .bit-checkbox-button__inner {
+    text-align: center
+}
+
+.bit-tag, .bit-tag .bit-tag__close {
+    display: inline-flex
+}
+
+[dir=ltr] .bit-table-column--selection .cell, [dir=rtl] .bit-table-column--selection .cell {
+    padding-left: 8px;
+    padding-right: 8px
+}
+
+.bit-table-filter {
+    -webkit-box-shadow: var(--bit-box-shadow-light);
+    box-sizing: border-box
+}
+
+[dir] .bit-table-filter {
+    border: 1px solid var(--bit-border-color-primary);
+    border-radius: 2px;
+    background-color: var(--bit-color-white);
+    box-shadow: var(--bit-box-shadow-light);
+    margin: 2px 0
+}
+
+.bit-table-filter__list {
+    list-style: none;
+    min-width: 100px
+}
+
+[dir] .bit-table-filter__list {
+    padding: 5px 0;
+    margin: 0
+}
+
+.bit-table-filter__list-item {
+    line-height: 36px;
+    font-size: 14px
+}
+
+[dir] .bit-table-filter__list-item {
+    padding: 0 10px;
+    cursor: pointer
+}
+
+.bit-table-filter__list-item:hover {
+    color: #66b1ff
+}
+
+[dir] .bit-table-filter__list-item:hover {
+    background-color: var(--bit-bg-color-tertiary)
+}
+
+.bit-table-filter__list-item.is-active {
+    color: var(--bit-color-white)
+}
+
+[dir] .bit-table-filter__list-item.is-active {
+    background-color: var(--bit-color-primary)
+}
+
+.bit-table-filter__content {
+    min-width: 100px
+}
+
+[dir] .bit-table-filter__bottom {
+    border-top: 1px solid var(--bit-border-color-primary);
+    padding: 8px
+}
+
+.bit-table-filter__bottom button {
+    color: var(--bit-color-text-primary);
+    font-size: 12px
+}
+
+[dir] .bit-table-filter__bottom button {
+    border: none;
+    cursor: pointer;
+    padding: 0 3px
+}
+
+[dir=ltr] .bit-table-filter__bottom button {
+    background: 0 0
+}
+
+[dir=rtl] .bit-table-filter__bottom button {
+    background: 100% 0
+}
+
+.bit-table-filter__bottom button:hover {
+    color: var(--bit-color-primary)
+}
+
+.bit-table-filter__bottom button:focus {
+    outline: 0
+}
+
+.bit-table-filter__bottom button.is-disabled {
+    color: var(--bit-color-text-disabled)
+}
+
+[dir] .bit-table-filter__bottom button.is-disabled {
+    cursor: not-allowed
+}
+
+.bit-table-filter__wrap {
+    max-height: 280px
+}
+
+[dir] .bit-table-filter__checkbox-group {
+    padding: 10px
+}
+
+.bit-table-filter__checkbox-group label.bit-checkbox {
+    display: block
+}
+
+[dir] .bit-table-filter__checkbox-group label.bit-checkbox {
+    margin-bottom: 8px
+}
+
+[dir=ltr] .bit-table-filter__checkbox-group label.bit-checkbox, [dir=rtl] .bit-table-filter__checkbox-group label.bit-checkbox {
+    margin-right: 5px;
+    margin-left: 5px
+}
+
+[dir] .bit-table-filter__checkbox-group .bit-checkbox:last-child {
+    margin-bottom: 0
+}
+
+.bit-checkbox, .bit-checkbox__input {
+    display: inline-block;
+    position: relative
+}
+
+.bit-checkbox, .bit-checkbox__input.is-checked + .bit-checkbox__label {
+    color: var(--bit-color-text-primary)
+}
+
+.bit-checkbox-button__inner, .bit-checkbox__input {
+    vertical-align: middle;
+    outline: 0;
+    white-space: nowrap
+}
+
+.bit-table, .bit-table__append-wrapper {
+    overflow: hidden
+}
+
+.bit-table--hidden, .bit-table .bit-table__cell.is-hidden > * {
+    visibility: hidden
+}
+
+.bit-checkbox {
+    font-weight: 400;
+    font-size: 16px;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none
+}
+
+[dir] .bit-checkbox {
+    cursor: pointer
+}
+
+[dir=ltr] .bit-checkbox {
+    margin-right: 24px
+}
+
+.bit-checkbox, .bit-checkbox-button__inner, .bit-empty__image img {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none
+}
+
+[dir=rtl] .bit-checkbox {
+    margin-right: unset;
+    margin-left: 24px
+}
+
+.bit-checkbox.is-bordered {
+    box-sizing: border-box;
+    line-height: normal;
+    height: 40px
+}
+
+[dir] .bit-checkbox.is-bordered {
+    border-radius: 4px;
+    border: 1px solid var(--bit-border-color-primary)
+}
+
+[dir=ltr] .bit-checkbox.is-bordered {
+    padding: 9px 20px 9px 10px
+}
+
+[dir=rtl] .bit-checkbox.is-bordered {
+    padding: 9px 10px 9px 20px
+}
+
+[dir] .bit-checkbox.is-bordered.is-checked {
+    border-color: var(--bit-color-primary)
+}
+
+[dir] .bit-checkbox.is-bordered.is-disabled {
+    border-color: var(--bit-border-color-primary);
+    cursor: not-allowed
+}
+
+[dir=ltr] .bit-checkbox.is-bordered + .bit-checkbox.is-bordered {
+    margin-left: 10px
+}
+
+[dir=rtl] .bit-checkbox.is-bordered + .bit-checkbox.is-bordered {
+    margin-right: 10px
+}
+
+.bit-checkbox.is-bordered.bit-checkbox--medium {
+    height: 36px
+}
+
+[dir] .bit-checkbox.is-bordered.bit-checkbox--medium {
+    border-radius: 4px
+}
+
+[dir=ltr] .bit-checkbox.is-bordered.bit-checkbox--medium {
+    padding: 7px 20px 7px 10px
+}
+
+[dir=rtl] .bit-checkbox.is-bordered.bit-checkbox--medium {
+    padding: 7px 10px 7px 20px
+}
+
+.bit-checkbox.is-bordered.bit-checkbox--medium .bit-checkbox__label {
+    line-height: 17px;
+    font-size: 14px
+}
+
+.bit-checkbox.is-bordered.bit-checkbox--medium .bit-checkbox__inner {
+    height: 16px;
+    width: 16px
+}
+
+.bit-checkbox.is-bordered.bit-checkbox--small {
+    height: 32px
+}
+
+[dir] .bit-checkbox.is-bordered.bit-checkbox--small {
+    border-radius: 3px
+}
+
+[dir=ltr] .bit-checkbox.is-bordered.bit-checkbox--small {
+    padding: 5px 15px 5px 10px
+}
+
+[dir=rtl] .bit-checkbox.is-bordered.bit-checkbox--small {
+    padding: 5px 10px 5px 15px
+}
+
+.bit-checkbox.is-bordered.bit-checkbox--small .bit-checkbox__label {
+    line-height: 15px;
+    font-size: 12px
+}
+
+.bit-checkbox.is-bordered.bit-checkbox--small .bit-checkbox__inner {
+    height: 12px;
+    width: 12px
+}
+
+.bit-checkbox.is-bordered.bit-checkbox--small .bit-checkbox__inner:after {
+    height: 6px;
+    width: 2px
+}
+
+.bit-checkbox.is-bordered.bit-checkbox--mini {
+    height: 28px
+}
+
+[dir] .bit-checkbox.is-bordered.bit-checkbox--mini {
+    border-radius: 3px
+}
+
+[dir=ltr] .bit-checkbox.is-bordered.bit-checkbox--mini {
+    padding: 3px 15px 3px 10px
+}
+
+[dir=rtl] .bit-checkbox.is-bordered.bit-checkbox--mini {
+    padding: 3px 10px 3px 15px
+}
+
+.bit-checkbox.is-bordered.bit-checkbox--mini .bit-checkbox__label {
+    line-height: 12px;
+    font-size: 12px
+}
+
+.bit-checkbox.is-bordered.bit-checkbox--mini .bit-checkbox__inner {
+    height: 12px;
+    width: 12px
+}
+
+.bit-checkbox.is-bordered.bit-checkbox--mini .bit-checkbox__inner:after {
+    height: 6px;
+    width: 2px
+}
+
+.bit-checkbox__input {
+    cursor: pointer;
+    line-height: 1
+}
+
+.bit-checkbox__input.is-checked .bit-checkbox__inner {
+    background-color: var(--bit-color-primary);
+    border-color: var(--bit-color-primary)
+}
+
+.bit-checkbox__input.is-checked .bit-checkbox__inner:after {
+    transform: rotate(45deg) scaleY(1)
+}
+
+.bit-checkbox__input.is-checked.is-main .bit-checkbox__inner {
+    background-color: var(--bit-color-text-primary);
+    border-color: var(--bit-color-text-primary)
+}
+
+.bit-checkbox__input.is-main .bit-checkbox__inner:hover {
+    border-color: var(--bit-color-text-primary)
+}
+
+.bit-checkbox__input.is-focus .bit-checkbox__inner {
+    border-color: var(--bit-color-primary)
+}
+
+.bit-checkbox__input.is-focus.is-main .bit-checkbox__inner {
+    border-color: var(--bit-color-text-primary)
+}
+
+.bit-checkbox__input.is-indeterminate .bit-checkbox__inner {
+    background-color: var(--bit-color-primary);
+    border-color: var(--bit-color-primary)
+}
+
+.bit-checkbox__input.is-indeterminate .bit-checkbox__inner:before {
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: var(--bit-bg-color-primary);
+    height: 4px;
+    transform: scale(.5);
+    left: 0;
+    right: 0;
+    top: 5px
+}
+
+.bit-checkbox__input.is-indeterminate .bit-checkbox__inner:after {
+    display: none
+}
+
+.bit-checkbox__input.is-indeterminate.is-main .bit-checkbox__inner {
+    background-color: var(--bit-color-text-primary);
+    border-color: var(--bit-color-text-primary)
+}
+
+.bit-checkbox__input.is-disabled .bit-checkbox__inner {
+    background-color: var(--bit-bg-color-disabled);
+    border-color: var(--bit-border-color-disabled);
+    cursor: not-allowed
+}
+
+.bit-checkbox__input.is-disabled .bit-checkbox__inner:hover {
+    border-color: var(--bit-border-color-disabled)
+}
+
+.bit-checkbox__input.is-disabled .bit-checkbox__inner:after {
+    cursor: not-allowed;
+    border-color: var(--bit-color-text-disabled)
+}
+
+.bit-checkbox__input.is-disabled .bit-checkbox__inner + .bit-checkbox__label {
+    cursor: not-allowed
+}
+
+.bit-checkbox__input.is-disabled.is-checked .bit-checkbox__inner {
+    background-color: var(--bit-bg-color-disabled);
+    border-color: var(--bit-border-color-disabled)
+}
+
+.bit-checkbox__input.is-disabled.is-checked .bit-checkbox__inner:after {
+    border-color: var(--bit-color-text-disabled)
+}
+
+.bit-checkbox__input.is-disabled.is-indeterminate .bit-checkbox__inner {
+    background-color: var(--bit-bg-color-disabled);
+    border-color: var(--bit-border-color-disabled)
+}
+
+.bit-checkbox__input.is-disabled.is-indeterminate .bit-checkbox__inner:before {
+    background-color: var(--bit-color-text-disabled);
+    border-color: var(--bit-color-text-disabled)
+}
+
+.bit-checkbox__input.is-disabled + span.bit-checkbox__label {
+    color: var(--bit-color-text-disabled);
+    cursor: not-allowed
+}
+
+.bit-checkbox__inner {
+    display: inline-block;
+    position: relative;
+    border: 1px solid var(--bit-border-color-secondary);
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 16px;
+    height: 16px;
+    background-color: var(--bit-bg-color-default);
+    z-index: 1
+}
+
+.bit-checkbox__inner:hover {
+    border-color: var(--bit-color-primary)
+}
+
+.bit-checkbox__inner:after {
+    box-sizing: content-box;
+    content: "";
+    border: 2px solid var(--bit-bg-color-primary);
+    border-left: 0;
+    border-top: 0;
+    height: 7px;
+    left: 4.5px;
+    position: absolute;
+    top: 1.5px;
+    transform: rotate(45deg) scaleY(0);
+    width: 3px;
+    transition: transform .15s ease-in .05s;
+    transform-origin: center;
+    border-bottom-right-radius: 1px
+}
+
+.bit-checkbox-button__inner, .bit-empty {
+    -webkit-box-sizing: border-box
+}
+
+[dir] .bit-checkbox-button__inner, [dir] .bit-empty {
+    text-align: center
+}
+
+.bit-checkbox.bit-checkbox--small {
+    font-size: 14px
+}
+
+.bit-checkbox.bit-checkbox--small .bit-checkbox__label {
+    line-height: 15px;
+    font-size: 12px
+}
+
+.bit-checkbox.bit-checkbox--small .bit-checkbox__inner {
+    height: 14px;
+    width: 14px
+}
+
+.bit-checkbox.bit-checkbox--small .bit-checkbox__inner:after {
+    height: 6px;
+    width: 2px
+}
+
+.bit-checkbox__original {
+    opacity: 0;
+    outline: 0;
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: -1
+}
+
+[dir] .bit-checkbox__original {
+    margin: 0
+}
+
+.bit-checkbox-button, .bit-checkbox-button__inner {
+    display: inline-block;
+    position: relative
+}
+
+.bit-checkbox__label {
+    display: inline-block;
+    line-height: 22px;
+    font-size: 14px
+}
+
+[dir=ltr] .bit-checkbox__label {
+    padding-left: 8px
+}
+
+[dir=rtl] .bit-checkbox__label {
+    padding-left: unset;
+    padding-right: 8px
+}
+
+[dir=ltr] .bit-checkbox:last-of-type {
+    margin-right: 0
+}
+
+[dir=rtl] .bit-checkbox:last-of-type {
+    margin-right: unset;
+    margin-left: 0
+}
+
+.bit-checkbox-button__inner {
+    line-height: 1;
+    font-weight: 400;
+    color: var(--bit-color-text-primary);
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    font-size: 14px
+}
+
+[dir] .bit-checkbox-button__inner {
+    cursor: pointer;
+    background: var(--bit-bg-color-default);
+    border: 1px solid var(--bit-border-color-primary);
+    margin: 0;
+    padding: 8px 12px;
+    border-radius: 0
+}
+
+[dir=ltr] .bit-checkbox-button__inner {
+    border-left: 0
+}
+
+[dir=rtl] .bit-checkbox-button__inner {
+    border-right: 0
+}
+
+[dir] .bit-checkbox-button__inner.is-round {
+    padding: 8px 12px
+}
+
+.bit-checkbox-button__inner:hover {
+    color: var(--bit-color-primary)
+}
+
+.bit-checkbox-button__inner [class*=bit-icon-] {
+    line-height: .9
+}
+
+[dir=ltr] .bit-checkbox-button__inner [class*=bit-icon-] + span {
+    margin-left: 5px
+}
+
+[dir=rtl] .bit-checkbox-button__inner [class*=bit-icon-] + span {
+    margin-right: 5px
+}
+
+.bit-checkbox-button__original {
+    opacity: 0;
+    outline: 0;
+    position: absolute;
+    z-index: -1
+}
+
+[dir] .bit-checkbox-button__original {
+    margin: 0
+}
+
+.bit-checkbox-button.is-checked .bit-checkbox-button__inner {
+    color: var(--bit-color-white)
+}
+
+[dir] .bit-checkbox-button.is-checked .bit-checkbox-button__inner {
+    background-color: var(--bit-color-primary);
+    border-color: var(--bit-color-primary)
+}
+
+[dir=ltr] .bit-checkbox-button.is-checked .bit-checkbox-button__inner {
+    box-shadow: -1px 0 0 0 #8cc5ff
+}
+
+[dir=rtl] .bit-checkbox-button.is-checked .bit-checkbox-button__inner {
+    box-shadow: 1px 0 0 0 #8cc5ff
+}
+
+[dir=ltr] .bit-checkbox-button.is-checked:first-child .bit-checkbox-button__inner {
+    border-left-color: var(--bit-color-primary)
+}
+
+[dir=rtl] .bit-checkbox-button.is-checked:first-child .bit-checkbox-button__inner {
+    border-right-color: var(--bit-color-primary)
+}
+
+.bit-checkbox-button.is-disabled .bit-checkbox-button__inner {
+    color: var(--bit-color-text-placeholder);
+    -webkit-box-shadow: none
+}
+
+[dir] .bit-checkbox-button.is-disabled .bit-checkbox-button__inner {
+    cursor: not-allowed;
+    background-image: none;
+    background-color: var(--bit-bg-color-disabled);
+    border-color: var(--bit-border-color-primary);
+    box-shadow: none
+}
+
+[dir=ltr] .bit-checkbox-button.is-disabled:first-child .bit-checkbox-button__inner {
+    border-left-color: var(--bit-border-color-primary)
+}
+
+[dir=rtl] .bit-checkbox-button.is-disabled:first-child .bit-checkbox-button__inner {
+    border-right-color: var(--bit-border-color-primary)
+}
+
+.bit-checkbox-button:first-child .bit-checkbox-button__inner {
+    -webkit-box-shadow: none !important
+}
+
+[dir] .bit-checkbox-button:first-child .bit-checkbox-button__inner {
+    box-shadow: none !important
+}
+
+[dir=ltr] .bit-checkbox-button:first-child .bit-checkbox-button__inner {
+    border-left: 1px solid var(--bit-border-color-primary);
+    border-radius: 4px 0 0 4px
+}
+
+[dir=rtl] .bit-checkbox-button:first-child .bit-checkbox-button__inner {
+    border-right: 1px solid var(--bit-border-color-primary);
+    border-radius: 0 4px 4px 0
+}
+
+[dir] .bit-checkbox-button.is-focus .bit-checkbox-button__inner, [dir] .bit-tag.is-hit {
+    border-color: var(--bit-color-primary)
+}
+
+[dir=ltr] .bit-checkbox-button:last-child .bit-checkbox-button__inner {
+    border-radius: 0 4px 4px 0
+}
+
+[dir=rtl] .bit-checkbox-button:last-child .bit-checkbox-button__inner {
+    border-radius: 4px 0 0 4px
+}
+
+.bit-checkbox-button--medium .bit-checkbox-button__inner {
+    font-size: 14px
+}
+
+[dir] .bit-checkbox-button--medium .bit-checkbox-button__inner {
+    padding: 12px 16px;
+    border-radius: 0
+}
+
+[dir] .bit-checkbox-button--medium .bit-checkbox-button__inner.is-round {
+    padding: 12px 16px
+}
+
+.bit-checkbox-button--small .bit-checkbox-button__inner {
+    font-size: 12px
+}
+
+[dir] .bit-checkbox-button--small .bit-checkbox-button__inner {
+    padding: 5px 8px;
+    border-radius: 0
+}
+
+[dir] .bit-checkbox-button--small .bit-checkbox-button__inner.is-round {
+    padding: 5px 8px
+}
+
+.bit-checkbox-button--mini .bit-checkbox-button__inner {
+    font-size: 12px
+}
+
+[dir] .bit-checkbox-button--mini .bit-checkbox-button__inner {
+    padding: 5px 8px;
+    border-radius: 0
+}
+
+[dir] .bit-checkbox-button--mini .bit-checkbox-button__inner.is-round {
+    padding: 5px 8px
+}
+
+.bit-checkbox-group {
+    font-size: 0
+}
+
+.bit-empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box
+}
+
+[dir] .bit-empty {
+    margin: 0 8px
+}
+
+.bit-empty__image-simple, .bit-tag {
+    display: -ms-inline-flexbox;
+    -webkit-box-align: center
+}
+
+.bit-empty__image {
+    width: 104px;
+    height: 104px
+}
+
+.bit-empty__image img, .bit-empty__image svg {
+    width: 100%;
+    height: 100%;
+    vertical-align: top
+}
+
+.bit-empty__image img {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -o-object-fit: contain;
+    object-fit: contain
+}
+
+.bit-empty__image-simple {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--bit-color-text-disabled)
+}
+
+[dir] .bit-empty__description {
+    margin-top: 12px
+}
+
+.bit-empty__description p {
+    font-size: 12px;
+    color: var(--bit-color-text-primary)
+}
+
+[dir] .bit-empty__description p {
+    margin: 0
+}
+
+[dir] .bit-empty__sub-description {
+    margin-top: 4px
+}
+
+.bit-empty__sub-description p {
+    font-size: 12px;
+    color: var(--bit-color-text-tertiary)
+}
+
+[dir] .bit-empty__sub-description p {
+    margin: 0
+}
+
+[dir] .bit-empty__bottom {
+    margin-top: 12px
+}
+
+.bit-tag {
+    color: var(--bit-color-text-primary);
+    display: inline-flex;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    font-weight: 400
+}
+
+[dir] .bit-tag {
+    background-color: var(--ds-color-tag-background-neutral-solid);
+    padding: 0 8px;
+    border-radius: 4px
+}
+
+.bit-tag, .bit-tag .bit-tag__close {
+    align-items: center
+}
+
+.bit-tag .bit-tag__close {
+    display: inline-flex;
+    -webkit-box-align: center;
+    justify-content: center;
+    height: 14px;
+    width: 14px;
+    margin-inline-start: 8px;
+    margin-inline-end: -3px
+}
+
+.bit-tag .bit-tag__close:hover {
+    color: var(--bit-color-white)
+}
+
+[dir] .bit-tag .bit-tag__close:hover {
+    background-color: var(--bit-color-text-primary);
+    border-radius: 16px
+}
+
+.bit-tag .bit-tag__close .bit-icon {
+    margin-inline-end: unset
+}
+
+[dir] .bit-tag.bit-tag--outline {
+    background-color: transparent;
+    border: 1px solid var(--bit-border-color-primary)
+}
+
+[dir] .bit-tag.bit-tag--primary.is-hit {
+    border-color: var(--bit-color-info)
+}
+
+.bit-tag.bit-tag--primary.bit-tag--dark {
+    color: var(--bit-bg-color-tertiary)
+}
+
+[dir] .bit-tag.bit-tag--primary.bit-tag--dark {
+    background-color: var(--bit-color-primary)
+}
+
+.bit-tag.bit-tag--primary.bit-tag--dark .bit-tag__close {
+    color: var(--bit-color-white)
+}
+
+.bit-tag.bit-tag--primary.bit-tag--dark .bit-tag__close:hover {
+    color: var(--bit-color-primary)
+}
+
+[dir] .bit-tag.bit-tag--primary.bit-tag--dark .bit-tag__close:hover {
+    background-color: var(--bit-color-white)
+}
+
+.bit-tag.bit-tag--primary.bit-tag--light {
+    color: var(--bit-color-primary)
+}
+
+[dir] .bit-tag.bit-tag--primary.bit-tag--light {
+    background-color: var(--ds-color-tag-background-brand-subtle)
+}
+
+.bit-tag.bit-tag--primary.bit-tag--light .bit-tag__close {
+    color: var(--bit-color-primary)
+}
+
+.bit-tag.bit-tag--primary.bit-tag--light .bit-tag__close:hover {
+    color: var(--bit-color-white)
+}
+
+[dir] .bit-tag.bit-tag--primary.bit-tag--light .bit-tag__close:hover {
+    background-color: var(--bit-color-primary)
+}
+
+.bit-tag.bit-tag--primary.bit-tag--outline {
+    color: var(--bit-color-primary)
+}
+
+[dir] .bit-tag.bit-tag--primary.bit-tag--outline {
+    border-color: var(--bit-color-primary)
+}
+
+.bit-tag.bit-tag--primary.bit-tag--outline .bit-tag__close {
+    color: var(--bit-color-primary)
+}
+
+.bit-tag.bit-tag--primary.bit-tag--outline .bit-tag__close:hover {
+    color: var(--bit-color-white)
+}
+
+[dir] .bit-tag.bit-tag--primary.bit-tag--outline .bit-tag__close:hover {
+    background-color: var(--bit-color-primary)
+}
+
+.bit-tag.bit-tag--primary .bit-tag__close {
+    color: var(--bit-color-primary)
+}
+
+.bit-tag.bit-tag--primary .bit-tag__close:hover {
+    color: var(--bit-color-white)
+}
+
+[dir] .bit-tag.bit-tag--primary .bit-tag__close:hover {
+    background-color: var(--bit-color-primary)
+}
+
+.bit-tag.bit-tag--info, .bit-tag.bit-tag--info .bit-tag__close {
+    color: var(--bit-color-text-primary)
+}
+
+[dir] .bit-tag.bit-tag--info {
+    border-color: var(--bit-border-color-primary)
+}
+
+[dir] .bit-tag.bit-tag--info.is-hit {
+    border-color: var(--bit-color-info)
+}
+
+.bit-tag.bit-tag--info .bit-tag__close:hover {
+    color: var(--bit-color-white)
+}
+
+[dir] .bit-tag.bit-tag--info .bit-tag__close:hover {
+    background-color: var(--bit-color-text-primary)
+}
+
+[dir] .bit-tag.bit-tag--success.is-hit {
+    border-color: var(--bit-color-success)
+}
+
+.bit-tag.bit-tag--success.bit-tag--dark {
+    color: var(--bit-bg-color-tertiary)
+}
+
+[dir] .bit-tag.bit-tag--success.bit-tag--dark {
+    background-color: var(--bit-color-success)
+}
+
+.bit-tag.bit-tag--success.bit-tag--dark .bit-tag__close {
+    color: var(--bit-color-white)
+}
+
+.bit-tag.bit-tag--success.bit-tag--dark .bit-tag__close:hover {
+    color: var(--bit-color-success)
+}
+
+[dir] .bit-tag.bit-tag--success.bit-tag--dark .bit-tag__close:hover {
+    background-color: var(--bit-color-white)
+}
+
+.bit-tag.bit-tag--success.bit-tag--light {
+    color: var(--bit-color-success)
+}
+
+[dir] .bit-tag.bit-tag--success.bit-tag--light {
+    background-color: var(--bit-color-success-plain)
+}
+
+.bit-tag.bit-tag--success.bit-tag--light .bit-tag__close {
+    color: var(--bit-color-success)
+}
+
+.bit-tag.bit-tag--success.bit-tag--light .bit-tag__close:hover {
+    color: var(--bit-color-white)
+}
+
+[dir] .bit-tag.bit-tag--success.bit-tag--light .bit-tag__close:hover {
+    background-color: var(--bit-color-success)
+}
+
+.bit-tag.bit-tag--success.bit-tag--outline {
+    color: var(--bit-color-success)
+}
+
+[dir] .bit-tag.bit-tag--success.bit-tag--outline {
+    border-color: var(--bit-color-success)
+}
+
+.bit-tag.bit-tag--success .bit-tag__close {
+    color: var(--bit-color-success)
+}
+
+.bit-tag.bit-tag--success .bit-tag__close:hover {
+    color: var(--bit-color-white)
+}
+
+[dir] .bit-tag.bit-tag--success .bit-tag__close:hover {
+    background-color: var(--bit-color-success)
+}
+
+[dir] .bit-tag.bit-tag--warning.is-hit {
+    border-color: var(--bit-color-warning)
+}
+
+.bit-tag.bit-tag--warning.bit-tag--dark {
+    color: var(--bit-bg-color-tertiary)
+}
+
+[dir] .bit-tag.bit-tag--warning.bit-tag--dark {
+    background-color: var(--bit-color-warning)
+}
+
+.bit-tag.bit-tag--warning.bit-tag--dark .bit-tag__close {
+    color: var(--bit-color-white)
+}
+
+.bit-tag.bit-tag--warning.bit-tag--dark .bit-tag__close:hover {
+    color: var(--bit-color-warning)
+}
+
+[dir] .bit-tag.bit-tag--warning.bit-tag--dark .bit-tag__close:hover {
+    background-color: var(--bit-color-white)
+}
+
+.bit-tag.bit-tag--warning.bit-tag--light {
+    color: var(--bit-color-warning)
+}
+
+[dir] .bit-tag.bit-tag--warning.bit-tag--light {
+    background-color: var(--ds-color-tag-background-warning-subtle)
+}
+
+.bit-tag.bit-tag--warning.bit-tag--light .bit-tag__close {
+    color: var(--bit-color-warning)
+}
+
+.bit-tag.bit-tag--warning.bit-tag--light .bit-tag__close:hover {
+    color: var(--bit-color-white)
+}
+
+[dir] .bit-tag.bit-tag--warning.bit-tag--light .bit-tag__close:hover {
+    background-color: var(--bit-color-warning)
+}
+
+.bit-tag.bit-tag--warning.bit-tag--outline {
+    color: var(--bit-color-warning)
+}
+
+[dir] .bit-tag.bit-tag--warning.bit-tag--outline {
+    border-color: var(--bit-color-warning)
+}
+
+.bit-tag.bit-tag--warning .bit-tag__close {
+    color: var(--bit-color-warning)
+}
+
+.bit-tag.bit-tag--warning .bit-tag__close:hover {
+    color: var(--bit-color-white)
+}
+
+[dir] .bit-tag.bit-tag--warning .bit-tag__close:hover {
+    background-color: var(--bit-color-warning)
+}
+
+[dir] .bit-tag.bit-tag--danger.is-hit {
+    border-color: var(--bit-color-danger)
+}
+
+.bit-tag.bit-tag--danger.bit-tag--dark {
+    color: var(--bit-bg-color-tertiary)
+}
+
+[dir] .bit-tag.bit-tag--danger.bit-tag--dark {
+    background-color: var(--bit-color-danger)
+}
+
+.bit-tag.bit-tag--danger.bit-tag--dark .bit-tag__close {
+    color: var(--bit-color-white)
+}
+
+.bit-tag.bit-tag--danger.bit-tag--dark .bit-tag__close:hover {
+    color: var(--bit-color-danger)
+}
+
+[dir] .bit-tag.bit-tag--danger.bit-tag--dark .bit-tag__close:hover {
+    background-color: var(--bit-color-white)
+}
+
+.bit-tag.bit-tag--danger.bit-tag--light {
+    color: var(--bit-color-danger)
+}
+
+[dir] .bit-tag.bit-tag--danger.bit-tag--light {
+    background-color: var(--bit-color-danger-plain)
+}
+
+.bit-tag.bit-tag--danger.bit-tag--light .bit-tag__close {
+    color: var(--bit-color-danger)
+}
+
+.bit-tag.bit-tag--danger.bit-tag--light .bit-tag__close:hover {
+    color: var(--bit-color-white)
+}
+
+[dir] .bit-tag.bit-tag--danger.bit-tag--light .bit-tag__close:hover {
+    background-color: var(--bit-color-danger)
+}
+
+.bit-tag.bit-tag--danger.bit-tag--outline {
+    color: var(--bit-color-danger)
+}
+
+[dir] .bit-tag.bit-tag--danger.bit-tag--outline {
+    border-color: var(--bit-color-danger)
+}
+
+.bit-tag.bit-tag--danger .bit-tag__close {
+    color: var(--bit-color-danger)
+}
+
+.bit-tag.bit-tag--danger .bit-tag__close:hover {
+    color: var(--bit-color-white)
+}
+
+[dir] .bit-tag.bit-tag--danger .bit-tag__close:hover {
+    background-color: var(--bit-color-danger)
+}
+
+.bit-tag .bit-icon-close {
+    position: relative;
+    font-size: 12px;
+    height: 14px;
+    width: 14px;
+    line-height: 16px;
+    vertical-align: middle;
+    top: -1px
+}
+
+[dir] .bit-tag .bit-icon-close {
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer
+}
+
+[dir=ltr] .bit-tag .bit-icon-close {
+    right: -5px
+}
+
+[dir=rtl] .bit-tag .bit-icon-close {
+    left: -5px
+}
+
+.bit-tag .bit-icon-close:before {
+    display: block
+}
+
+.bit-tag .bit-icon {
+    margin-inline-end: 4px
+}
+
+[dir] .bit-tag__close {
+    cursor: pointer
+}
+
+[dir] .bit-tag--round {
+    border-radius: 24px
+}
+
+[dir] .bit-tag--outline {
+    padding: 0 7px
+}
+
+[dir] .bit-tag--outline.bit-tag--large {
+    padding: 0 11px
+}
+
+.bit-tag--small {
+    height: 20px;
+    line-height: 20px
+}
+
+.bit-tag--small .bit-tag__close {
+    width: 12px;
+    height: 12px;
+    font-size: 10px
+}
+
+.bit-tag--medium {
+    height: 28px;
+    line-height: 28px
+}
+
+.bit-tag--medium .bit-tag__close {
+    width: 14px;
+    height: 14px;
+    font-size: 12px
+}
+
+.bit-tag--large {
+    height: 32px;
+    line-height: 32px
+}
+
+[dir] .bit-tag--large {
+    padding: 0 12px
+}
+
+.bit-tag--large .bit-tag__close {
+    width: 16px;
+    height: 16px;
+    font-size: 14px
+}
+
+.bit-tooltip:focus:hover, .bit-tooltip:focus:not(.focusing) {
+    outline-width: 0
+}
+
+.bit-tooltip__popper {
+    position: absolute;
+    z-index: 2000;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 400;
+    min-width: 10px;
+    word-wrap: break-word;
+    color: var(--bit-color-white)
+}
+
+[dir] .bit-tooltip__popper {
+    border-radius: 8px;
+    padding: 6px 12px;
+    background: var(--bit-bg-color-popup)
+}
+
+.bit-tooltip__popper.is-dark, .bit-tooltip__popper.is-light {
+    color: var(--bit-color-white)
+}
+
+[dir] .bit-tooltip__popper.is-dark, [dir] .bit-tooltip__popper.is-light {
+    background: var(--ds-color-background-tooltip)
+}
+
+.bit-tooltip__popper .popper__arrow, .bit-tooltip__popper .popper__arrow:after {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid
+}
+
+.bit-tooltip__popper .popper__arrow {
+    border-width: 5px
+}
+
+.bit-tooltip__popper .popper__arrow:after {
+    content: " ";
+    border-width: 5px
+}
+
+[dir] .bit-tooltip__popper[x-placement^=top] {
+    margin-bottom: 11px
+}
+
+.bit-tooltip__popper[x-placement^=top] .popper__arrow {
+    bottom: -5px;
+    border-top-color: var(--bit-bg-color-popup);
+    border-bottom-width: 0
+}
+
+.bit-tooltip__popper[x-placement^=top] .popper__arrow:after {
+    bottom: 1px;
+    margin-left: -5px;
+    border-top-color: var(--bit-bg-color-popup);
+    border-bottom-width: 0
+}
+
+.bit-tooltip__popper.is-dark[x-placement^=top] .popper__arrow, .bit-tooltip__popper.is-dark[x-placement^=top] .popper__arrow:after, .bit-tooltip__popper.is-light[x-placement^=top] .popper__arrow, .bit-tooltip__popper.is-light[x-placement^=top] .popper__arrow:after {
+    border-top-color: var(--ds-color-background-tooltip)
+}
+
+[dir=rtl] .bit-tooltip__popper[x-placement^=top] .popper__arrow:after {
+    margin-left: unset;
+    margin-right: -5px
+}
+
+[dir] .bit-tooltip__popper[x-placement^=bottom] {
+    margin-top: 11px
+}
+
+.bit-tooltip__popper[x-placement^=bottom] .popper__arrow {
+    top: -5px;
+    border-top-width: 0;
+    border-bottom-color: var(--bit-bg-color-popup)
+}
+
+.bit-tooltip__popper[x-placement^=bottom] .popper__arrow:after {
+    top: 1px;
+    margin-left: -5px;
+    border-top-width: 0;
+    border-bottom-color: var(--bit-bg-color-popup)
+}
+
+.bit-tooltip__popper.is-dark[x-placement^=bottom] .popper__arrow, .bit-tooltip__popper.is-dark[x-placement^=bottom] .popper__arrow:after, .bit-tooltip__popper.is-light[x-placement^=bottom] .popper__arrow, .bit-tooltip__popper.is-light[x-placement^=bottom] .popper__arrow:after {
+    border-bottom-color: var(--ds-color-background-tooltip)
+}
+
+[dir=rtl] .bit-tooltip__popper[x-placement^=bottom] .popper__arrow:after {
+    margin-left: unset;
+    margin-right: -5px
+}
+
+[dir=ltr] .bit-tooltip__popper[x-placement^=right] {
+    margin-left: 11px
+}
+
+[dir=rtl] .bit-tooltip__popper[x-placement^=right] {
+    margin-right: 11px
+}
+
+.bit-tooltip__popper[x-placement^=right] .popper__arrow {
+    left: -5px;
+    border-right-color: var(--bit-bg-color-popup);
+    border-left-width: 0
+}
+
+.bit-tooltip__popper[x-placement^=right] .popper__arrow:after {
+    bottom: -5px;
+    left: 1px;
+    border-right-color: var(--bit-bg-color-popup);
+    border-left-width: 0
+}
+
+.bit-tooltip__popper.is-dark[x-placement^=right] .popper__arrow, .bit-tooltip__popper.is-dark[x-placement^=right] .popper__arrow:after, .bit-tooltip__popper.is-light[x-placement^=right] .popper__arrow, .bit-tooltip__popper.is-light[x-placement^=right] .popper__arrow:after {
+    border-right-color: var(--ds-color-background-tooltip)
+}
+
+[dir=ltr] .bit-tooltip__popper[x-placement^=left] {
+    margin-right: 11px
+}
+
+[dir=rtl] .bit-tooltip__popper[x-placement^=left] {
+    margin-left: 11px
+}
+
+.bit-tooltip__popper[x-placement^=left] .popper__arrow {
+    right: -5px;
+    border-right-width: 0;
+    border-left-color: var(--bit-bg-color-popup)
+}
+
+.bit-tooltip__popper[x-placement^=left] .popper__arrow:after {
+    right: 1px;
+    bottom: -5px;
+    margin-left: -5px;
+    border-right-width: 0;
+    border-left-color: var(--bit-bg-color-popup)
+}
+
+.bit-tooltip__popper.is-dark[x-placement^=left] .popper__arrow, .bit-tooltip__popper.is-dark[x-placement^=left] .popper__arrow:after, .bit-tooltip__popper.is-light[x-placement^=left] .popper__arrow, .bit-tooltip__popper.is-light[x-placement^=left] .popper__arrow:after {
+    border-left-color: var(--ds-color-background-tooltip)
+}
+
+[dir] .bit-table, [dir] .bit-table__expanded-cell {
+    background-color: var(--bit-bg-color-primary)
+}
+
+.bit-table {
+    position: relative;
+    box-sizing: border-box;
+    flex: 1;
+    width: 100%;
+    max-width: 100%;
+    font-size: 14px;
+    color: var(--bit-color-text-primary)
+}
+
+.bit-table__empty-block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+[dir] .bit-table__empty-block {
+    text-align: center
+}
+
+[dir] .bit-table__expand-column .cell {
+    padding: 0;
+    text-align: center
+}
+
+.bit-table__expand-icon {
+    position: relative;
+    color: #666;
+    font-size: 12px;
+    transition: transform .2s ease-in-out;
+    height: 20px
+}
+
+[dir] .bit-table__expand-icon {
+    cursor: pointer;
+    -webkit-transition: -webkit-transform .2s ease-in-out
+}
+
+[dir=ltr] .bit-table__expand-icon--expanded {
+    transform: rotate(90deg)
+}
+
+[dir=rtl] .bit-table__expand-icon--expanded {
+    transform: rotate(-90deg)
+}
+
+.bit-table__expand-icon > .bit-icon {
+    position: absolute;
+    top: 50%
+}
+
+[dir] .bit-table__expand-icon > .bit-icon {
+    margin-top: -5px
+}
+
+[dir=ltr] .bit-table__expand-icon > .bit-icon {
+    left: 50%;
+    margin-left: -5px
+}
+
+[dir=rtl] .bit-table__expand-icon > .bit-icon {
+    left: unset;
+    right: 50%;
+    margin-left: unset;
+    margin-right: -5px
+}
+
+[dir] .bit-table__expanded-cell[class*=cell] {
+    padding: 20px 50px
+}
+
+[dir] .bit-table__expanded-cell:hover {
+    background-color: transparent !important
+}
+
+.bit-table__placeholder {
+    display: inline-block;
+    width: 20px
+}
+
+[dir] .bit-table--fit {
+    border-bottom: 0
+}
+
+[dir=ltr] .bit-table--fit {
+    border-right: 0
+}
+
+[dir=rtl] .bit-table--fit {
+    border-left: 0;
+    border-right: unset
+}
+
+[dir=ltr] .bit-table--fit .bit-table__cell.gutter {
+    border-right-width: 1px
+}
+
+[dir=rtl] .bit-table--fit .bit-table__cell.gutter {
+    border-right-width: unset;
+    border-left-width: 1px
+}
+
+.bit-table.bit-table--primary.bit-table--border .bit-table__cell, .bit-table.bit-table--primary.bit-table--border.is-scrolling-left ~ .bit-table__fixed, [dir=rtl] .bit-table.bit-table--primary.bit-table--border .bit-table__cell {
+    border-right: 1px solid var(--bit-border-color-primary)
+}
+
+.bit-table--scrollable-x .bit-table__body-wrapper {
+    overflow-x: auto
+}
+
+.bit-table--scrollable-y .bit-table__body-wrapper {
+    overflow-y: auto
+}
+
+.bit-table thead {
+    color: var(--bit-color-text-tertiary);
+    font-weight: 400
+}
+
+[dir] .bit-table thead {
+    border-top: 1px solid var(--bit-border-color-primary)
+}
+
+[dir] .bit-table thead.is-group th.bit-table__cell {
+    background: var(--bit-bg-color-primary)
+}
+
+[dir] .bit-table thead tr th.bit-table__cell {
+    border-top: unset;
+    border-bottom: unset;
+    padding: 16px 0
+}
+
+[dir] .bit-table.bit-table--header-border thead tr th.bit-table__cell, [dir] .bit-table.bit-table--primary thead {
+    border-top: 1px solid var(--bit-border-color-primary)
+}
+
+[dir] .bit-table.bit-table--header-border th.bit-table__cell.is-leaf, [dir] .bit-table.bit-table--primary.bit-table--border th.bit-table__cell, [dir] .bit-table.bit-table--primary.bit-table--border th.bit-table__cell.gutter:last-of-type, [dir] .bit-table.bit-table--primary.bit-table__fixed-right-patch, [dir] .bit-table.bit-table--primary td.bit-table__cell, [dir] .bit-table.bit-table--primary thead th.bit-table__cell.is-leaf {
+    border-bottom: 1px solid var(--bit-border-color-primary)
+}
+
+.bit-table.bit-table--primary thead {
+    color: var(--bit-color-text-secondary);
+    font-weight: 500
+}
+
+[dir] .bit-table.bit-table--primary thead tr th.bit-table__cell {
+    border-top: unset;
+    border-bottom: 1px solid var(--bit-border-color-primary);
+    padding: 12px 0
+}
+
+.bit-table.bit-table--primary .bit-table__empty-block {
+    height: unset !important
+}
+
+.bit-table.bit-table--primary .cell {
+    line-height: 23px;
+    font-size: 14px
+}
+
+.bit-table.bit-table--primary th.bit-table__cell > .cell {
+    font-size: 14px
+}
+
+.bit-table.bit-table--primary .bit-table__empty-text {
+    line-height: 60px;
+    color: var(--bit-color-text-secondary)
+}
+
+[dir] .bit-table.bit-table--primary .bit-table__empty-text {
+    margin-bottom: unset
+}
+
+.bit-table.bit-table--primary .bit-table__empty-text .text {
+    font-size: unset;
+    color: inherit;
+    font-weight: unset;
+    line-height: inherit
+}
+
+.bit-table--mini, .bit-table--small {
+    font-size: 12px
+}
+
+[dir] .bit-table.bit-table--primary.bit-table--border, [dir] .bit-table.bit-table--primary.bit-table--group {
+    border: 1px solid var(--bit-border-color-primary)
+}
+
+[dir=rtl] .bit-table.bit-table--primary.bit-table--border .bit-table__cell {
+    border-left: unset
+}
+
+[dir=ltr] .bit-table.bit-table--primary.bit-table--border.is-scrolling-right ~ .bit-table__fixed-right {
+    border-left: 1px solid var(--bit-border-color-primary)
+}
+
+[dir=rtl] .bit-table.bit-table--primary.bit-table--border.is-scrolling-right ~ .bit-table__fixed-right {
+    border-left: unset;
+    border-right: 1px solid var(--bit-border-color-primary)
+}
+
+[dir=rtl] .bit-table.bit-table--primary.bit-table--border.is-scrolling-left ~ .bit-table__fixed {
+    border-left: 1px solid var(--bit-border-color-primary);
+    border-right: unset
+}
+
+[dir] .bit-table.bit-table--primary.bit-table__fixed-footer-wrapper tbody td.bit-table__cell, [dir] .bit-table.bit-table--primary.bit-table__footer-wrapper td.bit-table__cell {
+    border-top: 1px solid var(--bit-border-color-primary)
+}
+
+[dir=ltr] .bit-table.bit-table--primary.bit-table__column-resize-proxy {
+    border-left: 1px solid var(--bit-border-color-primary)
+}
+
+[dir=rtl] .bit-table.bit-table--primary.bit-table__column-resize-proxy {
+    border-left: unset;
+    border-right: 1px solid var(--bit-border-color-primary)
+}
+
+[dir] .bit-table.bit-table--primary.bit-table--border:after, [dir] .bit-table.bit-table--primary.bit-table--group:after, [dir] .bit-table.bit-table--primary.bit-table:before {
+    background-color: var(--bit-border-color-primary)
+}
+
+[dir] .bit-table th.bit-table__cell, [dir] .bit-table tr {
+    background-color: var(--bit-bg-color-primary)
+}
+
+.bit-table .bit-table__cell {
+    min-width: 0;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    position: relative
+}
+
+[dir] .bit-table .bit-table__cell {
+    padding: 20px 0
+}
+
+[dir=ltr] .bit-table .bit-table__cell {
+    text-align: left
+}
+
+[dir=rtl] .bit-table .bit-table__cell {
+    text-align: right
+}
+
+[dir] .bit-table .bit-table__cell.is-center {
+    text-align: center
+}
+
+[dir=ltr] .bit-table .bit-table__cell.is-right {
+    text-align: right
+}
+
+[dir=rtl] .bit-table .bit-table__cell.is-right {
+    text-align: left
+}
+
+.bit-table .bit-table__cell.gutter {
+    width: 15px
+}
+
+[dir] .bit-table .bit-table__cell.gutter {
+    border-bottom-width: 0;
+    padding: 0
+}
+
+[dir=ltr] .bit-table .bit-table__cell.gutter {
+    border-right-width: 0
+}
+
+[dir] .bit-table--medium .bit-table__cell, [dir] .bit-table--small .bit-table__cell {
+    padding: 8px 0
+}
+
+[dir=rtl] .bit-table .bit-table__cell.gutter {
+    border-left-width: 0;
+    border-right-width: unset
+}
+
+[dir] .bit-table--mini .bit-table__cell {
+    padding: 6px 0
+}
+
+[dir=ltr] .bit-table--border .bit-table__cell:first-child .cell, [dir=ltr] .bit-table .cell {
+    padding-left: 8px
+}
+
+[dir=rtl] .bit-table--border .bit-table__cell:first-child .cell, [dir=rtl] .bit-table .cell {
+    padding-right: 8px
+}
+
+.bit-table tr input[type=checkbox] {
+    margin: 0
+}
+
+[dir] .bit-table th.bit-table__cell.is-leaf {
+    border-bottom: unset
+}
+
+[dir] .bit-table td.bit-table__cell {
+    border-bottom: 1px solid var(--bit-border-color-primary)
+}
+
+[dir] .bit-table th.bit-table__cell.is-sortable {
+    cursor: pointer
+}
+
+.bit-table th.bit-table__cell {
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none
+}
+
+.bit-table th.bit-table__cell > .cell {
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400
+}
+
+[dir=ltr] .bit-table th.bit-table__cell > .cell, [dir=rtl] .bit-table th.bit-table__cell > .cell {
+    padding-left: 8px;
+    padding-right: 8px
+}
+
+.bit-table th.bit-table__cell > .cell.highlight {
+    color: var(--bit-color-primary)
+}
+
+.bit-table__fixed-footer-wrapper tbody td.bit-table__cell, .bit-table__footer-wrapper tbody td.bit-table__cell, .bit-table__header-wrapper tbody td.bit-table__cell {
+    color: var(--bit-color-text-primary)
+}
+
+[dir] .bit-table__fixed-footer-wrapper tbody td.bit-table__cell, [dir] .bit-table__footer-wrapper tbody td.bit-table__cell, [dir] .bit-table__header-wrapper tbody td.bit-table__cell {
+    background-color: var(--bit-bg-color-secondary)
+}
+
+.bit-table th.bit-table__cell.required > div:before {
+    display: inline-block;
+    content: "";
+    width: 8px;
+    height: 8px;
+    vertical-align: middle
+}
+
+[dir] .bit-table th.bit-table__cell.required > div:before {
+    border-radius: 50%;
+    background: #ff4d51
+}
+
+[dir=ltr] .bit-table th.bit-table__cell.required > div:before {
+    margin-right: 5px
+}
+
+[dir=rtl] .bit-table th.bit-table__cell.required > div:before {
+    margin-left: 5px;
+    margin-right: unset
+}
+
+.bit-table td.bit-table__cell div {
+    box-sizing: border-box
+}
+
+.bit-table td.bit-table__cell.gutter {
+    width: 0
+}
+
+.bit-table .cell {
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    word-break: break-word;
+    font-size: 14px;
+    line-height: 23px
+}
+
+[dir=ltr] .bit-table .cell {
+    padding-right: 8px
+}
+
+[dir=rtl] .bit-table .cell {
+    padding-left: 8px;
+    text-overflow: unset
+}
+
+.bit-table .cell.bit-tooltip {
+    white-space: nowrap;
+    min-width: 50px
+}
+
+[dir] .bit-table--border, [dir] .bit-table--group {
+    border: 1px solid var(--bit-border-color-primary)
+}
+
+.bit-table--border:after, .bit-table--group:after, .bit-table:before {
+    content: "";
+    position: absolute;
+    z-index: 1
+}
+
+.bit-table--border:after, .bit-table--group:after {
+    top: 0;
+    width: 1px;
+    height: 100%
+}
+
+[dir] .bit-table--border:after, [dir] .bit-table--group:after {
+    background-color: var(--bit-table-border-color)
+}
+
+[dir=ltr] .bit-table--border:after, [dir=ltr] .bit-table--group:after {
+    right: 0
+}
+
+[dir=rtl] .bit-table--border:after, [dir=rtl] .bit-table--group:after {
+    left: 0;
+    right: unset
+}
+
+.bit-table:before {
+    bottom: 0;
+    width: 100%;
+    height: 1px
+}
+
+[dir] .bit-table:before {
+    background-color: var(--bit-table-border-color)
+}
+
+[dir=ltr] .bit-table:before {
+    left: 0
+}
+
+[dir=rtl] .bit-table:before {
+    left: unset;
+    right: 0
+}
+
+[dir] .bit-table--border {
+    border-bottom: none
+}
+
+[dir=ltr] .bit-table--border {
+    border-right: none
+}
+
+[dir=rtl] .bit-table--border {
+    border-left: none;
+    border-right: unset
+}
+
+[dir] .bit-table--border.bit-loading-parent--relative {
+    border-color: transparent
+}
+
+.bit-table__body-wrapper .bit-table--border.is-scrolling-right ~ .bit-table__fixed-right, [dir=rtl] .bit-table--border .bit-table__cell {
+    border-left: 1px solid var(--bit-border-color-primary)
+}
+
+[dir=ltr] .bit-table--border .bit-table__cell {
+    border-right: 1px solid var(--bit-border-color-primary)
+}
+
+[dir=rtl] .bit-table--border .bit-table__cell {
+    border-left: 1px solid var(--bit-border-color-primary);
+    border-right: unset
+}
+
+[dir=rtl] .bit-table--border .bit-table__cell:first-child .cell {
+    padding-left: unset;
+    padding-right: 8px
+}
+
+[dir] .bit-table--border th.bit-table__cell.gutter:last-of-type {
+    border-bottom-width: 1px;
+    border-bottom: 1px solid var(--bit-border-color-primary)
+}
+
+[dir] .bit-table--border th.bit-table__cell {
+    border-bottom: 1px solid var(--bit-border-color-primary);
+    border-top: unset !important
+}
+
+.bit-table__fixed, .bit-table__fixed-right {
+    position: absolute;
+    top: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -webkit-box-shadow: var(--bit-table-fixed-box-shadow)
+}
+
+[dir] .bit-table__fixed, [dir] .bit-table__fixed-right {
+    box-shadow: var(--bit-table-fixed-box-shadow)
+}
+
+[dir=ltr] .bit-table__fixed, [dir=ltr] .bit-table__fixed-right {
+    left: 0
+}
+
+[dir=rtl] .bit-table__fixed, [dir=rtl] .bit-table__fixed-right {
+    right: 0
+}
+
+.bit-table__fixed-right:before, .bit-table__fixed:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    z-index: 4
+}
+
+[dir] .bit-table__fixed-right:before, [dir] .bit-table__fixed:before {
+    background-color: var(--bit-border-color-primary)
+}
+
+[dir=ltr] .bit-table__fixed-right:before, [dir=ltr] .bit-table__fixed:before {
+    left: 0
+}
+
+[dir=rtl] .bit-table__fixed-right:before, [dir=rtl] .bit-table__fixed:before {
+    right: 0
+}
+
+[dir=rtl] .bit-table__fixed, [dir=rtl] .bit-table__fixed-right:before, [dir=rtl] .bit-table__fixed:before {
+    left: unset;
+    right: 0
+}
+
+.bit-table__fixed-right-patch {
+    position: absolute;
+    top: -1px
+}
+
+[dir] .bit-table__fixed-right-patch {
+    background-color: var(--bit-bg-color-primary);
+    border-bottom: 1px solid var(--bit-border-color-primary)
+}
+
+[dir=ltr] .bit-table__fixed-right-patch {
+    right: 0
+}
+
+[dir=rtl] .bit-table__fixed-right-patch {
+    left: 0;
+    right: unset
+}
+
+.bit-table__fixed-right {
+    top: 0
+}
+
+[dir=ltr] .bit-table__fixed-right {
+    left: auto;
+    right: 0
+}
+
+[dir=rtl] .bit-table__fixed-right {
+    left: 0;
+    right: auto
+}
+
+[dir=ltr] .bit-table__fixed-right .bit-table__fixed-body-wrapper, [dir=ltr] .bit-table__fixed-right .bit-table__fixed-footer-wrapper, [dir=ltr] .bit-table__fixed-right .bit-table__fixed-header-wrapper {
+    left: auto;
+    right: 0
+}
+
+[dir=rtl] .bit-table__fixed-right .bit-table__fixed-body-wrapper, [dir=rtl] .bit-table__fixed-right .bit-table__fixed-footer-wrapper, [dir=rtl] .bit-table__fixed-right .bit-table__fixed-header-wrapper {
+    left: 0;
+    right: auto
+}
+
+.bit-table__fixed-header-wrapper {
+    position: absolute;
+    top: 0;
+    z-index: 3
+}
+
+[dir=ltr] .bit-table__fixed-header-wrapper {
+    left: 0
+}
+
+[dir=rtl] .bit-table__fixed-header-wrapper {
+    left: unset;
+    right: 0
+}
+
+.bit-table__fixed-footer-wrapper {
+    position: absolute;
+    bottom: 0;
+    z-index: 3
+}
+
+[dir=ltr] .bit-table__fixed-footer-wrapper {
+    left: 0
+}
+
+[dir=rtl] .bit-table__fixed-footer-wrapper {
+    left: unset;
+    right: 0
+}
+
+[dir] .bit-table__fixed-footer-wrapper tbody td.bit-table__cell {
+    border-top: 1px solid var(--bit-border-color-primary)
+}
+
+.bit-table__fixed-body-wrapper {
+    position: absolute;
+    top: 37px;
+    overflow: hidden;
+    z-index: 3
+}
+
+[dir=ltr] .bit-table__fixed-body-wrapper {
+    left: 0
+}
+
+[dir=rtl] .bit-table__fixed-body-wrapper {
+    left: unset;
+    right: 0
+}
+
+.bit-table__body-wrapper, .bit-table__footer-wrapper, .bit-table__header-wrapper {
+    width: 100%
+}
+
+[dir] .bit-table__footer-wrapper {
+    margin-top: -1px
+}
+
+[dir] .bit-table__footer-wrapper td.bit-table__cell {
+    border-top: 1px solid var(--bit-border-color-primary)
+}
+
+.bit-table__body, .bit-table__footer, .bit-table__header {
+    table-layout: fixed;
+    border-collapse: separate
+}
+
+.bit-table__footer-wrapper, .bit-table__header-wrapper {
+    overflow: hidden
+}
+
+.bit-table__body-wrapper {
+    overflow: hidden;
+    position: relative
+}
+
+.bit-table__body-wrapper.is-scrolling-left ~ .bit-table__fixed, .bit-table__body-wrapper.is-scrolling-none ~ .bit-table__fixed, .bit-table__body-wrapper.is-scrolling-none ~ .bit-table__fixed-right, .bit-table__body-wrapper.is-scrolling-right ~ .bit-table__fixed-right {
+    -webkit-box-shadow: none
+}
+
+[dir] .bit-table__body-wrapper.is-scrolling-left ~ .bit-table__fixed, [dir] .bit-table__body-wrapper.is-scrolling-none ~ .bit-table__fixed, [dir] .bit-table__body-wrapper.is-scrolling-none ~ .bit-table__fixed-right, [dir] .bit-table__body-wrapper.is-scrolling-right ~ .bit-table__fixed-right {
+    box-shadow: none
+}
+
+[dir=rtl] .bit-table__body-wrapper .bit-table--border.is-scrolling-right ~ .bit-table__fixed-right {
+    border-left: unset;
+    border-right: 1px solid var(--bit-border-color-primary)
+}
+
+[dir=ltr] .bit-table__body-wrapper .bit-table--border.is-scrolling-left ~ .bit-table__fixed {
+    border-right: 1px solid var(--bit-border-color-primary)
+}
+
+[dir=rtl] .bit-table__body-wrapper .bit-table--border.is-scrolling-left ~ .bit-table__fixed {
+    border-left: 1px solid var(--bit-border-color-primary);
+    border-right: unset
+}
+
+.bit-table .caret-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 34px;
+    width: 24px;
+    vertical-align: middle;
+    overflow: initial;
+    position: relative;
+    top: -2px
+}
+
+[dir] .bit-table .caret-wrapper {
+    cursor: pointer
+}
+
+.bit-table .sort-caret {
+    color: var(--bit-color-text-disabled)
+}
+
+.bit-table .ascending .sort-caret.ascending, .bit-table .descending .sort-caret.descending {
+    color: var(--bit-color-text-primary)
+}
+
+.bit-table .hidden-columns {
+    visibility: hidden;
+    position: absolute;
+    z-index: -1
+}
+
+[dir] .bit-table--striped .bit-table__body tr.bit-table__row--striped td.bit-table__cell {
+    background-color: var(--bit-bg-color-secondary)
+}
+
+[dir] .bit-table--striped .bit-table__body tr.bit-table__row--striped.current-row td.bit-table__cell {
+    background-color: #ecf5ff
+}
+
+[dir] .bit-table__body tr.hover-row.bit-table__row--striped.current-row > td.bit-table__cell, [dir] .bit-table__body tr.hover-row.bit-table__row--striped > td.bit-table__cell, [dir] .bit-table__body tr.hover-row.current-row > td.bit-table__cell, [dir] .bit-table__body tr.hover-row > td.bit-table__cell {
+    background-color: var(--bit-bg-color-secondary)
+}
+
+[dir] .bit-table__body tr.current-row > td.bit-table__cell {
+    background-color: #ecf5ff
+}
+
+.bit-table__column-resize-proxy {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    z-index: 10
+}
+
+[dir=ltr] .bit-table__column-resize-proxy {
+    left: 200px;
+    border-left: 1px solid var(--bit-border-color-primary)
+}
+
+[dir=rtl] .bit-table__column-resize-proxy {
+    left: unset;
+    right: 200px;
+    border-left: unset;
+    border-right: 1px solid var(--bit-border-color-primary)
+}
+
+.bit-table__column-filter-trigger {
+    display: inline-block;
+    line-height: 34px
+}
+
+[dir] .bit-table__column-filter-trigger {
+    cursor: pointer
+}
+
+.bit-table__column-filter-trigger i {
+    color: var(--bit-color-info);
+    font-size: 12px;
+    -webkit-transform: scale(.75)
+}
+
+[dir] .bit-table__column-filter-trigger i {
+    transform: scale(.75)
+}
+
+.bit-table--enable-row-transition .bit-table__body td.bit-table__cell {
+    transition: background-color .25s ease
+}
+
+[dir] .bit-table--enable-row-transition .bit-table__body td.bit-table__cell {
+    -webkit-transition: background-color .25s ease
+}
+
+[dir] .bit-table--enable-row-hover .bit-table__body tr:hover > td.bit-table__cell {
+    background-color: var(--bit-bg-color-secondary)
+}
+
+.bit-table--fluid-height .bit-table__fixed, .bit-table--fluid-height .bit-table__fixed-right {
+    bottom: 0;
+    overflow: hidden
+}
+
+.bit-table [class*=bit-table__row--level] .bit-table__expand-icon {
+    display: inline-block;
+    width: 20px;
+    line-height: 12px;
+    height: 12px
+}
+
+[dir] .bit-table [class*=bit-table__row--level] .bit-table__expand-icon {
+    text-align: center
+}
+
+[dir=ltr] .bit-table [class*=bit-table__row--level] .bit-table__expand-icon {
+    margin-right: 3px
+}
+
+[dir=rtl] .bit-table [class*=bit-table__row--level] .bit-table__expand-icon {
+    margin-left: 3px
+}

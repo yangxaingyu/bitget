@@ -1,0 +1,125 @@
+.bit-link {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    position: relative;
+    text-decoration: none;
+    outline: 0;
+    font-size: 14px;
+    font-weight: 500
+}
+
+[dir] .bit-link {
+    cursor: pointer;
+    padding: 0
+}
+
+.bit-link.is-underline:hover:after {
+    content: "";
+    position: absolute;
+    height: 0;
+    bottom: 0
+}
+
+[dir] .bit-link.is-underline:hover:after {
+    border-bottom: 1px solid var(--bit-color-primary)
+}
+
+[dir=ltr] .bit-link.is-underline:hover:after, [dir=rtl] .bit-link.is-underline:hover:after {
+    left: 0;
+    right: 0
+}
+
+[dir] .bit-link.is-disabled {
+    cursor: not-allowed
+}
+
+[dir=ltr] .bit-link [class*=bit-icon-] + span {
+    margin-left: 5px
+}
+
+[dir=rtl] .bit-link [class*=bit-icon-] + span {
+    margin-right: 5px
+}
+
+.bit-link.bit-link--default {
+    color: var(--bit-color-text-primary)
+}
+
+.bit-link.bit-link--default:hover {
+    color: var(--bit-color-primary)
+}
+
+[dir] .bit-link.bit-link--default:after {
+    border-color: var(--bit-color-primary)
+}
+
+[dir] .bit-link.bit-link--danger.is-underline:hover:after, [dir] .bit-link.bit-link--danger:after {
+    border-color: var(--bit-color-danger)
+}
+
+.bit-link.bit-link--default.is-disabled {
+    color: var(--bit-color-text-placeholder)
+}
+
+.bit-link.bit-link--danger {
+    color: var(--bit-color-danger)
+}
+
+.bit-link.bit-link--danger:hover {
+    color: var(--bit-color-danger-hover)
+}
+
+.bit-link.bit-link--danger.is-disabled {
+    color: var(--bit-color-danger-disabled)
+}
+
+[dir] .bit-link.bit-link--success.is-underline:hover:after, [dir] .bit-link.bit-link--success:after {
+    border-color: var(--bit-color-success)
+}
+
+.bit-link.bit-link--success {
+    color: var(--bit-color-success)
+}
+
+.bit-link.bit-link--success:hover {
+    color: var(--bit-color-success-hover)
+}
+
+.bit-link.bit-link--success.is-disabled {
+    color: var(--bit-color-success-disabled)
+}
+
+[dir] .bit-link.bit-link--warning.is-underline:hover:after, [dir] .bit-link.bit-link--warning:after {
+    border-color: var(--bit-color-warning)
+}
+
+.bit-link.bit-link--warning {
+    color: var(--bit-color-warning)
+}
+
+.bit-link.bit-link--warning:hover {
+    color: var(--bit-color-warning-hover)
+}
+
+.bit-link.bit-link--warning.is-disabled {
+    color: var(--bit-color-warning-disabled)
+}
+
+[dir] .bit-link.bit-link--info.is-underline:hover:after, [dir] .bit-link.bit-link--info:after {
+    border-color: var(--bit-color-info)
+}
+
+.bit-link.bit-link--info {
+    color: var(--bit-color-info)
+}
+
+.bit-link.bit-link--info:hover {
+    color: var(--bit-color-text-secondary)
+}
+
+.bit-link.bit-link--info.is-disabled {
+    color: var(--bit-color-text-disabled)
+}

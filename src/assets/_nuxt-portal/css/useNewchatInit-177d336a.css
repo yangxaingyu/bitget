@@ -1,0 +1,109 @@
+.answer-wrap[data-v-623e2f74] a {
+    --tw-text-opacity: 1;
+    color: rgba(3, 170, 199, var(--tw-text-opacity))
+}
+
+.show-all[data-v-95f2acaf] {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 0;
+    z-index: 1;
+    padding: 16px;
+    background: #fff
+}
+
+.show-all .self-title[data-v-95f2acaf] {
+    justify-content: flex-start
+}
+
+.line-clamp-2[data-v-95f2acaf] {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical
+}
+
+.modal-overlay[data-v-ca15ce51] {
+    height: 100%;
+    overflow-y: scroll;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 50;
+    background: rgba(0, 0, 0, .6)
+}
+
+.modal-detail[data-v-ca15ce51] {
+    --tw-bg-opacity: 1;
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+    overflow-y: scroll;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate3d(-50%, -50%, 0);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden
+}
+
+.answer-wrap[data-v-ca15ce51] a {
+    --tw-text-opacity: 1;
+    color: rgba(3, 170, 199, var(--tw-text-opacity))
+}
+
+.answer-wrap[data-v-ca15ce51] *:not(a) {
+    color: #57585c !important
+}
+
+.answer-wrap[data-v-ca15ce51] * {
+    font-size: 12px !important;
+    line-height: 17px !important;
+    font-weight: 400 !important
+}
+
+.answer-wrap[data-v-ca15ce51] a.insert-button {
+    font-size: 12px !important;
+    height: 32px !important;
+    line-height: 32px !important;
+    padding: 0 24px !important
+}
+
+.answer-wrap[data-v-ca15ce51] img, .answer-wrap[data-v-ca15ce51] video, .answer-wrap[data-v-ca15ce51] table {
+    display: none !important
+}
+
+.app-content-wrap[data-v-ca15ce51] *:not(a) {
+    --tw-text-opacity: 1 !important;
+    color: rgba(21, 21, 23, var(--tw-text-opacity)) !important
+}
+
+.app-content-wrap[data-v-ca15ce51] * {
+    font-size: 15px !important;
+    line-height: 21px !important
+}
+
+.app-content-wrap[data-v-ca15ce51] a.insert-button {
+    font-size: 15px !important;
+    height: 40px !important;
+    line-height: 40px !important;
+    padding: 0 24px !important
+}
+
+.banner-scroll-wrap[data-v-ca15ce51] {
+    animation: slide-up-ca15ce51 1s ease both
+}
+
+@keyframes slide-up-ca15ce51 {
+    0% {
+        transform: translateY(100%)
+    }
+    to {
+        transform: translateY(0)
+    }
+}
