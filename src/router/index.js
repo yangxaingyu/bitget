@@ -3,6 +3,8 @@ import Login from '@/views/Login'
 // import Search from '@/views/Search'
 import NotFound from '@/views/NotFound'
 import Register from '@/views/Register.vue'
+import Dashboard from '@/views/Dashboard.vue'
+import Enter from '@/views/Enter.vue'
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 Vue.use(VueRouter) // VueRouter插件初始化
@@ -16,6 +18,8 @@ const router = new VueRouter({
     {path: '/index', component: Index},
     {path: '/login', component: Login},
     {path: '/register', component: Register},
+    {path: '/dashboard', component: Dashboard},
+    {path: '/enter', component: Enter},
     // {name: 'search', path: '/search/:words?', component: Search },
     {path: '*', component: NotFound }
   ]
