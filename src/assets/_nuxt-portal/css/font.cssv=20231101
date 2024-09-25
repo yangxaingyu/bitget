@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Switzer-Black';
+    src: url('/baseasset/fonts/Switzer-Black.otf') format('opentype');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Switzer-BlackItalic';
+    src: url('/baseasset/fonts/Switzer-BlackItalic.otf') format('opentype');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Switzer';
+    font-weight: 300;
+    src: url('/baseasset/fonts/Switzer-Thin.otf') format('opentype');
+    font-display: optional;
+}
+@font-face {
+    font-family: 'Switzer';
+    font-weight: 400;
+    src: url('/baseasset/fonts/Switzer-Regular.otf') format('opentype');
+    font-display: optional;
+}
+@font-face {
+    font-family: 'Switzer';
+    font-weight: 500;
+    src: url('/baseasset/fonts/Switzer-Medium.otf') format('opentype');
+    font-display: optional;
+}
+@font-face {
+    font-family: 'Switzer';
+    font-weight: 600;
+    src: url('/baseasset/fonts/Switzer-Semibold.otf') format('opentype');
+    font-display: optional;
+}
+@font-face {
+    font-family: 'Switzer';
+    font-weight: 700;
+    src: url('/baseasset/fonts/Switzer-Bold.otf') format('opentype');
+    font-display: optional;
+}
+@font-face {
+    font-family: 'Switzer-BoldItalic';
+    src: url('/baseasset/fonts/Switzer-BoldItalic.otf') format('opentype');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Switzer-Extrabold';
+    src: url('/baseasset/fonts/Switzer-Extrabold.otf') format('opentype');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Switzer-ExtraboldItalic';
+    src: url('/baseasset/fonts/Switzer-ExtraboldItalic.otf') format('opentype');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Switzer-Extralight';
+    src: url('/baseasset/fonts/Switzer-Extralight.otf') format('opentype');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Switzer-ExtralightItalic';
+    src: url('/baseasset/fonts/Switzer-ExtralightItalic.otf') format('opentype');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Switzer-Italic';
+    src: url('/baseasset/fonts/Switzer-Italic.otf') format('opentype');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Switzer-LightItalic';
+    src: url('/baseasset/fonts/Switzer-LightItalic.otf') format('opentype');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Switzer-MediumItalic';
+    src: url('/baseasset/fonts/Switzer-MediumItalic.otf') format('opentype');
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Switzer-SemiboldItalic';
+    src: url('/baseasset/fonts/Switzer-SemiboldItalic.otf') format('opentype');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Switzer-ThinItalic';
+    src: url('/baseasset/fonts/Switzer-ThinItalic.otf') format('opentype');
+    font-display: swap;
+}
+
+.number_medium {
+    font-family: 'proxima-nova';
+}
+
+.default_font_family .headline_module__title {
+    font-family: Switzer, Arial, sans-serif;
+}
