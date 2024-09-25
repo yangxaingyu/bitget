@@ -25,6 +25,13 @@ import '@/assets/_nuxt-portal/css/style-4087bdf9.css'
 import '@/assets/_nuxt-portal/css/d6b9013.css'
 import '@/assets/_nuxt-portal/css/7bf17ae.css'
 
+// login
+import '@/assets/_nuxt-portal/css/5a23de0.css'
+import '@/assets/_nuxt-portal/css/7a024ef.css'
+import '@/assets/_nuxt-portal/css/a6b8b33.css'
+import '@/assets/_nuxt-portal/css/dca219e.css'
+
+
 Vue.config.productionTip = false
 
 new Vue({

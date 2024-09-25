@@ -669,12 +669,12 @@
                 <div class="flex items-center gap-20px whitespace-nowrap pr-8px">
                   <div data-v-d8e0da7c class="relative inline-flex items-center h-full login-popover-move">
                     <div data-v-d8e0da7c>
-                      <a class="text-primaryText text-16px cursor-pointer leading-40px text-center" href="#/login" target="_self" rel="nofollow">Log in</a>
+                      <a class="text-primaryText text-16px cursor-pointer leading-40px text-center" href="/login" target="_self" rel="nofollow">Log in</a>
                     </div>
                     <div data-v-d8e0da7c class="popover absolute z-1000 opacity-0 invisible left" lt-md="fixed left-0" style="top: calc(100% + 0px); padding-top: 0px;"><!----><!----><i data-v-d8e0da7c class="absolute -top-6px !right-20px w-12px h-12px rounded-[3px_0_0_0] rotate-45deg transition-opacity light:shadow-popover light:border-1px light:border-line light:bg-bg dark:bg-cardBg !border-b-0px !border-r-0px" style="display: none;"></i>
                     </div>
                   </div>
-                  <a class="text-primaryText inline-flex items-center justify-center px-18px h-40px min-w-87px text-16px rounded-20px bg-contentPrimary cursor-pointer !text-contentInversePrimary" href="/asia/register" target="_self" rel="nofollow">Sign up</a>
+                  <a class="text-primaryText inline-flex items-center justify-center px-18px h-40px min-w-87px text-16px rounded-20px bg-contentPrimary cursor-pointer !text-contentInversePrimary" href="/register" target="_self" rel="nofollow">Sign up</a>
                 </div>
                 <div data-v-d8e0da7c data-v-527d4eb3 class="relative inline-flex items-center h-full popover-search">
                   <div data-v-d8e0da7c>

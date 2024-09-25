@@ -1,0 +1,54 @@
+.ip-alert-box[data-v-79755347] {
+    box-sizing: border-box;
+    color: var(--content-primary)
+}
+
+[dir] .ip-alert-box[data-v-79755347] {
+    background: var(--background-secondary)
+}
+
+.ip-alert-box .warn-icon[data-v-79755347] {
+    width: 20px
+}
+
+[dir=ltr] .ip-alert-box .warn-icon[data-v-79755347] {
+    margin: 2px 6px 3px 0
+}
+
+[dir=rtl] .ip-alert-box .warn-icon[data-v-79755347] {
+    margin: 2px 0 3px 6px
+}
+
+.ip-alert-box .el-icon-close[data-v-79755347] {
+    font-size: 16px;
+    color: var(--content-primary)
+}
+
+[dir] .ip-alert-box .el-icon-close[data-v-79755347] {
+    cursor: pointer
+}
+
+.global-theme .main-box[data-v-bc61f9fc] {
+    flex: 1
+}
+
+[dir=ltr] .global-theme .main-box[data-v-bc61f9fc],[dir=rtl] .global-theme .main-box[data-v-bc61f9fc] {
+    margin-left: auto;
+    margin-right: auto
+}
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+    .main-box[data-v-bc61f9fc] {
+        overflow-y:overlay;
+        min-width: auto;
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .main-box[data-v-bc61f9fc] {
+        overflow-y:overlay;
+        min-width: auto;
+        width: 100%
+    }
+}
