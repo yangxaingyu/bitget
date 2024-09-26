@@ -7,11 +7,11 @@
             <div class="h-500px pad:h-auto phone:hidden">
               <div class="overflow-hidden webHomeConfig relative" data-v-759fbb3f="">
                 <div class="relative swiper-container swiper-container-horizontal h-500px pad:h-auto swiper-container-pc swiper-no-swiping phone:h-240px swiper-container-initialized" data-v-759fbb3f="">
-                  <div class="h-500px swiper-wrapper relative phone:min-h-234px phone:h-234px" data-v-759fbb3f="" style="transition-duration: 0ms; transform: translate3d(-3848px, 0px, 0px);">
-                    <div class="swiper-slide box-border overflow-hidden swiper-slide-duplicate swiper-slide-duplicate-active" data-v-759fbb3f="" data-swiper-slide-index="1" style="width: 1924px;">
+                  <div class="h-500px swiper-wrapper relative phone:min-h-234px phone:h-234px" data-v-759fbb3f="" style="transition-duration: 0ms; transform: translate3d(-3634px, 0px, 0px);">
+                    <div class="swiper-slide box-border overflow-hidden swiper-slide-duplicate swiper-slide-duplicate-next" data-v-759fbb3f="" data-swiper-slide-index="2" style="width: 1817px;">
                       <div class="mx-auto h-1/1" data-v-759fbb3f="">
                         <div class="mx-auto box-border" data-v-759fbb3f="">
-                          <div id="contentBoxId" class="contentBox h-500px relative box-border flex overflow-hidden w-1/1 pad:h-906px  min-h-500px pad:min-h-906px phone:min-h-234px phone:h-234px" style="background-color:#FFFFFF;" data-v-3ded291d="">
+                          <div id="contentBoxId" class="contentBox h-500px relative box-border flex overflow-hidden w-1/1 pad:h-906px  min-h-500px pad:min-h-906px phone:min-h-234px phone:h-234px" style="background-color: rgb(255, 255, 255);" data-v-3ded291d="">
                             <div class="relative justify-between flex w-1200px mx-auto box-border <xl:w-full <xl:px-24px pad:flex-col pad:flex-col-reverse pad:justify-end pad:items-center pad:px-24px phone:justify-around phone:items-center phone:px-16px" data-v-3ded291d="">
                               <div class="w-600px z-1 h-360px flex flex-col justify-start mt-80px box-border <xl:w-528px !pad:mt-16px !pad:w-full pad:h-302px !phone:w-full !phone:mt-0 phone:h-222px" data-v-3ded291d="">
                                 <div class="phone:flex phone:justify-between phone:items-center phone:gap-8px" data-v-3ded291d="">
@@ -22,17 +22,16 @@
                                     <div class="line-clamp-2 mt-18px text-20px leading-[140%] text-v3PrimaryText phone:line-clamp-1 phone:mt-4px phone:text-12px" data-v-3ded291d="">
                                       Join the largest copy trading platform today
                                     </div> <!----></div>
-                                  <div class="top-banner-image w-500px h-500px mt-50px h-1/1 flex pad:mt-24px minPhone:hidden phone:w-132px phone:h-132px phone:mt-0" style="background-image:url(https://img.bitgetimg.com/multiLang/web/fc435e9f27bd2b1af619995b433ecdc0.png);" data-v-3ded291d=""></div>
+                                  <div class="top-banner-image w-500px h-500px mt-50px h-1/1 flex pad:mt-24px minPhone:hidden phone:w-132px phone:h-132px phone:mt-0" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/fc435e9f27bd2b1af619995b433ecdc0.png&quot;);" data-v-3ded291d=""></div>
                                 </div>
                                 <div data-v-71b06a1e="" data-v-3ded291d="" class="">
                                   <div class="w-1/1 pad:w-full phone:w-full" data-v-71b06a1e="">
                                     <div class="home-banner-login flex flex-col box-border text-v3PrimaryText font-400 leading-24px w-1/1 pc:mt-32px pad:w-full phone:w-full" data-v-55be6e78="" data-v-71b06a1e="">
-                                      <span class="relative flex items-center text-20px leading-[140%] mr-8px cursor-pointer phone:text-12px phone:max-w-full phone:truncate" data-v-55be6e78=""><img src="../assets/img/topbanner_rewards_icon_black.svg" loading="lazy" alt="Bitget Register Rewards10.8014622775353164" class="w-24px h-24px align-bottom mr-8px phone:w-14px" style="display:none;" data-v-55be6e78="">
-                                        <img src="../assets/img/topbanner_rewards_icon_white.svg" loading="lazy" alt="Bitget Register Rewards20.727461918153844" class="w-24px h-24px align-bottom mr-8px phone:w-14px" style="display:;" data-v-55be6e78=""> <span data-v-55be6e78="">Sign up now to claim a welcome pack of <span class="homepage-brand-color">6200 USDT</span>!</span></span>
+                                      <span class="relative flex items-center text-20px leading-[140%] mr-8px cursor-pointer phone:text-12px phone:max-w-full phone:truncate" data-v-55be6e78=""><img src="/baseasset/img/v3-home/topbanner_rewards_icon_black.svg" loading="lazy" alt="Bitget Register Rewards10.0643665874960695" class="w-24px h-24px align-bottom mr-8px phone:w-14px" style="display: none;" data-v-55be6e78=""> <img src="../assets/img/topbanner_rewards_icon_white.svg" loading="lazy" alt="Bitget Register Rewards20.08322935458827385" class="w-24px h-24px align-bottom mr-8px phone:w-14px" style="" data-v-55be6e78=""> <span data-v-55be6e78="">Sign up now to claim a welcome pack of <span class="homepage-brand-color">6200 USDT</span>!</span></span>
                                       <div class="mt-24px w-1/1 flex flex-row box-border pad:mt-16px phone:hidden" data-v-55be6e78="">
                                         <div class="flex box-border w-full" data-v-55be6e78="">
                                           <div class="w-364px mr-8px pad:flex-auto phone:flex-auto phone:mr-6px bit-theme-light-vue2" style="background:transparent !important;" data-v-55be6e78="">
-                                            <div class="home-login-input" style="background-color:#FFFFFF;" data-v-55be6e78="">
+                                            <div class="home-login-input" style="background-color: rgb(255, 255, 255);" data-v-55be6e78="">
                                               <div class="bit-input bit-input--large bit-input--round" data-v-55be6e78=""><!----><!----><input type="text" autocomplete="off" placeholder="Email/Phone number" class="bit-input__inner"><!----><!----><!----><!----><!----><!---->
                                               </div>
                                             </div>
@@ -41,7 +40,7 @@
                                             <button type="button" class="bit-button resgiter-btn w-full bit-button--primary bit-button--large is-round" data-v-55be6e78=""><!----><!----><!----><span>Sign up</span><!---->
                                             </button>
                                           </div>
-                                          <span class="pad:hidden <md:hidden" data-v-55be6e78=""><div role="tooltip" id="bit-popover-1856" aria-hidden="true" class="bit-popover bit-popper" style="width:120px;display:none;" tabindex="0"><!----><div class="bit-popover__message-text"><!----><div class="bit-popover__content"><div data-v-55be6e78="" class="flex flex-col justify-center items-center"><div data-v-55be6e78="" class="text-v3PrimaryText text-14px font-600 leading-20px">Scan to download</div> <div data-v-55be6e78="" class="w-108px h-108px box-border bg-v3ContentAlwaysWhite px-4px py-4px rounded-4px mt-12px mb-24px"><canvas height="100" width="100"></canvas></div> <button data-v-55be6e78="" type="button" class="bit-button bit-button--primary is-round"><!----><!----><!----><span><span data-v-55be6e78="" class="inline-block max-w-86px truncate">More downloads</span></span><!----></button></div> </div></div></div><span class="bit-popover__reference-wrapper"><div class="box-border w-48px h-48px rounded-1 flex justify-center items-center ml-8px bg-v3LinkDefaultText text-v3ContentAlwaysWhite bit-popover__reference" data-v-55be6e78="" aria-describedby="bit-popover-1856" tabindex="0"><i class="bit-icon" style="font-size:28px;" data-v-55be6e78=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-v-55be6e78=""><path d="M9.75 3.75h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm0 3h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm9-15h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm-6 6.75v-3a.75.75 0 111.5 0v3a.75.75 0 11-1.5 0zm7.5-1.5a.75.75 0 01-.75.75h-2.25v3.75a.75.75 0 01-.75.75h-3a.75.75 0 110-1.5h2.25V13.5a.75.75 0 111.5 0v.75h2.25a.75.75 0 01.75.75zm0 3v1.5a.75.75 0 11-1.5 0V18a.75.75 0 111.5 0z"></path></svg></i></div></span></span>
+                                          <span class="pad:hidden <md:hidden" data-v-55be6e78=""><div role="tooltip" id="bit-popover-8078" aria-hidden="true" class="bit-popover bit-popper" style="width:120px;display:none;" tabindex="0"><!----><div class="bit-popover__message-text"><!----><div class="bit-popover__content"><div data-v-55be6e78="" class="flex flex-col justify-center items-center"><div data-v-55be6e78="" class="text-v3PrimaryText text-14px font-600 leading-20px">Scan to download</div> <div data-v-55be6e78="" class="w-108px h-108px box-border bg-v3ContentAlwaysWhite px-4px py-4px rounded-4px mt-12px mb-24px"><canvas height="100" width="100"></canvas></div> <button data-v-55be6e78="" type="button" class="bit-button bit-button--primary is-round"><!----><!----><!----><span><span data-v-55be6e78="" class="inline-block max-w-86px truncate">More downloads</span></span><!----></button></div> </div></div></div><span class="bit-popover__reference-wrapper"><div class="box-border w-48px h-48px rounded-1 flex justify-center items-center ml-8px bg-v3LinkDefaultText text-v3ContentAlwaysWhite bit-popover__reference" data-v-55be6e78="" aria-describedby="bit-popover-8078" tabindex="0"><i class="bit-icon" style="font-size:28px;" data-v-55be6e78=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-v-55be6e78=""><path d="M9.75 3.75h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm0 3h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm9-15h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm-6 6.75v-3a.75.75 0 111.5 0v3a.75.75 0 11-1.5 0zm7.5-1.5a.75.75 0 01-.75.75h-2.25v3.75a.75.75 0 01-.75.75h-3a.75.75 0 110-1.5h2.25V13.5a.75.75 0 111.5 0v.75h2.25a.75.75 0 01.75.75zm0 3v1.5a.75.75 0 11-1.5 0V18a.75.75 0 111.5 0z"></path></svg></i></div></span></span>
                                         </div>
                                       </div>
                                       <div class="mt-16px flex justify-around gap-4px minPhone:hidden" data-v-55be6e78="">
@@ -53,16 +52,66 @@
                                     </div>
                                   </div> <!----></div>
                               </div>
-                              <div class="top-banner-image w-500px h-500px h-1/1 flex pad:mt-24px phone:hidden phone:w-132px phone:h-132px" style="background-image:url(https://img.bitgetimg.com/multiLang/web/fc435e9f27bd2b1af619995b433ecdc0.png);" data-v-3ded291d=""></div> <!---->
+                              <div class="top-banner-image w-500px h-500px h-1/1 flex pad:mt-24px phone:hidden phone:w-132px phone:h-132px" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/fc435e9f27bd2b1af619995b433ecdc0.png&quot;);" data-v-3ded291d=""></div> <!---->
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="swiper-slide box-border overflow-hidden swiper-slide-prev swiper-slide-duplicate-next" data-v-759fbb3f="" data-swiper-slide-index="0" style="width: 1924px;">
+                    <div class="swiper-slide box-border overflow-hidden swiper-slide-prev" data-v-759fbb3f="" data-swiper-slide-index="0" style="width: 1817px;">
                       <div class="mx-auto h-1/1" data-v-759fbb3f="">
                         <div class="mx-auto box-border" data-v-759fbb3f="">
-                          <div id="contentBoxId" class="contentBox h-500px relative box-border flex overflow-hidden w-1/1 pad:h-906px  min-h-500px pad:min-h-906px phone:min-h-234px phone:h-234px cursor-pointer" style="background-color:#FFFFFF;" data-v-3ded291d="">
+                          <div id="contentBoxId" class="contentBox h-500px relative box-border flex overflow-hidden w-1/1 pad:h-906px  min-h-500px pad:min-h-906px phone:min-h-234px phone:h-234px cursor-pointer" style="background-color: rgb(255, 255, 255);" data-v-3ded291d="">
+                            <div class="relative justify-between flex w-1200px mx-auto box-border <xl:w-full <xl:px-24px pad:flex-col pad:flex-col-reverse pad:justify-end pad:items-center pad:px-24px phone:justify-around phone:items-center phone:px-16px" data-v-3ded291d="">
+                              <div class="w-600px z-1 h-360px flex flex-col justify-start mt-80px box-border <xl:w-528px !pad:mt-16px !pad:w-full pad:h-302px !phone:w-full !phone:mt-0 phone:h-222px" data-v-3ded291d="">
+                                <div class="phone:flex phone:justify-between phone:items-center phone:gap-8px" data-v-3ded291d="">
+                                  <div class="flex flex-col phone:max-w-218px" data-v-3ded291d="">
+                                    <h1 class="m-0 line-clamp-2 flex flex-wrap text-56px font-600 leading-67px text-v3PrimaryText pad:text-48px pad:font-700 pad:leading-[120%] phone:font-700 phone:text-16px phone:leading-22px" data-v-3ded291d="">
+                                      Cheers to Oktoberfest !
+                                    </h1>
+                                    <div class="line-clamp-2 mt-18px text-20px leading-[140%] text-v3PrimaryText phone:line-clamp-1 phone:mt-4px phone:text-12px" data-v-3ded291d="">
+                                      Trade to win your favorite beers and Munich Trip fund！
+                                    </div> <!----></div>
+                                  <div class="top-banner-image w-500px h-500px mt-50px h-1/1 flex pad:mt-24px minPhone:hidden phone:w-132px phone:h-132px phone:mt-0" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/8a362d707de0b30ae0c15f6bf6fadb7d.png&quot;);" data-v-3ded291d=""></div>
+                                </div>
+                                <div data-v-71b06a1e="" data-v-3ded291d="" class="">
+                                  <div class="w-1/1 pad:w-full phone:w-full" data-v-71b06a1e="">
+                                    <div class="home-banner-login flex flex-col box-border text-v3PrimaryText font-400 leading-24px w-1/1 pc:mt-32px pad:w-full phone:w-full" data-v-55be6e78="" data-v-71b06a1e="">
+                                      <span class="relative flex items-center text-20px leading-[140%] mr-8px cursor-pointer phone:text-12px phone:max-w-full phone:truncate" data-v-55be6e78=""><img src="/baseasset/img/v3-home/topbanner_rewards_icon_black.svg" loading="lazy" alt="Bitget Register Rewards10.6431780374331608" class="w-24px h-24px align-bottom mr-8px phone:w-14px" style="display: none;" data-v-55be6e78=""> <img src="../assets/img/topbanner_rewards_icon_white.svg" loading="lazy" alt="Bitget Register Rewards20.47659121214864175" class="w-24px h-24px align-bottom mr-8px phone:w-14px" style="" data-v-55be6e78=""> <span data-v-55be6e78="">Sign up now to claim a welcome pack of <span class="homepage-brand-color">6200 USDT</span>!</span></span>
+                                      <div class="mt-24px w-1/1 flex flex-row box-border pad:mt-16px phone:hidden" data-v-55be6e78="">
+                                        <div class="flex box-border w-full" data-v-55be6e78="">
+                                          <div class="w-364px mr-8px pad:flex-auto phone:flex-auto phone:mr-6px bit-theme-light-vue2" style="background:transparent !important;" data-v-55be6e78="">
+                                            <div class="home-login-input" style="background-color: rgb(255, 255, 255);" data-v-55be6e78="">
+                                              <div class="bit-input bit-input--large bit-input--round" data-v-55be6e78=""><!----><!----><input type="text" autocomplete="off" placeholder="Email/Phone number" class="bit-input__inner"><!----><!----><!----><!----><!----><!---->
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="flex-shrink-0 w-160px <xl:w-140px pad:w-182px phone:w-117px" data-v-55be6e78="">
+                                            <button type="button" class="bit-button resgiter-btn w-full bit-button--primary bit-button--large is-round" data-v-55be6e78=""><!----><!----><!----><span>Sign up</span><!---->
+                                            </button>
+                                          </div>
+                                          <span class="pad:hidden <md:hidden" data-v-55be6e78=""><div role="tooltip" id="bit-popover-1837" aria-hidden="true" class="bit-popover bit-popper" style="width:120px;display:none;" tabindex="0"><!----><div class="bit-popover__message-text"><!----><div class="bit-popover__content"><div data-v-55be6e78="" class="flex flex-col justify-center items-center"><div data-v-55be6e78="" class="text-v3PrimaryText text-14px font-600 leading-20px">Scan to download</div> <div data-v-55be6e78="" class="w-108px h-108px box-border bg-v3ContentAlwaysWhite px-4px py-4px rounded-4px mt-12px mb-24px"><canvas height="100" width="100"></canvas></div> <button data-v-55be6e78="" type="button" class="bit-button bit-button--primary is-round"><!----><!----><!----><span><span data-v-55be6e78="" class="inline-block max-w-86px truncate">More downloads</span></span><!----></button></div> </div></div></div><span class="bit-popover__reference-wrapper"><div class="box-border w-48px h-48px rounded-1 flex justify-center items-center ml-8px bg-v3LinkDefaultText text-v3ContentAlwaysWhite bit-popover__reference" data-v-55be6e78="" aria-describedby="bit-popover-1837" tabindex="0"><i class="bit-icon" style="font-size:28px;" data-v-55be6e78=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-v-55be6e78=""><path d="M9.75 3.75h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm0 3h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm9-15h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm-6 6.75v-3a.75.75 0 111.5 0v3a.75.75 0 11-1.5 0zm7.5-1.5a.75.75 0 01-.75.75h-2.25v3.75a.75.75 0 01-.75.75h-3a.75.75 0 110-1.5h2.25V13.5a.75.75 0 111.5 0v.75h2.25a.75.75 0 01.75.75zm0 3v1.5a.75.75 0 11-1.5 0V18a.75.75 0 111.5 0z"></path></svg></i></div></span></span>
+                                        </div>
+                                      </div>
+                                      <div class="mt-16px flex justify-around gap-4px minPhone:hidden" data-v-55be6e78="">
+                                        <button type="button" class="bit-button register-button w-[50%] bit-button--default bit-button--large is-round" data-v-55be6e78=""><!----><!----><!----><span>Sign Up</span><!---->
+                                        </button>
+                                        <button type="button" class="bit-button w-[50%] bit-button--primary bit-button--large is-round" data-v-55be6e78=""><!----><!----><!----><span>Login</span><!---->
+                                        </button>
+                                      </div>
+                                    </div>
+                                  </div> <!----></div>
+                              </div>
+                              <div class="top-banner-image w-500px h-500px h-1/1 flex pad:mt-24px phone:hidden phone:w-132px phone:h-132px" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/8a362d707de0b30ae0c15f6bf6fadb7d.png&quot;);" data-v-3ded291d=""></div> <!---->
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide box-border overflow-hidden swiper-slide-active" data-v-759fbb3f="" data-swiper-slide-index="1" style="width: 1817px;">
+                      <div class="mx-auto h-1/1" data-v-759fbb3f="">
+                        <div class="mx-auto box-border" data-v-759fbb3f="">
+                          <div id="contentBoxId" class="contentBox h-500px relative box-border flex overflow-hidden w-1/1 pad:h-906px  min-h-500px pad:min-h-906px phone:min-h-234px phone:h-234px cursor-pointer" style="background-color: rgb(255, 255, 255);" data-v-3ded291d="">
                             <div class="relative justify-between flex w-1200px mx-auto box-border <xl:w-full <xl:px-24px pad:flex-col pad:flex-col-reverse pad:justify-end pad:items-center pad:px-24px phone:justify-around phone:items-center phone:px-16px" data-v-3ded291d="">
                               <div class="w-600px z-1 h-360px flex flex-col justify-start mt-80px box-border <xl:w-528px !pad:mt-16px !pad:w-full pad:h-302px !phone:w-full !phone:mt-0 phone:h-222px" data-v-3ded291d="">
                                 <div class="phone:flex phone:justify-between phone:items-center phone:gap-8px" data-v-3ded291d="">
@@ -76,16 +125,16 @@
                                     <div class="line-clamp-2 mt-18px text-20px leading-[140%] text-v3PrimaryText phone:line-clamp-1 phone:mt-4px phone:text-12px" data-v-3ded291d="">
                                       Up to 100 USDT Sunshine Award for everyone!
                                     </div> <!----></div>
-                                  <div class="top-banner-image w-500px h-500px mt-50px h-1/1 flex pad:mt-24px minPhone:hidden phone:w-132px phone:h-132px phone:mt-0" style="background-image:url(https://img.bitgetimg.com/multiLang/web/6975ef3761e63b918e01164056ae4975.png);" data-v-3ded291d=""></div>
+                                  <div class="top-banner-image w-500px h-500px mt-50px h-1/1 flex pad:mt-24px minPhone:hidden phone:w-132px phone:h-132px phone:mt-0" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/6975ef3761e63b918e01164056ae4975.png&quot;);" data-v-3ded291d=""></div>
                                 </div>
                                 <div data-v-71b06a1e="" data-v-3ded291d="" class="">
                                   <div class="w-1/1 pad:w-full phone:w-full" data-v-71b06a1e="">
                                     <div class="home-banner-login flex flex-col box-border text-v3PrimaryText font-400 leading-24px w-1/1 pc:mt-32px pad:w-full phone:w-full" data-v-55be6e78="" data-v-71b06a1e="">
-                                      <span class="relative flex items-center text-20px leading-[140%] mr-8px cursor-pointer phone:text-12px phone:max-w-full phone:truncate" data-v-55be6e78=""><img src="../assets/img/topbanner_rewards_icon_black.svg" loading="lazy" alt="Bitget Register Rewards10.7207497969508465" class="w-24px h-24px align-bottom mr-8px phone:w-14px" style="display:none;" data-v-55be6e78=""> <img src="../assets/img/topbanner_rewards_icon_white.svg" loading="lazy" alt="Bitget Register Rewards20.6672565326670314" class="w-24px h-24px align-bottom mr-8px phone:w-14px" style="display:;" data-v-55be6e78=""> <span data-v-55be6e78="">Sign up now to claim a welcome pack of <span class="homepage-brand-color">6200 USDT</span>!</span></span>
+                                      <span class="relative flex items-center text-20px leading-[140%] mr-8px cursor-pointer phone:text-12px phone:max-w-full phone:truncate" data-v-55be6e78=""><img src="/baseasset/img/v3-home/topbanner_rewards_icon_black.svg" loading="lazy" alt="Bitget Register Rewards10.8693882227942433" class="w-24px h-24px align-bottom mr-8px phone:w-14px" style="display: none;" data-v-55be6e78=""> <img src="../assets/img/topbanner_rewards_icon_white.svg" loading="lazy" alt="Bitget Register Rewards20.418821450590283" class="w-24px h-24px align-bottom mr-8px phone:w-14px" style="" data-v-55be6e78=""> <span data-v-55be6e78="">Sign up now to claim a welcome pack of <span class="homepage-brand-color">6200 USDT</span>!</span></span>
                                       <div class="mt-24px w-1/1 flex flex-row box-border pad:mt-16px phone:hidden" data-v-55be6e78="">
                                         <div class="flex box-border w-full" data-v-55be6e78="">
                                           <div class="w-364px mr-8px pad:flex-auto phone:flex-auto phone:mr-6px bit-theme-light-vue2" style="background:transparent !important;" data-v-55be6e78="">
-                                            <div class="home-login-input" style="background-color:#FFFFFF;" data-v-55be6e78="">
+                                            <div class="home-login-input" style="background-color: rgb(255, 255, 255);" data-v-55be6e78="">
                                               <div class="bit-input bit-input--large bit-input--round" data-v-55be6e78=""><!----><!----><input type="text" autocomplete="off" placeholder="Email/Phone number" class="bit-input__inner"><!----><!----><!----><!----><!----><!---->
                                               </div>
                                             </div>
@@ -94,7 +143,7 @@
                                             <button type="button" class="bit-button resgiter-btn w-full bit-button--primary bit-button--large is-round" data-v-55be6e78=""><!----><!----><!----><span>Sign up</span><!---->
                                             </button>
                                           </div>
-                                          <span class="pad:hidden <md:hidden" data-v-55be6e78=""><div role="tooltip" id="bit-popover-2411" aria-hidden="true" class="bit-popover bit-popper" style="width:120px;display:none;" tabindex="0"><!----><div class="bit-popover__message-text"><!----><div class="bit-popover__content"><div data-v-55be6e78="" class="flex flex-col justify-center items-center"><div data-v-55be6e78="" class="text-v3PrimaryText text-14px font-600 leading-20px">Scan to download</div> <div data-v-55be6e78="" class="w-108px h-108px box-border bg-v3ContentAlwaysWhite px-4px py-4px rounded-4px mt-12px mb-24px"><canvas height="100" width="100"></canvas></div> <button data-v-55be6e78="" type="button" class="bit-button bit-button--primary is-round"><!----><!----><!----><span><span data-v-55be6e78="" class="inline-block max-w-86px truncate">More downloads</span></span><!----></button></div> </div></div></div><span class="bit-popover__reference-wrapper"><div class="box-border w-48px h-48px rounded-1 flex justify-center items-center ml-8px bg-v3LinkDefaultText text-v3ContentAlwaysWhite bit-popover__reference" data-v-55be6e78="" aria-describedby="bit-popover-2411" tabindex="0"><i class="bit-icon" style="font-size:28px;" data-v-55be6e78=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-v-55be6e78=""><path d="M9.75 3.75h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm0 3h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm9-15h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm-6 6.75v-3a.75.75 0 111.5 0v3a.75.75 0 11-1.5 0zm7.5-1.5a.75.75 0 01-.75.75h-2.25v3.75a.75.75 0 01-.75.75h-3a.75.75 0 110-1.5h2.25V13.5a.75.75 0 111.5 0v.75h2.25a.75.75 0 01.75.75zm0 3v1.5a.75.75 0 11-1.5 0V18a.75.75 0 111.5 0z"></path></svg></i></div></span></span>
+                                          <span class="pad:hidden <md:hidden" data-v-55be6e78=""><span class="bit-popover__reference-wrapper"><div class="box-border w-48px h-48px rounded-1 flex justify-center items-center ml-8px bg-v3LinkDefaultText text-v3ContentAlwaysWhite bit-popover__reference" data-v-55be6e78="" aria-describedby="bit-popover-3336" tabindex="0"><i class="bit-icon" style="font-size:28px;" data-v-55be6e78=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-v-55be6e78=""><path d="M9.75 3.75h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm0 3h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm9-15h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm-6 6.75v-3a.75.75 0 111.5 0v3a.75.75 0 11-1.5 0zm7.5-1.5a.75.75 0 01-.75.75h-2.25v3.75a.75.75 0 01-.75.75h-3a.75.75 0 110-1.5h2.25V13.5a.75.75 0 111.5 0v.75h2.25a.75.75 0 01.75.75zm0 3v1.5a.75.75 0 11-1.5 0V18a.75.75 0 111.5 0z"></path></svg></i></div></span></span>
                                         </div>
                                       </div>
                                       <div class="mt-16px flex justify-around gap-4px minPhone:hidden" data-v-55be6e78="">
@@ -106,16 +155,16 @@
                                     </div>
                                   </div> <!----></div>
                               </div>
-                              <div class="top-banner-image w-500px h-500px h-1/1 flex pad:mt-24px phone:hidden phone:w-132px phone:h-132px" style="background-image:url(https://img.bitgetimg.com/multiLang/web/6975ef3761e63b918e01164056ae4975.png);" data-v-3ded291d=""></div> <!---->
+                              <div class="top-banner-image w-500px h-500px h-1/1 flex pad:mt-24px phone:hidden phone:w-132px phone:h-132px" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/6975ef3761e63b918e01164056ae4975.png&quot;);" data-v-3ded291d=""></div> <!---->
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="swiper-slide box-border overflow-hidden swiper-slide-active" data-v-759fbb3f="" data-swiper-slide-index="1" style="width: 1924px;">
+                    <div class="swiper-slide box-border overflow-hidden swiper-slide-next" data-v-759fbb3f="" data-swiper-slide-index="2" style="width: 1817px;">
                       <div class="mx-auto h-1/1" data-v-759fbb3f="">
                         <div class="mx-auto box-border" data-v-759fbb3f="">
-                          <div id="contentBoxId" class="contentBox h-500px relative box-border flex overflow-hidden w-1/1 pad:h-906px  min-h-500px pad:min-h-906px phone:min-h-234px phone:h-234px" style="background-color:#FFFFFF;" data-v-3ded291d="">
+                          <div id="contentBoxId" class="contentBox h-500px relative box-border flex overflow-hidden w-1/1 pad:h-906px  min-h-500px pad:min-h-906px phone:min-h-234px phone:h-234px" style="background-color: rgb(255, 255, 255);" data-v-3ded291d="">
                             <div class="relative justify-between flex w-1200px mx-auto box-border <xl:w-full <xl:px-24px pad:flex-col pad:flex-col-reverse pad:justify-end pad:items-center pad:px-24px phone:justify-around phone:items-center phone:px-16px" data-v-3ded291d="">
                               <div class="w-600px z-1 h-360px flex flex-col justify-start mt-80px box-border <xl:w-528px !pad:mt-16px !pad:w-full pad:h-302px !phone:w-full !phone:mt-0 phone:h-222px" data-v-3ded291d="">
                                 <div class="phone:flex phone:justify-between phone:items-center phone:gap-8px" data-v-3ded291d="">
@@ -126,16 +175,16 @@
                                     <div class="line-clamp-2 mt-18px text-20px leading-[140%] text-v3PrimaryText phone:line-clamp-1 phone:mt-4px phone:text-12px" data-v-3ded291d="">
                                       Join the largest copy trading platform today
                                     </div> <!----></div>
-                                  <div class="top-banner-image w-500px h-500px mt-50px h-1/1 flex pad:mt-24px minPhone:hidden phone:w-132px phone:h-132px phone:mt-0" style="background-image:url(https://img.bitgetimg.com/multiLang/web/fc435e9f27bd2b1af619995b433ecdc0.png);" data-v-3ded291d=""></div>
+                                  <div class="top-banner-image w-500px h-500px mt-50px h-1/1 flex pad:mt-24px minPhone:hidden phone:w-132px phone:h-132px phone:mt-0" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/fc435e9f27bd2b1af619995b433ecdc0.png&quot;);" data-v-3ded291d=""></div>
                                 </div>
                                 <div data-v-71b06a1e="" data-v-3ded291d="" class="">
                                   <div class="w-1/1 pad:w-full phone:w-full" data-v-71b06a1e="">
                                     <div class="home-banner-login flex flex-col box-border text-v3PrimaryText font-400 leading-24px w-1/1 pc:mt-32px pad:w-full phone:w-full" data-v-55be6e78="" data-v-71b06a1e="">
-                                      <span class="relative flex items-center text-20px leading-[140%] mr-8px cursor-pointer phone:text-12px phone:max-w-full phone:truncate" data-v-55be6e78=""><img src="../assets/img/topbanner_rewards_icon_black.svg" loading="lazy" alt="Bitget Register Rewards10.8014622775353164" class="w-24px h-24px align-bottom mr-8px phone:w-14px" style="display:none;" data-v-55be6e78=""> <img src="../assets/img/topbanner_rewards_icon_white.svg" loading="lazy" alt="Bitget Register Rewards20.727461918153844" class="w-24px h-24px align-bottom mr-8px phone:w-14px" style="display:;" data-v-55be6e78=""> <span data-v-55be6e78="">Sign up now to claim a welcome pack of <span class="homepage-brand-color">6200 USDT</span>!</span></span>
+                                      <span class="relative flex items-center text-20px leading-[140%] mr-8px cursor-pointer phone:text-12px phone:max-w-full phone:truncate" data-v-55be6e78=""><img src="/baseasset/img/v3-home/topbanner_rewards_icon_black.svg" loading="lazy" alt="Bitget Register Rewards10.0643665874960695" class="w-24px h-24px align-bottom mr-8px phone:w-14px" style="display: none;" data-v-55be6e78=""> <img src="../assets/img/topbanner_rewards_icon_white.svg" loading="lazy" alt="Bitget Register Rewards20.08322935458827385" class="w-24px h-24px align-bottom mr-8px phone:w-14px" style="" data-v-55be6e78=""> <span data-v-55be6e78="">Sign up now to claim a welcome pack of <span class="homepage-brand-color">6200 USDT</span>!</span></span>
                                       <div class="mt-24px w-1/1 flex flex-row box-border pad:mt-16px phone:hidden" data-v-55be6e78="">
                                         <div class="flex box-border w-full" data-v-55be6e78="">
                                           <div class="w-364px mr-8px pad:flex-auto phone:flex-auto phone:mr-6px bit-theme-light-vue2" style="background:transparent !important;" data-v-55be6e78="">
-                                            <div class="home-login-input" style="background-color:#FFFFFF;" data-v-55be6e78="">
+                                            <div class="home-login-input" style="background-color: rgb(255, 255, 255);" data-v-55be6e78="">
                                               <div class="bit-input bit-input--large bit-input--round" data-v-55be6e78=""><!----><!----><input type="text" autocomplete="off" placeholder="Email/Phone number" class="bit-input__inner"><!----><!----><!----><!----><!----><!---->
                                               </div>
                                             </div>
@@ -144,7 +193,7 @@
                                             <button type="button" class="bit-button resgiter-btn w-full bit-button--primary bit-button--large is-round" data-v-55be6e78=""><!----><!----><!----><span>Sign up</span><!---->
                                             </button>
                                           </div>
-                                          <span class="pad:hidden <md:hidden" data-v-55be6e78=""><div role="tooltip" id="bit-popover-1856" aria-hidden="true" class="bit-popover bit-popper" style="width:120px;display:none;" tabindex="0"><!----><div class="bit-popover__message-text"><!----><div class="bit-popover__content"><div data-v-55be6e78="" class="flex flex-col justify-center items-center"><div data-v-55be6e78="" class="text-v3PrimaryText text-14px font-600 leading-20px">Scan to download</div> <div data-v-55be6e78="" class="w-108px h-108px box-border bg-v3ContentAlwaysWhite px-4px py-4px rounded-4px mt-12px mb-24px"><canvas height="100" width="100"></canvas></div> <button data-v-55be6e78="" type="button" class="bit-button bit-button--primary is-round"><!----><!----><!----><span><span data-v-55be6e78="" class="inline-block max-w-86px truncate">More downloads</span></span><!----></button></div> </div></div></div><span class="bit-popover__reference-wrapper"><div class="box-border w-48px h-48px rounded-1 flex justify-center items-center ml-8px bg-v3LinkDefaultText text-v3ContentAlwaysWhite bit-popover__reference" data-v-55be6e78="" aria-describedby="bit-popover-1856" tabindex="0"><i class="bit-icon" style="font-size:28px;" data-v-55be6e78=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-v-55be6e78=""><path d="M9.75 3.75h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm0 3h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm9-15h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm-6 6.75v-3a.75.75 0 111.5 0v3a.75.75 0 11-1.5 0zm7.5-1.5a.75.75 0 01-.75.75h-2.25v3.75a.75.75 0 01-.75.75h-3a.75.75 0 110-1.5h2.25V13.5a.75.75 0 111.5 0v.75h2.25a.75.75 0 01.75.75zm0 3v1.5a.75.75 0 11-1.5 0V18a.75.75 0 111.5 0z"></path></svg></i></div></span></span>
+                                          <span class="pad:hidden <md:hidden" data-v-55be6e78=""><span class="bit-popover__reference-wrapper"><div class="box-border w-48px h-48px rounded-1 flex justify-center items-center ml-8px bg-v3LinkDefaultText text-v3ContentAlwaysWhite bit-popover__reference" data-v-55be6e78="" aria-describedby="bit-popover-8078" tabindex="0"><i class="bit-icon" style="font-size:28px;" data-v-55be6e78=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-v-55be6e78=""><path d="M9.75 3.75h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm0 3h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm9-15h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm-6 6.75v-3a.75.75 0 111.5 0v3a.75.75 0 11-1.5 0zm7.5-1.5a.75.75 0 01-.75.75h-2.25v3.75a.75.75 0 01-.75.75h-3a.75.75 0 110-1.5h2.25V13.5a.75.75 0 111.5 0v.75h2.25a.75.75 0 01.75.75zm0 3v1.5a.75.75 0 11-1.5 0V18a.75.75 0 111.5 0z"></path></svg></i></div></span></span>
                                         </div>
                                       </div>
                                       <div class="mt-16px flex justify-around gap-4px minPhone:hidden" data-v-55be6e78="">
@@ -156,39 +205,36 @@
                                     </div>
                                   </div> <!----></div>
                               </div>
-                              <div class="top-banner-image w-500px h-500px h-1/1 flex pad:mt-24px phone:hidden phone:w-132px phone:h-132px" style="background-image:url(https://img.bitgetimg.com/multiLang/web/fc435e9f27bd2b1af619995b433ecdc0.png);" data-v-3ded291d=""></div> <!---->
+                              <div class="top-banner-image w-500px h-500px h-1/1 flex pad:mt-24px phone:hidden phone:w-132px phone:h-132px" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/fc435e9f27bd2b1af619995b433ecdc0.png&quot;);" data-v-3ded291d=""></div> <!---->
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="swiper-slide box-border overflow-hidden swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev" data-v-759fbb3f="" data-swiper-slide-index="0" style="width: 1924px;">
+                    <div class="swiper-slide box-border overflow-hidden swiper-slide-duplicate swiper-slide-duplicate-prev" data-v-759fbb3f="" data-swiper-slide-index="0" style="width: 1817px;">
                       <div class="mx-auto h-1/1" data-v-759fbb3f="">
                         <div class="mx-auto box-border" data-v-759fbb3f="">
-                          <div id="contentBoxId" class="contentBox h-500px relative box-border flex overflow-hidden w-1/1 pad:h-906px  min-h-500px pad:min-h-906px phone:min-h-234px phone:h-234px cursor-pointer" style="background-color:#FFFFFF;" data-v-3ded291d="">
+                          <div id="contentBoxId" class="contentBox h-500px relative box-border flex overflow-hidden w-1/1 pad:h-906px  min-h-500px pad:min-h-906px phone:min-h-234px phone:h-234px cursor-pointer" style="background-color: rgb(255, 255, 255);" data-v-3ded291d="">
                             <div class="relative justify-between flex w-1200px mx-auto box-border <xl:w-full <xl:px-24px pad:flex-col pad:flex-col-reverse pad:justify-end pad:items-center pad:px-24px phone:justify-around phone:items-center phone:px-16px" data-v-3ded291d="">
                               <div class="w-600px z-1 h-360px flex flex-col justify-start mt-80px box-border <xl:w-528px !pad:mt-16px !pad:w-full pad:h-302px !phone:w-full !phone:mt-0 phone:h-222px" data-v-3ded291d="">
                                 <div class="phone:flex phone:justify-between phone:items-center phone:gap-8px" data-v-3ded291d="">
                                   <div class="flex flex-col phone:max-w-218px" data-v-3ded291d="">
                                     <h1 class="m-0 line-clamp-2 flex flex-wrap text-56px font-600 leading-67px text-v3PrimaryText pad:text-48px pad:font-700 pad:leading-[120%] phone:font-700 phone:text-16px phone:leading-22px" data-v-3ded291d="">
-                                      Futures Elite Trader Leaderboard
+                                      Cheers to Oktoberfest !
                                     </h1>
                                     <div class="line-clamp-2 mt-18px text-20px leading-[140%] text-v3PrimaryText phone:line-clamp-1 phone:mt-4px phone:text-12px" data-v-3ded291d="">
-                                      Make the leaderboard to grab a share of 356,000 USDT!
-                                    </div>
-                                    <div class="line-clamp-2 mt-18px text-20px leading-[140%] text-v3PrimaryText phone:line-clamp-1 phone:mt-4px phone:text-12px" data-v-3ded291d="">
-                                      Up to 100 USDT Sunshine Award for everyone!
+                                      Trade to win your favorite beers and Munich Trip fund！
                                     </div> <!----></div>
-                                  <div class="top-banner-image w-500px h-500px mt-50px h-1/1 flex pad:mt-24px minPhone:hidden phone:w-132px phone:h-132px phone:mt-0" style="background-image:url(https://img.bitgetimg.com/multiLang/web/6975ef3761e63b918e01164056ae4975.png);" data-v-3ded291d=""></div>
+                                  <div class="top-banner-image w-500px h-500px mt-50px h-1/1 flex pad:mt-24px minPhone:hidden phone:w-132px phone:h-132px phone:mt-0" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/8a362d707de0b30ae0c15f6bf6fadb7d.png&quot;);" data-v-3ded291d=""></div>
                                 </div>
                                 <div data-v-71b06a1e="" data-v-3ded291d="" class="">
                                   <div class="w-1/1 pad:w-full phone:w-full" data-v-71b06a1e="">
                                     <div class="home-banner-login flex flex-col box-border text-v3PrimaryText font-400 leading-24px w-1/1 pc:mt-32px pad:w-full phone:w-full" data-v-55be6e78="" data-v-71b06a1e="">
-                                      <span class="relative flex items-center text-20px leading-[140%] mr-8px cursor-pointer phone:text-12px phone:max-w-full phone:truncate" data-v-55be6e78=""><img src="../assets/img/topbanner_rewards_icon_black.svg" loading="lazy" alt="Bitget Register Rewards10.7207497969508465" class="w-24px h-24px align-bottom mr-8px phone:w-14px" style="display:none;" data-v-55be6e78=""> <img src="../assets/img/topbanner_rewards_icon_white.svg" loading="lazy" alt="Bitget Register Rewards20.6672565326670314" class="w-24px h-24px align-bottom mr-8px phone:w-14px" style="display:;" data-v-55be6e78=""> <span data-v-55be6e78="">Sign up now to claim a welcome pack of <span class="homepage-brand-color">6200 USDT</span>!</span></span>
+                                      <span class="relative flex items-center text-20px leading-[140%] mr-8px cursor-pointer phone:text-12px phone:max-w-full phone:truncate" data-v-55be6e78=""><img src="/baseasset/img/v3-home/topbanner_rewards_icon_black.svg" loading="lazy" alt="Bitget Register Rewards10.6431780374331608" class="w-24px h-24px align-bottom mr-8px phone:w-14px" style="display: none;" data-v-55be6e78=""> <img src="../assets/img/topbanner_rewards_icon_white.svg" loading="lazy" alt="Bitget Register Rewards20.47659121214864175" class="w-24px h-24px align-bottom mr-8px phone:w-14px" style="" data-v-55be6e78=""> <span data-v-55be6e78="">Sign up now to claim a welcome pack of <span class="homepage-brand-color">6200 USDT</span>!</span></span>
                                       <div class="mt-24px w-1/1 flex flex-row box-border pad:mt-16px phone:hidden" data-v-55be6e78="">
                                         <div class="flex box-border w-full" data-v-55be6e78="">
                                           <div class="w-364px mr-8px pad:flex-auto phone:flex-auto phone:mr-6px bit-theme-light-vue2" style="background:transparent !important;" data-v-55be6e78="">
-                                            <div class="home-login-input" style="background-color:#FFFFFF;" data-v-55be6e78="">
+                                            <div class="home-login-input" style="background-color: rgb(255, 255, 255);" data-v-55be6e78="">
                                               <div class="bit-input bit-input--large bit-input--round" data-v-55be6e78=""><!----><!----><input type="text" autocomplete="off" placeholder="Email/Phone number" class="bit-input__inner"><!----><!----><!----><!----><!----><!---->
                                               </div>
                                             </div>
@@ -197,7 +243,7 @@
                                             <button type="button" class="bit-button resgiter-btn w-full bit-button--primary bit-button--large is-round" data-v-55be6e78=""><!----><!----><!----><span>Sign up</span><!---->
                                             </button>
                                           </div>
-                                          <span class="pad:hidden <md:hidden" data-v-55be6e78=""><div role="tooltip" id="bit-popover-2411" aria-hidden="true" class="bit-popover bit-popper" style="width:120px;display:none;" tabindex="0"><!----><div class="bit-popover__message-text"><!----><div class="bit-popover__content"><div data-v-55be6e78="" class="flex flex-col justify-center items-center"><div data-v-55be6e78="" class="text-v3PrimaryText text-14px font-600 leading-20px">Scan to download</div> <div data-v-55be6e78="" class="w-108px h-108px box-border bg-v3ContentAlwaysWhite px-4px py-4px rounded-4px mt-12px mb-24px"><canvas height="100" width="100"></canvas></div> <button data-v-55be6e78="" type="button" class="bit-button bit-button--primary is-round"><!----><!----><!----><span><span data-v-55be6e78="" class="inline-block max-w-86px truncate">More downloads</span></span><!----></button></div> </div></div></div><span class="bit-popover__reference-wrapper"><div class="box-border w-48px h-48px rounded-1 flex justify-center items-center ml-8px bg-v3LinkDefaultText text-v3ContentAlwaysWhite bit-popover__reference" data-v-55be6e78="" aria-describedby="bit-popover-2411" tabindex="0"><i class="bit-icon" style="font-size:28px;" data-v-55be6e78=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-v-55be6e78=""><path d="M9.75 3.75h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm0 3h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm9-15h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm-6 6.75v-3a.75.75 0 111.5 0v3a.75.75 0 11-1.5 0zm7.5-1.5a.75.75 0 01-.75.75h-2.25v3.75a.75.75 0 01-.75.75h-3a.75.75 0 110-1.5h2.25V13.5a.75.75 0 111.5 0v.75h2.25a.75.75 0 01.75.75zm0 3v1.5a.75.75 0 11-1.5 0V18a.75.75 0 111.5 0z"></path></svg></i></div></span></span>
+                                          <span class="pad:hidden <md:hidden" data-v-55be6e78=""><div role="tooltip" id="bit-popover-1837" aria-hidden="true" class="bit-popover bit-popper" style="width:120px;display:none;" tabindex="0"><!----><div class="bit-popover__message-text"><!----><div class="bit-popover__content"><div data-v-55be6e78="" class="flex flex-col justify-center items-center"><div data-v-55be6e78="" class="text-v3PrimaryText text-14px font-600 leading-20px">Scan to download</div> <div data-v-55be6e78="" class="w-108px h-108px box-border bg-v3ContentAlwaysWhite px-4px py-4px rounded-4px mt-12px mb-24px"><canvas height="100" width="100"></canvas></div> <button data-v-55be6e78="" type="button" class="bit-button bit-button--primary is-round"><!----><!----><!----><span><span data-v-55be6e78="" class="inline-block max-w-86px truncate">More downloads</span></span><!----></button></div> </div></div></div><span class="bit-popover__reference-wrapper"><div class="box-border w-48px h-48px rounded-1 flex justify-center items-center ml-8px bg-v3LinkDefaultText text-v3ContentAlwaysWhite bit-popover__reference" data-v-55be6e78="" aria-describedby="bit-popover-1837" tabindex="0"><i class="bit-icon" style="font-size:28px;" data-v-55be6e78=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-v-55be6e78=""><path d="M9.75 3.75h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm0 3h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm9-15h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm-6 6.75v-3a.75.75 0 111.5 0v3a.75.75 0 11-1.5 0zm7.5-1.5a.75.75 0 01-.75.75h-2.25v3.75a.75.75 0 01-.75.75h-3a.75.75 0 110-1.5h2.25V13.5a.75.75 0 111.5 0v.75h2.25a.75.75 0 01.75.75zm0 3v1.5a.75.75 0 11-1.5 0V18a.75.75 0 111.5 0z"></path></svg></i></div></span></span>
                                         </div>
                                       </div>
                                       <div class="mt-16px flex justify-around gap-4px minPhone:hidden" data-v-55be6e78="">
@@ -209,7 +255,7 @@
                                     </div>
                                   </div> <!----></div>
                               </div>
-                              <div class="top-banner-image w-500px h-500px h-1/1 flex pad:mt-24px phone:hidden phone:w-132px phone:h-132px" style="background-image:url(https://img.bitgetimg.com/multiLang/web/6975ef3761e63b918e01164056ae4975.png);" data-v-3ded291d=""></div> <!---->
+                              <div class="top-banner-image w-500px h-500px h-1/1 flex pad:mt-24px phone:hidden phone:w-132px phone:h-132px" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/8a362d707de0b30ae0c15f6bf6fadb7d.png&quot;);" data-v-3ded291d=""></div> <!---->
                             </div>
                           </div>
                         </div>
@@ -217,7 +263,7 @@
                     </div>
                   </div>
                   <div class="swiper-pagination-banner absolute text-center z-3 !bottom-20px !pad:bottom-24px swiper-container-pc-pagination !phone:-bottom-4px swiper-pagination-clickable swiper-pagination-bullets" style="display:;" data-v-759fbb3f="">
-                    <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 2"></span>
+                    <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span>
                   </div>
                   <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
               </div>
@@ -231,14 +277,14 @@
                         <h1 class="m-0 leading-67px text-[var(--ds-color-function-brand)] whitespace-pre-line pad:text-48px pad:font-700 pad:leading-[120%] minPhone:hidden phone:max-w-full phone:text-20px phone:font-700 phone:leading-[120%]" data-v-7259d6c5="">6 Years of Trust</h1>
                         <h1 class="m-0 leading-67px text-v3PrimaryText whitespace-pre-line pad:text-48px pad:font-700 pad:leading-[120%] minPhone:hidden phone:max-w-full phone:text-20px phone:font-700 phone:leading-[120%]" data-v-7259d6c5="">Trade Smarter with Bitget</h1>
                       </div>
-                      <img alt="messi-banner-h50.07834785779487152" fetchpriority="high" width="132" height="132" src="../assets/img/6th_anniversary_h5.png?t=20240910" class="top-banner-image pro:hidden air:hidden pad:hidden phone:w-132px phone:h-132px" data-v-7259d6c5="">
+                      <img alt="messi-banner-h50.5718947667932099" fetchpriority="high" width="132" height="132" src="/baseasset/img/v3-home/6th_anniversary_h5.png?t=20240910" class="top-banner-image pro:hidden air:hidden pad:hidden phone:w-132px phone:h-132px" data-v-7259d6c5="">
                     </div>
                     <div class="w-600px h-360px z-1 flex flex-col mt-120px box-border <xl:w-448px !pad:w-full pad:mt-0 pad:h-auto phone:w-full phone:mt-10px phone:h-auto" data-v-7259d6c5="">
                       <h1 class="text-56px font-600 leading-67px text-[var(--ds-color-function-brand)] whitespace-pre-line pad:text-48px pad:font-700 pad:leading-[120%] phone:hidden phone:max-w-full phone:font-700 phone:text-32px phone:font-700 phone:leading-38px" data-v-7259d6c5="">6 Years of Trust</h1>
                       <h1 class="text-56px font-600 leading-67px text-v3PrimaryText whitespace-pre-line pad:text-48px pad:font-700 pad:leading-[120%] phone:hidden phone:max-w-full phone:font-700 phone:text-32px phone:font-700 phone:leading-38px" data-v-7259d6c5="">Trade Smarter with Bitget</h1>
                       <div class="mt-120px w-1/1 pc:mt-32px air:mt-55px pad:w-full pad:mt-68px phone:w-full phone:mt-0px" data-v-7259d6c5="">
                         <div data-v-55be6e78="" data-v-7259d6c5="" class="home-banner-login flex flex-col box-border text-v3PrimaryText font-400 leading-24px w-1/1 pc:mt-32px pad:w-full phone:w-full">
-                          <span data-v-55be6e78="" class="relative flex items-center text-20px leading-[140%] mr-8px cursor-pointer phone:text-12px phone:max-w-full phone:truncate"><img data-v-55be6e78="" src="../assets/img/topbanner_rewards_icon_black.svg" loading="lazy" alt="Bitget Register Rewards10.3621604396419944" class="w-24px h-24px align-bottom mr-8px phone:w-14px"> <img data-v-55be6e78="" src="../assets/img/topbanner_rewards_icon_white.svg" loading="lazy" alt="Bitget Register Rewards20.00671281472987495" class="w-24px h-24px align-bottom mr-8px phone:w-14px" style="display: none;"> <span data-v-55be6e78="">Sign up now to claim a welcome pack of <span class="homepage-brand-color">6200 USDT</span>!</span></span>
+                          <span data-v-55be6e78="" class="relative flex items-center text-20px leading-[140%] mr-8px cursor-pointer phone:text-12px phone:max-w-full phone:truncate"><img data-v-55be6e78="" src="/baseasset/img/v3-home/topbanner_rewards_icon_black.svg" loading="lazy" alt="Bitget Register Rewards10.2998460856583589" class="w-24px h-24px align-bottom mr-8px phone:w-14px"> <img data-v-55be6e78="" src="../assets/img/topbanner_rewards_icon_white.svg" loading="lazy" alt="Bitget Register Rewards20.9116310723976784" class="w-24px h-24px align-bottom mr-8px phone:w-14px" style="display: none;"> <span data-v-55be6e78="">Sign up now to claim a welcome pack of <span class="homepage-brand-color">6200 USDT</span>!</span></span>
                           <div data-v-55be6e78="" class="mt-24px w-1/1 flex flex-row box-border pad:mt-16px phone:hidden">
                             <div data-v-55be6e78="" class="flex box-border w-full">
                               <div data-v-55be6e78="" class="w-364px mr-8px pad:flex-auto phone:flex-auto phone:mr-6px bit-theme-light-vue2" style="background: transparent !important;">
@@ -251,7 +297,7 @@
                                 <button data-v-55be6e78="" type="button" class="bit-button resgiter-btn w-full bit-button--primary bit-button--large is-round"><!----><!----><!----><span>Sign up</span><!---->
                                 </button>
                               </div>
-                              <span data-v-55be6e78="" class="pad:hidden <md:hidden"><div role="tooltip" id="bit-popover-4642" aria-hidden="true" class="bit-popover bit-popper" tabindex="0" style="width: 120px; display: none;"><!----><div class="bit-popover__message-text"><!----><div class="bit-popover__content"><div data-v-55be6e78="" class="flex flex-col justify-center items-center"><div data-v-55be6e78="" class="text-v3PrimaryText text-14px font-600 leading-20px">Scan to download</div> <div data-v-55be6e78="" class="w-108px h-108px box-border bg-v3ContentAlwaysWhite px-4px py-4px rounded-4px mt-12px mb-24px"><canvas height="100" width="100"></canvas></div> <button data-v-55be6e78="" type="button" class="bit-button bit-button--primary is-round"><!----><!----><!----><span><span data-v-55be6e78="" class="inline-block max-w-86px truncate">More downloads</span></span><!----></button></div> </div></div></div><span class="bit-popover__reference-wrapper"><div data-v-55be6e78="" class="box-border w-48px h-48px rounded-1 flex justify-center items-center ml-8px bg-v3LinkDefaultText text-v3ContentAlwaysWhite bit-popover__reference" aria-describedby="bit-popover-4642" tabindex="0"><i data-v-55be6e78="" class="bit-icon" style="font-size: 28px;"><svg data-v-55be6e78="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9.75 3.75h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm0 3h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm9-15h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm-6 6.75v-3a.75.75 0 111.5 0v3a.75.75 0 11-1.5 0zm7.5-1.5a.75.75 0 01-.75.75h-2.25v3.75a.75.75 0 01-.75.75h-3a.75.75 0 110-1.5h2.25V13.5a.75.75 0 111.5 0v.75h2.25a.75.75 0 01.75.75zm0 3v1.5a.75.75 0 11-1.5 0V18a.75.75 0 111.5 0z"></path></svg></i></div></span></span>
+                              <span data-v-55be6e78="" class="pad:hidden <md:hidden"><div role="tooltip" id="bit-popover-677" aria-hidden="true" class="bit-popover bit-popper" tabindex="0" style="width: 120px; display: none;"><!----><div class="bit-popover__message-text"><!----><div class="bit-popover__content"><div data-v-55be6e78="" class="flex flex-col justify-center items-center"><div data-v-55be6e78="" class="text-v3PrimaryText text-14px font-600 leading-20px">Scan to download</div> <div data-v-55be6e78="" class="w-108px h-108px box-border bg-v3ContentAlwaysWhite px-4px py-4px rounded-4px mt-12px mb-24px"><canvas height="100" width="100"></canvas></div> <button data-v-55be6e78="" type="button" class="bit-button bit-button--primary is-round"><!----><!----><!----><span><span data-v-55be6e78="" class="inline-block max-w-86px truncate">More downloads</span></span><!----></button></div> </div></div></div><span class="bit-popover__reference-wrapper"><div data-v-55be6e78="" class="box-border w-48px h-48px rounded-1 flex justify-center items-center ml-8px bg-v3LinkDefaultText text-v3ContentAlwaysWhite bit-popover__reference" aria-describedby="bit-popover-677" tabindex="0"><i data-v-55be6e78="" class="bit-icon" style="font-size: 28px;"><svg data-v-55be6e78="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9.75 3.75h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm0 3h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm9-15h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm-6 6.75v-3a.75.75 0 111.5 0v3a.75.75 0 11-1.5 0zm7.5-1.5a.75.75 0 01-.75.75h-2.25v3.75a.75.75 0 01-.75.75h-3a.75.75 0 110-1.5h2.25V13.5a.75.75 0 111.5 0v.75h2.25a.75.75 0 01.75.75zm0 3v1.5a.75.75 0 11-1.5 0V18a.75.75 0 111.5 0z"></path></svg></i></div></span></span>
                             </div>
                           </div>
                           <div data-v-55be6e78="" class="mt-16px flex justify-around gap-4px minPhone:hidden">
@@ -263,7 +309,7 @@
                         </div>
                       </div>
                     </div>
-                    <img alt="messi-banner-pc0.1424026180167728" fetchpriority="high" width="560" height="560" src="../assets/img/6th_brand.png?t=20240910" class="top-banner-image w-560px h-560px flex <xl:-ml-120px air:w-488px air:h-488px air:mt-50px pad:order-first pad:ml-0 !pad:m-auto phone:hidden" data-v-7259d6c5="">
+                    <img alt="messi-banner-pc0.006486881576160952" fetchpriority="high" width="560" height="560" src="/baseasset/img/v3-home/6th_brand.png?t=20240910" class="top-banner-image w-560px h-560px flex <xl:-ml-120px air:w-488px air:h-488px air:mt-50px pad:order-first pad:ml-0 !pad:m-auto phone:hidden" data-v-7259d6c5="">
                   </div>
                 </div>
               </div>
@@ -333,20 +379,24 @@
                 <div class="swiper-wrapper" data-v-0863e2f6="" style="transform: translate3d(0px, 0px, 0px);">
                   <div class="trad-card-con swiper-slide swiper-slide-active" style="margin-right: 16px;" data-v-0863e2f6="">
                     <div class="trad-card-con-item" data-v-0863e2f6="">
-                      <a href="/asia/events/launchpool/1220235662020993024" target="_blank" class="bit-link bit-link--default" data-v-0863e2f6=""><!----><span class="bit-link--inner"><img fetchpriority="high" width="288" height="144" src="https://img.bitgetimg.com/multiLang/web/51d42f3d4222b421f645aa50d52fd7e3.png" alt="trad-card-con-item-img-1" class="trad-card-con-item-img" data-v-0863e2f6=""></span><!---->
-                      </a></div> <!----></div>
+                      <a href="/asia/events/launchpool/1220235662020993024" target="_blank" class="bit-link bit-link--default" data-v-0863e2f6=""><span class="bit-link--inner"><img fetchpriority="high" width="288" height="144" src="https://img.bitgetimg.com/multiLang/web/51d42f3d4222b421f645aa50d52fd7e3.png" alt="trad-card-con-item-img-1" class="trad-card-con-item-img" data-v-0863e2f6=""></span>
+                      </a></div>
+                  </div>
                   <div class="trad-card-con swiper-slide swiper-slide-next" style="margin-right: 16px;" data-v-0863e2f6="">
                     <div class="trad-card-con-item" data-v-0863e2f6="">
-                      <a href="/asia/events/activities/6d21afc220ab54c6a2fcefcf50af0d1f?color=black" target="_blank" class="bit-link bit-link--default" data-v-0863e2f6=""><!----><span class="bit-link--inner"><img fetchpriority="high" width="288" height="144" src="https://img.bitgetimg.com/multiLang/web/fbd9e793765b41b672247285a528c3b0.jpg" alt="trad-card-con-item-img-2" class="trad-card-con-item-img" data-v-0863e2f6=""></span><!---->
-                      </a></div> <!----></div>
+                      <a href="/asia/events/activities/6d21afc220ab54c6a2fcefcf50af0d1f?color=black" target="_blank" class="bit-link bit-link--default" data-v-0863e2f6=""><span class="bit-link--inner"><img fetchpriority="high" width="288" height="144" src="https://img.bitgetimg.com/multiLang/web/fbd9e793765b41b672247285a528c3b0.jpg" alt="trad-card-con-item-img-2" class="trad-card-con-item-img" data-v-0863e2f6=""></span>
+                      </a></div>
+                  </div>
                   <div class="trad-card-con swiper-slide" style="margin-right: 16px;" data-v-0863e2f6="">
                     <div class="trad-card-con-item" data-v-0863e2f6="">
-                      <a href="/asia/events/activities/e25a51d3003b5823bd073962afb707b8?color=black" target="_blank" class="bit-link bit-link--default" data-v-0863e2f6=""><!----><span class="bit-link--inner"><img fetchpriority="high" width="288" height="144" src="https://img.bitgetimg.com/multiLang/web/f5d09323c83e49b1dde936bcacbe969b.jpg" alt="trad-card-con-item-img-3" class="trad-card-con-item-img" data-v-0863e2f6=""></span><!---->
-                      </a></div> <!----></div>
+                      <a href="/asia/events/activities/e25a51d3003b5823bd073962afb707b8?color=black" target="_blank" class="bit-link bit-link--default" data-v-0863e2f6=""><span class="bit-link--inner"><img fetchpriority="high" width="288" height="144" src="https://img.bitgetimg.com/multiLang/web/f5d09323c83e49b1dde936bcacbe969b.jpg" alt="trad-card-con-item-img-3" class="trad-card-con-item-img" data-v-0863e2f6=""></span>
+                      </a></div>
+                  </div>
                   <div class="trad-card-con swiper-slide" style="margin-right: 16px;" data-v-0863e2f6="">
                     <div class="trad-card-con-item" data-v-0863e2f6="">
-                      <a href="/asia/events/activities/685ec5af1c205faeaa0722cd09af5a12?color=black" target="_blank" class="bit-link bit-link--default" data-v-0863e2f6=""><!----><span class="bit-link--inner"><img fetchpriority="high" width="288" height="144" src="https://img.bitgetimg.com/multiLang/web/053625720431387c124a5ee8aab78633.jpg" alt="trad-card-con-item-img-4" class="trad-card-con-item-img" data-v-0863e2f6=""></span><!---->
-                      </a></div> <!----></div>
+                      <a href="/asia/events/activities/685ec5af1c205faeaa0722cd09af5a12?color=black" target="_blank" class="bit-link bit-link--default" data-v-0863e2f6=""><span class="bit-link--inner"><img fetchpriority="high" width="288" height="144" src="https://img.bitgetimg.com/multiLang/web/053625720431387c124a5ee8aab78633.jpg" alt="trad-card-con-item-img-4" class="trad-card-con-item-img" data-v-0863e2f6=""></span>
+                      </a></div>
+                  </div>
                 </div>
                 <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
               <div class="home-swiper-btn btn-prev flex rtl-rotate ltr:flex-row rtl:flex-row-reverse" data-v-0863e2f6="" tabindex="0" role="button" aria-label="Previous slide" aria-disabled="true">
@@ -374,15 +424,18 @@
               <div class="flex flex-row justify-between mt-24px phone:mt-16px" data-v-6ca8e267="">
                 <div class="notice w-7/10 !minIpad:w-1/1" data-v-6ca8e267="">
                   <img src="../assets/img/notice.png" loading="lazy" alt="home-hornBlack" class="notice-img rtl-rotate" data-v-6ca8e267="">
-                  <div class="notice-container bit-carousel bit-carousel--vertical" data-v-6ca8e267=""><!----><!---->
+                  <div class="notice-container bit-carousel bit-carousel--vertical" data-v-6ca8e267="">
                     <div class="bit-carousel__container">
-                      <div class="bit-carousel__item notice-container-item is-animating" style="transform: translateY(-32px) scale(1);" data-v-6ca8e267=""><!----><a href="/asia/support/articles/12560603813487" target="_blank" rel="noopener" class="notice-container-item-sp_box notice-container-item-sp_box-text leading-normal-14px relative text-14px font-normal-400 not-italic text-primaryText phone:text-12px bit-link bit-link--default is-underline" data-v-6ca8e267=""><!----><span class="bit-link--inner">
+                      <div class="bit-carousel__item notice-container-item is-animating" style="transform: translateY(-32px) scale(1);" data-v-6ca8e267="">
+                        <a href="/asia/support/articles/12560603813487" target="_blank" rel="noopener" class="notice-container-item-sp_box notice-container-item-sp_box-text leading-normal-14px relative text-14px font-normal-400 not-italic text-primaryText phone:text-12px bit-link bit-link--default is-underline" data-v-6ca8e267=""><span class="bit-link--inner">
                     Bitget to launch USDC/USDT spot trading zero transaction fee promotion
-                </span><!----></a></div>
-                      <div class="bit-carousel__item notice-container-item is-active is-animating" style="transform: translateY(0px) scale(1);" data-v-6ca8e267=""><!----><a href="/asia/support/articles/12560603805495" target="_blank" rel="noopener" class="notice-container-item-sp_box notice-container-item-sp_box-text leading-normal-14px relative text-14px font-normal-400 not-italic text-primaryText phone:text-12px bit-link bit-link--default is-underline" data-v-6ca8e267=""><!----><span class="bit-link--inner">
+                </span></a></div>
+                      <div class="bit-carousel__item notice-container-item is-active is-animating" style="transform: translateY(0px) scale(1);" data-v-6ca8e267="">
+                        <a href="/asia/support/articles/12560603805495" target="_blank" rel="noopener" class="notice-container-item-sp_box notice-container-item-sp_box-text leading-normal-14px relative text-14px font-normal-400 not-italic text-primaryText phone:text-12px bit-link bit-link--default is-underline" data-v-6ca8e267=""><span class="bit-link--inner">
                     Spot copy trading: Leverage elite experts' investment wisdom and techniques
-                </span><!----></a></div>
-                    </div><!----></div>
+                </span></a></div>
+                    </div>
+                  </div>
                 </div>
                 <div class="trad-card-footer-seemore w-3/10 flex justify-end text-primary" data-v-6ca8e267="">
                   <a href="/asia/support/categories/360002621832" target="_blank" class="flex items-center text-primary text-16px whitespace-nowrap phone:text-12px" data-v-6ca8e267="">
@@ -394,7 +447,7 @@
                     </i></a></div>
               </div>
             </div>
-          </div> <!---->
+          </div>
           <div class="phone:hidden home-trend" data-v-08a1c11c="">
             <div class="v2-home-markets mx-auto max-w-1200px box-border mt-140px <xl:w-full <xl:max-w-none <xl:px-24px <xl:mt-90px pad:mt-80px phone:mt-58px phone:px-16px" data-v-08a1c11c="">
               <div>
@@ -451,7 +504,7 @@
                             <div data-v-e20b0ac4="" class="mi-skeleton__item mi-skeleton__circle mi-skeleton__circle--default w-40px h-40px md:w-48px md:h-48px"><!--v-if--></div>
                           </div>
                           <div data-v-e20b0ac4="" class="flex flex-1 flex-col gap-12px md:gap-16px overflow-hidden">
-                            <div class="min-h-38px"><!----></div>
+                            <div class="min-h-38px"></div>
                           </div>
                         </div>
                         <div data-v-e20b0ac4="" class="pt-16px border-t-1px border-line border-[#DEDFE0]">
@@ -486,19 +539,20 @@
                   </a><a href="" class="alink px-16px py-11px min-w-60px text-14px box-border h-42px cursor-pointer flex justify-center items-center rounded-35px bg-v3levelsurface0 text-v3TertiaryText mr-12px !phone:px-16px !phone:py-8px !phone:min-w-42px !phone:text-14px !phone:rounded-38px !phone:h-32px" data-v-08ab0a86="">
                     Volume
                   </a></div>
-                </div> <!----></div> <!---->
+                </div>
+              </div>
               <div style="min-height: 194px;">
                 <div data-v-0e18dafb="" class="v3-marketList-box">
                   <div data-v-0e18dafb="">
                     <div data-v-0e18dafb="">
                       <div data-v-539e5ed0="" data-v-0e18dafb="" class="v3-marketTable-box">
                         <div data-v-539e5ed0="" class="bit-table bit-table--fit bit-table--header-border bit-table--enable-row-transition" style="width: 100%;">
-                          <div class="hidden-columns"><!---->
+                          <div class="hidden-columns">
                             <div data-v-539e5ed0=""></div>
                             <div data-v-539e5ed0=""></div>
                             <div data-v-539e5ed0=""></div>
                             <div data-v-539e5ed0=""></div>
-                            <div data-v-539e5ed0=""></div> <!---->
+                            <div data-v-539e5ed0=""></div>
                             <div data-v-539e5ed0=""></div>
                           </div>
                           <div class="bit-table__header-wrapper">
@@ -565,7 +619,7 @@
                                     RBTC
                                      <span data-v-539e5ed0="" class="font-400 text-12px text-v3TertiaryText">
                                         / USDT
-                                       <!----></span></span> <img data-v-539e5ed0="" src="https://img.bitgetimg.com/multiLang/web/c5006cc153f4fa04e28d23751a6a094a.png" alt="RBTCNEWUSDT_SPBL_label_icon" loading="lazy" class="relative h-16px ml-4px"></span>
+                                       </span></span> <img data-v-539e5ed0="" src="https://img.bitgetimg.com/multiLang/web/c5006cc153f4fa04e28d23751a6a094a.png" alt="RBTCNEWUSDT_SPBL_label_icon" loading="lazy" class="relative h-16px ml-4px"></span>
                                     </div>
                                   </div>
                                 </td>
@@ -575,7 +629,7 @@
                         </div></span></div>
                                 </td>
                                 <td rowspan="1" colspan="1" class="bit-table_1_column_4   bit-table__cell">
-                                  <div class="cell"><span data-v-539e5ed0="" class="text-14px font-500 leading-22px text-primaryText floatNum"><span data-v-539e5ed0="" dir="ltr" class="text-v3TradeBuyText"><!---->+2576.15%
+                                  <div class="cell"><span data-v-539e5ed0="" class="text-14px font-500 leading-22px text-primaryText floatNum"><span data-v-539e5ed0="" dir="ltr" class="text-v3TradeBuyText">+2576.15%
 </span></span></div>
                                 </td>
                                 <td rowspan="1" colspan="1" class="bit-table_1_column_5   bit-table__cell">
@@ -609,7 +663,7 @@
                                     WAT
                                      <span data-v-539e5ed0="" class="font-400 text-12px text-v3TertiaryText">
                                         / USDT
-                                       <!----></span></span> <img data-v-539e5ed0="" src="https://img.bitgetimg.com/multiLang/web/8209f82e444e768cb948f6bceb8b222d.png" alt="WATUSDT_SPBL_label_icon" loading="lazy" class="relative h-16px ml-4px"></span>
+                                       </span></span> <img data-v-539e5ed0="" src="https://img.bitgetimg.com/multiLang/web/8209f82e444e768cb948f6bceb8b222d.png" alt="WATUSDT_SPBL_label_icon" loading="lazy" class="relative h-16px ml-4px"></span>
                                     </div>
                                   </div>
                                 </td>
@@ -619,7 +673,7 @@
                         </div></span></div>
                                 </td>
                                 <td rowspan="1" colspan="1" class="bit-table_1_column_4   bit-table__cell">
-                                  <div class="cell"><span data-v-539e5ed0="" class="text-14px font-500 leading-22px text-primaryText floatNum"><span data-v-539e5ed0="" dir="ltr" class="text-v3TradeBuyText"><!---->+838.75%
+                                  <div class="cell"><span data-v-539e5ed0="" class="text-14px font-500 leading-22px text-primaryText floatNum"><span data-v-539e5ed0="" dir="ltr" class="text-v3TradeBuyText">+838.75%
 </span></span></div>
                                 </td>
                                 <td rowspan="1" colspan="1" class="bit-table_1_column_5   bit-table__cell">
@@ -653,7 +707,7 @@
                                     CEL
                                      <span data-v-539e5ed0="" class="font-400 text-12px text-v3TertiaryText">
                                         / USDT
-                                       <!----></span></span> </span></div>
+                                       </span></span> </span></div>
                                   </div>
                                 </td>
                                 <td rowspan="1" colspan="1" class="bit-table_1_column_3   bit-table__cell">
@@ -662,7 +716,7 @@
                         </div></span></div>
                                 </td>
                                 <td rowspan="1" colspan="1" class="bit-table_1_column_4   bit-table__cell">
-                                  <div class="cell"><span data-v-539e5ed0="" class="text-14px font-500 leading-22px text-primaryText floatNum"><span data-v-539e5ed0="" dir="ltr" class="text-v3TradeBuyText"><!---->+56.65%
+                                  <div class="cell"><span data-v-539e5ed0="" class="text-14px font-500 leading-22px text-primaryText floatNum"><span data-v-539e5ed0="" dir="ltr" class="text-v3TradeBuyText">+56.65%
 </span></span></div>
                                 </td>
                                 <td rowspan="1" colspan="1" class="bit-table_1_column_5   bit-table__cell">
@@ -696,7 +750,7 @@
                                     AIT
                                      <span data-v-539e5ed0="" class="font-400 text-12px text-v3TertiaryText">
                                         / USDT
-                                       <!----></span></span> </span></div>
+                                       </span></span> </span></div>
                                   </div>
                                 </td>
                                 <td rowspan="1" colspan="1" class="bit-table_1_column_3   bit-table__cell">
@@ -705,7 +759,7 @@
                         </div></span></div>
                                 </td>
                                 <td rowspan="1" colspan="1" class="bit-table_1_column_4   bit-table__cell">
-                                  <div class="cell"><span data-v-539e5ed0="" class="text-14px font-500 leading-22px text-primaryText floatNum"><span data-v-539e5ed0="" dir="ltr" class="text-v3TradeBuyText"><!---->+47.21%
+                                  <div class="cell"><span data-v-539e5ed0="" class="text-14px font-500 leading-22px text-primaryText floatNum"><span data-v-539e5ed0="" dir="ltr" class="text-v3TradeBuyText">+47.21%
 </span></span></div>
                                 </td>
                                 <td rowspan="1" colspan="1" class="bit-table_1_column_5   bit-table__cell">
@@ -739,7 +793,7 @@
                                     AIN
                                      <span data-v-539e5ed0="" class="font-400 text-12px text-v3TertiaryText">
                                         / USDT
-                                       <!----></span></span> </span></div>
+                                       </span></span> </span></div>
                                   </div>
                                 </td>
                                 <td rowspan="1" colspan="1" class="bit-table_1_column_3   bit-table__cell">
@@ -748,7 +802,7 @@
                         </div></span></div>
                                 </td>
                                 <td rowspan="1" colspan="1" class="bit-table_1_column_4   bit-table__cell">
-                                  <div class="cell"><span data-v-539e5ed0="" class="text-14px font-500 leading-22px text-primaryText floatNum"><span data-v-539e5ed0="" dir="ltr" class="text-v3TradeBuyText"><!---->+32.1%
+                                  <div class="cell"><span data-v-539e5ed0="" class="text-14px font-500 leading-22px text-primaryText floatNum"><span data-v-539e5ed0="" dir="ltr" class="text-v3TradeBuyText">+32.1%
 </span></span></div>
                                 </td>
                                 <td rowspan="1" colspan="1" class="bit-table_1_column_5   bit-table__cell">
@@ -782,7 +836,7 @@
                                     OFN
                                      <span data-v-539e5ed0="" class="font-400 text-12px text-v3TertiaryText">
                                         / USDT
-                                       <!----></span></span> </span></div>
+                                       </span></span> </span></div>
                                   </div>
                                 </td>
                                 <td rowspan="1" colspan="1" class="bit-table_1_column_3   bit-table__cell">
@@ -791,7 +845,7 @@
                         </div></span></div>
                                 </td>
                                 <td rowspan="1" colspan="1" class="bit-table_1_column_4   bit-table__cell">
-                                  <div class="cell"><span data-v-539e5ed0="" class="text-14px font-500 leading-22px text-primaryText floatNum"><span data-v-539e5ed0="" dir="ltr" class="text-v3TradeBuyText"><!---->+31.26%
+                                  <div class="cell"><span data-v-539e5ed0="" class="text-14px font-500 leading-22px text-primaryText floatNum"><span data-v-539e5ed0="" dir="ltr" class="text-v3TradeBuyText">+31.26%
 </span></span></div>
                                 </td>
                                 <td rowspan="1" colspan="1" class="bit-table_1_column_5   bit-table__cell">
@@ -825,7 +879,7 @@
                                     NMT
                                      <span data-v-539e5ed0="" class="font-400 text-12px text-v3TertiaryText">
                                         / USDT
-                                       <!----></span></span> </span></div>
+                                       </span></span> </span></div>
                                   </div>
                                 </td>
                                 <td rowspan="1" colspan="1" class="bit-table_1_column_3   bit-table__cell">
@@ -834,7 +888,7 @@
                         </div></span></div>
                                 </td>
                                 <td rowspan="1" colspan="1" class="bit-table_1_column_4   bit-table__cell">
-                                  <div class="cell"><span data-v-539e5ed0="" class="text-14px font-500 leading-22px text-primaryText floatNum"><span data-v-539e5ed0="" dir="ltr" class="text-v3TradeBuyText"><!---->+31.21%
+                                  <div class="cell"><span data-v-539e5ed0="" class="text-14px font-500 leading-22px text-primaryText floatNum"><span data-v-539e5ed0="" dir="ltr" class="text-v3TradeBuyText">+31.21%
 </span></span></div>
                                 </td>
                                 <td rowspan="1" colspan="1" class="bit-table_1_column_5   bit-table__cell">
@@ -853,8 +907,10 @@
                             </span></div>
                                     </a></div>
                                 </td>
-                              </tr><!----></tbody>
-                            </table><!----><!----></div><!---->
+                              </tr>
+                              </tbody>
+                            </table>
+                          </div>
                           <div class="bit-table__fixed" style="width: 247px; height: 603px;">
                             <div class="bit-table__fixed-header-wrapper">
                               <table cellspacing="0" cellpadding="0" border="0" class="bit-table__header" style="width: 1173px;">
@@ -918,7 +974,7 @@
                                     RBTC
                                      <span data-v-539e5ed0="" class="font-400 text-12px text-v3TertiaryText">
                                         / USDT
-                                       <!----></span></span> <img data-v-539e5ed0="" src="https://img.bitgetimg.com/multiLang/web/c5006cc153f4fa04e28d23751a6a094a.png" alt="RBTCNEWUSDT_SPBL_label_icon" loading="lazy" class="relative h-16px ml-4px"></span>
+                                       </span></span> <img data-v-539e5ed0="" src="https://img.bitgetimg.com/multiLang/web/c5006cc153f4fa04e28d23751a6a094a.png" alt="RBTCNEWUSDT_SPBL_label_icon" loading="lazy" class="relative h-16px ml-4px"></span>
                                       </div>
                                     </div>
                                   </td>
@@ -928,7 +984,7 @@
                         </div></span></div>
                                   </td>
                                   <td rowspan="1" colspan="1" class="bit-table_1_column_4   is-hidden bit-table__cell">
-                                    <div class="cell"><span data-v-539e5ed0="" class="text-14px font-500 leading-22px text-primaryText floatNum"><span data-v-539e5ed0="" dir="ltr" class="text-v3TradeBuyText"><!---->+2576.15%
+                                    <div class="cell"><span data-v-539e5ed0="" class="text-14px font-500 leading-22px text-primaryText floatNum"><span data-v-539e5ed0="" dir="ltr" class="text-v3TradeBuyText">+2576.15%
 </span></span></div>
                                   </td>
                                   <td rowspan="1" colspan="1" class="bit-table_1_column_5   is-hidden bit-table__cell">
@@ -962,7 +1018,7 @@
                                     WAT
                                      <span data-v-539e5ed0="" class="font-400 text-12px text-v3TertiaryText">
                                         / USDT
-                                       <!----></span></span> <img data-v-539e5ed0="" src="https://img.bitgetimg.com/multiLang/web/8209f82e444e768cb948f6bceb8b222d.png" alt="WATUSDT_SPBL_label_icon" loading="lazy" class="relative h-16px ml-4px"></span>
+                                       </span></span> <img data-v-539e5ed0="" src="https://img.bitgetimg.com/multiLang/web/8209f82e444e768cb948f6bceb8b222d.png" alt="WATUSDT_SPBL_label_icon" loading="lazy" class="relative h-16px ml-4px"></span>
                                       </div>
                                     </div>
                                   </td>
@@ -972,7 +1028,7 @@
                         </div></span></div>
                                   </td>
                                   <td rowspan="1" colspan="1" class="bit-table_1_column_4   is-hidden bit-table__cell">
-                                    <div class="cell"><span data-v-539e5ed0="" class="text-14px font-500 leading-22px text-primaryText floatNum"><span data-v-539e5ed0="" dir="ltr" class="text-v3TradeBuyText"><!---->+838.75%
+                                    <div class="cell"><span data-v-539e5ed0="" class="text-14px font-500 leading-22px text-primaryText floatNum"><span data-v-539e5ed0="" dir="ltr" class="text-v3TradeBuyText">+838.75%
 </span></span></div>
                                   </td>
                                   <td rowspan="1" colspan="1" class="bit-table_1_column_5   is-hidden bit-table__cell">
@@ -1006,7 +1062,7 @@
                                     CEL
                                      <span data-v-539e5ed0="" class="font-400 text-12px text-v3TertiaryText">
                                         / USDT
-                                       <!----></span></span> </span></div>
+                                       </span></span> </span></div>
                                     </div>
                                   </td>
                                   <td rowspan="1" colspan="1" class="bit-table_1_column_3   is-hidden bit-table__cell">
@@ -1015,7 +1071,7 @@
                         </div></span></div>
                                   </td>
                                   <td rowspan="1" colspan="1" class="bit-table_1_column_4   is-hidden bit-table__cell">
-                                    <div class="cell"><span data-v-539e5ed0="" class="text-14px font-500 leading-22px text-primaryText floatNum"><span data-v-539e5ed0="" dir="ltr" class="text-v3TradeBuyText"><!---->+56.65%
+                                    <div class="cell"><span data-v-539e5ed0="" class="text-14px font-500 leading-22px text-primaryText floatNum"><span data-v-539e5ed0="" dir="ltr" class="text-v3TradeBuyText">+56.65%
 </span></span></div>
                                   </td>
                                   <td rowspan="1" colspan="1" class="bit-table_1_column_5   is-hidden bit-table__cell">
@@ -1049,7 +1105,7 @@
                                     AIT
                                      <span data-v-539e5ed0="" class="font-400 text-12px text-v3TertiaryText">
                                         / USDT
-                                       <!----></span></span> </span></div>
+                                       </span></span> </span></div>
                                     </div>
                                   </td>
                                   <td rowspan="1" colspan="1" class="bit-table_1_column_3   is-hidden bit-table__cell">
@@ -1058,7 +1114,7 @@
                         </div></span></div>
                                   </td>
                                   <td rowspan="1" colspan="1" class="bit-table_1_column_4   is-hidden bit-table__cell">
-                                    <div class="cell"><span data-v-539e5ed0="" class="text-14px font-500 leading-22px text-primaryText floatNum"><span data-v-539e5ed0="" dir="ltr" class="text-v3TradeBuyText"><!---->+47.21%
+                                    <div class="cell"><span data-v-539e5ed0="" class="text-14px font-500 leading-22px text-primaryText floatNum"><span data-v-539e5ed0="" dir="ltr" class="text-v3TradeBuyText">+47.21%
 </span></span></div>
                                   </td>
                                   <td rowspan="1" colspan="1" class="bit-table_1_column_5   is-hidden bit-table__cell">
@@ -1092,7 +1148,7 @@
                                     AIN
                                      <span data-v-539e5ed0="" class="font-400 text-12px text-v3TertiaryText">
                                         / USDT
-                                       <!----></span></span> </span></div>
+                                       </span></span> </span></div>
                                     </div>
                                   </td>
                                   <td rowspan="1" colspan="1" class="bit-table_1_column_3   is-hidden bit-table__cell">
@@ -1101,7 +1157,7 @@
                         </div></span></div>
                                   </td>
                                   <td rowspan="1" colspan="1" class="bit-table_1_column_4   is-hidden bit-table__cell">
-                                    <div class="cell"><span data-v-539e5ed0="" class="text-14px font-500 leading-22px text-primaryText floatNum"><span data-v-539e5ed0="" dir="ltr" class="text-v3TradeBuyText"><!---->+32.1%
+                                    <div class="cell"><span data-v-539e5ed0="" class="text-14px font-500 leading-22px text-primaryText floatNum"><span data-v-539e5ed0="" dir="ltr" class="text-v3TradeBuyText">+32.1%
 </span></span></div>
                                   </td>
                                   <td rowspan="1" colspan="1" class="bit-table_1_column_5   is-hidden bit-table__cell">
@@ -1135,7 +1191,7 @@
                                     OFN
                                      <span data-v-539e5ed0="" class="font-400 text-12px text-v3TertiaryText">
                                         / USDT
-                                       <!----></span></span> </span></div>
+                                       </span></span> </span></div>
                                     </div>
                                   </td>
                                   <td rowspan="1" colspan="1" class="bit-table_1_column_3   is-hidden bit-table__cell">
@@ -1144,7 +1200,7 @@
                         </div></span></div>
                                   </td>
                                   <td rowspan="1" colspan="1" class="bit-table_1_column_4   is-hidden bit-table__cell">
-                                    <div class="cell"><span data-v-539e5ed0="" class="text-14px font-500 leading-22px text-primaryText floatNum"><span data-v-539e5ed0="" dir="ltr" class="text-v3TradeBuyText"><!---->+31.26%
+                                    <div class="cell"><span data-v-539e5ed0="" class="text-14px font-500 leading-22px text-primaryText floatNum"><span data-v-539e5ed0="" dir="ltr" class="text-v3TradeBuyText">+31.26%
 </span></span></div>
                                   </td>
                                   <td rowspan="1" colspan="1" class="bit-table_1_column_5   is-hidden bit-table__cell">
@@ -1178,7 +1234,7 @@
                                     NMT
                                      <span data-v-539e5ed0="" class="font-400 text-12px text-v3TertiaryText">
                                         / USDT
-                                       <!----></span></span> </span></div>
+                                       </span></span> </span></div>
                                     </div>
                                   </td>
                                   <td rowspan="1" colspan="1" class="bit-table_1_column_3   is-hidden bit-table__cell">
@@ -1187,7 +1243,7 @@
                         </div></span></div>
                                   </td>
                                   <td rowspan="1" colspan="1" class="bit-table_1_column_4   is-hidden bit-table__cell">
-                                    <div class="cell"><span data-v-539e5ed0="" class="text-14px font-500 leading-22px text-primaryText floatNum"><span data-v-539e5ed0="" dir="ltr" class="text-v3TradeBuyText"><!---->+31.21%
+                                    <div class="cell"><span data-v-539e5ed0="" class="text-14px font-500 leading-22px text-primaryText floatNum"><span data-v-539e5ed0="" dir="ltr" class="text-v3TradeBuyText">+31.21%
 </span></span></div>
                                   </td>
                                   <td rowspan="1" colspan="1" class="bit-table_1_column_5   is-hidden bit-table__cell">
@@ -1206,14 +1262,17 @@
                             </span></div>
                                       </a></div>
                                   </td>
-                                </tr><!----></tbody>
-                              </table><!----></div><!----></div><!----><!---->
+                                </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
                           <div class="bit-table__column-resize-proxy" style="display: none;"></div>
-                        </div> <!---->
+                        </div>
                         <div data-v-539e5ed0="" class="flex justify-center mt-48px">
-                          <a data-v-539e5ed0="" href="/asia/register" class="bit-link bit-link--default"><!----><span class="bit-link--inner"><button data-v-539e5ed0="" type="button" class="bit-button bit-button--default bit-button--medium is-round"><!----><!----><!----><span><span data-v-539e5ed0="">
+                          <a data-v-539e5ed0="" href="/asia/register" class="bit-link bit-link--default"><span class="bit-link--inner"><button data-v-539e5ed0="" type="button" class="bit-button bit-button--default bit-button--medium is-round"><span><span data-v-539e5ed0="">
                             View all
-                        </span> <i data-v-539e5ed0="" class="bit-icon rtl-rotate" style="font-size: 14px;"><svg data-v-539e5ed0="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.03 12.53l-7.5 7.5a.75.75 0 11-1.06-1.06L15.44 12 8.47 5.03a.75.75 0 111.06-1.06l7.5 7.5a.75.75 0 010 1.06z"></path></svg></i></span><!----></button></span><!---->
+                        </span> <i data-v-539e5ed0="" class="bit-icon rtl-rotate" style="font-size: 14px;"><svg data-v-539e5ed0="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.03 12.53l-7.5 7.5a.75.75 0 11-1.06-1.06L15.44 12 8.47 5.03a.75.75 0 111.06-1.06l7.5 7.5a.75.75 0 010 1.06z"></path></svg></i></span></button></span>
                           </a></div>
                         <div data-v-539e5ed0="" class="bit-dialog__wrapper is-centered is-responsive" style="display: none;">
                           <div role="dialog" aria-modal="true" aria-label="New category" class="bit-dialog add-group-modal" style="margin-top: 15vh; width: 396px;">
@@ -1224,12 +1283,12 @@
                                     <path d="M19.28 18.22a.75.75 0 01-.817 1.223.75.75 0 01-.244-.162L12 13.06l-6.22 6.22a.75.75 0 01-1.06-1.062L10.94 12 4.72 5.78a.75.75 0 111.06-1.06L12 10.94l6.22-6.22a.75.75 0 011.06 1.06L13.06 12l6.22 6.22z"></path>
                                   </svg>
                                 </i></button>
-                            </div><!---->
-                            <div class="bit-dialog__footer"><span class="dialog-footer"><button type="button" class="bit-button bit-button--default bit-button--medium is-round"><!----><!----><!----><span>
+                            </div>
+                            <div class="bit-dialog__footer"><span class="dialog-footer"><button type="button" class="bit-button bit-button--default bit-button--medium is-round"><span>
                 Cancel
-            </span><!----></button> <button disabled="disabled" type="button" class="bit-button bit-button--main bit-button--medium is-disabled is-round"><!----><!----><!----><span>
+            </span></button> <button disabled="disabled" type="button" class="bit-button bit-button--main bit-button--medium is-disabled is-round"><span>
                 Confirm
-            </span><!----></button></span></div>
+            </span></button></span></div>
                           </div>
                         </div>
                         <div data-v-48355fc5="" data-v-539e5ed0="" class="bit-dialog__wrapper is-centered is-responsive" style="display: none;">
@@ -1241,10 +1300,13 @@
                                     <path d="M19.28 18.22a.75.75 0 01-.817 1.223.75.75 0 01-.244-.162L12 13.06l-6.22 6.22a.75.75 0 01-1.06-1.062L10.94 12 4.72 5.78a.75.75 0 111.06-1.06L12 10.94l6.22-6.22a.75.75 0 011.06 1.06L13.06 12l6.22 6.22z"></path>
                                   </svg>
                                 </i></button>
-                            </div><!----><!----></div>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                    </div> <!----></div> <!----></div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -1285,9 +1347,9 @@
                         </span></div>
                         </div>
                         <div class="<lg-new:hidden">
-                          <button type="button" class="bit-button bit-button--primary bit-button--medium is-round"><!----><!----><!----><span><span class="leading-14px text-12px">
+                          <button type="button" class="bit-button bit-button--primary bit-button--medium is-round"><span><span class="leading-14px text-12px">
                             Start Copy Trading
-                        </span> <i class="bit-icon rtl-rotate ml-10px" style="font-size: 14px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.78 12.53l-6.75 6.75a.75.75 0 01-1.06-1.06l5.47-5.47H3.75a.75.75 0 110-1.5h14.69l-5.47-5.47a.75.75 0 111.06-1.06l6.75 6.75a.747.747 0 010 1.06z"></path></svg></i></span><!---->
+                        </span> <i class="bit-icon rtl-rotate ml-10px" style="font-size: 14px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.78 12.53l-6.75 6.75a.75.75 0 01-1.06-1.06l5.47-5.47H3.75a.75.75 0 110-1.5h14.69l-5.47-5.47a.75.75 0 111.06-1.06l6.75 6.75a.747.747 0 010 1.06z"></path></svg></i></span>
                           </button>
                         </div>
                       </div>
@@ -1304,9 +1366,9 @@
                     </div>
                   </div>
                   <div class="m-auto max-w-1200px px-24px text-center mt-60px hidden <lg-new:block">
-                    <button type="button" class="bit-button bit-button--primary bit-button--medium is-round"><!----><!----><!----><span><span class="leading-14px text-12px">
+                    <button type="button" class="bit-button bit-button--primary bit-button--medium is-round"><span><span class="leading-14px text-12px">
                 Start Copy Trading
-            </span> <i class="bit-icon rtl-rotate ml-10px" style="font-size: 14px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.78 12.53l-6.75 6.75a.75.75 0 01-1.06-1.06l5.47-5.47H3.75a.75.75 0 110-1.5h14.69l-5.47-5.47a.75.75 0 111.06-1.06l6.75 6.75a.747.747 0 010 1.06z"></path></svg></i></span><!---->
+            </span> <i class="bit-icon rtl-rotate ml-10px" style="font-size: 14px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.78 12.53l-6.75 6.75a.75.75 0 01-1.06-1.06l5.47-5.47H3.75a.75.75 0 110-1.5h14.69l-5.47-5.47a.75.75 0 111.06-1.06l6.75 6.75a.747.747 0 010 1.06z"></path></svg></i></span>
                     </button>
                   </div>
                 </div>
@@ -1369,9 +1431,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -1430,9 +1492,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -1491,9 +1553,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -1552,9 +1614,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -1613,9 +1675,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -1674,9 +1736,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -1735,9 +1797,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -1796,9 +1858,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -1857,9 +1919,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -1918,9 +1980,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -1979,9 +2041,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -2040,9 +2102,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -2101,9 +2163,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -2162,9 +2224,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -2223,9 +2285,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -2284,9 +2346,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -2345,9 +2407,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -2406,9 +2468,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -2467,9 +2529,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -2528,9 +2590,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -2589,9 +2651,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -2650,9 +2712,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -2711,9 +2773,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -2772,9 +2834,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -2833,9 +2895,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -2894,9 +2956,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -2955,9 +3017,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -3016,9 +3078,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -3077,9 +3139,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -3138,9 +3200,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -3199,9 +3261,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -3260,9 +3322,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -3321,9 +3383,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -3382,9 +3444,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -3443,9 +3505,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -3504,9 +3566,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -3565,9 +3627,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -3626,9 +3688,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -3687,9 +3749,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -3748,9 +3810,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -3809,9 +3871,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -3870,9 +3932,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -3931,9 +3993,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -3992,9 +4054,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -4053,9 +4115,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -4114,9 +4176,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -4175,9 +4237,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -4236,9 +4298,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -4297,9 +4359,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -4358,9 +4420,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -4419,9 +4481,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -4480,9 +4542,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -4541,9 +4603,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -4602,9 +4664,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -4663,9 +4725,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -4724,9 +4786,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -4785,9 +4847,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -4846,9 +4908,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -4907,9 +4969,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -4968,9 +5030,9 @@
                               </div>
                               <div class="mt-36px mb-18px mx-24px border-0 border-t-1px border-line border-solid border-v3StrengthBorder0"></div>
                               <div class="mt-12px px-24px">
-                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><!----><!----><!----><span>
+                                <button type="button" class="bit-button !flex w-full items-center justify-center mt-18px bit-button--primary bit-button--medium is-round"><span>
             Copy
-        </span><!----></button>
+        </span></button>
                               </div>
                             </div>
                           </div>
@@ -5138,9 +5200,9 @@
                       </div>
                     </div>
                     <div data-v-6a9227b3="" class="flex items-center justify-center gap-42px mt-82px pad:mt-60px phone:flex-col phone:gap-19px phone:mt-28px">
-                      <button data-v-6a9227b3="" type="button" class="bit-button journey-crypto-content-footer bit-button--main is-round"><!----><!----><!----><span>
+                      <button data-v-6a9227b3="" type="button" class="bit-button journey-crypto-content-footer bit-button--main is-round"><span>
                     Sign Up
-                    <i data-v-6a9227b3="" class="bit-icon rtl-rotate ml-10px" style="font-size: 14px;"><svg data-v-6a9227b3="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.78 12.53l-6.75 6.75a.75.75 0 01-1.06-1.06l5.47-5.47H3.75a.75.75 0 110-1.5h14.69l-5.47-5.47a.75.75 0 111.06-1.06l6.75 6.75a.747.747 0 010 1.06z"></path></svg></i></span><!---->
+                    <i data-v-6a9227b3="" class="bit-icon rtl-rotate ml-10px" style="font-size: 14px;"><svg data-v-6a9227b3="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.78 12.53l-6.75 6.75a.75.75 0 01-1.06-1.06l5.47-5.47H3.75a.75.75 0 110-1.5h14.69l-5.47-5.47a.75.75 0 111.06-1.06l6.75 6.75a.747.747 0 010 1.06z"></path></svg></i></span>
                       </button>
                     </div>
                   </div>
@@ -5154,7 +5216,8 @@
           </div>
           <div data-v-08a1c11c="" class="bit-dialog__wrapper register-kyc-guide__wrapper is-centered is-responsive is-notitle" style="display: none;">
             <div role="dialog" aria-modal="true" aria-label="dialog" class="bit-dialog register-kyc-guide__dialog" style="margin-top: 15vh;">
-              <div class="bit-dialog__header"><!----><!----></div><!----><!----></div>
+              <div class="bit-dialog__header"></div>
+            </div>
           </div>
         </div>
       </div>

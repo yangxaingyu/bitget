@@ -65,7 +65,9 @@ import '@/assets/_nuxt-portal/css/f1c80b5.css'
 
 import '@/assets/_nuxt-portal/css/f11f1f26a0e6089e.css'
 // import '@/assets/_nuxt-portal/css/index.b23e6521.css'
-import '@/assets/_nuxt-portal/css/font.cssv=20230717'
+// import '@/assets/_nuxt-portal/css/font.cssv=20230717'
+
+import '@/assets/_nuxt-portal/css/extracted_styles.css'
 
 
 Vue.config.productionTip = false
