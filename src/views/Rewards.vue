@@ -1445,15 +1445,20 @@ span {
 
 h1.rewards_oneLine__Kqdwg.text-\[28px\].leading-\[36px\].text-\[\#fff\].m-0.p-0.md\:text-\[32px\].md\:leading-\[42px\].\32 xl\:text-\[48px\].\32 xl\:leading-\[62px\] {
     color: #000;
+    font-weight: 600;
 }
 
 p {
     color: #000;
 }
 
-span.rewards_textLineDot1__RFa6u {
+h1{
+    font-weight: 600;
+}
+.text-content-primary  p{
     color: #fff;
 }
+
 
 .imd:z-3 .w-full.flex.items-center {
     background-color: #f5f2eb;
@@ -1466,8 +1471,45 @@ span.rewards_textLineDot1__RFa6u {
 
 .z-10 {
     margin-top: 12px;
+   
+}
+@media (max-width: 768px){
+    .relative.z-10.w-full.h-full.pt-\[28px\].flex.flex-col.justify-between.lg\:mb-\[12px\].md\:flex-row.md\:pt-\[52px\].lg\:pt-\[56px\].\32 xl\:pt-\[70px\] {
+    display: table-cell;
 }
 
+.mx-auto.px-\[16px\].md\:px-\[24px\].lg\:px-\[40px\].\32 xl\:max-w-\[1200px\].\32 xl\:px-0.w-full.relative.min-h-\[200px\].pb-\[32px\].md\:pb-\[60px\] {
+    margin-left: 9px;
+}
+.cursor-pointer.h-fit.mb-2.flex.items-center.text-ds-color-text-primary.text-xs.font-semibold.leading-4.md\:text-base.md\:leading-\[16px\].text-left.rewards_questionColor__gL_2_ {
+    color: #000 !important;
+}
+.grid.grid-cols-12.grid-cols.gap-x-2.gap-y-5.md\:gap-y-10.md\:grid-cols-\[repeat\(16\,minmax\(0\,1fr\)\)\].lg\:grid-cols-\[repeat\(15\,minmax\(0\,1fr\)\)\].nxl\:gap-x-4.nxl\:grid-cols-\[repeat\(18\,minmax\(0\,1fr\)\)\] {
+    margin-top: 9px;
+}
+span.text-center.text-\[12px\].leading-\[18px\].md\:text-\[14px\].md\:leading-\[20px\].relative.text-\[\#FFF\].hover\:text-\[\#FFF\] {
+    color: #fff;
+}
+.rewards_textLineDot1__RFa6u {
+    color: #000 !important;
+}
+}
+
+
+
+
+span.text-center.text-\[12px\].leading-\[18px\].md\:text-\[14px\].md\:leading-\[20px\].relative.text-\[\#FFF\].hover\:text-\[\#FFF\] {
+    color: #fff;
+}
+.cursor-pointer span{
+    color: #000;
+}
+span.rewards_textLineDot1__RFa6u {
+    color: #fff;
+}
+.rewards_jumpBg__Qo5rT span{
+    color: #fff;
+}
 .leading-3 {
     margin-top: 1px;
 }
@@ -1630,4 +1672,6 @@ svg.bit-select-suffix.arrow-down {
 .rewards_bannerBg__Dxtxv {
     background-color: gray;
 }
+
+
 </style>
