@@ -70,6 +70,16 @@ import '@/assets/_nuxt-portal/css/f11f1f26a0e6089e.css'
 import '@/assets/_nuxt-portal/css/extracted_styles.css'
 
 
+
+
+//Rewards
+import '@/assets/_nuxt-portal/css/61fc616a17780c98.css'
+import '@/assets/_nuxt-portal/css/85fc441c3db9c0cd.css'
+import '@/assets/_nuxt-portal/css/110e3751d1dd5987.css'
+import '@/assets/_nuxt-portal/css/bbdb4d5cd12cdbba.css'
+import '@/assets/_nuxt-portal/css/style.bf1ce024.css'
+
+
 Vue.config.productionTip = false
 
 new Vue({
