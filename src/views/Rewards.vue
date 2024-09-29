@@ -184,7 +184,7 @@
                                     class="py-4 cursor-pointer flex items-center gap-1 lg:py-3 border-[0px] border-b-[2px] border-solid border-[#fff] text-[#fff] lg:border-b-0">
                                     <div class=" hidden lg:flex"><img src="../assets/img/hot-light.b17907c1.png"
                                             alt="hot-light" loading="eager" decoding="async" class="w-[24px] h-[24px]">
-                                    </div><span class="rewards_textLineDot1__RFa6u">New user rewards</span>
+                                    </div><span class="rewards_textLineDot1__RFa6u" >New user rewards</span>
                                 </div>
                                 <div class=" hidden lg:block w-[1px] h-6 mx-8 bg-[#58595F]"></div>
                                 <div class="py-4 lg:py-0 cursor-pointer flex items-center gap-1">
@@ -193,7 +193,7 @@
                                             <path
                                                 d="M20.75 6.75h-15a.75.75 0 0 1 0-1.5H18.5a.75.75 0 1 0 0-1.5H5.75A2.25 2.25 0 0 0 3.5 6v12a2.25 2.25 0 0 0 2.25 2.25h15a1.5 1.5 0 0 0 1.5-1.5V8.25a1.5 1.5 0 0 0-1.5-1.5Zm0 12h-15A.75.75 0 0 1 5 18V8.122c.24.085.495.128.75.128h15v10.5Zm-4.5-5.625a1.125 1.125 0 1 1 2.25 0 1.125 1.125 0 0 1-2.25 0Z"
                                                 fill="#8E8E92"></path>
-                                        </svg></div><span class="rewards_textLineDot1__RFa6u">Daily rewards</span>
+                                        </svg></div><span class="rewards_textLineDot1__RFa6u" >Daily rewards</span>
                                 </div>
                             </div>
                             <div
@@ -1490,9 +1490,19 @@ h1{
 span.text-center.text-\[12px\].leading-\[18px\].md\:text-\[14px\].md\:leading-\[20px\].relative.text-\[\#FFF\].hover\:text-\[\#FFF\] {
     color: #fff;
 }
-.rewards_textLineDot1__RFa6u {
+/* .rewards_textLineDot1__RFa6u {
     color: #000 !important;
+} */
+
+
+.py-4.cursor-pointer.flex.items-center.gap-1.lg\:py-3.border-\[0px\].border-b-\[2px\].border-solid.border-\[\#fff\].text-\[\#fff\].lg\:border-b-0 span {
+    color: #000;
 }
+
+.py-4.lg\:py-0.cursor-pointer.flex.items-center.gap-1 span {
+    color: #000;
+}
+
 }
 
 
@@ -1501,6 +1511,8 @@ span.text-center.text-\[12px\].leading-\[18px\].md\:text-\[14px\].md\:leading-\[
 span.text-center.text-\[12px\].leading-\[18px\].md\:text-\[14px\].md\:leading-\[20px\].relative.text-\[\#FFF\].hover\:text-\[\#FFF\] {
     color: #fff;
 }
+
+
 .cursor-pointer span{
     color: #000;
 }
