@@ -3,7 +3,7 @@
     <HzHeader></HzHeader>
     <div class="main-box lay-box clearfix" data-v-bc61f9fc>
       <div class="main-login-wrapper white" data-v-320ca77b data-v-bc61f9fc>
-        <div class="login-left" data-v-320ca77b>
+        <div v-if="false" class="login-left" data-v-320ca77b>
           <div class="qr-panel" data-v-32322a14 data-v-320ca77b>
             <div class="login-qrcode-img white" data-v-32322a14>
               <div class="qrcode-img white" data-v-32322a14>
@@ -89,7 +89,7 @@
                   <h1 class="login-qr-title flex justify-center mb-24px" data-v-17599e9a>
                     Welcome back
                   </h1>
-                  <div class="type-tab white" data-v-17599e9a>
+                  <div v-if="false" class="type-tab white" data-v-17599e9a>
                     <span data-v-17599e9a>
                       Email / Mobile
                     </span>
@@ -155,7 +155,7 @@
                     </div>
                   </div>
 
-                  <div class="flex justify-start items-center" data-v-17599e9a>
+                  <div v-if="false" class="flex justify-start items-center" data-v-17599e9a>
                     <div class="verify-method-switch mr-30px" data-v-17599e9a>
                       <span data-testid="LoginSwitchVerifyMethodButton" data-v-17599e9a>Switch to password login</span>
                       <img alt="verify-method-switch-white" src="../assets/img/verify_method_switch_white.svg" class="w-14px h-14px ml-6px cursor-pointer" style data-v-17599e9a>
@@ -196,7 +196,8 @@
                           <!--                          </div>-->
                         </div>
                         <img data-v-640ee34f src="../assets/img/tglogo.svg" alt="telegram" class="logo">
-                        <span data-v-640ee34f class="text">Telegram</span></div>
+                        <span data-v-640ee34f class="text">Telegram</span>
+                      </div>
                       <div data-v-7bdce1e8 data-v-2781b562 class="wallet-connect-btn h-46px rounded-48px flex justify-between items-center box-border px-16px cursor-pointer text-v3PrimaryText <md:hidden">
                         <span data-v-7bdce1e8 class="wallet-connect-tx text-fs14">Connect wallet</span>
                         <div data-v-7bdce1e8 class="flex-shrink-0 flex items-center h-full gap-8px">
@@ -230,9 +231,9 @@
                           <div class="bit-dialog__header"></div>
                           <div class="bit-dialog__footer">
                             <div data-v-fe4f7fdc>
-                              <button data-v-fe4f7fdc type="button" class="bit-button w-full bit-button--main bit-button--medium is-round"><span>
-                    OK
-                </span></button>
+                              <button data-v-fe4f7fdc type="button" class="bit-button w-full bit-button--main bit-button--medium is-round">
+                                <span>OK</span>
+                              </button>
                             </div>
                           </div>
                         </div>
@@ -241,8 +242,8 @@
                   </div>
                 </div>
                 <div class="go-reg" data-v-17599e9a><span class="mr-2" data-v-17599e9a>
-                    Don't have an account?
-                </span> <a href="/register" data-v-17599e9a>
+                  Don't have an account?
+                  </span><a href="/register" data-v-17599e9a>
                   Register
                 </a>
                 </div>
@@ -254,7 +255,7 @@
                 <div class="bit-dialog__footer">
                   <div data-v-eb3783da class="antiphinshing-footer">
                     <button @click="loginFn" data-v-eb3783da type="button" class="bit-button w-full bit-button--chunky bit-button--medium is-round" data-testid="LoginAntiPhinshingDialogConfirmButton"><span>
-                Confirm
+                      Confirm
                     </span>
                     </button>
                   </div>
@@ -305,7 +306,9 @@
       <div v-show="isShowAlertError" role="alert" class="bit-message bit-message--error" style="top: 100px; z-index: 2002;">
         <i class="bit-icon bit-message__icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-          <path d="M12 2.25A9.75 9.75 0 1021.75 12 9.76 9.76 0 0012 2.25zm3.53 12.22a.75.75 0 11-1.06 1.06L12 13.06l-2.47 2.47a.75.75 0 11-1.06-1.06L10.94 12 8.47 9.53a.75.75 0 011.06-1.06L12 10.94l2.47-2.47a.751.751 0 011.06 1.06L13.06 12l2.47 2.47z"></path></svg></i>
+            <path d="M12 2.25A9.75 9.75 0 1021.75 12 9.76 9.76 0 0012 2.25zm3.53 12.22a.75.75 0 11-1.06 1.06L12 13.06l-2.47 2.47a.75.75 0 11-1.06-1.06L10.94 12 8.47 9.53a.75.75 0 011.06-1.06L12 10.94l2.47-2.47a.751.751 0 011.06 1.06L13.06 12l2.47 2.47z"></path>
+          </svg>
+        </i>
         <p class="bit-message__content">
           {{ alertErrorMsg }}
         </p>
@@ -369,17 +372,15 @@ export default {
       });
 
       if (res.data.code === 200) {
-        // this.emailError = ''
-        // this.passwordError = ''
         localStorage.setItem("token", res.data.data.token)
         // 跳转 dashboard
         this.$router.push({
-          path:"/dashboard",
+          path: "/dashboard",
         })
       } else {
         this.isShowAlertError = true
         this.alertErrorMsg = 'The account or password is incorrect.'
-        this.timer = setTimeout(  () => {
+        this.timer = setTimeout(() => {
           console.log('timer......')
           this.isShowAlertError = false
           this.alertErrorMsg = ''
