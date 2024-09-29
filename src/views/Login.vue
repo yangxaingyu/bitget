@@ -163,7 +163,7 @@
                     </div>
                   </div>
                 </div>
-                <div data-v-2781b562 data-v-17599e9a class="three-login-page-wrap main-login-three-btn white">
+                <div v-if="false" data-v-2781b562 data-v-17599e9a class="three-login-page-wrap main-login-three-btn white">
                   <div data-v-2781b562 class="three-login-wrap">
                     <div data-v-2781b562 class="other">
                       <div data-v-2781b562 class="line"></div>
@@ -188,12 +188,12 @@
                         <span data-v-f1790834 class="text">Apple</span></div>
                       <div data-v-640ee34f data-v-2781b562 class="tg-login-wrap round-shape">
                         <div data-v-27ad7bf4 data-v-640ee34f class="telegram-wrap tg-info">
-                          <!--                          <div data-v-27ad7bf4 class="telegram">-->
-                          <!--                            <iframe id="telegram-login-Bitget3rd_bot" src="https://oauth.telegram.org/embed/Bitget3rd_bot?origin=https%3A%2F%2Fwww.bitget.com&amp;return_to=https%3A%2F%2Fwww.bitget.com%2Flogin&amp;size=large&amp;userpic=true&amp;request_access=write" width="238" height="40" frameborder="0" scrolling="no" style="overflow: hidden; color-scheme: light dark; border: none; height: 40px; width: 219px;"></iframe>-->
-                          <!--                            <script async src="https://telegram.org/js/telegram-widget.js" data-size="large" data-userpic="true" data-telegram-login="Bitget3rd_bot" data-request-access="write" data-onauth="window.onTelegramAuth(user)">-->
-                          <!--                              -->
-                          <!--                            </script>-->
-                          <!--                          </div>-->
+<!--                          <div data-v-27ad7bf4 class="telegram">-->
+<!--                            <iframe id="telegram-login-Bitget3rd_bot" src="https://oauth.telegram.org/embed/Bitget3rd_bot?origin=https%3A%2F%2Fwww.bitget.com&amp;return_to=https%3A%2F%2Fwww.bitget.com%2Flogin&amp;size=large&amp;userpic=true&amp;request_access=write" width="238" height="40" frameborder="0" scrolling="no" style="overflow: hidden; color-scheme: light dark; border: none; height: 40px; width: 219px;"></iframe>-->
+<!--                            <script async src="https://telegram.org/js/telegram-widget.js" data-size="large" data-userpic="true" data-telegram-login="Bitget3rd_bot" data-request-access="write" data-onauth="window.onTelegramAuth(user)">-->
+<!--                              -->
+<!--                            </script>-->
+<!--                          </div>-->
                         </div>
                         <img data-v-640ee34f src="../assets/img/tglogo.svg" alt="telegram" class="logo">
                         <span data-v-640ee34f class="text">Telegram</span>
