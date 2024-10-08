@@ -2,11 +2,34 @@ import Vue from 'vue'
 import VueI18n from 'vue-i18n'
 import App from './App.vue'
 import router from './router/index'
-
 import Antd from 'ant-design-vue';
 import 'ant-design-vue/dist/antd.css'
+import 'windi.css'
+
+// 引入语言包
+import en from '@/lang/en'
+import zh from '@/lang/zh'
 
 Vue.use(Antd)
+Vue.use(VueI18n)
+
+// const messages = {
+//   en,
+//   zh
+// }
+
+// 创建 VueI18n 实例
+const i18n = new VueI18n({
+  locale: localStorage.getItem('lang') || 'en',
+  messages: {
+    en,
+    zh,
+  }
+});
+
+
+localStorage.setItem("langType", "en");
+
 
 // 注册全局组件
 import CommonCss from '@/components/CommonCss'
@@ -68,16 +91,12 @@ Vue.component('Verify', Verify)
 // import '@/assets/_nuxt-portal/css/bde07a1.css'
 // import '@/assets/_nuxt-portal/css/e33e796.css'
 // import '@/assets/_nuxt-portal/css/f1c80b5.css'
-//
-//
-//
+
 // import '@/assets/_nuxt-portal/css/f11f1f26a0e6089e.css'
 // import '@/assets/_nuxt-portal/css/index.b23e6521.css'
 // import '@/assets/_nuxt-portal/css/font.cssv=20230717'
 
 // import '@/assets/_nuxt-portal/css/extracted_styles.css'
-
-
 
 
 //Rewards
@@ -87,10 +106,10 @@ import '@/assets/_nuxt-portal/css/110e3751d1dd5987.css'
 import '@/assets/_nuxt-portal/css/bbdb4d5cd12cdbba.css'
 import '@/assets/_nuxt-portal/css/style.bf1ce024.css'
 
-
 Vue.config.productionTip = false
 
 new Vue({
+  i18n,
+  router,
   render: h => h(App),
-  router
 }).$mount('#app')

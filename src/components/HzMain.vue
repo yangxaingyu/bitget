@@ -325,7 +325,9 @@
                 </i></a> <span class="mt-10px text-12px text-v3PrimaryText text-center px-3px">Rewards Center</span>
               </div>
               <div class="container-item flex flex-col items-center flex-1 break-word">
-                <a href="events/referral-all-program" class="border border-solid border-v3StrengthBorder0 rounded-[50%] w-46px h-46px flex items-center justify-center text-v3PrimaryText"><img src="/baseasset/img/home/home-referral-light.png" alt="home-referral-dark" class="w-24px h-24px"></a>
+                <a href="events/referral-all-program" class="border border-solid border-v3StrengthBorder0 rounded-[50%] w-46px h-46px flex items-center justify-center text-v3PrimaryText">
+                  <img src="../assets/img/home-referral-light.png" alt="home-referral-dark" class="w-24px h-24px">
+                </a>
                 <span class="mt-10px text-12px text-v3PrimaryText text-center px-3px">Referral</span></div>
               <div class="container-item flex flex-col items-center flex-1 break-word">
                 <a href="pre-market" class="border border-solid border-v3StrengthBorder0 rounded-[50%] w-46px h-46px flex items-center justify-center text-v3PrimaryText"><i class="bit-icon" style="font-size:24px;">
@@ -2176,7 +2178,7 @@
                             <div data-v-5cbca040="" data-v-b138bda8="" class="chart-view-item-header" chartid="1727148861531_home_chart_bbb14a7e8fb73d51ad96" data-v-0d127db0="">
                               <div data-v-5cbca040="" class="user-info-box">
                                 <div data-v-5cbca040="" class="avatar">
-                                  <img data-v-5cbca040="" loading="lazy" src="/baseasset/img/common/avatar-default.svg" alt="BGUSER-GJHSFNUE" class="avatar-img">
+                                  <img data-v-5cbca040="" loading="lazy" src="../assets/img/avatar-default.svg" alt="BGUSER-GJHSFNUE" class="avatar-img">
                                 </div>
                                 <div data-v-5cbca040="">
                                   <div data-v-5cbca040="" class="flex text-v3PrimaryText">
@@ -2298,7 +2300,7 @@
                             <div data-v-5cbca040="" data-v-b138bda8="" class="chart-view-item-header" chartid="1727148861531_home_chart_bab04e708bb33f54a697" data-v-0d127db0="">
                               <div data-v-5cbca040="" class="user-info-box">
                                 <div data-v-5cbca040="" class="avatar">
-                                  <img data-v-5cbca040="" loading="lazy" src="/baseasset/img/common/avatar-default.svg" alt="BGUSER-GQBXPF73" class="avatar-img">
+                                  <img data-v-5cbca040="" loading="lazy" src="../assets/img/avatar-default.svg" alt="BGUSER-GQBXPF73" class="avatar-img">
                                 </div>
                                 <div data-v-5cbca040="">
                                   <div data-v-5cbca040="" class="flex text-v3PrimaryText">
@@ -3396,7 +3398,7 @@
                             <div data-v-5cbca040="" data-v-b138bda8="" class="chart-view-item-header" chartid="1727148861531_home_chart_bbb14a7e8fb73d51ad96" data-v-0d127db0="">
                               <div data-v-5cbca040="" class="user-info-box">
                                 <div data-v-5cbca040="" class="avatar">
-                                  <img data-v-5cbca040="" loading="lazy" src="/baseasset/img/common/avatar-default.svg" alt="BGUSER-GJHSFNUE" class="avatar-img">
+                                  <img data-v-5cbca040="" loading="lazy" src="../assets/img/avatar-default.svg" alt="BGUSER-GJHSFNUE" class="avatar-img">
                                 </div>
                                 <div data-v-5cbca040="">
                                   <div data-v-5cbca040="" class="flex text-v3PrimaryText">
@@ -3518,7 +3520,7 @@
                             <div data-v-5cbca040="" data-v-b138bda8="" class="chart-view-item-header" chartid="1727148861531_home_chart_bab04e708bb33f54a697" data-v-0d127db0="">
                               <div data-v-5cbca040="" class="user-info-box">
                                 <div data-v-5cbca040="" class="avatar">
-                                  <img data-v-5cbca040="" loading="lazy" src="/baseasset/img/common/avatar-default.svg" alt="BGUSER-GQBXPF73" class="avatar-img">
+                                  <img data-v-5cbca040="" loading="lazy" src="../assets/img/avatar-default.svg" alt="BGUSER-GQBXPF73" class="avatar-img">
                                 </div>
                                 <div data-v-5cbca040="">
                                   <div data-v-5cbca040="" class="flex text-v3PrimaryText">
@@ -4616,7 +4618,7 @@
                             <div data-v-5cbca040="" data-v-b138bda8="" class="chart-view-item-header" chartid="1727148861531_home_chart_bbb14a7e8fb73d51ad96" data-v-0d127db0="">
                               <div data-v-5cbca040="" class="user-info-box">
                                 <div data-v-5cbca040="" class="avatar">
-                                  <img data-v-5cbca040="" loading="lazy" src="/baseasset/img/common/avatar-default.svg" alt="BGUSER-GJHSFNUE" class="avatar-img">
+                                  <img data-v-5cbca040="" loading="lazy" src="../assets/img/avatar-default.svg" alt="BGUSER-GJHSFNUE" class="avatar-img">
                                 </div>
                                 <div data-v-5cbca040="">
                                   <div data-v-5cbca040="" class="flex text-v3PrimaryText">
@@ -4738,7 +4740,7 @@
                             <div data-v-5cbca040="" data-v-b138bda8="" class="chart-view-item-header" chartid="1727148861531_home_chart_bab04e708bb33f54a697" data-v-0d127db0="">
                               <div data-v-5cbca040="" class="user-info-box">
                                 <div data-v-5cbca040="" class="avatar">
-                                  <img data-v-5cbca040="" loading="lazy" src="/baseasset/img/common/avatar-default.svg" alt="BGUSER-GQBXPF73" class="avatar-img">
+                                  <img data-v-5cbca040="" loading="lazy" src="../assets/img/avatar-default.svg" alt="BGUSER-GQBXPF73" class="avatar-img">
                                 </div>
                                 <div data-v-5cbca040="">
                                   <div data-v-5cbca040="" class="flex text-v3PrimaryText">

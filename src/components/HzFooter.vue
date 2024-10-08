@@ -64,7 +64,8 @@
                       <a data-v-62b79900="" data-v-08806d6f="" class="logo-item block relative" href="https://www.tiktok.com/@bitgetofficial" rel="nofollow" target="_blank"><img data-v-62b79900="" class="m-3px w-24px h-24px rounded-1/2" src="https://img.bitgetimg.com/multiLang/web/c307494686d79922000c4fccaa464cc1.png" title="Follow us on Tiktok" alt="Tiktok" loading="lazy" decoding="async"><img data-v-62b79900="" class="absolute top-0 left-0 m-3px w-24px h-24px rounded-1/2 invisible" src="https://img.bitgetimg.com/multiLang/web/7a28ac590e7c8222eaf28080604277c0.png" title="Follow us on Tiktok" alt="Tiktok" loading="lazy" decoding="async"></a>
                     </div>
                     <div data-v-08806d6f="" class="flex items-center justify-center overflow-hidden cursor-pointer w-24px w-24px" lt-pc="mr-20px mb-20px">
-                      <a data-v-62b79900="" data-v-08806d6f="" class="logo-item block relative" href="/bitget-community" rel="nofollow" target="_blank"><img data-v-62b79900="" class="m-3px w-24px h-24px rounded-1/2" src="/micro-runtime/assets/icon-media-more-light.c2ee7f6d.png" title="View more" alt="more" loading="lazy" decoding="async"><img data-v-62b79900="" class="absolute top-0 left-0 m-3px w-24px h-24px rounded-1/2 invisible" src="/micro-runtime/assets/icon-media-more-light-hover.f5d6d857.png" title="View more" alt="more" loading="lazy" decoding="async"></a>
+                      <a data-v-62b79900="" data-v-08806d6f="" class="logo-item block relative" href="/bitget-community" rel="nofollow" target="_blank">
+                        <img data-v-62b79900="" class="m-3px w-24px h-24px rounded-1/2" src="../assets/img/icon-media-more-light.c2ee7f6d.png" title="View more" alt="more" loading="lazy" decoding="async"><img data-v-62b79900="" class="absolute top-0 left-0 m-3px w-24px h-24px rounded-1/2 invisible" src="/micro-runtime/assets/icon-media-more-light-hover.f5d6d857.png" title="View more" alt="more" loading="lazy" decoding="async"></a>
                     </div>
                   </div>
                 </div>
@@ -584,8 +585,10 @@
                   <a data-v-62b79900="" data-v-72d99517="" class="logo-item block relative" href="https://www.tiktok.com/@bitgetofficial" rel="nofollow" target="_blank"><img data-v-62b79900="" class="m-3px w-24px h-24px rounded-1/2" src="https://img.bitgetimg.com/multiLang/web/c307494686d79922000c4fccaa464cc1.png" title="Follow us on Tiktok" alt="Tiktok" loading="lazy" decoding="async"><!---->
                   </a></div>
                 <div data-v-72d99517="" class="flex-none overflow-hidden cursor-pointer w-24px h-24px mb-20px mr-20px">
-                  <a data-v-62b79900="" data-v-72d99517="" class="logo-item block relative" href="/bitget-community" rel="nofollow" target="_blank"><img data-v-62b79900="" class="m-3px w-24px h-24px rounded-1/2" src="/micro-runtime/assets/icon-media-more-light.c2ee7f6d.png" title="View more" alt="more" loading="lazy" decoding="async"><!---->
-                  </a></div>
+                  <a data-v-62b79900="" data-v-72d99517="" class="logo-item block relative" href="/bitget-community" rel="nofollow" target="_blank">
+                    <img data-v-62b79900="" class="m-3px w-24px h-24px rounded-1/2" src="../assets/img/icon-media-more-light.c2ee7f6d.png" title="View more" alt="more" loading="lazy" decoding="async"><!---->
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -637,7 +640,8 @@
                     <a data-v-62b79900="" data-v-08806d6f="" class="logo-item block relative" href="https://www.tiktok.com/@bitgetofficial" rel="nofollow" target="_blank"><img data-v-62b79900="" class="m-3px w-24px h-24px rounded-1/2" src="https://img.bitgetimg.com/multiLang/web/c307494686d79922000c4fccaa464cc1.png" title="Follow us on Tiktok" alt="Tiktok" loading="lazy" decoding="async"><img data-v-62b79900="" class="absolute top-0 left-0 m-3px w-24px h-24px rounded-1/2 invisible" src="https://img.bitgetimg.com/multiLang/web/7a28ac590e7c8222eaf28080604277c0.png" title="Follow us on Tiktok" alt="Tiktok" loading="lazy" decoding="async"></a>
                   </div>
                   <div data-v-08806d6f="" class="flex items-center justify-center overflow-hidden cursor-pointer w-24px w-24px" lt-pc="mr-20px mb-20px">
-                    <a data-v-62b79900="" data-v-08806d6f="" class="logo-item block relative" href="/bitget-community" rel="nofollow" target="_blank"><img data-v-62b79900="" class="m-3px w-24px h-24px rounded-1/2" src="/micro-runtime/assets/icon-media-more-light.c2ee7f6d.png" title="View more" alt="more" loading="lazy" decoding="async"><img data-v-62b79900="" class="absolute top-0 left-0 m-3px w-24px h-24px rounded-1/2 invisible" src="/micro-runtime/assets/icon-media-more-light-hover.f5d6d857.png" title="View more" alt="more" loading="lazy" decoding="async"></a>
+                    <a data-v-62b79900="" data-v-08806d6f="" class="logo-item block relative" href="/bitget-community" rel="nofollow" target="_blank">
+                      <img data-v-62b79900="" class="m-3px w-24px h-24px rounded-1/2" src="../assets/img/icon-media-more-light.c2ee7f6d.png" title="View more" alt="more" loading="lazy" decoding="async"><img data-v-62b79900="" class="absolute top-0 left-0 m-3px w-24px h-24px rounded-1/2 invisible" src="/micro-runtime/assets/icon-media-more-light-hover.f5d6d857.png" title="View more" alt="more" loading="lazy" decoding="async"></a>
                   </div>
                 </div>
               </div>

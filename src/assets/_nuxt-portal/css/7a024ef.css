@@ -5718,9 +5718,6 @@ body.black,body.dark,html.black,html.dark {
     margin-top: 48px
 }
 
-[dir] .mt-24px {
-    margin-top: 24px
-}
 
 [dir=ltr] .ml-8px {
     margin-left: 8px
@@ -6684,10 +6681,6 @@ body.black,body.dark,html.black,html.dark {
 
 [dir] .mb-65px {
     margin-bottom: 65px
-}
-
-[dir] .mt-160px {
-    margin-top: 160px
 }
 
 [dir=ltr] .ml-64px {

@@ -4,7 +4,8 @@
     <div data-v-18c070a6="" class="personal-main-container lay-box clearfix">
       <div data-v-18c070a6="" class="personal-container">
         <LeftDash></LeftDash>
-        <div class="flex flex-auto  flex-col px-[16px] pb-[16px] pt-[16px] md:px-[24px] md:pb-[80px] md:pt-[40px]">
+
+        <div class="flex flex-auto flex-col px-[16px] pb-[16px] pt-[16px] md:px-[24px] md:pb-[80px] md:pt-[40px]">
           <div class="mb-[16px]">
             <nav class="bit-breadcrumb css-1eqkoyn">
               <ol>
@@ -16,30 +17,18 @@
                     class="text-[12px] !text-ds-color-text-secondary hover:!bg-transparent hover:!text-ds-color-text-secondary">Account</a></span>
                 </li>
                 <li class="bit-breadcrumb-separator" aria-hidden="true">/</li>
-                <li><span class="bit-breadcrumb-link"><span
-                    class="text-[12px] text-ds-color-text-primary">Identity
-                                            verification</span></span></li>
+                <li><span class="bit-breadcrumb-link">
+                  <span class="text-[12px] text-ds-color-text-primary">
+                    Identity verification
+                  </span>
+                </span>
+                </li>
               </ol>
             </nav>
           </div>
           <div class="flex items-center justify-between">
             <div class="font-700 leading-40px truncate text-fs32 font-medium text-ds-color-text-primary">
               Individual verification
-            </div>
-            <div>
-              <div
-                  class="flex cursor-pointer items-center rounded-[48px] border-[1px] border-solid border-ds-color-background-secondary bg-ds-color-background-secondary p-[4px] text-[14px] mobile:hidden">
-                <div class="rounded-[48px] px-[24px] py-[5px] text-[14px] text-ds-color-text-primary">
-                  Business verification
-                </div>
-                <div
-                    class="rounded-[48px] px-[24px] py-[5px] text-[14px] text-ds-color-text-primary bg-ds-color-background-primary">
-                  Individual verification
-                </div>
-              </div>
-              <img
-                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04LjgwMDE0IDkuOTMzNUM4LjQwMDE0IDEwLjQ2NjggNy42MDAxNCAxMC40NjY4IDcuMjAwMTQgOS45MzM1TDQuNzAwMTQgNi42MDAxNkM0LjIwNTcxIDUuOTQwOTMgNC42NzYwOSA1LjAwMDE2IDUuNTAwMTQgNS4wMDAxNkgxMC41MDAxQzExLjMyNDIgNS4wMDAxNiAxMS43OTQ2IDUuOTQwOTMgMTEuMzAwMSA2LjYwMDE2TDguODAwMTQgOS45MzM1WiIgZmlsbD0iIzFGMUYxRiIvPgo8L3N2Zz4K"
-                  class="md:hidden" alt="">
             </div>
           </div>
           <div class="bit-spin-nested-loading css-1eqkoyn">
@@ -84,8 +73,7 @@
                                        alt=""></div>
                               </div>
                               <div class="mt-[12px] flex text-[14px]">
-                                <div
-                                    class="w-[50%] text-[14px] text-ds-color-text-tertiary">
+                                <div class="w-[50%] text-[14px] text-ds-color-text-tertiary">
                                   Crypto deposit
                                 </div>
                                 <div
@@ -144,9 +132,9 @@
                               </div>
                             </div>
                             <div class="mt-[28px]">
-                              <button type="button"
-                                      class="bit-btn css-1eqkoyn bit-btn-round bit-btn-main bit-btn-lg w-full">
-                                <span>Verify</span></button>
+                              <button @click="verifyFn" type="button" class="bit-btn css-1eqkoyn bit-btn-round bit-btn-main bit-btn-lg w-full">
+                                <span>Verify</span>
+                              </button>
                             </div>
                           </div>
                         </div>
@@ -155,20 +143,17 @@
                   </div>
                 </div>
                 <div class="mt-[16px] xl:mt-[0px] xl:w-[448px]">
-                  <div
-                      class="w-full rounded-[16px] border-[1px] border-solid border-ds-color-border-subtle bg-ds-color-background-primary px-[32px] py-[40px] xl:w-[448px]">
+                  <div class="w-full rounded-[16px] border-[1px] border-solid border-ds-color-border-subtle bg-ds-color-background-primary px-[32px] py-[40px] xl:w-[380px]">
                     <div class="mb-[16px] flex items-center justify-between">
                       <div class="text-[24px] font-semibold text-ds-color-text-primary">FAQ</div>
-                      <div
-                          class="cursor-pointer text-[16px] font-medium text-ds-color-text-secondary">
+                      <div class="cursor-pointer text-[16px] font-medium text-ds-color-text-secondary">
                         More
                       </div>
                     </div>
                     <div>
                       <div class="py-[16px]">
                         <div class="mb-[8px] flex cursor-pointer items-center justify-between">
-                          <div
-                              class="text-16px leading-24px w-[90%] font-medium text-ds-color-text-primary">
+                          <div class="text-16px leading-24px w-[90%] font-medium text-ds-color-text-primary">
                             Why do I need to undergo identity verification?
                           </div>
                         </div>
@@ -180,8 +165,8 @@
                               organizations to confirm your identity. Bitget will verify
                               your identity and conduct risk assessment to mitigate risks.
                             </div>
-                            <div class="leading-[22px] absolute"
-                                 style="visibility: hidden;">Identity verification is a
+                            <div class="leading-[22px] absolute" style="visibility: hidden;">
+                              Identity verification is a
                               process used by financial institutions and other regulated
                               organizations to confirm your identity. Bitget will verify
                               your identity and conduct risk assessment to mitigate risks.
@@ -266,8 +251,7 @@
                               2. You can only complete the identity verification on one
                               account.
                             </div>
-                            <div class="leading-[22px] absolute"
-                                 style="visibility: hidden;">1. You must be at least 18 years
+                            <div class="leading-[22px] absolute" style="visibility: hidden;">1. You must be at least 18 years
                               old.
                               2. You can only complete the identity verification on one
                               account.
@@ -314,5 +298,17 @@ export default {
 };
 </script>
 <style scoped>
+@media (min-width: 1280px) {
+  .xl\:mr-\[16px\] {
+    margin-right: 16px
+  }
 
+  .xl\:mt-\[0px\] {
+    margin-top: 0 !important;
+  }
+
+  .xl\:w-\[380px\] {
+    width: 380px
+  }
+}
 </style>
