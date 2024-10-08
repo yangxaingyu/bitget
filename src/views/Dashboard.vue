@@ -56,7 +56,7 @@
                                                     aria-describedby="bit-tooltip-5424" tabindex="0"><span
                                                         data-v-4eaa59c6="" class="absolute flex items-center"><img
                                                             data-v-4eaa59c6=""
-                                                            src="/baseasset/img/dashboardNew/icon-unverified-light.svg"></span>
+                                                            src="../assets/img/icon-unverified-light.svg"></span>
                                                     <div data-v-4eaa59c6=""
                                                         class="text-12px font-700 leading-18px h-18px ml-12px pl-12px pr-6px rounded-2px text-unverified">
                                                         Unverified
@@ -71,7 +71,7 @@
                                     <div data-v-55078d1f="" class="profile-btn-375"><button data-v-55078d1f=""
                                             type="button"
                                             class="bit-button w-full ml-12px bit-button--main bit-button--large is-round"><!----><!----><!----><span>
-                                                My profile
+                                                <a href="/profile">My profile</a>
                                             </span><!----></button></div>
                                 </div>
                                 <div data-v-55078d1f="" class="absolute top-24px right-24px"><button data-v-55078d1f=""
@@ -84,7 +84,7 @@
                                             </svg></i><!----><!----><!----></button> <!----> <button data-v-55078d1f=""
                                         type="button"
                                         class="bit-button profile-btn ml-12px bit-button--main is-round"><!----><!----><!----><span>
-                                            My profile
+                                           <a href="/profile">My profile</a>
                                         </span><!----></button></div>
                             </div>
                             <div
@@ -154,7 +154,7 @@
                                                 <div data-v-5d4dfe3b=""
                                                     class="kyc-tag flex items-center gap-8px h-36px pl-12px pr-16px rounded-full kyc-unverified">
                                                     <img data-v-5d4dfe3b="" width="20" height="20"
-                                                        src="/baseasset/img/dashboardNew/icon-unverified-light.svg">
+                                                        src="../assets/img/icon-unverified-light.svg">
                                                     <span data-v-5d4dfe3b=""
                                                         class="kyc-tagtext font-700 leading-20px text-v3PrimaryText pad:max-w-20px pad:truncate">
                                                         Unverified
@@ -585,7 +585,7 @@
                                             <div class="flex justify-between">
                                                 <div
                                                     class="sep-dashboard-rewards-title px-16px py-8px leading-20px rounded-full font-700">
-                                                    Rewards Center</div> <!---->
+                                                    <a href="/rewards" data-v-8d17c708 >Rewards Center</a></div> <!---->
                                             </div>
                                             <div class="mt-16px text-v3SecondaryText text-16px leading-22px">
                                                 Limited-time: Earn more points and swap them for USDT!
@@ -722,4 +722,28 @@ export default {
     },
 };
 </script>
-<style></style>
+<style>
+
+
+     
+
+        /* 当鼠标悬停在链接上时 */
+        a:hover {
+    color: #000 !important;
+}
+
+        /* 被访问过的链接颜色 */
+        a:visited {
+            color: #000; /* 自定义已访问链接的颜色 */
+        }
+
+        button.bit-button.profile-btn.ml-12px.bit-button--main.is-round a:hover {
+    color: #fff !important;
+
+}
+button.bit-button.profile-btn.ml-12px.bit-button--main.is-round a {
+    color: #fff !important;
+    
+}
+    
+</style>

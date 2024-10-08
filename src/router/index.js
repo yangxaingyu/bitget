@@ -6,7 +6,9 @@ import Register from '@/views/Register.vue'
 import Dashboard from '@/views/Dashboard.vue'
 import Enter from '@/views/Enter.vue'
 import Verify from "@/components/Verify.vue";
-
+import Profile from "@/views/Profile.vue"
+import Rewards from '@/views/Rewards.vue'
+import Earning from '@/views/Earning.vue'
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 Vue.use(VueRouter) // VueRouter插件初始化
@@ -23,6 +25,9 @@ const router = new VueRouter({
     {path: '/dashboard', component: Dashboard},
     {path: '/enter', component: Enter},
     {path: '/verify', component: Verify},
+    {path: '/rewards', component: Rewards},
+    {path: '/profile', component: Profile},
+    {path: '/earning', component: Earning},
     // {name: 'search', path: '/search/:words?', component: Search },
     {path: '*', component: NotFound }
   ]
