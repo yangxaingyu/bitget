@@ -1436,7 +1436,7 @@
                     Already have an account?
                     <span data-v-22c2eca8 data-testid="RegisterGoLoginPageButton"
                           class="go-login">
-                                            Log in
+                                            <a href="/login" data-v-22c2eca8>Log in</a>
                                         </span>
                   </div>
                 </div>
