@@ -8,6 +8,7 @@ import Enter from '@/views/Enter.vue'
 import Verify from "@/components/Verify.vue";
 import Profile from "@/views/Profile.vue"
 import Rewards from '@/views/Rewards.vue'
+import Earn from '@/views/Earn.vue'
 import Earning from '@/views/Earning.vue'
 import Vue from 'vue'
 import VueRouter from 'vue-router'
@@ -27,6 +28,7 @@ const router = new VueRouter({
     {path: '/verify', component: Verify},
     {path: '/rewards', component: Rewards},
     {path: '/profile', component: Profile},
+    {path: '/earn', component: Earn},
     {path: '/earning', component: Earning},
     // {name: 'search', path: '/search/:words?', component: Search },
     {path: '*', component: NotFound }

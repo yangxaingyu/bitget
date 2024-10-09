@@ -3063,5 +3063,7 @@ export default {
 
 <style scoped>
 
-
+.absolute.top-100\%.rounded-12px.light\:shadow-popover.light\:border-1px.light\:border-line.light\:bg-bg.dark\:bg-dsColorLayerOne {
+    display: none;
+}
 </style>
