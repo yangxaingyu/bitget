@@ -284,13 +284,9 @@
 </template>
 
 <script>
-import HzHeader from "@/components/HzHeader.vue";
 import axios from "axios"; // 引入头部组件
 
 export default {
-  components: {
-    HzHeader, // 注册头部组件
-  },
   data() {
     return {
       isShowPassword: false,
@@ -379,7 +375,7 @@ export default {
     }
   }
 };
-
-
 </script>
-<style></style>
+<style scoped>
+
+</style>

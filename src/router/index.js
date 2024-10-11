@@ -10,6 +10,7 @@ import Profile from "@/views/Profile.vue"
 import Rewards from '@/views/Rewards.vue'
 import Earn from '@/views/Earn.vue'
 import Earning from '@/views/Earning.vue'
+import Test from '@/views/Test.vue'
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 Vue.use(VueRouter) // VueRouter插件初始化
@@ -30,6 +31,7 @@ const router = new VueRouter({
     {path: '/profile', component: Profile},
     {path: '/earn', component: Earn},
     {path: '/earning', component: Earning},
+    {path: '/test', component: Test},
     // {name: 'search', path: '/search/:words?', component: Search },
     {path: '*', component: NotFound }
   ]

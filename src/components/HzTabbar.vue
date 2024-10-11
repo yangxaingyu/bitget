@@ -1,6 +1,6 @@
 <template>
   <div data-micro-type="Tabbar" class="micro micro-light" data-micro-id="01479074">
-    <div data-v-ba5e20f0="" class="micro-tabbar min-h-56px md:hidden" serverlocale="">
+    <div data-v-ba5e20f0="" class="micro-tabbar min-h-56px md:hidden">
       <div data-v-ba5e20f0="" class="fixed left-0 z-1 flex py-5px w-full h-56px bg-bgPrimary transition-bottom duration-500" style="bottom: 0px; box-shadow: rgba(31, 31, 31, 0.03) 0px -0.5px 7px 2px; z-index: 100;">
         <a data-v-ba5e20f0="" class="flex flex-col flex-1 justify-center items-center text-contentTertiary text-12px no-underline cursor-pointer" href="/">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="mb-2px text-contentPrimary">
@@ -28,7 +28,8 @@
           <rect x="3" y="4" width="2" height="5" rx="0.5" fill="currentColor"></rect>
           <path d="M4.5 6C4.22386 6 4 5.77614 4 5.5L4 4.5C4 4.22386 4.22386 4 4.5 4L17.5 4C17.7761 4 18 4.22386 18 4.5L18 5.5C18 5.77614 17.7761 6 17.5 6L4.5 6Z" fill="currentColor"></path>
         </svg>
-        Assets</a></div>
+        Assets</a>
+      </div>
     </div>
   </div>
 </template>

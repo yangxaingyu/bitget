@@ -12,7 +12,6 @@
               <img class="cursor-pointer" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjgiIGhlaWdodD0iMjgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTIyLjQ5NCAyMS4yNTZhLjg3NS44NzUgMCAwIDEtMS4yMzggMS4yMzhMMTQgMTUuMjM3bC03LjI1NiA3LjI1N2EuODc2Ljg3NiAwIDAgMS0xLjIzOC0xLjIzOEwxMi43NjMgMTQgNS41MDYgNi43NDRhLjg3NS44NzUgMCAxIDEgMS4yMzgtMS4yMzhMMTQgMTIuNzYzbDcuMjU2LTcuMjU3YS44NzYuODc2IDAgMCAxIDEuMjM4IDEuMjM4TDE1LjIzNyAxNGw3LjI1NyA3LjI1NloiIGZpbGw9IiM4OTg5ODkiLz48L3N2Zz4=" alt="">
             </div>
             <div class="px-[16px] md:p-[0px]">
-              <div>
                 <div>
                   <div class="">
                     <div class="mt-[24px]">
@@ -25,8 +24,11 @@
                                   <div class="ant-form-item css-1wh6t89 ant-form-item-has-success">
                                     <div class="ant-row ant-form-item-row css-1wh6t89">
                                       <div class="ant-col ant-form-item-label css-1wh6t89">
-                                        <label for="residenceCountry" class="ant-form-item-required" title="Country/region of residence">Country/region of residence</label>
+                                        <label for="residenceCountry" class="ant-form-item-required">
+                                          {{ $t('verify.residence') }}
+                                        </label>
                                       </div>
+
                                       <a-select
                                           show-search
                                           placeholder="Republic of Angola"
@@ -44,7 +46,10 @@
                                               <div class="ant-select-selector">
                                                 <span class="ant-select-selection-search">
                                                   <input type="search" autocomplete="off" class="ant-select-selection-search-input" role="combobox" aria-haspopup="listbox" aria-owns="rc_select_0_list" aria-autocomplete="list" aria-controls="rc_select_0_list" aria-activedescendant="rc_select_0_list_0" value="" id="rc_select_0"></span>
-                                                <span class="ant-select-selection-item" title="Republic of Angola">Republic of Angola</span>
+                                                <span class="ant-select-selection-item">
+
+                                                  Republic of Angola
+                                                </span>
                                               </div>
                                               <span class="ant-select-arrow" unselectable="on" aria-hidden="true" style="user-select: none;"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTEzLjM1NCA2LjM1NC01IDVhLjUwMi41MDIgMCAwIDEtLjcwOCAwbC01LTVhLjUuNSAwIDEgMSAuNzA4LS43MDhMOCAxMC4yOTNsNC42NDYtNC42NDdhLjUuNSAwIDAgMSAuNzA3LjcwOFoiIGZpbGw9IiMxRjFGMUYiLz48L3N2Zz4="></span>
                                             </div>
@@ -56,7 +61,9 @@
                                   <div class="ant-form-item css-1wh6t89 ant-form-item-has-success">
                                     <div class="ant-row ant-form-item-row css-1wh6t89">
                                       <div class="ant-col ant-form-item-label css-1wh6t89">
-                                        <label for="issueCountry" class="ant-form-item-required" title="Issuing country/region">Issuing country/region</label>
+                                        <label for="issueCountry" class="ant-form-item-required">
+                                          {{ $t('verify.issuing') }}
+                                        </label>
                                       </div>
                                       <a-select
                                           show-search
@@ -84,7 +91,9 @@
                                   <div class="ant-form-item css-1wh6t89 ant-form-item-has-success">
                                     <div class="ant-row ant-form-item-row css-1wh6t89">
                                       <div class="ant-col ant-form-item-label css-1wh6t89">
-                                        <label for="idType" class="ant-form-item-required" title="ID type">ID type</label>
+                                        <label for="idType" class="ant-form-item-required">
+                                          {{ $t('verify.idType') }}
+                                        </label>
                                       </div>
                                       <div class="ant-col ant-form-item-control css-1wh6t89">
                                         <div class="ant-form-item-control-input">
@@ -99,8 +108,10 @@
                                                     </span>
                                                   </label>
                                                   <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3QgeD0iMyIgeT0iNSIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE0IiByeD0iMSIgc3Ryb2tlPSIjODk4OTg5IiBzdHJva2Utd2lkdGg9IjEuNSIvPjxjaXJjbGUgY3g9IjE1IiBjeT0iMTEiIHI9IjIiIHN0cm9rZT0iIzg5ODk4OSIgc3Ryb2tlLXdpZHRoPSIxLjUiLz48cGF0aCBkPSJNMTggMTZhMyAzIDAgMSAwLTYgME02IDEwaDQuNU02IDEzaDMuNSIgc3Ryb2tlPSIjODk4OTg5IiBzdHJva2Utd2lkdGg9IjEuNSIvPjwvc3ZnPg==" alt="">
-                                                  <div class="text-ds-color-text-primary text-[14px] ml-[10px]">ID card</div>
-                                                  <div class="px-[4px] py-[1px] bg-ds-color-link-default text-ds-color-always-white ml-[8px] leading-[24px] text-[12px] rounded-[2px]">Recommended</div>
+                                                  <div class="text-ds-color-text-primary text-[14px] ml-[10px]">{{ $t('verify.idCard') }}</div>
+                                                  <div class="px-[4px] py-[1px] bg-ds-color-link-default text-ds-color-always-white ml-[8px] leading-[24px] text-[12px] rounded-[2px]">
+                                                    {{ $t('verify.recommended') }}
+                                                  </div>
                                                 </div>
                                                 <div class="text-[12px] text-ds-color-text-tertiary ml-[26px]"></div>
                                               </div>
@@ -113,7 +124,7 @@
                                                     </span>
                                                   </label>
                                                   <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3QgeD0iMjAiIHk9IjMiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNiIgcng9IjEiIHRyYW5zZm9ybT0icm90YXRlKDkwIDIwIDMpIiBzdHJva2U9IiM4OTg5ODkiIHN0cm9rZS13aWR0aD0iMS41Ii8+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iNSIgc3Ryb2tlPSIjODk4OTg5IiBzdHJva2Utd2lkdGg9IjEuNSIvPjxwYXRoIGQ9Ik0xNCAxMmMwIDIuNzYxLTIgNS0yIDVzLTItMi4yMzktMi01IDItNSAyLTUgMiAyLjIzOSAyIDVaIiBzdHJva2U9IiM4OTg5ODkiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBhdGggZD0iTTcgMTJoMTAiIHN0cm9rZT0iIzg5ODk4OSIgc3Ryb2tlLXdpZHRoPSIxLjUiLz48L3N2Zz4=" alt="">
-                                                  <div class="text-ds-color-text-primary text-[14px] ml-[10px]">Passport</div>
+                                                  <div class="text-ds-color-text-primary text-[14px] ml-[10px]">{{ $t('verify.passport') }}</div>
                                                 </div>
                                                 <div class="text-[12px] text-ds-color-text-tertiary ml-[26px]"></div>
                                               </div>
@@ -126,7 +137,7 @@
                                                     </span>
                                                   </label>
                                                   <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3QgeD0iMyIgeT0iNSIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE0IiByeD0iMSIgc3Ryb2tlPSIjODk4OTg5IiBzdHJva2Utd2lkdGg9IjEuNSIvPjxwYXRoIGQ9Ik0xNSA5aDNNMTUgMTJoMyIgc3Ryb2tlPSIjODk4OTg5IiBzdHJva2Utd2lkdGg9IjEuNSIvPjxjaXJjbGUgY3g9IjExLjUiIGN5PSIxNC41IiByPSIxLjUiIHN0cm9rZT0iIzg5ODk4OSIgc3Ryb2tlLXdpZHRoPSIxLjUiLz48cGF0aCBkPSJNMTAgMTQuNUg2LjVhMSAxIDAgMCAxLTEtMXYtMS40MmExIDEgMCAwIDEgLjUwNC0uODY4bDIuNzkxLTEuNTk1YTEgMSAwIDAgMCAuMzM2LS4zMTNsLjU3Mi0uODU5QTEgMSAwIDAgMSAxMC41MzUgOEgxMi41IiBzdHJva2U9IiM4OTg5ODkiIHN0cm9rZS13aWR0aD0iMS41Ii8+PC9zdmc+" alt="">
-                                                  <div class="text-ds-color-text-primary text-[14px] ml-[10px]">Driving license</div>
+                                                  <div class="text-ds-color-text-primary text-[14px] ml-[10px]">{{ $t('verify.driveLicense') }}</div>
                                                 </div>
                                                 <div class="text-[12px] text-ds-color-text-tertiary ml-[26px]"></div>
                                               </div>
@@ -140,7 +151,7 @@
                                                     </span>
                                                   </label>
                                                   <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3QgeD0iMyIgeT0iNSIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE0IiByeD0iMSIgc3Ryb2tlPSIjODk4OTg5IiBzdHJva2Utd2lkdGg9IjEuNSIvPjxwYXRoIGQ9Ik0xMiAxNHYyTTcgMTZ2LTQuNDM0YTEgMSAwIDAgMSAuNDg2LS44NTdsNC0yLjRhMSAxIDAgMCAxIDEuMDI4IDBsNCAyLjRhMSAxIDAgMCAxIC40ODYuODU3VjE2IiBzdHJva2U9IiM4OTg5ODkiIHN0cm9rZS13aWR0aD0iMS41Ii8+PC9zdmc+" alt="">
-                                                  <div class="text-ds-color-text-primary text-[14px] ml-[10px]">Residence card</div>
+                                                  <div class="text-ds-color-text-primary text-[14px] ml-[10px]">{{ $t('verify.residenceCard') }}</div>
                                                 </div>
                                                 <div class="text-[12px] text-ds-color-text-tertiary ml-[26px]"></div>
                                               </div>
@@ -156,7 +167,7 @@
                                     <div class="ant-row ant-form-item-row css-1wh6t89">
                                       <div class="ant-col ant-form-item-label css-1wh6t89">
                                         <label for="residenceCountry" class="ant-form-item-required">
-                                          Front of document
+                                          {{ $t('verify.frontDocument') }}
                                         </label>
                                       </div>
                                       <template>
@@ -171,7 +182,7 @@
                                             <a-icon type="inbox" />
                                           </p>
                                           <p class="ant-upload-text">
-                                            Click or drag file to this area to upload
+                                            {{ $t('verify.uploadImgHint') }}
                                           </p>
                                           <p class="ant-upload-hint"></p>
                                         </a-upload-dragger>
@@ -181,7 +192,7 @@
 
                                   <!--证件反面-->
                                   <div class="ant-form-item css-1wh6t89 ant-form-item-has-success">
-                                    Back of document
+                                    {{ $t('verify.backDocument') }}
                                   </div>
                                   <template>
                                     <a-upload-dragger
@@ -194,7 +205,7 @@
                                         <a-icon type="inbox" />
                                       </p>
                                       <p class="ant-upload-text">
-                                        Click or drag file to this area to upload
+                                        {{ $t('verify.uploadImgHint') }}
                                       </p>
                                       <p class="ant-upload-hint"></p>
                                     </a-upload-dragger>
@@ -213,13 +224,14 @@
 <!--                                  </div>-->
                                   <div @click="verifyFn" class="ant-col ant-col-24 css-1wh6t89" style="padding-left: 6px; padding-right: 6px;">
                                     <div class="text-ds-color-text-inverse-primary bg-ds-color-text-primary h-[42px] rounded-[48px] text-[14px] cursor-pointer leading-[40px] text-center w-full">
-                                      Verification
+                                      {{ $t('verify.verification') }}
                                     </div>
                                   </div>
                                 </div>
                               </div>
                             </div>
                           </div>
+
                           <div class="hidden">
                             <div>
                               <div class="mb-[20px]"></div>
@@ -237,7 +249,6 @@
                     </div>
                   </div>
                 </div>
-              </div>
             </div>
           </div>
         </div>
@@ -7775,7 +7786,7 @@ body.black,body.dark,html.black,html.dark {
 }
 /*# sourceMappingURL=umi.75e49b39.css.map*/
 
-.kyc_upload_progress___YTBhU span{color:var(--ds-color-always-white)!important}
+.kyc_upload_progress___YTBhU span {color:var(--ds-color-always-white)!important}
 /*# sourceMappingURL=src__pages__Kyc__index.0915a9ef.chunk.css.map*/
 
 .ant-select-selection--single {

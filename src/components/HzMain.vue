@@ -267,7 +267,7 @@
                   </div>
                   <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
               </div>
-            </div> <!----> <!---->
+            </div>
             <div class="minPhone:hidden">
               <div class="bit-theme-dark-vue2" data-v-7259d6c5="">
                 <div class="messi-top-banner h-600px relative box-border flex overflow-hidden w-1/1 pb-32px bg-[#00040C] pad:max-h-928px pad:h-auto pad:pb-54px phone:max-h-680px phone:h-auto phone:pb-12px" data-v-7259d6c5="">
@@ -377,14 +377,15 @@
           </div>
           <div data-fetch-key="0" class="trad max-w-[calc(100%-48px)] w-1200px !mx-auto <xl:mx-24px <lg-new:w-895px phone:mx-16px phone:mt-32px phone:w-full phone:max-w-[calc(100%-32px)]" data-v-08a1c11c="">
             <div class="trad-card relative" data-v-0863e2f6="">
+              <!--flag-->
               <div class="swiper-container-con swiper-container-initialized swiper-container-horizontal" data-v-0863e2f6="">
                 <div class="swiper-wrapper" data-v-0863e2f6="" style="transform: translate3d(0px, 0px, 0px);">
-                  <div class="trad-card-con swiper-slide swiper-slide-active" style="margin-right: 16px;" data-v-0863e2f6="">
+                  <div class="trad-card-con swiper-slide" style="margin-right: 16px;" data-v-0863e2f6="">
                     <div class="trad-card-con-item" data-v-0863e2f6="">
                       <a href="/asia/events/launchpool/1220235662020993024" target="_blank" class="bit-link bit-link--default" data-v-0863e2f6=""><span class="bit-link--inner"><img fetchpriority="high" width="288" height="144" src="https://img.bitgetimg.com/multiLang/web/51d42f3d4222b421f645aa50d52fd7e3.png" alt="trad-card-con-item-img-1" class="trad-card-con-item-img" data-v-0863e2f6=""></span>
                       </a></div>
                   </div>
-                  <div class="trad-card-con swiper-slide swiper-slide-next" style="margin-right: 16px;" data-v-0863e2f6="">
+                  <div class="trad-card-con swiper-slide" style="margin-right: 16px;" data-v-0863e2f6="">
                     <div class="trad-card-con-item" data-v-0863e2f6="">
                       <a href="/asia/events/activities/6d21afc220ab54c6a2fcefcf50af0d1f?color=black" target="_blank" class="bit-link bit-link--default" data-v-0863e2f6=""><span class="bit-link--inner"><img fetchpriority="high" width="288" height="144" src="https://img.bitgetimg.com/multiLang/web/fbd9e793765b41b672247285a528c3b0.jpg" alt="trad-card-con-item-img-2" class="trad-card-con-item-img" data-v-0863e2f6=""></span>
                       </a></div>
@@ -392,6 +393,16 @@
                   <div class="trad-card-con swiper-slide" style="margin-right: 16px;" data-v-0863e2f6="">
                     <div class="trad-card-con-item" data-v-0863e2f6="">
                       <a href="/asia/events/activities/e25a51d3003b5823bd073962afb707b8?color=black" target="_blank" class="bit-link bit-link--default" data-v-0863e2f6=""><span class="bit-link--inner"><img fetchpriority="high" width="288" height="144" src="https://img.bitgetimg.com/multiLang/web/f5d09323c83e49b1dde936bcacbe969b.jpg" alt="trad-card-con-item-img-3" class="trad-card-con-item-img" data-v-0863e2f6=""></span>
+                      </a></div>
+                  </div>
+                  <div class="trad-card-con swiper-slide" style="margin-right: 16px;" data-v-0863e2f6="">
+                    <div class="trad-card-con-item" data-v-0863e2f6="">
+                      <a href="/asia/events/activities/685ec5af1c205faeaa0722cd09af5a12?color=black" target="_blank" class="bit-link bit-link--default" data-v-0863e2f6=""><span class="bit-link--inner"><img fetchpriority="high" width="288" height="144" src="https://img.bitgetimg.com/multiLang/web/053625720431387c124a5ee8aab78633.jpg" alt="trad-card-con-item-img-4" class="trad-card-con-item-img" data-v-0863e2f6=""></span>
+                      </a></div>
+                  </div>
+                  <div class="trad-card-con swiper-slide" style="margin-right: 16px;" data-v-0863e2f6="">
+                    <div class="trad-card-con-item" data-v-0863e2f6="">
+                      <a href="/asia/events/activities/685ec5af1c205faeaa0722cd09af5a12?color=black" target="_blank" class="bit-link bit-link--default" data-v-0863e2f6=""><span class="bit-link--inner"><img fetchpriority="high" width="288" height="144" src="https://img.bitgetimg.com/multiLang/web/053625720431387c124a5ee8aab78633.jpg" alt="trad-card-con-item-img-4" class="trad-card-con-item-img" data-v-0863e2f6=""></span>
                       </a></div>
                   </div>
                   <div class="trad-card-con swiper-slide" style="margin-right: 16px;" data-v-0863e2f6="">
@@ -419,7 +430,8 @@
               </div>
               <div class="pagination-box" data-v-0863e2f6="">
                 <div class="swiper-pagination-1 swiper-pagination-bullets" data-v-0863e2f6="">
-                  <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span></div>
+                  <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+                </div>
               </div>
             </div>
             <div class="trad-horn">
@@ -5099,7 +5111,7 @@
               </div>
             </div>
           </div>
-          <div data-v-08a1c11c="" style="min-height: 0px;">
+          <div data-v-08a1c11c="" style="min-height: 0;">
             <div data-v-9d50a56e="" data-v-08a1c11c="" class="mt-160px <xl:mt-80px bit-theme-light-vue2">
               <div data-v-9d50a56e="" class="download text-primaryText white !bg-bg">
                 <div data-v-9d50a56e="" class="mx-auto lg-new:w-987px lg-new:max-w-[calc(100%-203px)] pad:w-640px phone:w-full">
@@ -5226,8 +5238,40 @@
     </div>
   </div>
 </template>
-<script setup>
+<script>
+import Swiper from "swiper"
+import "swiper/css/swiper.min.css"
+export default {
+  data() {
+    return {
+      screenWidth: '',
+      slidesPerView: ''
 
+    }
+  },
+  mounted() {
+    this.screenWidth = document.body.clientWidth
+    if (this.screenWidth <= 438) {
+      this.slidesPerView = 1
+    } else if (this.screenWidth < 863 && this.screenWidth > 438) {
+      this.slidesPerView = 2
+    } else if (this.screenWidth < 1600 && this.screenWidth >= 836) {
+      this.slidesPerView = 3
+    } else {
+      this.slidesPerView = 4
+    }
+
+    this.swiper = new Swiper(".swiper-container-con", {
+      slidesPerView: this.slidesPerView,
+      spaceBetween: 12,
+      loop: false,
+      navigation: {
+        nextEl: ".btn-next",
+        prevEl: ".btn-prev",
+      }
+    })
+  }
+}
 </script>
 
 <style scoped>

@@ -16,7 +16,6 @@
               </div>
               <div class="flex items-center justify-content ml-auto px-16px h-34px bg-primary text-white text-14px font-500 rounded-100px">Open</div>
             </div>
-
             <div data-v-7c2db744 class="relative z-1 flex h-48px w-full box-border items-center px-24px text-14px text-primaryText md:!h-64px lt-md:!px-16px">
               <a data-v-7c2db744 class="text-primaryText micro-logo w-80px h-24px !md:w-103px !md:h-32px mr-20px" href="/" target="_self">
                 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0,0,103,32" fill="none" class="dark:text-[#00E0FF] !rotate-y-0 w-80px h-24px !md:w-103px !md:h-32px">
@@ -41,36 +40,36 @@
                 </div>
 
                 <span data-v-5f651626 class="text-primaryText menu-item group" data-menu-id="13">
-                  <span data-v-5f651626 class="title">Markets</span>
+                  <span data-v-5f651626 class="title">{{ $t('menu.markets') }}</span>
                 </span>
 
                 <span data-v-5f651626 class="text-primaryText menu-item group" data-menu-id="99">
-                  <span data-v-5f651626 class="title" data-testid="HeaderTradeButton">Trade</span>
+                  <span data-v-5f651626 class="title" data-testid="HeaderTradeButton">{{ $t('menu.trade') }}</span>
                 </span>
 
                 <span data-v-5f651626 class="text-primaryText menu-item group" data-menu-id="259">
-                  <span data-v-5f651626 class="title">Futures</span>
+                  <span data-v-5f651626 class="title">{{ $t('menu.futures') }}</span>
                   <img data-v-5f651626 class="tag-img" src="https://img.bitgetimg.com/multiLang/web/348920c3f7c1828fa1820516d5460943.png" alt>
                 </span>
 
                 <span data-v-5f651626 class="text-primaryText menu-item group" data-menu-id="142">
-                  <span data-v-5f651626 class="title">Copy</span>
+                  <span data-v-5f651626 class="title">{{ $t('menu.copy') }}</span>
                 </span>
 
                 <span data-v-5f651626 class="text-primaryText menu-item group" data-menu-id="143">
-                  <span data-v-5f651626 class="title">Bots</span>
+                  <span data-v-5f651626 class="title">{{ $t('menu.bots') }}</span>
                 </span>
 
                 <span data-v-5f651626 class="text-primaryText menu-item group" data-menu-id="53">
-                  <span data-v-5f651626 class="title">Earn</span>
+                  <span data-v-5f651626 class="title">{{ $t('menu.earn') }}</span>
                 </span>
 
                 <span data-v-5f651626 class="text-primaryText menu-item group" data-menu-id="88">
-                  <span data-v-5f651626 class="title">Web3</span>
+                  <span data-v-5f651626 class="title">{{ $t('menu.web3') }}</span>
                 </span>
 
                 <span data-v-5f651626 class="text-primaryText menu-item group" data-menu-id="277">
-                  <span data-v-5f651626 class="title">Launchhub</span>
+                  <span data-v-5f651626 class="title">{{ $t('menu.launchhub') }}</span>
                 </span>
 
                 <a v-if="false" data-v-5f651626 class="text-primaryText menu-item group min-w-[fit-content]" href="/asia/copy-trading/traderpro?proSourceType=1&amp;utmTerm=19" target="_blank" data-menu-id="247">
@@ -78,7 +77,7 @@
                   <img data-v-5f651626 class="h-24px hidden group-hover:inline-block" src="https://img.bitgetimg.com/multiLang/web/16613340924bf9b9386583f94426ead0.png" alt="TraderPro">
                 </a>
 
-                <div data-v-5f651626 class="absolute top-100% rounded-12px light:shadow-popover light:border-1px light:border-line light:bg-bg dark:bg-dsColorLayerOne" style="will-change: transform, opacity, left, right; transition: opacity 0.15s; opacity: 1;">
+                <div data-v-5f651626 class="absolute top-100% rounded-12px light:shadow-popover light:border-1px light:border-line light:bg-bg dark:bg-dsColorLayerOne" style="will-change: transform, opacity, left, right; transition: opacity 0.15s; opacity: 0;">
                   <div class="relative z-1 bg-inherit rounded-12px overflow-hidden w-[fit-content]">
                     <div style="display: none;">
                       <div data-v-550f7d44 class="flex flex-row gap-4px min-h-338px max-h-504px bg-inherit" style="height: 584px; max-height: 404px;">
@@ -251,7 +250,8 @@
                         </div>
                       </div>
                     </div>
-                    <div>
+
+                    <div style="display: none;">
                       <div data-v-3d905981 class="flex bg-inherit max-h-504px">
                         <div data-v-3d905981 class="relative p-12px w-276px overflow-y-auto">
                           <div data-v-3d905981 class="mx-2px pt-4px pb-18px px-14px font-600 text-16px leading-22px [&amp;>span]:inline-flex [&amp;>span]:items-center [&amp;>span]:align-middle [&amp;_img]:px-6px">Market is up by
@@ -295,6 +295,7 @@
                         </div>
                       </div>
                     </div>
+
                     <div style="display: none;">
                       <div data-v-3d905981 class="flex bg-inherit max-h-504px">
                         <div data-v-3d905981 class="relative p-12px w-276px overflow-y-auto">
@@ -336,6 +337,7 @@
                         </div>
                       </div>
                     </div>
+
                     <div style="display: none;">
                       <div data-v-3d905981 class="flex bg-inherit max-h-504px">
                         <div data-v-3d905981 class="relative p-12px w-276px overflow-y-auto">
@@ -402,6 +404,7 @@
                         </div>
                       </div>
                     </div>
+
                     <div style="display: none;">
                       <div data-v-e216624f class="flex flex-row gap-4px min-h-320px max-h-504px bg-inherit">
                         <div data-v-e216624f class="menu-right-border p-24px w-260px b-r-line">
@@ -515,6 +518,7 @@
                         </div>
                       </div>
                     </div>
+
                     <div style="display: none;">
                       <div data-v-25920e85 class="flex flex-row gap-4px min-h-380px max-h-504px bg-inherit">
                         <div data-v-25920e85 class="p-12px w-276px overflow-y-auto">
@@ -576,6 +580,7 @@
                         </div>
                       </div>
                     </div>
+
                     <div style="display: none;">
                       <div data-v-550f7d44 class="flex flex-row gap-4px min-h-338px max-h-504px bg-inherit" style="height: 510px; max-height: 504px;">
                         <div data-v-550f7d44 class="flex flex-row mt-4px h-[calc(100%-8px)] overflow-x-auto">
@@ -695,6 +700,7 @@
                         </div>
                       </div>
                     </div>
+
                     <div style="display: none;">
                       <div data-v-3d905981 class="flex bg-inherit max-h-504px">
                         <div data-v-3d905981 class="relative p-12px w-276px overflow-y-auto">
@@ -724,6 +730,7 @@
                         </div>
                       </div>
                     </div>
+
                     <div style="display: none;">
                       <div data-v-3d905981 class="flex bg-inherit max-h-504px">
                         <div data-v-3d905981 class="relative p-12px w-276px overflow-y-auto">
@@ -781,6 +788,7 @@
                         </div>
                       </div>
                     </div>
+
                     <div style="display: none;">
                       <div data-v-3d905981 class="flex bg-inherit max-h-504px">
                         <div data-v-3d905981 class="relative p-12px w-276px overflow-y-auto">
@@ -812,7 +820,7 @@
 
               <div data-v-7c2db744 class="micro-action flex items-center gap-8px ml-auto h-full">
                 <!--登录注册链接-->
-                <div v-if="!isLogin && (screenWidth > 1600)"  class="flex items-center gap-20px whitespace-nowrap pr-8px">
+                <div v-if="!isLogin && (screenWidth > 1600)" class="flex items-center gap-20px whitespace-nowrap pr-8px">
                   <div data-v-d8e0da7c class="relative inline-flex items-center h-full login-popover-move">
                     <div data-v-d8e0da7c>
                       <a class="text-primaryText text-16px cursor-pointer leading-40px text-center" href="/login" target="_self" rel="nofollow">Log in</a>
@@ -890,7 +898,7 @@
                 </div>
 
                 <!--个人中心链接-->
-                <div v-if="isLogin && screenWidth > 1600" class="relative inline-flex items-center h-full">
+                <div v-if="isLogin && screenWidth > 1600" @mouseenter="pcUserShow = true" @mouseleave="pcUserShow = false" class="relative inline-flex items-center h-full">
                   <div data-v-d8e0da7c>
                     <div class="flex items-center justify-center w-40px h-40px rounded-50% cursor-pointer hover:bg-bgSecondary">
                       <div data-v-ada517e7 class="micro-bit-avatar" style="width: 32px; height: 32px;" data-testid="MicroUserIcon">
@@ -900,7 +908,7 @@
                   </div>
 
                   <!--个人中心子菜单-->
-                  <div data-v-d8e0da7c class="popover absolute z-1000 opacity-0 invisible left" :class="{visible: false}" lt-md="fixed left-0" style="top: calc(100% - 22px); padding-top: 22px;">
+                  <div data-v-d8e0da7c class="popover absolute z-1000 opacity-0 invisible left" :class="{visible: pcUserShow}" lt-md="fixed left-0" style="top: calc(100% - 22px); padding-top: 22px;">
                     <div data-v-d8e0da7c class="popover-main rounded-12px overflow-y-auto light:shadow-popover light:border-1px light:border-line light:bg-bg dark:bg-dsColorLayerOne" style="max-height: calc(-152px + 100vh);">
                       <div data-v-a6a2c3ff class="micro-user flex flex-col relative pt-24px max-h-inherit text-14px overflow-hidden max-h-inherit w-380px">
                         <div data-v-a6a2c3ff class="flex-1 px-24px pb-0 overflow-y-auto overflow-x-hidden">
@@ -937,6 +945,7 @@
                               </div>
                             </div>
                           </div>
+                          <!--安全-->
                           <div data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-6px last:mb-0">
                             <a class="text-primaryText flex justify-between items-center h-40px" href="/account/setting" target="_self">
                               <div class="flex justify-between items-center gap-10px">
@@ -946,8 +955,11 @@
                                     <path id="Vector_2" d="M6.66644 9.16667L9.16644 11.6667L13.3331 7.5" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
                                   </g>
                                 </svg>
-                                <span class="menu-label">Security</span></div>
-                            </a></div>
+                                <span class="menu-label">{{ $t('leftDash.security') }}</span>
+                              </div>
+                            </a>
+                          </div>
+
                           <div data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-6px last:mb-0" show-hover-arrow>
                             <a class="text-primaryText flex justify-between items-center h-40px" href="/account/verified" target="_self">
                               <div class="flex justify-between items-center gap-10px">
@@ -956,8 +968,11 @@
                                     <path id="Vector" d="M15.625 8.75C15.625 8.91576 15.5592 9.07473 15.4419 9.19194C15.3247 9.30915 15.1658 9.375 15 9.375H11.875C11.7092 9.375 11.5503 9.30915 11.4331 9.19194C11.3158 9.07473 11.25 8.91576 11.25 8.75C11.25 8.58424 11.3158 8.42527 11.4331 8.30806C11.5503 8.19085 11.7092 8.125 11.875 8.125H15C15.1658 8.125 15.3247 8.19085 15.4419 8.30806C15.5592 8.42527 15.625 8.58424 15.625 8.75ZM15 10.625H11.875C11.7092 10.625 11.5503 10.6908 11.4331 10.8081C11.3158 10.9253 11.25 11.0842 11.25 11.25C11.25 11.4158 11.3158 11.5747 11.4331 11.6919C11.5503 11.8092 11.7092 11.875 11.875 11.875H15C15.1658 11.875 15.3247 11.8092 15.4419 11.6919C15.5592 11.5747 15.625 11.4158 15.625 11.25C15.625 11.0842 15.5592 10.9253 15.4419 10.8081C15.3247 10.6908 15.1658 10.625 15 10.625ZM18.125 4.375V15.625C18.125 15.9565 17.9933 16.2745 17.7589 16.5089C17.5245 16.7433 17.2065 16.875 16.875 16.875H3.125C2.79348 16.875 2.47554 16.7433 2.24112 16.5089C2.0067 16.2745 1.875 15.9565 1.875 15.625V4.375C1.875 4.04348 2.0067 3.72554 2.24112 3.49112C2.47554 3.2567 2.79348 3.125 3.125 3.125H16.875C17.2065 3.125 17.5245 3.2567 17.7589 3.49112C17.9933 3.72554 18.125 4.04348 18.125 4.375ZM16.875 15.625V4.375H3.125V15.625H16.875ZM10.6047 12.9688C10.6461 13.1293 10.6221 13.2998 10.5378 13.4426C10.4536 13.5855 10.316 13.689 10.1555 13.7305C9.99489 13.7719 9.82442 13.7479 9.68157 13.6636C9.53872 13.5794 9.43519 13.4418 9.39375 13.2813C9.18828 12.4797 8.37344 11.875 7.49922 11.875C6.625 11.875 5.81094 12.4797 5.60469 13.2813C5.56325 13.4418 5.45971 13.5794 5.31686 13.6636C5.17401 13.7479 5.00355 13.7719 4.84297 13.7305C4.68239 13.689 4.54485 13.5855 4.4606 13.4426C4.37636 13.2998 4.35231 13.1293 4.39375 12.9688C4.59656 12.2139 5.07598 11.5629 5.73672 11.1453C5.3856 10.7963 5.14602 10.3508 5.04835 9.86549C4.95068 9.38013 4.99932 8.87671 5.1881 8.41902C5.37688 7.96134 5.6973 7.57002 6.10875 7.29465C6.52019 7.01929 7.00413 6.87229 7.49922 6.87229C7.9943 6.87229 8.47824 7.01929 8.88969 7.29465C9.30113 7.57002 9.62156 7.96134 9.81034 8.41902C9.99912 8.87671 10.0478 9.38013 9.95009 9.86549C9.85242 10.3508 9.61284 10.7963 9.26172 11.1453C9.92318 11.5623 10.403 12.2135 10.6055 12.9688H10.6047ZM7.5 10.625C7.74723 10.625 7.9889 10.5517 8.19446 10.4143C8.40002 10.277 8.56024 10.0818 8.65485 9.85335C8.74946 9.62495 8.77421 9.37361 8.72598 9.13114C8.67775 8.88866 8.5587 8.66593 8.38388 8.49112C8.20907 8.3163 7.98634 8.19725 7.74386 8.14902C7.50139 8.10079 7.25005 8.12554 7.02165 8.22015C6.79324 8.31476 6.59801 8.47498 6.46066 8.68054C6.32331 8.8861 6.25 9.12777 6.25 9.375C6.25 9.70652 6.3817 10.0245 6.61612 10.2589C6.85054 10.4933 7.16848 10.625 7.5 10.625Z" fill="currentColor"></path>
                                   </g>
                                 </svg>
-                                <span class="menu-label">Identity verification</span></div>
-                            </a></div>
+                                <span class="menu-label">{{ $t('leftDash.idVerify') }}</span>
+                              </div>
+                            </a>
+                          </div>
+
                           <div data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-6px last:mb-0" show-hover-arrow>
                             <a class="text-primaryText flex justify-between items-center h-40px" href="/account/coupon" target="_self">
                               <div class="flex justify-between items-center gap-10px">
@@ -966,11 +981,14 @@
                                     <path id="Vector" d="M17.7492 8.1625C18.0316 8.10505 18.2854 7.95182 18.4678 7.72874C18.6501 7.50566 18.7498 7.22642 18.75 6.93828V5C18.75 4.66848 18.6183 4.35054 18.3839 4.11612C18.1495 3.8817 17.8315 3.75 17.5 3.75H2.5C2.16848 3.75 1.85054 3.8817 1.61612 4.11612C1.3817 4.35054 1.25 4.66848 1.25 5V6.93828C1.25016 7.22642 1.34986 7.50566 1.53223 7.72874C1.71459 7.95182 1.96843 8.10505 2.25078 8.1625C2.67298 8.25005 3.05209 8.48044 3.32427 8.81485C3.59644 9.14926 3.74505 9.56726 3.74505 9.99844C3.74505 10.4296 3.59644 10.8476 3.32427 11.182C3.05209 11.5164 2.67298 11.7468 2.25078 11.8344C1.9679 11.8919 1.71366 12.0456 1.53124 12.2693C1.34881 12.4931 1.24944 12.773 1.25 13.0617V15C1.25 15.3315 1.3817 15.6495 1.61612 15.8839C1.85054 16.1183 2.16848 16.25 2.5 16.25H17.5C17.8315 16.25 18.1495 16.1183 18.3839 15.8839C18.6183 15.6495 18.75 15.3315 18.75 15V13.0617C18.7498 12.7736 18.6501 12.4943 18.4678 12.2713C18.2854 12.0482 18.0316 11.8949 17.7492 11.8375C17.327 11.7499 16.9479 11.5196 16.6757 11.1851C16.4036 10.8507 16.255 10.4327 16.255 10.0016C16.255 9.57039 16.4036 9.15239 16.6757 8.81798C16.9479 8.48357 17.327 8.25318 17.7492 8.16563V8.1625ZM2.5 13.0625C3.20601 12.9187 3.84064 12.5353 4.29644 11.9773C4.75224 11.4193 5.00122 10.7209 5.00122 10.0004C5.00122 9.27988 4.75224 8.5815 4.29644 8.02349C3.84064 7.46547 3.20601 7.0821 2.5 6.93828V5H6.875V15H2.5V13.0625ZM17.5 13.0625V15H8.125V5H17.5V6.9375C16.794 7.08132 16.1594 7.46469 15.7036 8.02271C15.2478 8.58072 14.9988 9.2791 14.9988 9.99961C14.9988 10.7201 15.2478 11.4185 15.7036 11.9765C16.1594 12.5345 16.794 12.9179 17.5 13.0617V13.0625Z" fill="currentColor"></path>
                                   </g>
                                 </svg>
-                                <span class="menu-label">Coupons</span></div>
+                                <span class="menu-label">{{ $t('leftDash.coupons') }}</span>
+                              </div>
                               <div data-v-a6a2c3ff class="flex items-center">
                                 <div data-v-a6a2c3ff class="micro-menu-extra-card flex items-center text-12px mr-5px leading-16px px-8px py-4px text-contentLinkDefault rounded-4px max-w-160px truncate">2 tasks</div>
                               </div>
-                            </a></div>
+                            </a>
+                          </div>
+
                           <div data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-6px last:mb-0" show-hover-arrow>
                             <a class="text-primaryText flex justify-between items-center h-40px" href="/events/myevents" target="_self">
                               <div class="flex justify-between items-center gap-10px">
@@ -979,16 +997,21 @@
                                     <path id="Vector" d="M18.125 4.375H16.25V3.75C16.25 3.41848 16.1183 3.10054 15.8839 2.86612C15.6495 2.6317 15.3315 2.5 15 2.5H5C4.66848 2.5 4.35054 2.6317 4.11612 2.86612C3.8817 3.10054 3.75 3.41848 3.75 3.75V4.375H1.875C1.54348 4.375 1.22554 4.5067 0.991117 4.74112C0.756696 4.97554 0.625 5.29348 0.625 5.625V6.875C0.625 7.7038 0.95424 8.49866 1.54029 9.08471C1.83047 9.37489 2.17497 9.60508 2.55411 9.76212C2.93326 9.91917 3.33962 10 3.75 10H4.03516C4.40332 11.1667 5.10529 12.2 6.0543 12.9721C7.00331 13.7443 8.15777 14.2214 9.375 14.3445V16.25H7.5C7.33424 16.25 7.17527 16.3158 7.05806 16.4331C6.94085 16.5503 6.875 16.7092 6.875 16.875C6.875 17.0408 6.94085 17.1997 7.05806 17.3169C7.17527 17.4342 7.33424 17.5 7.5 17.5H12.5C12.6658 17.5 12.8247 17.4342 12.9419 17.3169C13.0592 17.1997 13.125 17.0408 13.125 16.875C13.125 16.7092 13.0592 16.5503 12.9419 16.4331C12.8247 16.3158 12.6658 16.25 12.5 16.25H10.625V14.3422C13.1203 14.0898 15.1906 12.3391 15.9438 10H16.25C17.0788 10 17.8737 9.67076 18.4597 9.08471C19.0458 8.49866 19.375 7.7038 19.375 6.875V5.625C19.375 5.29348 19.2433 4.97554 19.0089 4.74112C18.7745 4.5067 18.4565 4.375 18.125 4.375ZM3.75 8.75C3.25272 8.75 2.77581 8.55246 2.42417 8.20083C2.07254 7.84919 1.875 7.37228 1.875 6.875V5.625H3.75V8.125C3.75 8.33333 3.76016 8.54167 3.78047 8.75H3.75ZM15 8.05469C15 10.8297 12.7742 13.1047 10.0383 13.125H10C8.67392 13.125 7.40215 12.5982 6.46447 11.6605C5.52678 10.7229 5 9.45108 5 8.125V3.75H15V8.05469ZM18.125 6.875C18.125 7.37228 17.9275 7.84919 17.5758 8.20083C17.2242 8.55246 16.7473 8.75 16.25 8.75H16.2109C16.2366 8.51911 16.2496 8.287 16.25 8.05469V5.625H18.125V6.875Z" fill="currentColor"></path>
                                   </g>
                                 </svg>
-                                <span class="menu-label">My campaigns</span></div>
-                            </a></div>
+                                <span class="menu-label">{{ $t('leftDash.myCampaigns') }}</span></div>
+                            </a>
+                          </div>
+
                           <div data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-6px last:mb-0" show-hover-arrow>
                             <a class="text-primaryText flex justify-between items-center h-40px" href="/asset/addressBook" target="_self">
                               <div class="flex justify-between items-center gap-10px">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" fill="none" class="w-20px h-20px min-w-20px">
                                   <path fill="currentColor" d="M7.461 13.625a.624.624 0 0 0 .876-.125 4.062 4.062 0 0 1 6.5 0 .625.625 0 0 0 1-.75 5.302 5.302 0 0 0-2.14-1.694 3.126 3.126 0 1 0-4.215 0c-.85.367-1.59.951-2.145 1.694a.625.625 0 0 0 .124.875Zm2.25-4.875a1.875 1.875 0 1 1 3.751 0 1.875 1.875 0 0 1-3.75 0Zm7.5-6.875H5.962a1.25 1.25 0 0 0-1.25 1.25V5h-1.25a.625.625 0 0 0 0 1.25h1.25v3.125h-1.25a.625.625 0 0 0 0 1.25h1.25v3.125h-1.25a.625.625 0 1 0 0 1.25h1.25v1.875a1.25 1.25 0 0 0 1.25 1.25h11.25a1.25 1.25 0 0 0 1.25-1.25V3.125a1.25 1.25 0 0 0-1.25-1.25Zm0 15H5.962V3.125h11.25v13.75Z"></path>
                                 </svg>
-                                <span class="menu-label">Address book</span></div>
-                            </a></div>
+                                <span class="menu-label">{{ $t('leftDash.addressBook') }}</span>
+                              </div>
+                            </a>
+                          </div>
+
                           <div data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-6px last:mb-0" show-hover-arrow>
                             <a class="text-primaryText flex justify-between items-center h-40px" href="/account/newapi" target="_self">
                               <div class="flex justify-between items-center gap-10px">
@@ -997,8 +1020,10 @@
                                     <path id="Vector" d="M4.5583 7.94217L2.0583 5.44217C2.00019 5.38412 1.95409 5.31519 1.92264 5.23932C1.89119 5.16345 1.875 5.08212 1.875 4.99998C1.875 4.91785 1.89119 4.83652 1.92264 4.76064C1.95409 4.68477 2.00019 4.61584 2.0583 4.55779L4.5583 2.05779C4.67558 1.94052 4.83464 1.87463 5.00049 1.87463C5.16634 1.87463 5.3254 1.94052 5.44268 2.05779C5.55995 2.17507 5.62584 2.33413 5.62584 2.49998C5.62584 2.66583 5.55995 2.82489 5.44268 2.94217L3.38409 4.99998L5.44268 7.05779C5.55995 7.17507 5.62584 7.33413 5.62584 7.49998C5.62584 7.66583 5.55995 7.82489 5.44268 7.94217C5.3254 8.05944 5.16634 8.12533 5.00049 8.12533C4.83464 8.12533 4.67558 8.05944 4.5583 7.94217ZM7.6833 7.94217C7.74135 8.00028 7.81028 8.04638 7.88615 8.07783C7.96203 8.10928 8.04336 8.12547 8.12549 8.12547C8.20763 8.12547 8.28896 8.10928 8.36483 8.07783C8.4407 8.04638 8.50963 8.00028 8.56768 7.94217L11.0677 5.44217C11.1258 5.38412 11.1719 5.31519 11.2033 5.23932C11.2348 5.16345 11.251 5.08212 11.251 4.99998C11.251 4.91785 11.2348 4.83652 11.2033 4.76064C11.1719 4.68477 11.1258 4.61584 11.0677 4.55779L8.56768 2.05779C8.4504 1.94052 8.29134 1.87463 8.12549 1.87463C7.95964 1.87463 7.80058 1.94052 7.6833 2.05779C7.56603 2.17507 7.50014 2.33413 7.50014 2.49998C7.50014 2.66583 7.56603 2.82489 7.6833 2.94217L9.7419 4.99998L7.6833 7.05779C7.62519 7.11584 7.57909 7.18477 7.54764 7.26064C7.51619 7.33652 7.5 7.41785 7.5 7.49998C7.5 7.58212 7.51619 7.66345 7.54764 7.73932C7.57909 7.81519 7.62519 7.88412 7.6833 7.94217ZM15.6255 3.12498H13.7505C13.5847 3.12498 13.4258 3.19083 13.3085 3.30804C13.1913 3.42525 13.1255 3.58422 13.1255 3.74998C13.1255 3.91574 13.1913 4.07471 13.3085 4.19192C13.4258 4.30913 13.5847 4.37498 13.7505 4.37498H15.6255V15.625H4.37549V10.625C4.37549 10.4592 4.30964 10.3003 4.19243 10.183C4.07522 10.0658 3.91625 9.99998 3.75049 9.99998C3.58473 9.99998 3.42576 10.0658 3.30855 10.183C3.19134 10.3003 3.12549 10.4592 3.12549 10.625V15.625C3.12549 15.9565 3.25719 16.2744 3.49161 16.5089C3.72603 16.7433 4.04397 16.875 4.37549 16.875H15.6255C15.957 16.875 16.275 16.7433 16.5094 16.5089C16.7438 16.2744 16.8755 15.9565 16.8755 15.625V4.37498C16.8755 4.04346 16.7438 3.72552 16.5094 3.4911C16.275 3.25668 15.957 3.12498 15.6255 3.12498Z" fill="currentColor"></path>
                                   </g>
                                 </svg>
-                                <span class="menu-label">API keys</span></div>
-                            </a></div>
+                                <span class="menu-label">{{ $t('leftDash.apiKeys') }}</span></div>
+                            </a>
+                          </div>
+
                           <div data-v-a6a2c3ff class="micro-adbanner p-8px flex justify-between items-center rounded-8px cursor-pointer micro-user-referral-ad my-16px">
                             <div class="w-288px px-16px py-4px flex justify-between items-center bg-bg rounded-60px">
                               <div>
@@ -1055,7 +1080,7 @@
                                     <path id="Vector" d="M19.1243 11.75C19.0586 11.7992 18.9839 11.8351 18.9044 11.8554C18.8249 11.8758 18.7421 11.8803 18.6609 11.8687C18.5796 11.8571 18.5014 11.8296 18.4308 11.7878C18.3602 11.746 18.2985 11.6907 18.2493 11.625C17.8726 11.1186 17.3822 10.7078 16.8177 10.4256C16.2532 10.1433 15.6304 9.99755 14.9993 10C14.8764 9.99999 14.7562 9.96374 14.6538 9.89579C14.5514 9.82784 14.4713 9.7312 14.4235 9.61797C14.391 9.54107 14.3743 9.45846 14.3743 9.375C14.3743 9.29154 14.391 9.20892 14.4235 9.13203C14.4713 9.01879 14.5514 8.92216 14.6538 8.85421C14.7562 8.78626 14.8764 8.75001 14.9993 8.75C15.3499 8.74997 15.6936 8.65159 15.9912 8.46605C16.2887 8.2805 16.5283 8.01522 16.6827 7.70034C16.837 7.38546 16.9 7.0336 16.8644 6.68473C16.8288 6.33586 16.6961 6.00396 16.4814 5.72673C16.2666 5.44951 15.9784 5.23806 15.6495 5.11642C15.3206 4.99477 14.9642 4.96781 14.6207 5.03858C14.2772 5.10935 13.9605 5.27503 13.7065 5.51679C13.4524 5.75855 13.2713 6.0667 13.1836 6.40625C13.1631 6.48576 13.1271 6.56045 13.0778 6.62606C13.0284 6.69166 12.9665 6.7469 12.8958 6.78861C12.8251 6.83033 12.7468 6.8577 12.6655 6.86917C12.5842 6.88064 12.5014 6.87598 12.4219 6.85547C12.3424 6.83495 12.2677 6.79897 12.2021 6.74958C12.1365 6.7002 12.0813 6.63837 12.0395 6.56764C11.9978 6.49691 11.9705 6.41865 11.959 6.33734C11.9475 6.25603 11.9522 6.17326 11.9727 6.09375C12.0944 5.6229 12.3243 5.18695 12.6441 4.82058C12.9639 4.45422 13.3648 4.16755 13.8149 3.9834C14.265 3.79924 14.7519 3.72267 15.2368 3.75979C15.7217 3.7969 16.1912 3.94668 16.6081 4.19719C17.0249 4.44771 17.3775 4.79205 17.6378 5.20282C17.8982 5.61359 18.059 6.07946 18.1076 6.56334C18.1562 7.04722 18.0912 7.53577 17.9178 7.99011C17.7444 8.44446 17.4673 8.85205 17.1086 9.18047C17.9585 9.54843 18.6973 10.1324 19.2516 10.8742C19.3008 10.94 19.3366 11.0149 19.3569 11.0946C19.3771 11.1743 19.3815 11.2572 19.3696 11.3385C19.3578 11.4199 19.33 11.4981 19.2879 11.5687C19.2458 11.6393 19.1902 11.7009 19.1243 11.75ZM14.9149 16.5625C14.9601 16.6336 14.9905 16.7132 15.0042 16.7964C15.0178 16.8795 15.0145 16.9646 14.9945 17.0465C14.9744 17.1284 14.938 17.2053 14.8875 17.2728C14.8369 17.3402 14.7732 17.3967 14.7002 17.4389C14.6272 17.4811 14.5465 17.5081 14.4628 17.5182C14.3791 17.5284 14.2943 17.5215 14.2133 17.498C14.1323 17.4746 14.057 17.4349 13.9917 17.3816C13.9265 17.3282 13.8727 17.2622 13.8336 17.1875C13.4399 16.5208 12.8792 15.9683 12.2068 15.5845C11.5344 15.2007 10.7735 14.9989 9.99926 14.9989C9.22502 14.9989 8.46415 15.2007 7.79174 15.5845C7.11933 15.9683 6.5586 16.5208 6.16489 17.1875C6.12581 17.2622 6.07204 17.3282 6.00679 17.3816C5.94154 17.4349 5.86618 17.4746 5.78522 17.498C5.70427 17.5215 5.6194 17.5284 5.53572 17.5182C5.45204 17.5081 5.37128 17.4811 5.2983 17.4389C5.22533 17.3967 5.16163 17.3402 5.11106 17.2728C5.06049 17.2053 5.02408 17.1284 5.00403 17.0465C4.98397 16.9646 4.98069 16.8795 4.99437 16.7964C5.00805 16.7132 5.03841 16.6336 5.08363 16.5625C5.68957 15.5214 6.61347 14.7021 7.71957 14.225C7.09717 13.7485 6.63975 13.0889 6.4116 12.3389C6.18346 11.589 6.19606 10.7864 6.44763 10.044C6.69921 9.30157 7.17711 8.65666 7.81416 8.1999C8.45121 7.74314 9.21538 7.49749 9.99926 7.49749C10.7831 7.49749 11.5473 7.74314 12.1844 8.1999C12.8214 8.65666 13.2993 9.30157 13.5509 10.044C13.8025 10.7864 13.8151 11.589 13.5869 12.3389C13.3588 13.0889 12.9013 13.7485 12.2789 14.225C13.385 14.7021 14.3089 15.5214 14.9149 16.5625ZM9.99926 13.75C10.4937 13.75 10.9771 13.6034 11.3882 13.3287C11.7993 13.054 12.1197 12.6635 12.309 12.2067C12.4982 11.7499 12.5477 11.2472 12.4512 10.7623C12.3548 10.2773 12.1167 9.83186 11.767 9.48223C11.4174 9.1326 10.9719 8.8945 10.487 8.79803C10.002 8.70157 9.49937 8.75108 9.04255 8.9403C8.58574 9.12952 8.19529 9.44995 7.92059 9.86107C7.64588 10.2722 7.49926 10.7555 7.49926 11.25C7.49926 11.913 7.76265 12.5489 8.23149 13.0178C8.70033 13.4866 9.33622 13.75 9.99926 13.75ZM5.62426 9.375C5.62426 9.20924 5.55841 9.05027 5.4412 8.93306C5.32399 8.81585 5.16502 8.75 4.99926 8.75C4.64858 8.74997 4.30493 8.65159 4.00736 8.46605C3.70979 8.2805 3.47021 8.01522 3.31585 7.70034C3.16148 7.38546 3.09852 7.0336 3.1341 6.68473C3.16969 6.33586 3.3024 6.00396 3.51716 5.72673C3.73192 5.44951 4.02012 5.23806 4.34903 5.11642C4.67793 4.99477 5.03436 4.96781 5.37783 5.03858C5.72129 5.10935 6.03803 5.27503 6.29205 5.51679C6.54608 5.75855 6.72721 6.0667 6.81489 6.40625C6.85633 6.56683 6.95986 6.70437 7.10271 6.78861C7.24556 6.87286 7.41602 6.89691 7.5766 6.85547C7.73718 6.81403 7.87473 6.71049 7.95897 6.56764C8.04322 6.42479 8.06726 6.25433 8.02582 6.09375C7.90414 5.6229 7.67424 5.18695 7.35442 4.82058C7.03461 4.45422 6.6337 4.16755 6.1836 3.9834C5.7335 3.79924 5.24663 3.72267 4.76173 3.75979C4.27683 3.7969 3.80728 3.94668 3.39045 4.19719C2.97362 4.44771 2.62101 4.79205 2.36068 5.20282C2.10035 5.61359 1.93948 6.07946 1.89088 6.56334C1.84227 7.04722 1.90727 7.53577 2.0807 7.99011C2.25413 8.44446 2.53121 8.85205 2.88989 9.18047C2.04089 9.54878 1.30294 10.1327 0.74926 10.8742C0.649701 11.0068 0.606897 11.1736 0.630266 11.3377C0.653635 11.5019 0.741262 11.65 0.87387 11.7496C1.00648 11.8492 1.17321 11.892 1.33737 11.8686C1.50154 11.8452 1.6497 11.7576 1.74926 11.625C2.12597 11.1186 2.6163 10.7078 3.18079 10.4256C3.74528 10.1433 4.36815 9.99755 4.99926 10C5.16502 10 5.32399 9.93415 5.4412 9.81694C5.55841 9.69973 5.62426 9.54076 5.62426 9.375Z" fill="currentColor"></path>
                                   </g>
                                 </svg>
-                                <span class="menu-label">Sub accounts</span></div>
+                                <span class="menu-label">{{ $t('leftDash.subAccounts') }}</span></div>
                             </a>
                           </div>
 
@@ -1067,22 +1092,36 @@
                                     <path id="Vector" d="M3.125 6.87502H5.70312C5.84081 7.41278 6.15356 7.88942 6.59207 8.22979C7.03057 8.57017 7.56989 8.75492 8.125 8.75492C8.68011 8.75492 9.21942 8.57017 9.65793 8.22979C10.0964 7.88942 10.4092 7.41278 10.5469 6.87502H16.875C17.0408 6.87502 17.1997 6.80917 17.3169 6.69196C17.4342 6.57475 17.5 6.41578 17.5 6.25002C17.5 6.08426 17.4342 5.92529 17.3169 5.80808C17.1997 5.69087 17.0408 5.62502 16.875 5.62502H10.5469C10.4092 5.08726 10.0964 4.61062 9.65793 4.27024C9.21942 3.92987 8.68011 3.74512 8.125 3.74512C7.56989 3.74512 7.03057 3.92987 6.59207 4.27024C6.15356 4.61062 5.84081 5.08726 5.70312 5.62502H3.125C2.95924 5.62502 2.80027 5.69087 2.68306 5.80808C2.56585 5.92529 2.5 6.08426 2.5 6.25002C2.5 6.41578 2.56585 6.57475 2.68306 6.69196C2.80027 6.80917 2.95924 6.87502 3.125 6.87502ZM8.125 5.00002C8.37223 5.00002 8.6139 5.07333 8.81946 5.21068C9.02502 5.34803 9.18524 5.54326 9.27985 5.77167C9.37446 6.00007 9.39921 6.25141 9.35098 6.49388C9.30275 6.73636 9.1837 6.95909 9.00888 7.1339C8.83407 7.30872 8.61134 7.42777 8.36886 7.476C8.12639 7.52423 7.87505 7.49948 7.64665 7.40487C7.41824 7.31026 7.22301 7.15004 7.08566 6.94448C6.94831 6.73892 6.875 6.49725 6.875 6.25002C6.875 5.9185 7.0067 5.60056 7.24112 5.36614C7.47554 5.13172 7.79348 5.00002 8.125 5.00002ZM16.875 13.125H15.5469C15.4092 12.5873 15.0964 12.1106 14.6579 11.7702C14.2194 11.4299 13.6801 11.2451 13.125 11.2451C12.5699 11.2451 12.0306 11.4299 11.5921 11.7702C11.1536 12.1106 10.8408 12.5873 10.7031 13.125H3.125C2.95924 13.125 2.80027 13.1909 2.68306 13.3081C2.56585 13.4253 2.5 13.5843 2.5 13.75C2.5 13.9158 2.56585 14.0748 2.68306 14.192C2.80027 14.3092 2.95924 14.375 3.125 14.375H10.7031C10.8408 14.9128 11.1536 15.3894 11.5921 15.7298C12.0306 16.0702 12.5699 16.2549 13.125 16.2549C13.6801 16.2549 14.2194 16.0702 14.6579 15.7298C15.0964 15.3894 15.4092 14.9128 15.5469 14.375H16.875C17.0408 14.375 17.1997 14.3092 17.3169 14.192C17.4342 14.0748 17.5 13.9158 17.5 13.75C17.5 13.5843 17.4342 13.4253 17.3169 13.3081C17.1997 13.1909 17.0408 13.125 16.875 13.125ZM13.125 15C12.8778 15 12.6361 14.9267 12.4305 14.7894C12.225 14.652 12.0648 14.4568 11.9701 14.2284C11.8755 14 11.8508 13.7486 11.899 13.5062C11.9472 13.2637 12.0663 13.041 12.2411 12.8661C12.4159 12.6913 12.6387 12.5723 12.8811 12.524C13.1236 12.4758 13.3749 12.5006 13.6034 12.5952C13.8318 12.6898 14.027 12.85 14.1643 13.0556C14.3017 13.2611 14.375 13.5028 14.375 13.75C14.375 14.0815 14.2433 14.3995 14.0089 14.6339C13.7745 14.8683 13.4565 15 13.125 15Z" fill="currentColor"></path>
                                   </g>
                                 </svg>
-                                <span class="menu-label">Settings</span></div>
-                            </a></div>
-                          <div data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer" show-hover-arrow>
-                            <span class="text-primaryText flex justify-between items-center h-40px"><div class="flex justify-between items-center gap-10px"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="w-20px h-20px min-w-20px"><path d="M21.4615 15.4943L22.2008 15.8001C22.3164 15.5205 22.2645 15.1996 22.0665 14.9708C21.8685 14.742 21.5584 14.6445 21.2651 14.7188L21.4615 15.4943ZM12.0989 2.84619L12.757 3.30106C12.9299 3.05084 12.946 2.72418 12.7985 2.45818C12.6509 2.19217 12.3653 2.03285 12.0615 2.04707L12.0989 2.84619ZM21.2651 14.7188C20.6289 14.8799 19.9601 14.966 19.2692 14.966V16.566C20.0935 16.566 20.8942 16.4632 21.658 16.2698L21.2651 14.7188ZM19.2692 14.966C14.9271 14.966 11.4561 11.5759 11.4561 7.45332H9.85609C9.85609 12.5126 14.0975 16.566 19.2692 16.566V14.966ZM11.4561 7.45332C11.4561 5.91866 11.9339 4.49187 12.757 3.30106L11.4408 2.39132C10.4409 3.83789 9.85609 5.57978 9.85609 7.45332H11.4561ZM3.8 12.0715C3.8 7.57693 7.46932 3.86371 12.1363 3.64532L12.0615 2.04707C6.59536 2.30286 2.2 6.66886 2.2 12.0715H3.8ZM12.5701 20.5077C7.6995 20.5077 3.8 16.7042 3.8 12.0715H2.2C2.2 17.6409 6.86986 22.1077 12.5701 22.1077V20.5077ZM20.7223 15.1885C19.4377 18.2938 16.281 20.5077 12.5701 20.5077V22.1077C16.9241 22.1077 20.6671 19.5077 22.2008 15.8001L20.7223 15.1885Z" fill="currentColor"></path></svg><span class="menu-label">Dark Mode</span></div><div data-v-a6a2c3ff class="mi-switch"><input class="mi-switch__input" type="checkbox" role="switch" aria-checked="false" aria-disabled="false" name true-value="dark" false-value="light" id="mi-id-7563-172"><span class="mi-switch__core"><div class="mi-switch__action"></div></span></div></span>
+                                <span class="menu-label">{{ $t('leftDash.settings') }}</span></div>
+                            </a>
+                          </div>
+
+                          <!--暗黑主题-->
+                          <div v-if="false" data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer">
+                            <span class="text-primaryText flex justify-between items-center h-40px">
+                              <div class="flex justify-between items-center gap-10px">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="w-20px h-20px min-w-20px">
+                                  <path d="M21.4615 15.4943L22.2008 15.8001C22.3164 15.5205 22.2645 15.1996 22.0665 14.9708C21.8685 14.742 21.5584 14.6445 21.2651 14.7188L21.4615 15.4943ZM12.0989 2.84619L12.757 3.30106C12.9299 3.05084 12.946 2.72418 12.7985 2.45818C12.6509 2.19217 12.3653 2.03285 12.0615 2.04707L12.0989 2.84619ZM21.2651 14.7188C20.6289 14.8799 19.9601 14.966 19.2692 14.966V16.566C20.0935 16.566 20.8942 16.4632 21.658 16.2698L21.2651 14.7188ZM19.2692 14.966C14.9271 14.966 11.4561 11.5759 11.4561 7.45332H9.85609C9.85609 12.5126 14.0975 16.566 19.2692 16.566V14.966ZM11.4561 7.45332C11.4561 5.91866 11.9339 4.49187 12.757 3.30106L11.4408 2.39132C10.4409 3.83789 9.85609 5.57978 9.85609 7.45332H11.4561ZM3.8 12.0715C3.8 7.57693 7.46932 3.86371 12.1363 3.64532L12.0615 2.04707C6.59536 2.30286 2.2 6.66886 2.2 12.0715H3.8ZM12.5701 20.5077C7.6995 20.5077 3.8 16.7042 3.8 12.0715H2.2C2.2 17.6409 6.86986 22.1077 12.5701 22.1077V20.5077ZM20.7223 15.1885C19.4377 18.2938 16.281 20.5077 12.5701 20.5077V22.1077C16.9241 22.1077 20.6671 19.5077 22.2008 15.8001L20.7223 15.1885Z" fill="currentColor"></path></svg><span class="menu-label">Dark Mode</span>
+                              </div>
+                              <div data-v-a6a2c3ff class="mi-switch">
+                                <input class="mi-switch__input" type="checkbox" role="switch" aria-checked="false" aria-disabled="false" name true-value="dark" false-value="light" id="mi-id-7563-172">
+                              <span class="mi-switch__core">
+                              <div class="mi-switch__action"></div>
+                            </span>
+                            </div>
+                            </span>
                           </div>
                         </div>
+
                         <div data-v-a6a2c3ff class="px-24px h-76px min-h-76px pt-8px mt-8px bottom-0 flex justify-center bg-[inherit]">
                           <button data-v-a6a2c3ff aria-disabled="false" type="button" class="mi-button mi-button--large is-round w-full">
-                            <span class>Log out</span>
+                            <span>{{ $t('leftDash.logout') }} </span>
                           </button>
                         </div>
                       </div>
                     </div>
                     <i data-v-d8e0da7c class="absolute -top-6px !right-20px w-12px h-12px rounded-[3px_0_0_0] rotate-45deg transition-opacity light:shadow-popover light:border-1px light:border-line light:bg-bg dark:bg-cardBg !border-b-0px !border-r-0px" style="display: none;"></i>
                   </div>
-
                 </div>
 
                 <!--手机端显示菜单[个人中心链接]-->
@@ -1153,7 +1192,6 @@
         </div>
       </header>
     </div>
-
     <div id="MicroTeleport" class="micro micro-teleport">
       <div v-if="mobileMenuShow" class="relative z-10000">
         <div class="mi-overlay" style="z-index: 2015;">
@@ -2027,9 +2065,16 @@
                 <div data-v-bdc41ce5 class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-12px">
                   <span class="text-primaryText flex justify-between items-center h-40px"><div class="flex justify-between items-center gap-10px"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-20px h-20px min-w-20px"><path d="M21 14.25V19.5C21 19.8978 20.842 20.2794 20.5607 20.5607C20.2794 20.842 19.8978 21 19.5 21H4.5C4.10218 21 3.72064 20.842 3.43934 20.5607C3.15804 20.2794 3 19.8978 3 19.5V14.25C3 14.0511 3.07902 13.8603 3.21967 13.7197C3.36032 13.579 3.55109 13.5 3.75 13.5C3.94891 13.5 4.13968 13.579 4.28033 13.7197C4.42098 13.8603 4.5 14.0511 4.5 14.25V19.5H19.5V14.25C19.5 14.0511 19.579 13.8603 19.7197 13.7197C19.8603 13.579 20.0511 13.5 20.25 13.5C20.4489 13.5 20.6397 13.579 20.7803 13.7197C20.921 13.8603 21 14.0511 21 14.25ZM11.4694 14.7806C11.539 14.8504 11.6217 14.9057 11.7128 14.9434C11.8038 14.9812 11.9014 15.0006 12 15.0006C12.0986 15.0006 12.1962 14.9812 12.2872 14.9434C12.3783 14.9057 12.461 14.8504 12.5306 14.7806L16.2806 11.0306C16.3503 10.9609 16.4056 10.8782 16.4433 10.7872C16.481 10.6961 16.5004 10.5985 16.5004 10.5C16.5004 10.4015 16.481 10.3039 16.4433 10.2128C16.4056 10.1218 16.3503 10.0391 16.2806 9.96937C16.2109 9.89969 16.1282 9.84442 16.0372 9.8067C15.9461 9.76899 15.8485 9.74958 15.75 9.74958C15.6515 9.74958 15.5539 9.76899 15.4628 9.8067C15.3718 9.84442 15.2891 9.89969 15.2194 9.96937L12.75 12.4397V3.75C12.75 3.55109 12.671 3.36032 12.5303 3.21967C12.3897 3.07902 12.1989 3 12 3C11.8011 3 11.6103 3.07902 11.4697 3.21967C11.329 3.36032 11.25 3.55109 11.25 3.75V12.4397L8.78063 9.96937C8.63989 9.82864 8.44902 9.74958 8.25 9.74958C8.05098 9.74958 7.86011 9.82864 7.71937 9.96937C7.57864 10.1101 7.49958 10.301 7.49958 10.5C7.49958 10.699 7.57864 10.8899 7.71937 11.0306L11.4694 14.7806Z" fill="currentColor"></path></svg><span class="menu-label">Download App</span></div></span>
                 </div>
-                <div data-v-bdc41ce5 class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-12px">
-                  <span class="text-primaryText flex justify-between items-center h-40px"><div class="flex justify-between items-center gap-10px"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-20px h-20px min-w-20px"><circle cx="12" cy="12" r="9.35" stroke="currentColor" stroke-width="1.3"></circle><path d="M21.35 12C21.35 13.0019 20.5209 14.0839 18.7804 14.9542C17.0787 15.805 14.6824 16.35 12 16.35C9.31761 16.35 6.92129 15.805 5.21962 14.9542C3.47907 14.0839 2.65 13.0019 2.65 12C2.65 10.9981 3.47907 9.91612 5.21962 9.04584C6.92129 8.19501 9.31761 7.65 12 7.65C14.6824 7.65 17.0787 8.19501 18.7804 9.04584C20.5209 9.91612 21.35 10.9981 21.35 12Z" stroke="currentColor" stroke-width="1.3"></path><path d="M12 2.65C13.0019 2.65 14.0839 3.47907 14.9542 5.21962C15.805 6.92129 16.35 9.3176 16.35 12C16.35 14.6824 15.805 17.0787 14.9542 18.7804C14.0839 20.5209 13.0019 21.35 12 21.35C10.9981 21.35 9.91612 20.5209 9.04584 18.7804C8.19501 17.0787 7.65 14.6824 7.65 12C7.65 9.3176 8.19501 6.92129 9.04584 5.21962C9.91612 3.47907 10.9981 2.65 12 2.65Z" stroke="currentColor" stroke-width="1.3"></path></svg><span class="menu-label">English</span></div></span>
+
+                <div @click="mobileLangCurrencyShow = true" data-v-bdc41ce5 class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-12px">
+                  <span class="text-primaryText flex justify-between items-center h-40px">
+                    <div class="flex justify-between items-center gap-10px">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-20px h-20px min-w-20px"><circle cx="12" cy="12" r="9.35" stroke="currentColor" stroke-width="1.3"></circle><path d="M21.35 12C21.35 13.0019 20.5209 14.0839 18.7804 14.9542C17.0787 15.805 14.6824 16.35 12 16.35C9.31761 16.35 6.92129 15.805 5.21962 14.9542C3.47907 14.0839 2.65 13.0019 2.65 12C2.65 10.9981 3.47907 9.91612 5.21962 9.04584C6.92129 8.19501 9.31761 7.65 12 7.65C14.6824 7.65 17.0787 8.19501 18.7804 9.04584C20.5209 9.91612 21.35 10.9981 21.35 12Z" stroke="currentColor" stroke-width="1.3"></path><path d="M12 2.65C13.0019 2.65 14.0839 3.47907 14.9542 5.21962C15.805 6.92129 16.35 9.3176 16.35 12C16.35 14.6824 15.805 17.0787 14.9542 18.7804C14.0839 20.5209 13.0019 21.35 12 21.35C10.9981 21.35 9.91612 20.5209 9.04584 18.7804C8.19501 17.0787 7.65 14.6824 7.65 12C7.65 9.3176 8.19501 6.92129 9.04584 5.21962C9.91612 3.47907 10.9981 2.65 12 2.65Z" stroke="currentColor" stroke-width="1.3"></path></svg>
+                    <span class="menu-label">English</span>
+                  </div>
+                  </span>
                 </div>
+
                 <div data-v-bdc41ce5 class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer">
                   <span class="text-primaryText flex justify-between items-center h-40px"><div class="flex justify-between items-center gap-10px"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-20px h-20px min-w-20px"><circle cx="10" cy="10" r="10" fill="#03AAC7"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M7.69112 11.8255H6.44446C6.52268 12.8522 6.85024 13.6564 7.42712 14.2382C8.00401 14.8199 8.78135 15.1597 9.75912 15.2575V16.4602H10.5658V15.2575C11.0351 15.2184 11.4653 15.1206 11.8565 14.9642C12.2476 14.8077 12.5849 14.5951 12.8685 14.3262C13.152 14.0573 13.3745 13.7371 13.5358 13.3655C13.6971 12.9939 13.7778 12.5686 13.7778 12.0895C13.7778 11.6397 13.6922 11.2535 13.5211 10.9308C13.35 10.6082 13.1422 10.3393 12.8978 10.1242C12.6533 9.90905 12.3991 9.74038 12.1351 9.61816C11.8711 9.49594 11.6413 9.41038 11.4458 9.3615L10.5658 9.12683V5.51883C11.4653 5.68505 12.0129 6.25216 12.2085 7.22016H13.4551C13.2596 6.35972 12.9271 5.68505 12.4578 5.19616C11.9885 4.70727 11.3578 4.41394 10.5658 4.31616V3.3335H9.75912V4.3015C9.33868 4.33083 8.94512 4.42372 8.57846 4.58016C8.21179 4.73661 7.89401 4.94927 7.62512 5.21816C7.35624 5.48705 7.14357 5.80483 6.98712 6.1715C6.83068 6.53816 6.75246 6.9415 6.75246 7.3815C6.75246 7.81172 6.81112 8.17838 6.92846 8.4815C7.04579 8.78461 7.22912 9.04127 7.47846 9.2515C7.72779 9.46172 8.04068 9.64261 8.41712 9.79416C8.79357 9.94572 9.2409 10.0851 9.75912 10.2122V14.0988C9.17246 14.0011 8.68601 13.7615 8.29979 13.3802C7.91357 12.9988 7.71068 12.4806 7.69112 11.8255ZM10.5658 14.0988V10.4175C10.8298 10.4957 11.0791 10.5813 11.3138 10.6742C11.5485 10.7671 11.7489 10.8819 11.9151 11.0188C12.0813 11.1557 12.2133 11.3195 12.3111 11.5102C12.4089 11.7008 12.4578 11.9379 12.4578 12.2215C12.4578 12.5344 12.4113 12.8057 12.3185 13.0355C12.2256 13.2653 12.0936 13.4559 11.9225 13.6075C11.7513 13.7591 11.5509 13.8739 11.3211 13.9522C11.0913 14.0304 10.8396 14.0793 10.5658 14.0988ZM9.75912 8.90683V5.47483C9.28979 5.52372 8.89135 5.69238 8.56379 5.98083C8.23624 6.26927 8.07246 6.69216 8.07246 7.2495C8.07246 7.50372 8.11401 7.72127 8.19712 7.90216C8.28024 8.08305 8.39757 8.23461 8.54912 8.35683C8.70068 8.47905 8.87912 8.58416 9.08446 8.67216C9.28979 8.76016 9.51468 8.83839 9.75912 8.90683Z" fill="white"></path></svg><span class="menu-label">CAD</span></div></span>
                 </div>
@@ -2603,7 +2648,7 @@
                     </a></div>
                 </div>
               </div>
-            </div><!--v-if--></div>
+            </div></div>
         </div>
       </div>
 
@@ -2617,7 +2662,8 @@
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                     <path d="M19.28 18.22a.75.75 0 01-.817 1.223.75.75 0 01-.244-.162L12 13.06l-6.22 6.22a.75.75 0 01-1.06-1.062L10.94 12 4.72 5.78a.75.75 0 111.06-1.06L12 10.94l6.22-6.22a.75.75 0 011.06 1.06L13.06 12l6.22 6.22z"></path>
                   </svg>
-                </i></button>
+                </i>
+              </button>
             </header>
             <div id="mi-id-9420-7" class="mi-drawer__body">
               <div data-v-a6a2c3ff class="micro-user flex flex-col relative pt-24px max-h-inherit text-14px overflow-hidden h-full !pt-0">
@@ -2632,7 +2678,7 @@
                         </div>
                         <div data-v-4028f250>
                           <div data-v-4028f250 class="micro-userInfo-displayName text-primaryText max-w-220px text-16px font-700 truncate cursor-pointer leading-24px not-jump mi-tooltip__trigger mi-tooltip__trigger">BGUSER-4WHEY70G</div>
-                          <div data-v-4028f250 class="not-jump mt-2px flex items-center text-thirdText text-12px cursor-pointer leading-18px"> UID: 8938879007
+                          <div data-v-4028f250 class="not-jump mt-2px flex items-center text-thirdText text-12px cursor-pointer leading-18px"> UID: 8938879888
                             <svg data-v-4028f250 width="12" height="12" class="not-jump not-jump ml-4px" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <g id="Copy" class="not-jump">
                                 <path id="Vector" class="not-jump" d="M10.125 1.5H4.125C4.02554 1.5 3.93016 1.53951 3.85984 1.60984C3.78951 1.68016 3.75 1.77554 3.75 1.875V3.75H1.875C1.77554 3.75 1.68016 3.78951 1.60984 3.85984C1.53951 3.93016 1.5 4.02554 1.5 4.125V10.125C1.5 10.2245 1.53951 10.3198 1.60984 10.3902C1.68016 10.4605 1.77554 10.5 1.875 10.5H7.875C7.97446 10.5 8.06984 10.4605 8.14017 10.3902C8.21049 10.3198 8.25 10.2245 8.25 10.125V8.25H10.125C10.2245 8.25 10.3198 8.21049 10.3902 8.14017C10.4605 8.06984 10.5 7.97446 10.5 7.875V1.875C10.5 1.77554 10.4605 1.68016 10.3902 1.60984C10.3198 1.53951 10.2245 1.5 10.125 1.5ZM7.5 9.75H2.25V4.5H7.5V9.75ZM9.75 7.5H8.25V4.125C8.25 4.02554 8.21049 3.93016 8.14017 3.85984C8.06984 3.78951 7.97446 3.75 7.875 3.75H4.5V2.25H9.75V7.5Z" fill="#898989"></path>
@@ -2648,7 +2694,7 @@
                             <div data-v-54cd041d class="text-12px font-700 leading-18px h-18px ml-12px pl-12px pr-6px rounded-2px not-jump text-unverified">未认证</div>
                           </div>
                         </div>
-                        <a data-v-4028f250 class="text-primaryText sep-vip-label relative flex items-center cursor-pointer mr-10px" href="/zh-CN/fee" target="_self"><span class="absolute flex items-center"><img src="https://www.bitget.com/micro-runtime/assets/icon-viplevel-0.9a38c504.svg" class="w-20px h-20px" alt="vip_0" loading="lazy"></span>
+                        <a data-v-4028f250 class="text-primaryText sep-vip-label relative flex items-center cursor-pointer mr-10px" href="/fee" target="_self"><span class="absolute flex items-center"><img src="https://www.bitget.com/micro-runtime/assets/icon-viplevel-0.9a38c504.svg" class="w-20px h-20px" alt="vip_0" loading="lazy"></span>
                           <div class="micro-vip-tag text-12px font-700 leading-18px h-18px ml-12px pl-12px pr-6px rounded-2px bg-bgSecondary text-contentDisabled">VIP 0</div>
                         </a>
                         <div data-v-4028f250 class="not-jump"></div>
@@ -2657,97 +2703,114 @@
                   </div>
                   <div data-v-1b6285a2 data-v-a6a2c3ff class="px-12px">
                     <div data-v-1b6285a2 class="flex items-center mb-8px px-20px justify-between">
-                      <a data-v-1b6285a2 class="text-primaryText flex flex-col items-center justify-center h-94px cursor-pointer" href="/zh-CN/asset/recharge" target="_self">
+                      <a data-v-1b6285a2 class="text-primaryText flex flex-col items-center justify-center h-94px cursor-pointer" href="/asset/recharge" target="_self">
                         <svg data-v-1b6285a2 width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <circle cx="24" cy="24" r="23.5" transform="matrix(-1 0 0 1 48 0)" stroke="var(--color-input-border)"></circle>
                           <path d="M24 13.9999L24 32.9999" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
                           <path d="M32.1764 25.8225L24 34L16 25.8224" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
                         </svg>
-                        <span data-v-1b6285a2 class="mt-4px text-12px leading-18px text-center">充值</span></a><a data-v-1b6285a2 class="text-primaryText flex flex-col items-center justify-center h-94px cursor-pointer" href="/zh-CN/asset/withdraw" target="_self">
-                      <svg data-v-1b6285a2 width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="24.5" cy="24" r="23.5" transform="rotate(180 24.5 24)" stroke="var(--color-input-border)"></circle>
-                        <path d="M24.5 34V16" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-                        <path d="M16.5 23.1776L24.5 15L32.5882 23.0882" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-                      </svg>
-                      <span data-v-1b6285a2 class="mt-4px text-12px leading-18px text-center">提现</span></a><a data-v-1b6285a2 class="text-primaryText flex flex-col items-center justify-center h-94px cursor-pointer" href="/zh-CN/asset/transfer" target="_self">
-                      <svg data-v-1b6285a2 width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="24" cy="24" r="23.5" transform="matrix(-1 0 0 1 48 0)" stroke="var(--color-input-border)"></circle>
-                        <path d="M33 21L16 21L20.2083 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-                        <path d="M15 27L32 27L27.5442 32" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-                      </svg>
-                      <span data-v-1b6285a2 class="mt-4px text-12px leading-18px text-center">划转</span></a></div>
+                        <span data-v-1b6285a2 class="mt-4px text-12px leading-18px text-center">{{ $t('leftDash.deposit') }}</span>
+                      </a>
+                      <a data-v-1b6285a2 class="text-primaryText flex flex-col items-center justify-center h-94px cursor-pointer" href="/asset/withdraw" target="_self">
+                        <svg data-v-1b6285a2 width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="24.5" cy="24" r="23.5" transform="rotate(180 24.5 24)" stroke="var(--color-input-border)"></circle>
+                          <path d="M24.5 34V16" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                          <path d="M16.5 23.1776L24.5 15L32.5882 23.0882" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                        </svg>
+                        <span data-v-1b6285a2 class="mt-4px text-12px leading-18px text-center">{{ $t('leftDash.withdraw') }}</span></a>
+                      <a data-v-1b6285a2 class="text-primaryText flex flex-col items-center justify-center h-94px cursor-pointer" href="/asset/transfer" target="_self">
+                        <svg data-v-1b6285a2 width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="24" cy="24" r="23.5" transform="matrix(-1 0 0 1 48 0)" stroke="var(--color-input-border)"></circle>
+                          <path d="M33 21L16 21L20.2083 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                          <path d="M15 27L32 27L27.5442 32" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                        </svg>
+                        <span data-v-1b6285a2 class="mt-4px text-12px leading-18px text-center">{{ $t('leftDash.transfer') }}</span></a>
+                    </div>
                   </div>
                   <div data-v-a6a2c3ff class="mi-collapse menu-collapse border-0" role="tablist" aria-multiselectable="true">
                     <div data-v-a6a2c3ff class="mi-collapse-item border-0">
                       <div role="tab" aria-expanded="false" aria-controls="mi-collapse-content-4924" aria-describedby="mi-collapse-content-4924">
-                        <div id="mi-collapse-head-4924" class="mi-collapse-item__header" role="button" tabindex="0">
+                        <div @click="switchMobileMenu" id="mi-collapse-head-4924" class="mi-collapse-item__header" role="button" tabindex="0">
                           <div data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-6px w-full last:mb-0">
-                            <span class="text-primaryText flex justify-between items-center h-40px"><div class="flex justify-between items-center gap-10px"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-20px h-20px min-w-20px"><g id="i-notification"><path id="Vector" d="M21 15H16.0984C14.9398 15 14 13.8803 14 12.5C14 11.1197 14.9398 10 16.0984 10H21" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path><path id="Vector_2" d="M8 6L15.5 2L18 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path><path id="Vector_3" d="M21 18V21H3V6H21" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></g></svg><span class="menu-label">资产</span></div></span>
+                            <span class="text-primaryText flex justify-between items-center h-40px">
+                              <div class="flex justify-between items-center gap-10px">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-20px h-20px min-w-20px"><g id="i-notification"><path id="Vector" d="M21 15H16.0984C14.9398 15 14 13.8803 14 12.5C14 11.1197 14.9398 10 16.0984 10H21" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
+                                  <path id="Vector_2" d="M8 6L15.5 2L18 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
+                                  <path id="Vector_3" d="M21 18V21H3V6H21" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></g></svg>
+                                <span class="menu-label">{{ $t('leftDash.assets.assets') }}</span>
+                              </div>
+                            </span>
                           </div>
                           <i class="mi-icon mi-collapse-item__arrow">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                               <path d="M17.03 12.53l-7.5 7.5a.75.75 0 11-1.06-1.06L15.44 12 8.47 5.03a.75.75 0 111.06-1.06l7.5 7.5a.75.75 0 010 1.06z"></path>
                             </svg>
-                          </i></div>
+                          </i>
+                        </div>
                       </div>
                       <div id="mi-collapse-content-4924" class="mi-collapse-item__wrap" role="tabpanel" aria-hidden="true" aria-labelledby="mi-collapse-head-4924" style="display: none;">
                         <div class="mi-collapse-item__content">
                           <div data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-6px last:mb-0">
-                            <a class="text-primaryText flex justify-between items-center h-40px" href="/zh-CN/asset" target="_self">
+                            <a class="text-primaryText flex justify-between items-center h-40px" href="/asset" target="_self">
                               <div class="flex justify-between items-center gap-10px">
-                                <span class="menu-label">资产总览</span>
+                                <span class="menu-label">{{ $t('leftDash.assets.assets') }}</span>
                               </div>
                             </a></div>
                           <div data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-6px last:mb-0">
-                            <a class="text-primaryText flex justify-between items-center h-40px" href="/zh-CN/asset/spot" target="_self">
+                            <a class="text-primaryText flex justify-between items-center h-40px" href="/asset/spot" target="_self">
                               <div class="flex justify-between items-center gap-10px">
-                                <span class="menu-label">现货账户</span>
+                                <span class="menu-label">{{ $t('leftDash.assets.spotAccount') }}</span>
                               </div>
                             </a></div>
                           <div data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-6px last:mb-0">
-                            <a class="text-primaryText flex justify-between items-center h-40px" href="/zh-CN/asset/margin" target="_self">
+                            <a class="text-primaryText flex justify-between items-center h-40px" href="/asset/margin" target="_self">
                               <div class="flex justify-between items-center gap-10px">
-                                <span class="menu-label">杠杆账户</span>
+                                <span class="menu-label">{{ $t('leftDash.assets.marginAccount') }}</span>
                               </div>
                             </a></div>
                           <div data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-6px last:mb-0">
-                            <a class="text-primaryText flex justify-between items-center h-40px" href="/zh-CN/asset/futures" target="_self">
+                            <a class="text-primaryText flex justify-between items-center h-40px" href="/asset/futures" target="_self">
                               <div class="flex justify-between items-center gap-10px">
-                                <span class="menu-label">合约账户</span>
+                                <span class="menu-label">{{ $t('leftDash.assets.futuresAccount') }}</span>
                               </div>
                             </a></div>
                           <div data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-6px last:mb-0" style="display: none;">
-                            <a class="text-primaryText flex justify-between items-center h-40px" href="/zh-CN/asset/follower" target="_self">
+                            <a class="text-primaryText flex justify-between items-center h-40px" href="/asset/follower" target="_self">
                               <div class="flex justify-between items-center gap-10px">
-                                <span class="menu-label">合约跟单</span>
+                                <span class="menu-label">{{ $t('leftDash.assets.futuresCopyTrading') }}</span>
                               </div>
                             </a></div>
                           <div data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-6px last:mb-0">
-                            <a class="text-primaryText flex justify-between items-center h-40px" href="/zh-CN/asset/strategy" target="_self">
+                            <a class="text-primaryText flex justify-between items-center h-40px" href="/asset/strategy" target="_self">
                               <div class="flex justify-between items-center gap-10px">
-                                <span class="menu-label">策略账户</span>
+                                <span class="menu-label">{{ $t('leftDash.assets.botAccount') }}</span>
                               </div>
                             </a></div>
                           <div data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-6px last:mb-0">
-                            <a class="text-primaryText flex justify-between items-center h-40px" href="/zh-CN/asset/p2p" target="_self">
+                            <a class="text-primaryText flex justify-between items-center h-40px" href="/asset/p2p" target="_self">
                               <div class="flex justify-between items-center gap-10px">
-                                <span class="menu-label">资金账户</span>
+                                <span class="menu-label">{{ $t('leftDash.assets.fundingAccount') }}</span>
                               </div>
                             </a></div>
                           <div data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-6px last:mb-0">
-                            <a class="text-primaryText flex justify-between items-center h-40px" href="/zh-CN/asset/earn?source1=assets_account&amp;source2=earn_account" target="_self">
+                            <a class="text-primaryText flex justify-between items-center h-40px" href="/asset/earn?source1=assets_account&amp;source2=earn_account" target="_self">
                               <div class="flex justify-between items-center gap-10px">
-                                <span class="menu-label">理财账户</span>
+                                <span class="menu-label">{{ $t('leftDash.assets.earnAccount') }}</span>
                               </div>
                             </a></div>
                         </div>
                       </div>
                     </div>
+
                     <div data-v-a6a2c3ff class="mi-collapse-item border-0">
                       <div role="tab" aria-expanded="false" aria-controls="mi-collapse-content-3772" aria-describedby="mi-collapse-content-3772">
-                        <div id="mi-collapse-head-3772" class="mi-collapse-item__header" role="button" tabindex="0">
+                        <div @click="switchMobileMenu" id="mi-collapse-head-3772" class="mi-collapse-item__header" role="button" tabindex="0">
                           <div data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-6px w-full last:mb-0">
-                            <span class="text-primaryText flex justify-between items-center h-40px"><div class="flex justify-between items-center gap-10px"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-20px h-20px min-w-20px"><path d="M11.6793 18.2171C11.5945 18.219 11.5101 18.2032 11.4318 18.1707C11.3534 18.1381 11.2826 18.0896 11.2241 18.0282L8.56145 15.3655C8.472 15.2763 8.41116 15.1625 8.38668 15.0386C8.36221 14.9147 8.3752 14.7863 8.42402 14.6698C8.47262 14.552 8.55464 14.451 8.65995 14.3793C8.76526 14.3076 8.88927 14.2682 9.01667 14.2661H17.4684C17.6393 14.2661 17.8031 14.334 17.9239 14.4548C18.0447 14.5756 18.1126 14.7395 18.1126 14.9103C18.1126 15.0811 18.0447 15.245 17.9239 15.3658C17.8031 15.4866 17.6393 15.5545 17.4684 15.5545H10.5971L12.1603 17.1177C12.2809 17.2385 12.3487 17.4022 12.3487 17.5729C12.3487 17.7437 12.2809 17.9074 12.1603 18.0282C12.0978 18.0916 12.0227 18.1412 11.9399 18.1737C11.857 18.2063 11.7682 18.2211 11.6793 18.2171Z" fill="currentColor"></path><path d="M17.4681 12.6425H9.01632C8.84547 12.6425 8.68162 12.5747 8.56081 12.4539C8.44 12.3331 8.37213 12.1692 8.37213 11.9984C8.37213 11.8275 8.44 11.6637 8.56081 11.5428C8.68162 11.422 8.84547 11.3542 9.01632 11.3542H15.8876L14.3588 9.79953C14.245 9.67742 14.183 9.5159 14.186 9.34901C14.1889 9.18212 14.2565 9.02289 14.3746 8.90487C14.4926 8.78684 14.6518 8.71923 14.8187 8.71629C14.9856 8.71334 15.1471 8.77529 15.2692 8.88908L17.9233 11.5431C18.0133 11.6332 18.0745 11.748 18.0993 11.8728C18.1241 11.9977 18.1114 12.1272 18.0627 12.2448C18.014 12.3624 17.9315 12.463 17.8256 12.5338C17.7198 12.6046 17.5954 12.6424 17.4681 12.6425Z" fill="currentColor"></path><path d="M9.01648 9.98845H4.79061C4.61976 9.98845 4.45591 9.92058 4.3351 9.79977C4.21429 9.67896 4.14642 9.51511 4.14642 9.34426C4.14642 9.17341 4.21429 9.00956 4.3351 8.88875C4.45591 8.76794 4.61976 8.70007 4.79061 8.70007H9.01648C9.18733 8.70007 9.35118 8.76794 9.47199 8.88875C9.59279 9.00956 9.66066 9.17341 9.66066 9.34426C9.66066 9.51511 9.59279 9.67896 9.47199 9.79977C9.35118 9.92058 9.18733 9.98845 9.01648 9.98845Z" fill="currentColor"></path><path d="M11.0607 6.87919H4.79061C4.61976 6.87919 4.45591 6.81133 4.3351 6.69052C4.21429 6.56971 4.14642 6.40586 4.14642 6.23501C4.14642 6.06416 4.21429 5.90031 4.3351 5.7795C4.45591 5.65869 4.61976 5.59082 4.79061 5.59082H11.0607C11.2315 5.59082 11.3954 5.65869 11.5162 5.7795C11.637 5.90031 11.7049 6.06416 11.7049 6.23501C11.7049 6.40586 11.637 6.56971 11.5162 6.69052C11.3954 6.81133 11.2315 6.87919 11.0607 6.87919Z" fill="currentColor"></path><path d="M7.02366 18.0445H1.69838C1.61347 18.0457 1.52918 18.0298 1.4505 17.9979C1.37183 17.9659 1.30035 17.9185 1.2403 17.8584C1.18025 17.7984 1.13284 17.7269 1.10088 17.6482C1.06891 17.5696 1.05304 17.4853 1.0542 17.4004V2.64419C1.0542 2.47334 1.12207 2.30949 1.24288 2.18868C1.36368 2.06787 1.52753 2 1.69838 2H14.1527C14.3228 2.00222 14.4854 2.07081 14.6057 2.19114C14.726 2.31147 14.7946 2.47403 14.7969 2.64419V5.95101C14.7969 6.12186 14.729 6.28571 14.6082 6.40652C14.4874 6.52733 14.3235 6.5952 14.1527 6.5952C13.9818 6.5952 13.818 6.52733 13.6972 6.40652C13.5763 6.28571 13.5085 6.12186 13.5085 5.95101V3.28837H2.34257V16.7648H7.02366C7.19451 16.7648 7.35836 16.8326 7.47917 16.9534C7.59998 17.0743 7.66785 17.2381 7.66785 17.409C7.66785 17.5798 7.59998 17.7437 7.47917 17.8645C7.35836 17.9853 7.19451 18.0531 7.02366 18.0531V18.0445Z" fill="currentColor"></path></svg><span class="menu-label">交易记录</span></div></span>
+                            <span class="text-primaryText flex justify-between items-center h-40px">
+                              <div class="flex justify-between items-center gap-10px"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-20px h-20px min-w-20px"><path d="M11.6793 18.2171C11.5945 18.219 11.5101 18.2032 11.4318 18.1707C11.3534 18.1381 11.2826 18.0896 11.2241 18.0282L8.56145 15.3655C8.472 15.2763 8.41116 15.1625 8.38668 15.0386C8.36221 14.9147 8.3752 14.7863 8.42402 14.6698C8.47262 14.552 8.55464 14.451 8.65995 14.3793C8.76526 14.3076 8.88927 14.2682 9.01667 14.2661H17.4684C17.6393 14.2661 17.8031 14.334 17.9239 14.4548C18.0447 14.5756 18.1126 14.7395 18.1126 14.9103C18.1126 15.0811 18.0447 15.245 17.9239 15.3658C17.8031 15.4866 17.6393 15.5545 17.4684 15.5545H10.5971L12.1603 17.1177C12.2809 17.2385 12.3487 17.4022 12.3487 17.5729C12.3487 17.7437 12.2809 17.9074 12.1603 18.0282C12.0978 18.0916 12.0227 18.1412 11.9399 18.1737C11.857 18.2063 11.7682 18.2211 11.6793 18.2171Z" fill="currentColor"></path><path d="M17.4681 12.6425H9.01632C8.84547 12.6425 8.68162 12.5747 8.56081 12.4539C8.44 12.3331 8.37213 12.1692 8.37213 11.9984C8.37213 11.8275 8.44 11.6637 8.56081 11.5428C8.68162 11.422 8.84547 11.3542 9.01632 11.3542H15.8876L14.3588 9.79953C14.245 9.67742 14.183 9.5159 14.186 9.34901C14.1889 9.18212 14.2565 9.02289 14.3746 8.90487C14.4926 8.78684 14.6518 8.71923 14.8187 8.71629C14.9856 8.71334 15.1471 8.77529 15.2692 8.88908L17.9233 11.5431C18.0133 11.6332 18.0745 11.748 18.0993 11.8728C18.1241 11.9977 18.1114 12.1272 18.0627 12.2448C18.014 12.3624 17.9315 12.463 17.8256 12.5338C17.7198 12.6046 17.5954 12.6424 17.4681 12.6425Z" fill="currentColor"></path><path d="M9.01648 9.98845H4.79061C4.61976 9.98845 4.45591 9.92058 4.3351 9.79977C4.21429 9.67896 4.14642 9.51511 4.14642 9.34426C4.14642 9.17341 4.21429 9.00956 4.3351 8.88875C4.45591 8.76794 4.61976 8.70007 4.79061 8.70007H9.01648C9.18733 8.70007 9.35118 8.76794 9.47199 8.88875C9.59279 9.00956 9.66066 9.17341 9.66066 9.34426C9.66066 9.51511 9.59279 9.67896 9.47199 9.79977C9.35118 9.92058 9.18733 9.98845 9.01648 9.98845Z" fill="currentColor"></path><path d="M11.0607 6.87919H4.79061C4.61976 6.87919 4.45591 6.81133 4.3351 6.69052C4.21429 6.56971 4.14642 6.40586 4.14642 6.23501C4.14642 6.06416 4.21429 5.90031 4.3351 5.7795C4.45591 5.65869 4.61976 5.59082 4.79061 5.59082H11.0607C11.2315 5.59082 11.3954 5.65869 11.5162 5.7795C11.637 5.90031 11.7049 6.06416 11.7049 6.23501C11.7049 6.40586 11.637 6.56971 11.5162 6.69052C11.3954 6.81133 11.2315 6.87919 11.0607 6.87919Z" fill="currentColor"></path><path d="M7.02366 18.0445H1.69838C1.61347 18.0457 1.52918 18.0298 1.4505 17.9979C1.37183 17.9659 1.30035 17.9185 1.2403 17.8584C1.18025 17.7984 1.13284 17.7269 1.10088 17.6482C1.06891 17.5696 1.05304 17.4853 1.0542 17.4004V2.64419C1.0542 2.47334 1.12207 2.30949 1.24288 2.18868C1.36368 2.06787 1.52753 2 1.69838 2H14.1527C14.3228 2.00222 14.4854 2.07081 14.6057 2.19114C14.726 2.31147 14.7946 2.47403 14.7969 2.64419V5.95101C14.7969 6.12186 14.729 6.28571 14.6082 6.40652C14.4874 6.52733 14.3235 6.5952 14.1527 6.5952C13.9818 6.5952 13.818 6.52733 13.6972 6.40652C13.5763 6.28571 13.5085 6.12186 13.5085 5.95101V3.28837H2.34257V16.7648H7.02366C7.19451 16.7648 7.35836 16.8326 7.47917 16.9534C7.59998 17.0743 7.66785 17.2381 7.66785 17.409C7.66785 17.5798 7.59998 17.7437 7.47917 17.8645C7.35836 17.9853 7.19451 18.0531 7.02366 18.0531V18.0445Z" fill="currentColor"></path></svg>
+                                <span class="menu-label">{{ $t('leftDash.orders.orders') }}</span>
+                              </div>
+                            </span>
                           </div>
                           <i class="mi-icon mi-collapse-item__arrow">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -2758,45 +2821,45 @@
                       <div id="mi-collapse-content-3772" class="mi-collapse-item__wrap" role="tabpanel" aria-hidden="true" aria-labelledby="mi-collapse-head-3772" style="display: none;">
                         <div class="mi-collapse-item__content">
                           <div data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-6px last:mb-0">
-                            <a class="text-primaryText flex justify-between items-center h-40px" href="/zh-CN/transac?tab=0" target="_self">
+                            <a class="text-primaryText flex justify-between items-center h-40px" href="/transac?tab=0" target="_self">
                               <div class="flex justify-between items-center gap-10px">
-                                <span class="menu-label">现货交易记录</span>
+                                <span class="menu-label">{{ $t('leftDash.orders.spotTrades') }}</span>
                               </div>
                             </a></div>
                           <div data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-6px last:mb-0">
-                            <a class="text-primaryText flex justify-between items-center h-40px" href="/zh-CN/order/marginOrderInfo?tab=0" target="_self">
+                            <a class="text-primaryText flex justify-between items-center h-40px" href="/order/marginOrderInfo?tab=0" target="_self">
                               <div class="flex justify-between items-center gap-10px">
-                                <span class="menu-label">杠杆交易记录</span>
+                                <span class="menu-label">{{ $t('leftDash.orders.marginTrades') }}</span>
                               </div>
                             </a></div>
                           <div data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-6px last:mb-0">
-                            <a class="text-primaryText flex justify-between items-center h-40px" href="/zh-CN/order/mcp?tab=1" target="_self">
+                            <a class="text-primaryText flex justify-between items-center h-40px" href="/order/mcp?tab=1" target="_self">
                               <div class="flex justify-between items-center gap-10px">
-                                <span class="menu-label">合约交易记录</span>
+                                <span class="menu-label">{{ $t('leftDash.orders.futuresTrades') }}</span>
                               </div>
                             </a></div>
                           <div data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-6px last:mb-0">
-                            <a class="text-primaryText flex justify-between items-center h-40px" href="/zh-CN/order/fiat" target="_self">
+                            <a class="text-primaryText flex justify-between items-center h-40px" href="/order/fiat" target="_self">
                               <div class="flex justify-between items-center gap-10px">
-                                <span class="menu-label">法币交易记录</span>
+                                <span class="menu-label">{{ $t('leftDash.orders.fiatOrders') }}</span>
                               </div>
                             </a></div>
                           <div data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-6px last:mb-0">
-                            <a class="text-primaryText flex justify-between items-center h-40px" href="/zh-CN/order/convert" target="_self">
+                            <a class="text-primaryText flex justify-between items-center h-40px" href="/order/convert" target="_self">
                               <div class="flex justify-between items-center gap-10px">
-                                <span class="menu-label">闪兑交易记录</span>
+                                <span class="menu-label">{{ $t('leftDash.orders.convertHistory') }}</span>
                               </div>
                             </a></div>
                           <div data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-6px last:mb-0">
-                            <a class="text-primaryText flex justify-between items-center h-40px" href="/zh-CN/order/loan?tab=1" target="_self">
+                            <a class="text-primaryText flex justify-between items-center h-40px" href="/order/loan?tab=1" target="_self">
                               <div class="flex justify-between items-center gap-10px">
-                                <span class="menu-label">质押借贷记录</span>
+                                <span class="menu-label">{{ $t('leftDash.orders.cryptoLoans') }}</span>
                               </div>
                             </a></div>
                           <div data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-6px last:mb-0">
-                            <a class="text-primaryText flex justify-between items-center h-40px" href="/zh-CN/record/finhis" target="_self">
+                            <a class="text-primaryText flex justify-between items-center h-40px" href="/record/finhis" target="_self">
                               <div class="flex justify-between items-center gap-10px">
-                                <span class="menu-label">理财交易记录</span>
+                                <span class="menu-label">{{ $t('leftDash.orders.earnOrders') }}</span>
                               </div>
                             </a>
                           </div>
@@ -2805,7 +2868,7 @@
                     </div>
                   </div>
                   <div data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-6px last:mb-0" show-hover-arrow>
-                    <a class="text-primaryText flex justify-between items-center h-40px" href="/zh-CN/account/setting" target="_self">
+                    <a class="text-primaryText flex justify-between items-center h-40px" href="/account/setting" target="_self">
                       <div class="flex justify-between items-center gap-10px">
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-20px h-20px min-w-20px">
                           <g id="Icon24">
@@ -2813,35 +2876,40 @@
                             <path id="Vector_2" d="M6.66644 9.16667L9.16644 11.6667L13.3331 7.5" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
                           </g>
                         </svg>
-                        <span class="menu-label">安全中心</span></div>
+                        <span class="menu-label">{{ $t('leftDash.security') }}</span>
+                      </div>
                     </a>
                   </div>
+
                   <div data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-6px last:mb-0" show-hover-arrow>
-                    <a class="text-primaryText flex justify-between items-center h-40px" href="/zh-CN/account/verified" target="_self">
+                    <a class="text-primaryText flex justify-between items-center h-40px" href="/account/verified" target="_self">
                       <div class="flex justify-between items-center gap-10px">
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-20px h-20px min-w-20px">
                           <g id="IdentificationCard">
                             <path id="Vector" d="M15.625 8.75C15.625 8.91576 15.5592 9.07473 15.4419 9.19194C15.3247 9.30915 15.1658 9.375 15 9.375H11.875C11.7092 9.375 11.5503 9.30915 11.4331 9.19194C11.3158 9.07473 11.25 8.91576 11.25 8.75C11.25 8.58424 11.3158 8.42527 11.4331 8.30806C11.5503 8.19085 11.7092 8.125 11.875 8.125H15C15.1658 8.125 15.3247 8.19085 15.4419 8.30806C15.5592 8.42527 15.625 8.58424 15.625 8.75ZM15 10.625H11.875C11.7092 10.625 11.5503 10.6908 11.4331 10.8081C11.3158 10.9253 11.25 11.0842 11.25 11.25C11.25 11.4158 11.3158 11.5747 11.4331 11.6919C11.5503 11.8092 11.7092 11.875 11.875 11.875H15C15.1658 11.875 15.3247 11.8092 15.4419 11.6919C15.5592 11.5747 15.625 11.4158 15.625 11.25C15.625 11.0842 15.5592 10.9253 15.4419 10.8081C15.3247 10.6908 15.1658 10.625 15 10.625ZM18.125 4.375V15.625C18.125 15.9565 17.9933 16.2745 17.7589 16.5089C17.5245 16.7433 17.2065 16.875 16.875 16.875H3.125C2.79348 16.875 2.47554 16.7433 2.24112 16.5089C2.0067 16.2745 1.875 15.9565 1.875 15.625V4.375C1.875 4.04348 2.0067 3.72554 2.24112 3.49112C2.47554 3.2567 2.79348 3.125 3.125 3.125H16.875C17.2065 3.125 17.5245 3.2567 17.7589 3.49112C17.9933 3.72554 18.125 4.04348 18.125 4.375ZM16.875 15.625V4.375H3.125V15.625H16.875ZM10.6047 12.9688C10.6461 13.1293 10.6221 13.2998 10.5378 13.4426C10.4536 13.5855 10.316 13.689 10.1555 13.7305C9.99489 13.7719 9.82442 13.7479 9.68157 13.6636C9.53872 13.5794 9.43519 13.4418 9.39375 13.2813C9.18828 12.4797 8.37344 11.875 7.49922 11.875C6.625 11.875 5.81094 12.4797 5.60469 13.2813C5.56325 13.4418 5.45971 13.5794 5.31686 13.6636C5.17401 13.7479 5.00355 13.7719 4.84297 13.7305C4.68239 13.689 4.54485 13.5855 4.4606 13.4426C4.37636 13.2998 4.35231 13.1293 4.39375 12.9688C4.59656 12.2139 5.07598 11.5629 5.73672 11.1453C5.3856 10.7963 5.14602 10.3508 5.04835 9.86549C4.95068 9.38013 4.99932 8.87671 5.1881 8.41902C5.37688 7.96134 5.6973 7.57002 6.10875 7.29465C6.52019 7.01929 7.00413 6.87229 7.49922 6.87229C7.9943 6.87229 8.47824 7.01929 8.88969 7.29465C9.30113 7.57002 9.62156 7.96134 9.81034 8.41902C9.99912 8.87671 10.0478 9.38013 9.95009 9.86549C9.85242 10.3508 9.61284 10.7963 9.26172 11.1453C9.92318 11.5623 10.403 12.2135 10.6055 12.9688H10.6047ZM7.5 10.625C7.74723 10.625 7.9889 10.5517 8.19446 10.4143C8.40002 10.277 8.56024 10.0818 8.65485 9.85335C8.74946 9.62495 8.77421 9.37361 8.72598 9.13114C8.67775 8.88866 8.5587 8.66593 8.38388 8.49112C8.20907 8.3163 7.98634 8.19725 7.74386 8.14902C7.50139 8.10079 7.25005 8.12554 7.02165 8.22015C6.79324 8.31476 6.59801 8.47498 6.46066 8.68054C6.32331 8.8861 6.25 9.12777 6.25 9.375C6.25 9.70652 6.3817 10.0245 6.61612 10.2589C6.85054 10.4933 7.16848 10.625 7.5 10.625Z" fill="currentColor"></path>
                           </g>
                         </svg>
-                        <span class="menu-label">身份认证</span>
+                        <span class="menu-label">{{ $t('leftDash.idVerify') }}</span>
                       </div>
                     </a>
                   </div>
 
                   <div v-if="false" data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-6px last:mb-0" show-hover-arrow>
-                    <a class="text-primaryText flex justify-between items-center h-40px" href="/zh-CN/account/coupon" target="_self">
+                    <a class="text-primaryText flex justify-between items-center h-40px" href="/account/coupon" target="_self">
                       <div class="flex justify-between items-center gap-10px">
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-20px h-20px min-w-20px">
                           <g id="Ticket">
                             <path id="Vector" d="M17.7492 8.1625C18.0316 8.10505 18.2854 7.95182 18.4678 7.72874C18.6501 7.50566 18.7498 7.22642 18.75 6.93828V5C18.75 4.66848 18.6183 4.35054 18.3839 4.11612C18.1495 3.8817 17.8315 3.75 17.5 3.75H2.5C2.16848 3.75 1.85054 3.8817 1.61612 4.11612C1.3817 4.35054 1.25 4.66848 1.25 5V6.93828C1.25016 7.22642 1.34986 7.50566 1.53223 7.72874C1.71459 7.95182 1.96843 8.10505 2.25078 8.1625C2.67298 8.25005 3.05209 8.48044 3.32427 8.81485C3.59644 9.14926 3.74505 9.56726 3.74505 9.99844C3.74505 10.4296 3.59644 10.8476 3.32427 11.182C3.05209 11.5164 2.67298 11.7468 2.25078 11.8344C1.9679 11.8919 1.71366 12.0456 1.53124 12.2693C1.34881 12.4931 1.24944 12.773 1.25 13.0617V15C1.25 15.3315 1.3817 15.6495 1.61612 15.8839C1.85054 16.1183 2.16848 16.25 2.5 16.25H17.5C17.8315 16.25 18.1495 16.1183 18.3839 15.8839C18.6183 15.6495 18.75 15.3315 18.75 15V13.0617C18.7498 12.7736 18.6501 12.4943 18.4678 12.2713C18.2854 12.0482 18.0316 11.8949 17.7492 11.8375C17.327 11.7499 16.9479 11.5196 16.6757 11.1851C16.4036 10.8507 16.255 10.4327 16.255 10.0016C16.255 9.57039 16.4036 9.15239 16.6757 8.81798C16.9479 8.48357 17.327 8.25318 17.7492 8.16563V8.1625ZM2.5 13.0625C3.20601 12.9187 3.84064 12.5353 4.29644 11.9773C4.75224 11.4193 5.00122 10.7209 5.00122 10.0004C5.00122 9.27988 4.75224 8.5815 4.29644 8.02349C3.84064 7.46547 3.20601 7.0821 2.5 6.93828V5H6.875V15H2.5V13.0625ZM17.5 13.0625V15H8.125V5H17.5V6.9375C16.794 7.08132 16.1594 7.46469 15.7036 8.02271C15.2478 8.58072 14.9988 9.2791 14.9988 9.99961C14.9988 10.7201 15.2478 11.4185 15.7036 11.9765C16.1594 12.5345 16.794 12.9179 17.5 13.0617V13.0625Z" fill="currentColor"></path>
                           </g>
                         </svg>
-                        <span class="menu-label">卡券中心</span></div>
+                        <span class="menu-label">{{ $t('leftDash.coupons') }}</span>
+                      </div>
                       <div data-v-a6a2c3ff class="flex items-center">
                         <div data-v-a6a2c3ff class="micro-menu-extra-card flex items-center text-12px mr-5px leading-16px px-8px py-4px text-contentLinkDefault rounded-4px max-w-160px truncate">2 个任务</div>
                       </div>
-                    </a></div>
+                    </a>
+                  </div>
+
                   <div v-if="false" data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-6px">
                     <span class="text-primaryText flex justify-between items-center h-40px">
                       <div class="flex justify-between items-center gap-10px">
@@ -2854,24 +2922,24 @@
                   </div>
 
                   <div v-if="false" data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-6px last:mb-0" show-hover-arrow>
-                    <a class="text-primaryText flex justify-between items-center h-40px" href="/zh-CN/events/myevents" target="_self">
+                    <a class="text-primaryText flex justify-between items-center h-40px" href="/events/myevents" target="_self">
                       <div class="flex justify-between items-center gap-10px">
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-20px h-20px min-w-20px">
                           <g id="Trophy">
                             <path id="Vector" d="M18.125 4.375H16.25V3.75C16.25 3.41848 16.1183 3.10054 15.8839 2.86612C15.6495 2.6317 15.3315 2.5 15 2.5H5C4.66848 2.5 4.35054 2.6317 4.11612 2.86612C3.8817 3.10054 3.75 3.41848 3.75 3.75V4.375H1.875C1.54348 4.375 1.22554 4.5067 0.991117 4.74112C0.756696 4.97554 0.625 5.29348 0.625 5.625V6.875C0.625 7.7038 0.95424 8.49866 1.54029 9.08471C1.83047 9.37489 2.17497 9.60508 2.55411 9.76212C2.93326 9.91917 3.33962 10 3.75 10H4.03516C4.40332 11.1667 5.10529 12.2 6.0543 12.9721C7.00331 13.7443 8.15777 14.2214 9.375 14.3445V16.25H7.5C7.33424 16.25 7.17527 16.3158 7.05806 16.4331C6.94085 16.5503 6.875 16.7092 6.875 16.875C6.875 17.0408 6.94085 17.1997 7.05806 17.3169C7.17527 17.4342 7.33424 17.5 7.5 17.5H12.5C12.6658 17.5 12.8247 17.4342 12.9419 17.3169C13.0592 17.1997 13.125 17.0408 13.125 16.875C13.125 16.7092 13.0592 16.5503 12.9419 16.4331C12.8247 16.3158 12.6658 16.25 12.5 16.25H10.625V14.3422C13.1203 14.0898 15.1906 12.3391 15.9438 10H16.25C17.0788 10 17.8737 9.67076 18.4597 9.08471C19.0458 8.49866 19.375 7.7038 19.375 6.875V5.625C19.375 5.29348 19.2433 4.97554 19.0089 4.74112C18.7745 4.5067 18.4565 4.375 18.125 4.375ZM3.75 8.75C3.25272 8.75 2.77581 8.55246 2.42417 8.20083C2.07254 7.84919 1.875 7.37228 1.875 6.875V5.625H3.75V8.125C3.75 8.33333 3.76016 8.54167 3.78047 8.75H3.75ZM15 8.05469C15 10.8297 12.7742 13.1047 10.0383 13.125H10C8.67392 13.125 7.40215 12.5982 6.46447 11.6605C5.52678 10.7229 5 9.45108 5 8.125V3.75H15V8.05469ZM18.125 6.875C18.125 7.37228 17.9275 7.84919 17.5758 8.20083C17.2242 8.55246 16.7473 8.75 16.25 8.75H16.2109C16.2366 8.51911 16.2496 8.287 16.25 8.05469V5.625H18.125V6.875Z" fill="currentColor"></path>
                           </g>
                         </svg>
-                        <span class="menu-label">我的活动</span></div>
+                        <span class="menu-label">{{ $t('leftDash.myCampaigns') }}</span></div>
                     </a>
                   </div>
 
                   <div data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-6px last:mb-0" show-hover-arrow>
-                    <a class="text-primaryText flex justify-between items-center h-40px" href="/zh-CN/asset/addressBook" target="_self">
+                    <a class="text-primaryText flex justify-between items-center h-40px" href="/asset/addressBook" target="_self">
                       <div class="flex justify-between items-center gap-10px">
                         <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" fill="none" class="w-20px h-20px min-w-20px">
                           <path fill="currentColor" d="M7.461 13.625a.624.624 0 0 0 .876-.125 4.062 4.062 0 0 1 6.5 0 .625.625 0 0 0 1-.75 5.302 5.302 0 0 0-2.14-1.694 3.126 3.126 0 1 0-4.215 0c-.85.367-1.59.951-2.145 1.694a.625.625 0 0 0 .124.875Zm2.25-4.875a1.875 1.875 0 1 1 3.751 0 1.875 1.875 0 0 1-3.75 0Zm7.5-6.875H5.962a1.25 1.25 0 0 0-1.25 1.25V5h-1.25a.625.625 0 0 0 0 1.25h1.25v3.125h-1.25a.625.625 0 0 0 0 1.25h1.25v3.125h-1.25a.625.625 0 1 0 0 1.25h1.25v1.875a1.25 1.25 0 0 0 1.25 1.25h11.25a1.25 1.25 0 0 0 1.25-1.25V3.125a1.25 1.25 0 0 0-1.25-1.25Zm0 15H5.962V3.125h11.25v13.75Z"></path>
                         </svg>
-                        <span class="menu-label">地址簿</span></div>
+                        <span class="menu-label">{{ $t('leftDash.addressBook') }}</span></div>
                     </a>
                   </div>
 
@@ -2924,15 +2992,17 @@
                   </div>
 
                   <div data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-6px last:mb-0" show-hover-arrow>
-                    <a class="text-primaryText flex justify-between items-center h-40px" href="/zh-CN/account/preference" target="_self">
+                    <a class="text-primaryText flex justify-between items-center h-40px" href="/account/preference" target="_self">
                       <div class="flex justify-between items-center gap-10px">
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-20px h-20px min-w-20px">
                           <g id="SlidersHorizontal">
                             <path id="Vector" d="M3.125 6.87502H5.70312C5.84081 7.41278 6.15356 7.88942 6.59207 8.22979C7.03057 8.57017 7.56989 8.75492 8.125 8.75492C8.68011 8.75492 9.21942 8.57017 9.65793 8.22979C10.0964 7.88942 10.4092 7.41278 10.5469 6.87502H16.875C17.0408 6.87502 17.1997 6.80917 17.3169 6.69196C17.4342 6.57475 17.5 6.41578 17.5 6.25002C17.5 6.08426 17.4342 5.92529 17.3169 5.80808C17.1997 5.69087 17.0408 5.62502 16.875 5.62502H10.5469C10.4092 5.08726 10.0964 4.61062 9.65793 4.27024C9.21942 3.92987 8.68011 3.74512 8.125 3.74512C7.56989 3.74512 7.03057 3.92987 6.59207 4.27024C6.15356 4.61062 5.84081 5.08726 5.70312 5.62502H3.125C2.95924 5.62502 2.80027 5.69087 2.68306 5.80808C2.56585 5.92529 2.5 6.08426 2.5 6.25002C2.5 6.41578 2.56585 6.57475 2.68306 6.69196C2.80027 6.80917 2.95924 6.87502 3.125 6.87502ZM8.125 5.00002C8.37223 5.00002 8.6139 5.07333 8.81946 5.21068C9.02502 5.34803 9.18524 5.54326 9.27985 5.77167C9.37446 6.00007 9.39921 6.25141 9.35098 6.49388C9.30275 6.73636 9.1837 6.95909 9.00888 7.1339C8.83407 7.30872 8.61134 7.42777 8.36886 7.476C8.12639 7.52423 7.87505 7.49948 7.64665 7.40487C7.41824 7.31026 7.22301 7.15004 7.08566 6.94448C6.94831 6.73892 6.875 6.49725 6.875 6.25002C6.875 5.9185 7.0067 5.60056 7.24112 5.36614C7.47554 5.13172 7.79348 5.00002 8.125 5.00002ZM16.875 13.125H15.5469C15.4092 12.5873 15.0964 12.1106 14.6579 11.7702C14.2194 11.4299 13.6801 11.2451 13.125 11.2451C12.5699 11.2451 12.0306 11.4299 11.5921 11.7702C11.1536 12.1106 10.8408 12.5873 10.7031 13.125H3.125C2.95924 13.125 2.80027 13.1909 2.68306 13.3081C2.56585 13.4253 2.5 13.5843 2.5 13.75C2.5 13.9158 2.56585 14.0748 2.68306 14.192C2.80027 14.3092 2.95924 14.375 3.125 14.375H10.7031C10.8408 14.9128 11.1536 15.3894 11.5921 15.7298C12.0306 16.0702 12.5699 16.2549 13.125 16.2549C13.6801 16.2549 14.2194 16.0702 14.6579 15.7298C15.0964 15.3894 15.4092 14.9128 15.5469 14.375H16.875C17.0408 14.375 17.1997 14.3092 17.3169 14.192C17.4342 14.0748 17.5 13.9158 17.5 13.75C17.5 13.5843 17.4342 13.4253 17.3169 13.3081C17.1997 13.1909 17.0408 13.125 16.875 13.125ZM13.125 15C12.8778 15 12.6361 14.9267 12.4305 14.7894C12.225 14.652 12.0648 14.4568 11.9701 14.2284C11.8755 14 11.8508 13.7486 11.899 13.5062C11.9472 13.2637 12.0663 13.041 12.2411 12.8661C12.4159 12.6913 12.6387 12.5723 12.8811 12.524C13.1236 12.4758 13.3749 12.5006 13.6034 12.5952C13.8318 12.6898 14.027 12.85 14.1643 13.0556C14.3017 13.2611 14.375 13.5028 14.375 13.75C14.375 14.0815 14.2433 14.3995 14.0089 14.6339C13.7745 14.8683 13.4565 15 13.125 15Z" fill="currentColor"></path>
                           </g>
                         </svg>
-                        <span class="menu-label">我的设置</span></div>
-                    </a></div>
+                        <span class="menu-label">{{ $t('leftDash.settings') }}</span>
+                      </div>
+                    </a>
+                  </div>
 
                   <div v-if="false" data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer">
                     <span class="text-primaryText flex justify-between items-center h-40px">
@@ -2948,7 +3018,7 @@
                 </div>
                 <div data-v-a6a2c3ff class="px-24px h-76px min-h-76px pt-8px mt-8px bottom-0 flex justify-center bg-[inherit]">
                   <button data-v-a6a2c3ff aria-disabled="false" type="button" class="mi-button mi-button--large is-round w-full">
-                    <span class>退出</span>
+                    <span class>{{ $t('leftDash.logout') }}</span>
                   </button>
                 </div>
               </div>
@@ -2957,27 +3027,71 @@
         </div>
       </div>
 
-      <!--语言-货币-->
-      <div v-if="langCurrencyShow" data-v-26837101="" data-v-7c2db744="" class="language-currency">
-        <div class="mi-overlay" style="z-index: 2014;">
-          <div role="dialog" aria-modal="true" aria-labelledby="mi-id-1045-29" aria-describedby="mi-id-1045-30" class="mi-overlay-dialog is-responsive">
-            <div class="mi-dialog is-responsive is-no-title dialog" tabindex="-1" style="--mi-dialog-width: 840px;">
+      <!--mobile 语言-货币-->
+      <div v-if="mobileLangCurrencyShow" data-v-26837101 data-v-7c2db744 class="language-currency fullscreen">
+        <div class="mi-overlay" style="z-index: 2025;">
+          <div role="dialog" aria-modal="true" aria-labelledby="mi-id-3001-44" aria-describedby="mi-id-3001-45" class="mi-overlay-dialog is-responsive">
+            <div class="mi-dialog is-fullscreen is-responsive is-no-title dialog" tabindex="-1">
               <header class="mi-dialog__header">
-                <div data-v-26837101="" class="mi-tabs mi-tabs--top is-line mi-tabs--standard w-full">
+                <div data-v-26837101 class="mi-tabs mi-tabs--top is-line mi-tabs--standard w-full">
                   <div class="mi-tabs__header is-top">
                     <div class="mi-tabs__nav-wrap is-top">
                       <div class="mi-tabs__nav-scroll">
                         <div class="mi-tabs__nav is-top" role="tablist" style="transform: translateX(0px);">
-                          <div class="mi-tabs__active-bar is-top" style="width: 134px; transform: translateX(0px);"></div>
-                          <div class="mi-tabs__item is-top is-active" id="tab-language" aria-controls="pane-language" role="tab" aria-selected="true" tabindex="0">Language and region</div>
-                          <div class="mi-tabs__item is-top" id="tab-currency" aria-controls="pane-currency" role="tab" aria-selected="false" tabindex="-1">Currency</div>
+                          <div class="mi-tabs__active-bar is-top" style="width: 70px; transform: translateX(0px);"></div>
+                          <div class="mi-tabs__item is-top is-active" id="tab-language" aria-controls="pane-language" role="tab" aria-selected="true" tabindex="0">语言和地区</div>
+                          <div class="mi-tabs__item is-top" id="tab-currency" aria-controls="pane-currency" role="tab" aria-selected="false" tabindex="-1">汇率</div>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="mi-tabs__content">
-                    <div data-v-26837101="" id="pane-language" class="mi-tab-pane" role="tabpanel" aria-hidden="false" aria-labelledby="tab-language" style=""></div>
-                    <div data-v-26837101="" id="pane-currency" class="mi-tab-pane" role="tabpanel" aria-hidden="true" aria-labelledby="tab-currency" style="display: none;"></div>
+                    <div data-v-26837101 id="pane-language" class="mi-tab-pane" role="tabpanel" aria-hidden="false" aria-labelledby="tab-language"></div>
+                    <div data-v-26837101 id="pane-currency" class="mi-tab-pane" role="tabpanel" aria-hidden="true" aria-labelledby="tab-currency" style="display: none;"></div>
+                  </div>
+                </div>
+                <button @click="mobileLangCurrencyShow = false" aria-label="Close this dialog" class="mi-dialog__headerbtn" type="button">
+                  <i class="mi-icon mi-dialog__close" style="font-size: 20px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                      <path d="M19.28 18.22a.75.75 0 01-.817 1.223.75.75 0 01-.244-.162L12 13.06l-6.22 6.22a.75.75 0 01-1.06-1.062L10.94 12 4.72 5.78a.75.75 0 111.06-1.06L12 10.94l6.22-6.22a.75.75 0 011.06 1.06L13.06 12l6.22 6.22z"></path>
+                    </svg>
+                  </i>
+                </button>
+              </header>
+              <div id="mi-id-3001-45" class="mi-dialog__body">
+                <div data-v-26837101 class="list">
+                  <div @click="changeLang('en')" data-v-26837101 class="item" :class="{active: lang === 'en'}">English</div>
+                  <div @click="changeLang('zh')" data-v-26837101 class="item" :class="{active: lang === 'zh'}">简体中文</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--语言-货币-->
+      <div v-if="langCurrencyShow" data-v-26837101 data-v-7c2db744 class="language-currency">
+        <div class="mi-overlay" style="z-index: 2014;">
+          <div role="dialog" aria-modal="true" aria-labelledby="mi-id-1045-29" aria-describedby="mi-id-1045-30" class="mi-overlay-dialog is-responsive">
+            <div class="mi-dialog is-responsive is-no-title dialog" tabindex="-1" style="--mi-dialog-width: 300px;">
+              <header class="mi-dialog__header">
+                <div data-v-26837101 class="mi-tabs mi-tabs--top is-line mi-tabs--standard w-full">
+                  <div class="mi-tabs__header is-top">
+                    <div class="mi-tabs__nav-wrap is-top">
+                      <div class="mi-tabs__nav-scroll">
+                        <div class="mi-tabs__nav is-top" role="tablist" style="transform: translateX(0px);">
+                          <div class="mi-tabs__active-bar is-top" style="width: 134px; transform: translateX(0px);"></div>
+                          <div class="mi-tabs__item is-top is-active" id="tab-language" aria-controls="pane-language" role="tab" aria-selected="true" tabindex="0">
+                            {{ $t('lang.langRegion') }}
+                          </div>
+                          <!--<div class="mi-tabs__item is-top" id="tab-currency" aria-controls="pane-currency" role="tab" aria-selected="false" tabindex="-1">Currency</div>-->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mi-tabs__content">
+                    <div data-v-26837101 id="pane-language" class="mi-tab-pane" role="tabpanel" aria-hidden="false" aria-labelledby="tab-language" style></div>
+                    <div v-if="false" data-v-26837101 id="pane-currency" class="mi-tab-pane" role="tabpanel" aria-hidden="true" aria-labelledby="tab-currency" style="display: none;"></div>
                   </div>
                 </div>
                 <button @click="langCurrencyShow = false" aria-label="Close this dialog" class="mi-dialog__headerbtn" type="button">
@@ -2985,34 +3099,15 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                       <path d="M19.28 18.22a.75.75 0 01-.817 1.223.75.75 0 01-.244-.162L12 13.06l-6.22 6.22a.75.75 0 01-1.06-1.062L10.94 12 4.72 5.78a.75.75 0 111.06-1.06L12 10.94l6.22-6.22a.75.75 0 011.06 1.06L13.06 12l6.22 6.22z"></path>
                     </svg>
-                  </i></button>
+                  </i>
+                </button>
               </header>
               <div id="mi-id-1045-30" class="mi-dialog__body">
-                <div data-v-26837101="" class="list">
-                  <div data-v-26837101="" class="item active">English</div>
-                  <div data-v-26837101="" class="item">English (Asia)</div>
-                  <div data-v-26837101="" class="item">日本語</div>
-                  <div data-v-26837101="" class="item">Tiếng Việt</div>
-                  <div data-v-26837101="" class="item">Русский</div>
-                  <div data-v-26837101="" class="item">Español</div>
-                  <div data-v-26837101="" class="item">Türkçe</div>
-                  <div data-v-26837101="" class="item">Italiano</div>
-                  <div data-v-26837101="" class="item">Français</div>
-                  <div data-v-26837101="" class="item">Deutsch</div>
-                  <div data-v-26837101="" class="item">简体中文</div>
-                  <div data-v-26837101="" class="item">繁體中文</div>
-                  <div data-v-26837101="" class="item">Português (Brasil)</div>
-                  <div data-v-26837101="" class="item">Bahasa Indonesia</div>
-                  <div data-v-26837101="" class="item">ไทย</div>
-                  <div data-v-26837101="" class="item">Polski</div>
-                  <div data-v-26837101="" class="item">Українська</div>
-                  <div data-v-26837101="" class="item">Português (Portugal)</div>
-                  <div data-v-26837101="" class="item">Español (Europa)</div>
-                  <div data-v-26837101="" class="item">O'zbek</div>
-                  <div data-v-26837101="" class="item">العربية</div>
-                  <div data-v-26837101="" class="item">Filipino</div>
+                <div data-v-26837101 class="list">
+                  <div @click="changeLang('en')" data-v-26837101 class="item" :class="{active:lang === 'en'}">English</div>
+                  <div @click="changeLang('zh')" data-v-26837101 class="item" :class="{active:lang === 'zh'}">简体中文</div>
                 </div>
-              </div><!--v-if--></div>
+              </div></div>
           </div>
         </div>
       </div>
@@ -3024,27 +3119,37 @@
 export default {
   data() {
     return {
+      lang: '',
       token: '',
       isLogin: false,
       screenWidth: null,
+      pcUserShow: false,
       mobileUserShow: false,
       mobileMenuShow: false,
-      langCurrencyShow: false
+      langCurrencyShow: false,
+      mobileLangCurrencyShow: false
     }
   },
   mounted() {
     this.screenWidth = document.body.clientWidth
     console.log(this.screenWidth)
     console.log('获取token')
+    this.lang = this.$i18n.locale
     this.token = localStorage.getItem('token')
     if (this.token) {
       this.isLogin = true
-      console.log(this.isLogin);
     }
+    console.log(this.lang)
     console.log(this.token);
-    console.log(this.$i18n.locale)
   },
   methods: {
+    changeLang(lang) {
+      this.lang = lang
+      this.$i18n.locale = lang
+      localStorage.setItem('lang', lang)
+      this.langCurrencyShow = false
+      this.mobileLangCurrencyShow = false
+    },
     switchMobileMenu(e) {
       let id = e.currentTarget.id
       let dom = "div[aria-labelledby='" + id + "']"
@@ -3063,7 +3168,5 @@ export default {
 
 <style scoped>
 
-.absolute.top-100\%.rounded-12px.light\:shadow-popover.light\:border-1px.light\:border-line.light\:bg-bg.dark\:bg-dsColorLayerOne {
-    display: none;
-}
+
 </style>

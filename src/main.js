@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueI18n from 'vue-i18n'
 import App from './App.vue'
 import router from './router/index'
-import Antd from 'ant-design-vue';
+import Antd from 'ant-design-vue'
 import 'ant-design-vue/dist/antd.css'
 import 'windi.css'
 
@@ -13,11 +13,6 @@ import zh from '@/lang/zh'
 Vue.use(Antd)
 Vue.use(VueI18n)
 
-// const messages = {
-//   en,
-//   zh
-// }
-
 // 创建 VueI18n 实例
 const i18n = new VueI18n({
   locale: localStorage.getItem('lang') || 'en',
@@ -26,10 +21,6 @@ const i18n = new VueI18n({
     zh,
   }
 });
-
-
-localStorage.setItem("langType", "en");
-
 
 // 注册全局组件
 import CommonCss from '@/components/CommonCss'
@@ -44,7 +35,6 @@ Vue.component('HzFooter', HzFooter)
 Vue.component('HzTabbar', HzTabbar)
 Vue.component('Verify', Verify)
 
-// import '@/assets/_nuxt-portal/css/da524e6.css'
 // import '@/assets/_nuxt-portal/css/ea4cf36.css'
 // import '@/assets/_nuxt-portal/css/cc0f050.css'
 // import '@/assets/_nuxt-portal/css/64808fb.css'
@@ -100,11 +90,11 @@ Vue.component('Verify', Verify)
 
 
 //Rewards
-import '@/assets/_nuxt-portal/css/61fc616a17780c98.css'
-import '@/assets/_nuxt-portal/css/85fc441c3db9c0cd.css'
-import '@/assets/_nuxt-portal/css/110e3751d1dd5987.css'
-import '@/assets/_nuxt-portal/css/bbdb4d5cd12cdbba.css'
-import '@/assets/_nuxt-portal/css/style.bf1ce024.css'
+// import '@/assets/_nuxt-portal/css/61fc616a17780c98.css'
+// import '@/assets/_nuxt-portal/css/85fc441c3db9c0cd.css'
+// import '@/assets/_nuxt-portal/css/110e3751d1dd5987.css'
+// import '@/assets/_nuxt-portal/css/bbdb4d5cd12cdbba.css'
+// import '@/assets/_nuxt-portal/css/style.bf1ce024.css'
 
 Vue.config.productionTip = false
 

@@ -8,14 +8,15 @@
           <div data-v-1c7302ed="" class="personal-main-content">
             <div data-v-18402fd0="" data-v-1c7302ed="">
               <div data-v-18402fd0="" aria-label="Breadcrumb" role="navigation" class="bit-breadcrumb"><span
-                  data-v-18402fd0="" class="bit-breadcrumb__item"><span role="link"
-                    class="bit-breadcrumb__inner is-link"><!----> Bitget <!----></span><span role="presentation"
+                  data-v-18402fd0="" class="bit-breadcrumb__item">
+                <span role="link" class="bit-breadcrumb__inner is-link"> Bitget </span>
+                <span role="presentation"
                     class="bit-breadcrumb__separator">/</span></span> <span data-v-18402fd0=""
-                  class="bit-breadcrumb__item"><span role="link" class="bit-breadcrumb__inner is-link"><!---->
+                  class="bit-breadcrumb__item"><span role="link" class="bit-breadcrumb__inner is-link">
                     Dashboard
-                    <!----></span><span role="presentation" class="bit-breadcrumb__separator">/</span></span> <span
+                    </span><span role="presentation" class="bit-breadcrumb__separator">/</span></span> <span
                   data-v-18402fd0="" class="bit-breadcrumb__item" aria-current="page"><span role="link"
-                    class="bit-breadcrumb__inner"><!---->My profile<!----></span><span role="presentation"
+                    class="bit-breadcrumb__inner">My profile</span><span role="presentation"
                     class="bit-breadcrumb__separator">/</span></span></div>
               <div data-v-18402fd0=""
                 class="bg-wrapper w-auto rounded-16px h-114px relative mb-40px mt-16px md:h-185px"><img
@@ -31,12 +32,12 @@
                 <div data-v-18402fd0=""
                   class="flex item-border flex-row relative justify-between items-center h-70px text-fs16">
                   <div data-v-18402fd0="" class="bit-image w-44px h-44px !rounded-44px"><img
-                      src="../assets/img/avatar.svg" class="bit-image__inner bit-image__preview"><!----></div> <!---->
+                      src="../assets/img/avatar.svg" class="bit-image__inner bit-image__preview"></div> 
                   <button data-v-18402fd0="" type="button"
-                    class="bit-button bit-button--default is-round"><!----><!----><!----><span><input data-v-18402fd0=""
+                    class="bit-button bit-button--default is-round"><span><input data-v-18402fd0=""
                         type="file" accept="image/*" class="hidden">
                       Change
-                    </span><!----></button>
+                    </span></button>
                 </div>
                 <div data-v-18402fd0="" class="flex item-border flex-row justify-between items-center h-95px text-fs16">
                   <div data-v-18402fd0="" class="font-500 flex flex-col justify-end">
@@ -61,11 +62,11 @@
                       Username
                     </div>
                   </div> <button data-v-18402fd0="" type="button" class="bit-button bit-button--default is-round"
-                    @click="toggleUsernameDialog"><!----><!----><!----><span>
+                    @click="toggleUsernameDialog"><span>
                       Change
-                    </span><!----></button>
+                    </span></button>
                 </div>
-                <div data-v-18402fd0="" class="pt-24px pb-12px flex flex-row items-center text-fs16 flex-wrap"><!---->
+                <div data-v-18402fd0="" class="pt-24px pb-12px flex flex-row items-center text-fs16 flex-wrap">
                   <div data-v-18402fd0=""
                     class="relative mb-12px flex flex-row items-center h-22px !text-fs11 mr-8px cursor-pointer"><img
                       data-v-18402fd0="" src="../assets/img/not_veri.svg" class="h-22px w-22px z-30">
@@ -73,7 +74,7 @@
                       class="not-veri text-fs11 pl-12px pr-6px -ml-10px h-18px leading-18px z-10 rounded-2px font-700">
                       Unverified
                     </div>
-                  </div> <!----> <!----> <!----> <!----> <!----> <!---->
+                  </div>      
                 </div>
               </div>
               <div data-v-18402fd0="" class="mb-16px text-fs20 text-v3PrimaryText font-600">
@@ -93,7 +94,8 @@
                           <path
                             d="M20.25 3h-12a.75.75 0 00-.75.75V7.5H3.75a.75.75 0 00-.75.75v12a.75.75 0 00.75.75h12a.75.75 0 00.75-.75V16.5h3.75a.75.75 0 00.75-.75v-12a.75.75 0 00-.75-.75zM15 19.5H4.5V9H15v10.5zm4.5-4.5h-3V8.25a.75.75 0 00-.75-.75H9v-3h10.5V15z">
                           </path>
-                        </svg></i></div>
+                        </svg></i>
+                    </div>
                   </div>
                 </div>
                 <div data-v-18402fd0="" class="flex flex-row item-border justify-between items-center h-70px text-fs16">
@@ -133,9 +135,6 @@
                         </path>
                       </svg></i></div>
                 </div>
-
-
-
 
 
                 <div data-v-18402fd0="" class="flex item-border flex-row justify-between items-center h-70px text-fs16">
@@ -186,12 +185,12 @@
                           <path
                             d="M19.28 18.22a.75.75 0 01-.817 1.223.75.75 0 01-.244-.162L12 13.06l-6.22 6.22a.75.75 0 01-1.06-1.062L10.94 12 4.72 5.78a.75.75 0 111.06-1.06L12 10.94l6.22-6.22a.75.75 0 011.06 1.06L13.06 12l6.22 6.22z">
                           </path>
-                        </svg></i></button></div><!---->
+                        </svg></i></button></div>
                   <div class="bit-dialog__footer"><span data-v-47a11498="" class="dialog-footer"><button
                         data-v-47a11498="" type="button"
-                        class="bit-button bit-button--default bit-button--medium is-round"><!----><!----><!----><span>
+                        class="bit-button bit-button--default bit-button--medium is-round"><span>
                           Confirm
-                        </span><!----></button></span></div>
+                        </span></button></span></div>
                 </div>
 
               </div>
@@ -298,12 +297,12 @@
                           <path
                             d="M19.28 18.22a.75.75 0 01-.817 1.223.75.75 0 01-.244-.162L12 13.06l-6.22 6.22a.75.75 0 01-1.06-1.062L10.94 12 4.72 5.78a.75.75 0 111.06-1.06L12 10.94l6.22-6.22a.75.75 0 011.06 1.06L13.06 12l6.22 6.22z">
                           </path>
-                        </svg></i></button></div><!---->
+                        </svg></i></button></div>
                   <div class="bit-dialog__footer"><span data-v-5a477b37="" class="dialog-footer"><button
                         data-v-5a477b37="" type="button"
-                        class="bit-button bit-button--default bit-button--medium is-round"><!----><!----><!----><span>
+                        class="bit-button bit-button--default bit-button--medium is-round"><span>
                           Set as background
-                        </span><!----></button></span></div>
+                        </span></button></span></div>
                 </div>
               </div>
               <div data-v-3d923cde="" data-v-18402fd0="" class="bit-dialog__wrapper is-centered is-responsive"
@@ -317,15 +316,15 @@
                           <path
                             d="M19.28 18.22a.75.75 0 01-.817 1.223.75.75 0 01-.244-.162L12 13.06l-6.22 6.22a.75.75 0 01-1.06-1.062L10.94 12 4.72 5.78a.75.75 0 111.06-1.06L12 10.94l6.22-6.22a.75.75 0 011.06 1.06L13.06 12l6.22 6.22z">
                           </path>
-                        </svg></i></button></div><!---->
+                        </svg></i></button></div>
                   <div class="bit-dialog__footer">
                     <div data-v-3d923cde=""><button data-v-3d923cde="" type="button"
-                        class="bit-button bit-button--default bit-button--medium"><!----><!----><!----><span>
+                        class="bit-button bit-button--default bit-button--medium"><span>
                           Cancel
-                        </span><!----></button> <button data-v-3d923cde="" type="button"
-                        class="bit-button bit-button--primary bit-button--medium"><!----><!----><!----><span>
+                        </span></button> <button data-v-3d923cde="" type="button"
+                        class="bit-button bit-button--primary bit-button--medium"><span>
                           Confirm
-                        </span><!----></button></div>
+                        </span></button></div>
                   </div>
                 </div>
               </div>
@@ -353,18 +352,18 @@
                       </div>
                       <form data-v-6ee4dd1e="" class="bit-form bit-form--label-top">
                         <div data-v-6ee4dd1e="" class="bit-form-item is-success is-required"><label for="userName"
-                            class="bit-form-item__label">Recipient<!----><!----></label>
+                            class="bit-form-item__label">Recipient</label>
                           <div class="bit-form-item__content">
                             <div data-v-6ee4dd1e=""
                               class="edit-shipping-address__input bit-textarea bit-input--medium bit-input--round">
                               <textarea autocomplete="off" autofocus="autofocus" maxlength="25"
                                 class="bit-textarea__inner" style="min-height: 46px; height: 46px;"></textarea><span
-                                class="bit-input__count">15 / 25</span></div><!---->
+                                class="bit-input__count">15 / 25</span></div>
                             <div class="bit-form-item__extra"></div>
                           </div>
                         </div>
                         <div data-v-6ee4dd1e="" class="bit-form-item is-error is-required"><label for="address"
-                            class="bit-form-item__label">Shipping address<!----><!----></label>
+                            class="bit-form-item__label">Shipping address</label>
                           <div class="bit-form-item__content">
                             <div data-v-6ee4dd1e="" class="bit-textarea bit-input--medium bit-input--round"><textarea
                                 autocomplete="off" maxlength="120"
@@ -378,13 +377,13 @@
                           </div>
                         </div>
                         <div data-v-6ee4dd1e="" class="bit-form-item is-success"><label for="remark"
-                            class="bit-form-item__label">Note<!----><!----></label>
+                            class="bit-form-item__label">Note</label>
                           <div class="bit-form-item__content">
                             <div data-v-6ee4dd1e="" class="bit-textarea bit-input--medium bit-input--round"><textarea
                                 autocomplete="off" maxlength="120"
                                 placeholder="Provide your details so that delivery personnel can get in touch with you."
                                 class="bit-textarea__inner" style="min-height: 126px; height: 126px;"></textarea><span
-                                class="bit-input__count">0 / 120</span></div><!---->
+                                class="bit-input__count">0 / 120</span></div>
                             <div class="bit-form-item__extra"></div>
                           </div>
                         </div>
@@ -397,12 +396,12 @@
                   </div>
                   <div class="bit-dialog__footer">
                     <div class="flex mt-4px"><button type="button"
-                        class="bit-button flex-1  bit-button--default bit-button--medium is-round"><!----><!----><!----><span>
+                        class="bit-button flex-1  bit-button--default bit-button--medium is-round"><span>
                           Cancel
-                        </span><!----></button> <button type="button"
-                        class="bit-button flex-1  bit-button--main bit-button--medium is-round"><!----><!----><!----><span>
+                        </span></button> <button type="button"
+                        class="bit-button flex-1  bit-button--main bit-button--medium is-round"><span>
                           Save
-                        </span><!----></button></div>
+                        </span></button></div>
                   </div>
                 </div>
               </div>
@@ -422,32 +421,28 @@
 </template>
 
 <script>
- 
+//  document.addEventListener('DOMContentLoaded', () => {
+//   const configureButton = document.querySelector('.shippingaaa');
+//   const dialog = document.querySelector('.aaab');
+//
+//   if (configureButton) {
+//     configureButton.addEventListener('click', () => {
+//       // 切换对话框的显示状态
+//       if (dialog.style.display === 'none' || dialog.style.display === '') {
+//         dialog.style.display = 'block';
+//         dialog.style.zIndex = '2066'; // 更新 z-index
+//       } else {
+//         dialog.style.display = 'none'; // 关闭对话框
+//         dialog.style.zIndex = '2064'; // 恢复原 z-index
+//       }
+//     });
+//   } else {
+//     console.error('Element with class "shippingaaa" not found');
+//   }
+// });
 
 
- document.addEventListener('DOMContentLoaded', () => {
-  const configureButton = document.querySelector('.shippingaaa');
-  const dialog = document.querySelector('.aaab');
-
-  if (configureButton) {
-    configureButton.addEventListener('click', () => {
-      // 切换对话框的显示状态
-      if (dialog.style.display === 'none' || dialog.style.display === '') {
-        dialog.style.display = 'block'; 
-        dialog.style.zIndex = '2066'; // 更新 z-index
-      } else {
-        dialog.style.display = 'none'; // 关闭对话框
-        dialog.style.zIndex = '2064'; // 恢复原 z-index
-      }
-    });
-  } else {
-    console.error('Element with class "shippingaaa" not found');
-  }
-});
-
-
-  import LeftDash from "@/components/LeftDash.vue"; // 引入头部组件
-
+import LeftDash from "@/components/LeftDash.vue"; // 引入头部组件
 export default {
   components: {
     LeftDash, // 注册头部组件
@@ -482,24 +477,5 @@ export default {
 
 
 <style scoped>
-@import '@/assets/_nuxt-portal/css/2a0b2dc.css';
-@import '@/assets/_nuxt-portal/css/7cd512b.css';
-@import '@/assets/_nuxt-portal/css/9c43bdf.css';
-@import '@/assets/_nuxt-portal/css/51ddb46.css';
-@import '@/assets/_nuxt-portal/css/55deefa.css';
-@import '@/assets/_nuxt-portal/css/66d84cf.css';
-@import '@/assets/_nuxt-portal/css/00290d6.css';
-@import '@/assets/_nuxt-portal/css/f1c80b5.css';
-/* @import '@/assets/_nuxt-portal/css/index.b23e6521.css'; */
-@import '@/assets/_nuxt-portal/css/style.abf3c450.css';
 
-
-/* .personal-main-box{
-  display: flex;
-  width: 100%;
-} */
-
-.personal-main-container .personal-container[data-v-1c7302ed] {
-  display: flex;
-}
 </style>
