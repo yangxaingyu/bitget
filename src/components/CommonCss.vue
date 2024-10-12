@@ -24,39 +24,12 @@ import '@/assets/_nuxt-portal/css/7a024ef.css'
 import '@/assets/_nuxt-portal/css/a6b8b33.css'
 import '@/assets/_nuxt-portal/css/dca219e.css'
 
-//register
-import '@/assets/_nuxt-portal/css/831f3c2.css'
-import '@/assets/_nuxt-portal/css/f2cd3d0.css'
-import '@/assets/_nuxt-portal/css/useNewchatInit.177d336a.css'
-import '@/assets/_nuxt-portal/css/style.4087bdf9.css'
-import '@/assets/_nuxt-portal/css/fb73a50.css'
-import '@/assets/_nuxt-portal/css/74fb9cf.css'
-import '@/assets/_nuxt-portal/css/index.692590ca.css'
-import '@/assets/_nuxt-portal/css/7bf17ae.css'
 
-
-// Dashboard
-import '@/assets/_nuxt-portal/css/7bf7fef.css'
-import '@/assets/_nuxt-portal/css/23ba55b.css'
-import '@/assets/_nuxt-portal/css/36d0244.css'
-import '@/assets/_nuxt-portal/css/47e4cf1.css'
-import '@/assets/_nuxt-portal/css/55deefa.css'
-import '@/assets/_nuxt-portal/css/071c273.css'
-import '@/assets/_nuxt-portal/css/00290d6.css'
-// import '@/assets/_nuxt-portal/css/916be87.css'
-
-import '@/assets/_nuxt-portal/css/2356ecc.css'
-// import '@/assets/_nuxt-portal/css/b7339b0.css'
-import '@/assets/_nuxt-portal/css/bde07a1.css'
-import '@/assets/_nuxt-portal/css/e33e796.css'
-import '@/assets/_nuxt-portal/css/f1c80b5.css'
-
-
-import '@/assets/_nuxt-portal/css/f11f1f26a0e6089e.css'
+// import '@/assets/_nuxt-portal/css/f11f1f26a0e6089e.css'
 // import '@/assets/_nuxt-portal/css/index.b23e6521.css'
 // import '@/assets/_nuxt-portal/css/font.cssv=20230717'
 
-import '@/assets/_nuxt-portal/css/extracted_styles.css'
+// import '@/assets/_nuxt-portal/css/extracted_styles.css'
 
 export default {
 

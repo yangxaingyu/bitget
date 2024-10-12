@@ -5246,7 +5246,6 @@ export default {
     return {
       screenWidth: '',
       slidesPerView: ''
-
     }
   },
   mounted() {

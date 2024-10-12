@@ -3167,6 +3167,9 @@ export default {
 </script>
 
 <style scoped>
-
-
+.item {
+  width: 69px !important;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
 </style>
