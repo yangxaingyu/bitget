@@ -159,6 +159,7 @@
             <path d="m11.354 8.354-5 5a.5.5 0 0 1-.708-.708L10.293 8 5.646 3.354a.5.5 0 0 1 .708-.708l5 5a.499.499 0 0 1 0 .708Z" fill="#898989"></path>
           </svg>
         </a></div>
+
       <main class="mx-auto max-w-[1200px] lg:mx-[40px] xl:mx-auto mobile:mx-[16px] ipad:mx-[24px]">
         <div class="HotProductCard_recommendation__59mS_ relative mt-6 md:mt-8 lg:mt-[50px]">
           <div class="swiper swiper-initialized swiper-horizontal">
@@ -439,7 +440,10 @@
                             <td class="bit-table-cell" style="text-align: left;">
                               <div class="EarnProductList_earn-prd-col__XgxB5">
                                 <div class="EarnProductList_earn-prd-col-coin_name__7o4U5">
-                                  <img src="https://img.bitgetimg.com/multiLang/coin_img/25bcb059251caa734d596e764838b1aa.png" alt="USDC-1hhs12k0ifo" width="24" class="rounded-full object-cover ltr:mr-[8px] rtl:ml-[8px]">
+                                  <img src="https://img.bitgetimg.com/multiLang/coin_img/25bcb059251caa734d596e764838b1aa.png"
+                                       alt="USDC-1hhs12k0ifo"
+                                       width="24"
+                                       class="rounded-full object-cover ltr:mr-[8px] rtl:ml-[8px]">
                                   <div>
                                     <div class="inline-block">{{ item.product_name }}</div>
                                   </div>
@@ -499,7 +503,7 @@
                                                 <td class="bit-table-cell" style="text-align: left;">
                                                   <div class="EarnProductList_earn-prd-col__XgxB5">
                                                     <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">{{ item.currency_apr }}</div>
+                                                      <div class="EarnProductList_earn-prd-col__XgxB5">{{ item.current_apr }}</div>
                                                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-[16px] cursor-pointer text-content-tertiary">
                                                         <path fill-rule="evenodd" d="M3.75 12a8.25 8.25 0 1116.5 0 8.25 8.25 0 01-16.5 0zM12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm1.706 6.957a.947.947 0 01-.703.292.973.973 0 01-.708-.29.943.943 0 01-.295-.706c0-.273.098-.508.295-.705a.977.977 0 01.707-.298.952.952 0 01.704.298.968.968 0 01.294.705.944.944 0 01-.294.705zm.35 6.597c-.412.142-.736.252-.981.329a2.798 2.798 0 01-.853.117c-.495 0-.883-.11-1.156-.324a1.008 1.008 0 01-.416-.829c0-.128.011-.258.032-.393.026-.155.059-.309.098-.46l.514-1.624a.975.975 0 00.032-.25c.003-.064.005-.127.02-.191a1.687 1.687 0 00.047-.465c.002-.165.004-.278-.077-.344-.08-.067-.213-.065-.404-.062l-.145.002c-.134 0-.272.02-.409.052a.805.805 0 01-.193.024c-.06.002-.115.004-.165.023l.138-.504c.333-.124.656-.227.963-.311.282-.085.575-.128.87-.128.495 0 .875.102 1.142.315.268.215.563.493.563.829 0 .065-.01.174-.024.332l-.004.043a2.258 2.258 0 01-.102.486l-.675 1.617a4.576 4.576 0 00-.11.447 1.95 1.95 0 00-.053.375c0 .214.056.362.162.44.11.078.296.117.56.117.123 0 .264-.02.421-.058.16-.039.271-.071.341-.104l-.136.499z" clip-rule="evenodd"></path>
                                                       </svg>
@@ -510,12 +514,14 @@
                                                   <div class="EarnProductList_earn-prd-col__XgxB5">
                                                     <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
                                                       <p v-for="(childrenItem, childrenIndex) in item.products" :key="childrenItem.id"
-                                                         @click="item.currency_index = childrenIndex;item.currency_apr = childrenItem.apr;"
+                                                         @click="item.current_product_id = childrenItem.id; item.current_index = childrenIndex; item.current_apr = childrenItem.apr;"
                                                          class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 border"
-                                                         :class="{'!border-content-link-default': childrenIndex === item.currency_index, '!bg-greenBg': childrenIndex === item.currency_index}">
+                                                         :class="{'!border-content-link-default': childrenIndex === item.current_index, '!bg-greenBg': childrenIndex === item.current_index}">
                                                         <i class="not-italic">{{ childrenItem.days }}</i>
-                                                        <span v-if="childrenIndex === item.currency_index" class="absolute -bottom-[2px] -right-[1px]">
-                                                          <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path>
+                                                        <span v-if="childrenIndex === item.current_index" class="absolute -bottom-[2px] -right-[1px]">
+                                                          <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7">
+                                                            </path>
                                                           </svg>
                                                         </span>
                                                       </p>
@@ -524,8 +530,9 @@
                                                 </td>
                                                 <td class="bit-table-cell" style="text-align: right;">
                                                   <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <span>Subscribe</span></button>
+                                                    <button @click="showBuyPanelFn(item.currency_id)" type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
+                                                      <span>Subscribe</span>
+                                                    </button>
                                                     <div></div>
                                                   </div>
                                                 </td>
@@ -632,7 +639,8 @@
                                                 <td class="bit-table-cell" style="text-align: right;">
                                                   <div class="flex flex-col items-end justify-end">
                                                     <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <span>Subscribe</span></button>
+                                                      <span>Subscribe</span>
+                                                    </button>
                                                     <div></div>
                                                   </div>
                                                 </td>
@@ -3222,13 +3230,14 @@
               </div>
             </div>
           </div>
-          <div class="mt-[24px] flex w-full items-center justify-center">
+          <div v-if="false" class="mt-[24px] flex w-full items-center justify-center">
             <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-default !hidden items-center mobile:!flex ipad:!flex">
               <span>Show 185 more</span>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="!ml-[4px] !h-[16px] !w-[16px] rotate-90" style="color: var(--content-primary);">
                 <path d="M17.03 12.53l-7.5 7.5a.75.75 0 11-1.06-1.06L15.44 12 8.47 5.03a.75.75 0 111.06-1.06l7.5 7.5a.75.75 0 010 1.06z"></path>
               </svg>
             </button>
+
             <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-default bit-btn-md !hidden items-center air:!flex pc:!flex">
               <span>Show 185 more</span>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="!ml-[4px] !h-[16px] !w-[16px] transition rotate-90" style="color: var(--content-primary);">
@@ -3237,7 +3246,7 @@
             </button>
           </div>
         </div>
-        <section class="pt-[119px] middle:pt-[88px]" id="calculator">
+        <section v-if="false" class="pt-[119px] middle:pt-[88px]" id="calculator">
           <div class="flex mobile:block">
             <h2 class="font-medium text-primaryText ltr:mr-6 rtl:ml-6 md:text-fs40 mobile:text-fs24 mobile:ltr:mr-0 mobile:rtl:ml-0">Earnings calculator</h2>
             <div class="flex text-fs20 md:pt-5 mobile:pt-1">
@@ -3419,10 +3428,11 @@
         <div class="mt-10 md:mt-20">
           <h2 class="mb-12 text-[32px] font-bold text-primaryText mobile:text-[20px] ipad:text-[24px]">FAQ</h2>
           <div class="bit-collapse bit-collapse-icon-position-end bit-collapse-large FAQ_faq__tA7rq css-y0hvqx">
-            <div class="bit-collapse-item bit-collapse-item-active">
-              <div class="bit-collapse-header" aria-expanded="true" aria-disabled="false" role="button" tabindex="0">
+
+            <div v-for="item in qaList" class="bit-collapse-item bit-collapse-item-active">
+              <div @click="item.showAnswer = !item.showAnswer" class="bit-collapse-header" aria-expanded="true" aria-disabled="false" role="button" tabindex="0">
                 <span class="bit-collapse-expand-header-text">
-                  <h3 class="text-[16px] font-normal">1. What is Bitget Earn?</h3>
+                  <h3 class="text-[16px] font-normal">{{ item.q }}</h3>
                 </span>
                 <div class="bit-collapse-expand-icon">
                   <svg width="1em" height="1em" viewBox="0 0 20 20" fill="var(--ds-color-text-tertiary)" xmlns="http://www.w3.org/2000/svg" class="h-[20px] w-[20px] bit-collapse-arrow">
@@ -3430,72 +3440,11 @@
                   </svg>
                 </div>
               </div>
-              <div class="bit-collapse-content bit-collapse-content-active">
+              <div v-show="item.showAnswer" class="bit-collapse-content bit-collapse-content-active">
                 <div class="bit-collapse-content-box">
-                  <span class="text-[14px] font-normal text-[var(--ds-color-text-tertiary)]">Bitget Earn is a one-stop asset management platform under the Bitget brand that provides professional and high-quality asset management services. Bitget has a wide variety of financial products with high yields and security, which can satisfy users' diverse investment needs. Users can choose high-yield products to boost earnings based on their own needs.
+                  <span class="text-[14px] font-normal text-[var(--ds-color-text-tertiary)]">
+                    {{ item.a }}
                   </span>
-                </div>
-              </div>
-            </div>
-            <div class="bit-collapse-item bit-collapse-item-active">
-              <div class="bit-collapse-header" aria-expanded="true" aria-disabled="false" role="button" tabindex="0">
-                <span class="bit-collapse-expand-header-text"><h3 class="text-[16px] font-normal">2. What types of products does Bitget offer?</h3></span>
-                <div class="bit-collapse-expand-icon">
-                  <svg width="1em" height="1em" viewBox="0 0 20 20" fill="var(--ds-color-text-tertiary)" xmlns="http://www.w3.org/2000/svg" class="h-[20px] w-[20px] bit-collapse-arrow">
-                    <path d="m16.692 7.942-6.25 6.25a.625.625 0 0 1-.884 0l-6.25-6.25a.625.625 0 1 1 .884-.884L10 12.866l5.808-5.808a.626.626 0 0 1 .884.884Z" fill="current"></path>
-                  </svg>
-                </div>
-              </div>
-              <div class="bit-collapse-content bit-collapse-content-active" style="">
-                <div class="bit-collapse-content-box">
-                  <span class="text-[14px] font-normal text-[var(--ds-color-text-tertiary)]">Bitget has offers a variety of financial products, including Flexible Savings, Shark Fin, and Dual Investment. In the future, Bitget will launch more financial products to satisfy more users and their preferences, investment horizons, and risk appetites.</span>
-                </div>
-              </div>
-            </div>
-            <div class="bit-collapse-item bit-collapse-item-active">
-              <div class="bit-collapse-header" aria-expanded="true" aria-disabled="false" role="button" tabindex="0">
-                <span class="bit-collapse-expand-header-text"><h3 class="text-[16px] font-normal">3. How can I profit with Bitget Earn?</h3></span>
-                <div class="bit-collapse-expand-icon">
-                  <svg width="1em" height="1em" viewBox="0 0 20 20" fill="var(--ds-color-text-tertiary)" xmlns="http://www.w3.org/2000/svg" class="h-[20px] w-[20px] bit-collapse-arrow">
-                    <path d="m16.692 7.942-6.25 6.25a.625.625 0 0 1-.884 0l-6.25-6.25a.625.625 0 1 1 .884-.884L10 12.866l5.808-5.808a.626.626 0 0 1 .884.884Z" fill="current"></path>
-                  </svg>
-                </div>
-              </div>
-              <div class="bit-collapse-content bit-collapse-content-active" style="">
-                <div class="bit-collapse-content-box">
-                  <span class="text-[14px] font-normal text-[var(--ds-color-text-tertiary)]">In general, users profit by subscribing to products on Bitget Earn based on their own risk tolerance. The basic process is to learn about the range of products available, subscribe to a product, accumulate interest, and then redeem earnings. Check each product's page for specific details.</span>
-                </div>
-              </div>
-            </div>
-            <div class="bit-collapse-item bit-collapse-item-active">
-              <div class="bit-collapse-header" aria-expanded="true" aria-disabled="false" role="button" tabindex="0">
-                <span class="bit-collapse-expand-header-text">
-                  <h3 class="text-[16px] font-normal">4. What should I pay attention to when subscribing to Earn products?</h3>
-                </span>
-                <div class="bit-collapse-expand-icon">
-                  <svg width="1em" height="1em" viewBox="0 0 20 20" fill="var(--ds-color-text-tertiary)" xmlns="http://www.w3.org/2000/svg" class="h-[20px] w-[20px] bit-collapse-arrow">
-                    <path d="m16.692 7.942-6.25 6.25a.625.625 0 0 1-.884 0l-6.25-6.25a.625.625 0 1 1 .884-.884L10 12.866l5.808-5.808a.626.626 0 0 1 .884.884Z" fill="current"></path>
-                  </svg>
-                </div>
-              </div>
-              <div class="bit-collapse-content bit-collapse-content-active" style="">
-                <div class="bit-collapse-content-box">
-                  <span class="text-[14px] font-normal text-[var(--ds-color-text-tertiary)]">Cryptocurrencies are subject to high market risk and volatility despite high growth potential. Users are strongly advised to do their own research and invest at their own risk.</span>
-                </div>
-              </div>
-            </div>
-            <div class="bit-collapse-item bit-collapse-item-active">
-              <div class="bit-collapse-header" aria-expanded="true" aria-disabled="false" role="button" tabindex="0">
-                <span class="bit-collapse-expand-header-text"><h3 class="text-[16px] font-normal">5. How do I learn more about specific products?</h3></span>
-                <div class="bit-collapse-expand-icon">
-                  <svg width="1em" height="1em" viewBox="0 0 20 20" fill="var(--ds-color-text-tertiary)" xmlns="http://www.w3.org/2000/svg" class="h-[20px] w-[20px] bit-collapse-arrow">
-                    <path d="m16.692 7.942-6.25 6.25a.625.625 0 0 1-.884 0l-6.25-6.25a.625.625 0 1 1 .884-.884L10 12.866l5.808-5.808a.626.626 0 0 1 .884.884Z" fill="current"></path>
-                  </svg>
-                </div>
-              </div>
-              <div class="bit-collapse-content bit-collapse-content-active" style="">
-                <div class="bit-collapse-content-box">
-                  <span class="text-[14px] font-normal text-[var(--ds-color-text-tertiary)]">Check out more details on each of our products by selecting Earn from the navigation menu, then selecting the product and browsing through its introduction or Q&amp;A.</span>
                 </div>
               </div>
             </div>
@@ -3517,8 +3466,202 @@
       </button>
     </main>
     <HzFooter></HzFooter>
-  </div>
 
+    <!--购买平台-->
+    <div v-if="showBuyPanel" class="bit-modal-root css-y0hvqx">
+      <div class="bit-modal-mask"></div>
+      <div tabindex="-1" class="bit-modal-wrap bit-modal-default bit-modal-centered">
+        <div role="dialog" aria-modal="true" class="bit-modal css-y0hvqx SavingsApplyDialog_applyDialog__rWCMZ" style="width: 848px;">
+          <div tabindex="0" aria-hidden="true" style="width: 0; height: 0; overflow: hidden; outline: none;"></div>
+          <div class="bit-modal-content">
+            <button @click="showBuyPanel = false" type="button" aria-label="Close" class="bit-modal-close">
+              <span class="bit-modal-close-x">
+                <span class="bit-modal-close-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width: 1em; height: 1em;"><path d="M19.28 18.22a.75.75 0 01-.817 1.223.75.75 0 01-.244-.162L12 13.06l-6.22 6.22a.75.75 0 01-1.06-1.062L10.94 12 4.72 5.78a.75.75 0 111.06-1.06L12 10.94l6.22-6.22a.75.75 0 011.06 1.06L13.06 12l6.22 6.22z"></path></svg>
+                </span>
+              </span>
+            </button>
+
+            <div class="bit-modal-body">
+              <section class="flex w-full flex-col">
+                <div class="flex h-[68px] items-center border-b border-ds-color-border-subtle text-fs16 font-semibold text-[var(--content-primary)] mobile:h-[37px] mobile:border-none">
+                  <p class="ltr:ml-6 ltr:mr-[6px] rtl:ml-[6px] rtl:mr-6 ltr:mobile:ml-0 rtl:mobile:mr-0">Subscribe</p>
+                  <img src="https://img.bitgetimg.com/multiLang/coin_img/10d0024b93a70ef8562ae11ae5bc1184.png" alt="BGB" class="h-7 w-7 rounded-full ltr:mr-[6px] rtl:ml-[6px]">
+                  <div>{{ showBuyData.currency_name }}</div>
+                  <div class="ms-[12px] flex cursor-pointer items-center text-[12px]">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-[14px] w-[14px] text-[var(--content-primary)]">
+                      <path d="M17.253 15a3.739 3.739 0 00-2.683 1.133l-4.322-2.777c.34-.872.34-1.84 0-2.712l4.322-2.777a3.75 3.75 0 10-.812-1.261L9.436 9.383a3.75 3.75 0 100 5.234l4.322 2.777A3.75 3.75 0 1017.253 15zm0-12a2.25 2.25 0 110 4.5 2.25 2.25 0 010-4.5zm-10.5 11.25a2.25 2.25 0 110-4.5 2.25 2.25 0 010 4.5zm10.5 6.75a2.25 2.25 0 110-4.5 2.25 2.25 0 010 4.5z"></path>
+                    </svg>
+                    <div class="ms-[8px] font-[400] mobile:hidden">Share with friends</div>
+                  </div>
+                </div>
+                <div class="md:h-523px flex h-full mobile:block">
+                  <div class="SavingsApplyDialog_dialogLeft__PsGIx box-border h-[516px] w-[480px] overflow-y-auto overflow-x-hidden p-4 text-primaryText mobile:h-auto mobile:w-full mobile:p-0 ipad:w-1/2 ipad:px-4 air:w-1/2">
+                    <div class="text-fs12">
+                      <div class="mb-1 flex justify-between">
+                        <div class="font-semibold">Duration (days)</div>
+                        <div class="earn-coin ml-[5px]">
+                          <img src="https://img.bitgetimg.com/multiLang/coin_img/10d0024b93a70ef8562ae11ae5bc1184.png"
+                               class="-mt-[3px] h-[14px] w-[14px] rounded-full ltr:mr-[3px] rtl:ml-[3px]">Earn {{ showBuyData.currency_name }}
+                        </div>
+                      </div>
+                      <div class="-me-[9px] mb-[12px] mobile:mb-[16px]">
+                        <section class="relative flex flex-wrap content-start font-normal SavingDeadline_isFromDialog__Gaxq1" style="gap: 8px;">
+                          <p v-for="item in showBuyData.products"
+                             @click="showBuyData.product_days = item.days; showBuyData;showBuyData.product_apr = item.apr;"
+                             class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[64px] min-w-[80px]"
+                             :class="{'border': item.days === showBuyData.product_days, '!border-content-link-default': item.days === showBuyData.product_days, '!bg-greenBg': item.days === showBuyData.product_days}">
+                            <span class="text-left text-content-primary">
+                              <span class="flex text-fs12 font-medium ">
+                                <span class="flex">
+                                  <span>{{ item.apr }}</span>
+                                  <span>%</span>
+                                </span>
+                              </span>
+                              <span class="block text-fs12" data-testid="SavingsEarnPeriodSpan">{{ item.days }} days</span>
+                            </span>
+
+                            <!--选中的图标-->
+                            <span v-show="item.days === showBuyData.product_days" class="absolute -bottom-[2px] -right-[1px]">
+                              <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path>
+                              </svg>
+                            </span>
+                          </p>
+                        </section>
+                      </div>
+                    </div>
+                    <div class="flex justify-between pb-3 mobile:max-h-[378px]">
+                      <p class="pt-[3px] text-fs12 font-semibold text-primaryText">Vouchers</p>
+                      <div class="flex cursor-pointer items-center rounded-full border border-border-strength-100 px-3 py-[2px] text-content-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-[14px]">
+                          <path d="M21.3 9.795a1.5 1.5 0 001.2-1.47V6A1.5 1.5 0 0021 4.5H3A1.5 1.5 0 001.5 6v2.326a1.5 1.5 0 001.2 1.469 2.25 2.25 0 010 4.406 1.5 1.5 0 00-1.2 1.473V18A1.5 1.5 0 003 19.5h18a1.5 1.5 0 001.5-1.5v-2.326a1.5 1.5 0 00-1.2-1.469 2.25 2.25 0 010-4.406v-.004zM3 15.675a3.75 3.75 0 000-7.35V6h5.25v12H3v-2.325zm18 0V18H9.75V6H21v2.325a3.75 3.75 0 000 7.35z"></path>
+                        </svg>
+                        <span class="px-1 text-fs12">Select</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-[14px]">
+                          <path d="M20.03 9.53l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 15.44l6.97-6.97a.75.75 0 011.06 1.06z"></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="mb-1 flex items-center justify-between">
+                      <div class="flex-1 text-fs12 font-semibold">Subscription amount</div>
+                      <button class="inline-flex items-center gap-1 text-fs12 text-ds-color-text-primary">Add BGB
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-3 w-3 transform rtl:-scale-x-100">
+                          <path d="M17.03 12.53l-7.5 7.5a.75.75 0 11-1.06-1.06L15.44 12 8.47 5.03a.75.75 0 111.06-1.06l7.5 7.5a.75.75 0 010 1.06z"></path>
+                        </svg>
+                      </button>
+                    </div>
+                    <div class="my-2">
+                      <div class="PurchaseInput_input-wrap__84Nax">
+                        <span class="bit-input-affix-wrapper h-[48px] rounded-[48px] PurchaseInput_purchaseInput__aO77B h-[48px] rounded-[48px] bit-input-affix-wrapper-round css-y0hvqx">
+                          <input data-testid="SavingsApplyDialogBuyAmountInput"  placeholder="Min. 1 BGB" class="bit-input bit-input-round css-y0hvqx" type="text" v-model="showBuyData.subscriptionAmount"><span class="bit-input-suffix"><span class="cursor-pointer text-textBtn" data-testid="SavingsApplyDialogBuyAmountMaxSpan">Max</span></span>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="mb-1 flex flex-wrap items-center gap-x-1 gap-y-2">
+                      <div>
+                        <span><span class="cursor-pointer text-[12px] text-[var(--ds-color-text-tertiary)] underline decoration-[var(--content-disabled)] decoration-dashed underline-offset-4">Available balance</span>:</span><i class="me-[6px] ms-1 text-[12px] not-italic text-[var(--content-primary)]">0.00&nbsp;BGB</i>
+                      </div>
+                      <div class="">
+                        <div class="inline-flex items-center text-fs12 text-secondaryText">From: &nbsp;<button class="bit-dropdown-trigger flex transform items-center gap-1 text-primaryText BalanceSource_balance-form__0LFi_">
+                          <span>Spot &amp; funding account</span>
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-3 w-3">
+                            <path d="M20.03 9.53l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 15.44l6.97-6.97a.75.75 0 011.06 1.06z"></path>
+                          </svg>
+                        </button>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="mb-1 mt-4 text-fs12 font-semibold"> Subscription quota</p>
+                    <div class="mb-1 flex text-fs12">
+                      <span class="text-[var(--ds-color-text-tertiary)]"> Max amount per order:</span><span class="me-[6px] ms-1 text-[var(--content-primary)]"><span>200,000&nbsp;</span><span>BGB</span></span>
+                    </div>
+                    <div class="mb-1 text-fs12">
+                      <span class="cursor-pointer text-[12px] text-[var(--ds-color-text-tertiary)] underline decoration-[var(--content-disabled)] decoration-dashed underline-offset-4">Remaining quota</span>:<i class="me-[6px] ms-1 not-italic text-[var(--content-primary)]">200,000&nbsp;BGB</i>
+                    </div>
+                  </div>
+                  <div class="relative box-border flex flex-1 flex-col bg-background-secondary p-6 text-fs12 mobile:mt-4 mobile:bg-transparent mobile:p-0 ipad:px-4">
+                    <div class="flex-grow overflow-y-auto">
+                      <div>
+                        <div class="relative mb-1 flex text-fs12 font-semibold text-primaryText">
+                          <span class="flex-1 ltr:mr-3 rtl:ml-3">
+                            <i class="not-italic">Est. daily total profit</i>
+                          </span>
+                          <span class="text-right text-primaryBtnBg">{{ dailyInterest }} {{ showBuyData.currency_name }}</span>
+                        </div>
+                        <div class="relative mb-1 flex text-fs12 text-content-tertiary">
+                          <span class="flex-1 ltr:mr-3 rtl:ml-3"><span class="cursor-pointer text-[12px] underline decoration-[var(--content-disabled)] decoration-dashed underline-offset-4">Daily interest</span></span>
+                          <span class="text-right">{{ dailyInterest }} {{ showBuyData.currency_name }}</span>
+                        </div>
+                        <div class="relative mb-1 flex text-fs12 text-content-tertiary">
+                          <span class="flex-1 ltr:mr-3 rtl:ml-3">
+                            <span class="cursor-pointer text-[12px] underline decoration-[var(--content-disabled)] decoration-dashed underline-offset-4">Daily interest increase profit</span>
+                          </span>
+                          <span class="text-right">0.00 {{ showBuyData.currency_name }}</span>
+                        </div>
+                      </div>
+                      <div class="bit-divider css-y0hvqx bit-divider-horizontal !my-4 !border-border-strength-100" role="separator"></div>
+                      <div class="">
+                        <div class="rounded-t-[8px] bg-ds-color-function-brand-soft text-center text-[12px] font-semibold leading-[25px] text-primaryText">Interest is settled daily, and early redemption is supported.</div>
+                        <div class="rounded-b-[8px] border border-t-0 border-ds-color-border-subtle px-2 pb-3 pt-2">
+                          <div class="space-y-[14px] text-fs12 text-content-tertiary ps-3">
+                            <div class="TimeBoxList_timeList__V1Xj_ relative flex before:bg-content-secondary after:bg-disabledText after:text-disabledText">
+                              <span class="mr-auto flex-1">Subscription time</span>
+                              <span class="text-primaryText">2024-10-12 17:28:32</span>
+                            </div>
+
+                            <div class="TimeBoxList_timeList__V1Xj_ relative flex before:bg-content-secondary after:bg-disabledText after:text-disabledText">
+                              <span class="mr-auto flex-1">Interest accrual start time</span>
+                              <span class="text-primaryText">2024-10-13 00:00:00</span>
+                            </div>
+                            <div class="TimeBoxList_timeList__V1Xj_ relative flex before:bg-content-secondary after:bg-disabledText after:text-disabledText">
+                              <span class="mr-auto flex-1">Interest distribution time</span>
+                              <span class="text-primaryText">2024-10-14 08:00:00</span>
+                            </div>
+                            <div class="TimeBoxList_timeList__V1Xj_ relative mb-[14px] flex before:bg-content-secondary after:bg-disabledText after:text-disabledText">
+                              <span class="mr-auto flex-1">Maturity time</span>
+                              <span class="text-primaryText">2024-10-27 00:00:00</span>
+                            </div>
+                            <div class="TimeBoxList_timeList__V1Xj_ relative flex before:bg-content-secondary after:bg-disabledText after:text-disabledText">
+                              <span class="mr-auto flex-1">Crediting date</span>
+                              <span class="text-primaryText">2024-10-27 08:00:00</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="relative mt-3 text-fs12 text-secondaryText">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="absolute top-[2px] w-[14px] ltr:left-0 rtl:right-0">
+                          <path d="M12 2.25A9.75 9.75 0 1021.75 12 9.76 9.76 0 0012 2.25zm0 18A8.25 8.25 0 1120.25 12 8.26 8.26 0 0112 20.25zm-.75-7.5V7.5a.75.75 0 111.5 0v5.25a.75.75 0 11-1.5 0zm1.875 3.375a1.125 1.125 0 11-2.25 0 1.125 1.125 0 012.25 0z"></path>
+                        </svg>
+                        <p class="ltr:pl-[18px] rtl:pr-[18px]">After maturity, your principal will automatically be transferred to Flexible Savings for continued interest accrual.</p>
+                      </div>
+                    </div>
+                    <div class="mobile:w-full mobile:h-[240px]"></div>
+                    <div class="mobile:fixed mobile:bottom-0 mobile:left-0 mobile:z-10 mobile:w-full mobile:bg-background-primray mobile:px-4 mobile:pb-9 mobile:pt-2">
+                      <div class="flex items-start text-content-tertiary">
+                        <label class="bit-checkbox-wrapper tap-transparent css-y0hvqx">
+                          <span class="bit-checkbox bit-checkbox-main css-y0hvqx">
+                            <input class="bit-checkbox-input" type="checkbox">
+                            <span class="bit-checkbox-inner"></span>
+                          </span>
+                        </label>
+                        <span class="ms-2 text-fs12 leading-[22px]">I have read and agree to the&nbsp;<a href="https://www.bitget.com/en/support/articles/12560603797489" target="_blank" rel="noreferrer" class="!hover:text-content-primary !text-content-primary">Bitget Savings User Agreement</a></span>
+                      </div>
+                      <div>
+                        <button data-testid="SavingsApplyDialogConfirmButton" type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-main bit-btn-md bit-btn-block mt-4" disabled="">
+                          <span>Confirm</span></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <div tabindex="0" aria-hidden="true" style="width: 0px; height: 0px; overflow: hidden; outline: none;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -3528,53 +3671,105 @@ import "swiper/css/swiper.min.css"
 export default {
   data() {
     return {
+      totalAssets: '',
+      totalProfits: '',
+      qaList: [
+        {
+          q: '1. What is Bitget Earn?',
+          a: 'Bitget Earn is a one-stop asset management platform under the Bitget brand that provides professional and high-quality asset management services. Bitget has a wide variety of financial products with high yields and security, which can satisfy users\' diverse investment needs. Users can choose high-yield products to boost earnings based on their own needs.\n',
+          showAnswer: false
+        },
+        {
+          q: '2. What types of products does Bitget offer?\n',
+          a: 'Bitget has offers a variety of financial products, including Flexible Savings, Shark Fin, and Dual Investment. In the future, Bitget will launch more financial products to satisfy more users and their preferences, investment horizons, and risk appetites.\n',
+          showAnswer: false
+
+        },
+        {
+          q: '3. How can I profit with Bitget Earn?\n',
+          a: 'In general, users profit by subscribing to products on Bitget Earn based on their own risk tolerance. The basic process is to learn about the range of products available, subscribe to a product, accumulate interest, and then redeem earnings. Check each product\'s page for specific details.\n',
+          showAnswer: false
+        },
+        {
+          q: '4. What should I pay attention to when subscribing to Earn products?\n',
+          a: 'Cryptocurrencies are subject to high market risk and volatility despite high growth potential. Users are strongly advised to do their own research and invest at their own risk.\n',
+          showAnswer: false
+        },
+        {
+          q: '5. How do I learn more about specific products?\n',
+          a: 'Check out more details on each of our products by selecting Earn from the navigation menu, then selecting the product and browsing through its introduction or Q&A.\n',
+          showAnswer: false
+        }
+      ],
       productList: [
         {
           currency_id: 1,
-          currency_index: 0,
-          currency_apr: '5%',
+          current_apr: '',
+          current_index: 0,
+          current_product_id: '',
           show_child_dom: false,
           product_name: 'BGB',
           products: [
             {
               id: 1,
-              "days": "current",
-              "apr": "5%"
+              days: "current",
+              apr: "5"
             },
             {
               id: 2,
-              "days": "7",
-              "apr": "12%"
+              days: "7",
+              apr: "12"
             },
             {
               id: 3,
               "days": "14",
-              "apr": "25%"
+              "apr": "25"
             }
           ]
         },
         {
           currency_id: 2,
-          currency_index: 0,
-          currency_apr: '3%',
+          current_apr: '',
+          current_index: 0,
+          current_product_id: '',
           show_child_dom: false,
           product_name: 'USDT',
           products: [
             {
-              "days": "current",
-              "apr": "3%"
+              id: 1,
+              days: "current",
+              apr: 3
             },
             {
-              "days": "7",
-              "apr": "5%"
+              id: 2,
+              days: "7",
+              apr: 5
             },
             {
-              "days": "14",
-              "apr": "8%"
+              id: 3,
+              days: "14",
+              apr: 8
             }
           ]
         }
-      ]
+      ],
+      showBuyPanel: false,
+      showBuyData: {
+        currency_id: '',
+        currency_name: '',
+        product_id: '',
+        product_apr: '',
+        product_days: '',
+        products: [],
+        subscriptionAmount: 0.00,
+        subscriptionTime: '',
+        interestAccrualStartTime: ''
+      }
+    }
+  },
+  computed: {
+    dailyInterest () {
+      return this.showBuyData.subscriptionAmount * (Number(this.showBuyData.product_apr) / 365 / 100)
     }
   },
   mounted() {
@@ -3612,18 +3807,40 @@ export default {
         }
       })
     },
-
     computeApr(currency_id) {
       let obj = this.productList.find((item) =>
           item.currency_id === currency_id
       )
       let num = []
       obj.products.forEach(item => {
-        num.unshift(Number(item.apr.slice(0, -1)))
+        //num.unshift(Number(item.apr.slice(0, -1)))
+        num.unshift(Number(item.apr))
       })
       let max = Math.max.apply(null, num);
       let min = Math.min.apply(null, num);
       return min + '%~' + max + '%'
+    },
+    showBuyPanelFn(currency_id) {
+      let obj = this.productList.find((item) =>
+          item.currency_id === currency_id
+      )
+      this.showBuyData.currency_id = currency_id
+      this.showBuyData.product_id = obj.current_product_id
+      this.showBuyData.currency_name = obj.product_name
+
+      let productObj = {}
+      obj.products.forEach(item => {
+        if (item.id === this.showBuyData.product_id) {
+          productObj = item
+        }
+      })
+
+      this.showBuyData.product_apr = productObj.apr
+      this.showBuyData.product_days = productObj.days
+      this.showBuyData.products = obj.products
+      console.log(currency_id)
+      console.log('当前数据', this.showBuyData)
+      this.showBuyPanel = true
     }
   }
 }
