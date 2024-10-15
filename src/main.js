@@ -3,7 +3,7 @@ import VueI18n from 'vue-i18n'
 import App from './App.vue'
 import router from './router/index'
 import Antd from 'ant-design-vue'
-// import 'ant-design-vue/dist/antd.css'
+import 'ant-design-vue/dist/antd.css'
 import 'windi.css'
 
 // 引入语言包
