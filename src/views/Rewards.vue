@@ -1,3 +1,5 @@
+
+
 <template>
     <div class="bit-app">
         <HzHeader></HzHeader>
@@ -1310,89 +1312,7 @@ lg:text-[15px] lg:leading-[21px] lg:mx-[10px]">:</span>
                             </div>
                         </div>
                     </div>
-                    <div
-                        class="mx-auto px-[16px] md:px-[24px] lg:px-[40px] 2xl:max-w-[1200px] 2xl:px-0 rewards_rewardsFaq__fVHPP rewards_resetCollapse__RwZCK -mt-8 md:-mt-[14px] lg:-mt-6 nxl:mt-8 pb-[40px] lg:pb-[80px] nxl:pb-[132px]">
-                        <h2
-                            class="relative flex min-w-[120px] leading-6 text-[18px] font-bold text-[#FEFBF7] mb-5 md:leading-[34px] md:font-semibold md:text-[24px] md:mb-6 md:pl-0 lg:leading-[40px] lg:text-[28px] nxl:text-[32px] nxl:leading-[44px] nxl:mb-5">
-                            FAQ</h2>
-                        <div>
-                            <div class="bit-collapse bit-collapse-icon-position-start">
-                                <div class="bit-collapse-item bit-collapse-item-active">
-                                    <div class="bit-collapse-header" aria-expanded="true" aria-disabled="false"
-                                        role="button" tabindex="0"><span class="bit-collapse-expand-header-text">What
-                                            are spot fee rebate vouchers?</span>
-                                        <div class="bit-collapse-expand-icon"><svg xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="16"
-                                                class="bit-collapse-arrow"
-                                                style="transform: rotate(90deg); transition: transform 0.3s;">
-                                                <path
-                                                    d="M17.03 12.53l-7.5 7.5a.75.75 0 11-1.06-1.06L15.44 12 8.47 5.03a.75.75 0 111.06-1.06l7.5 7.5a.75.75 0 010 1.06z">
-                                                </path>
-                                            </svg></div>
-                                    </div>
-                                    <div class="bit-collapse-content bit-collapse-content-active">
-                                        <div class="bit-collapse-content-box">
-                                            <p>If a user owns and uses a spot fee rebate voucher in spot trading, a
-                                                portion of the transaction fees (excluding special fees) will be
-                                                refunded in USDT on the second day after trading.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="bit-collapse-item">
-                                    <div class="bit-collapse-header" aria-expanded="false" aria-disabled="false"
-                                        role="button" tabindex="0"><span class="bit-collapse-header-text">What are
-                                            futures position boost vouchers?</span>
-                                        <div class="bit-collapse-expand-icon"><svg xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="16"
-                                                class="bit-collapse-arrow" style="transition: transform 0.3s;">
-                                                <path
-                                                    d="M17.03 12.53l-7.5 7.5a.75.75 0 11-1.06-1.06L15.44 12 8.47 5.03a.75.75 0 111.06-1.06l7.5 7.5a.75.75 0 010 1.06z">
-                                                </path>
-                                            </svg></div>
-                                    </div>
-                                </div>
-                                <div class="bit-collapse-item">
-                                    <div class="bit-collapse-header" aria-expanded="false" aria-disabled="false"
-                                        role="button" tabindex="0"><span class="bit-collapse-header-text">What are
-                                            futures trading bonuses?</span>
-                                        <div class="bit-collapse-expand-icon"><svg xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="16"
-                                                class="bit-collapse-arrow" style="transition: transform 0.3s;">
-                                                <path
-                                                    d="M17.03 12.53l-7.5 7.5a.75.75 0 11-1.06-1.06L15.44 12 8.47 5.03a.75.75 0 111.06-1.06l7.5 7.5a.75.75 0 010 1.06z">
-                                                </path>
-                                            </svg></div>
-                                    </div>
-                                </div>
-                                <div class="bit-collapse-item">
-                                    <div class="bit-collapse-header" aria-expanded="false" aria-disabled="false"
-                                        role="button" tabindex="0"><span class="bit-collapse-header-text">What are
-                                            points?</span>
-                                        <div class="bit-collapse-expand-icon"><svg xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="16"
-                                                class="bit-collapse-arrow" style="transition: transform 0.3s;">
-                                                <path
-                                                    d="M17.03 12.53l-7.5 7.5a.75.75 0 11-1.06-1.06L15.44 12 8.47 5.03a.75.75 0 111.06-1.06l7.5 7.5a.75.75 0 010 1.06z">
-                                                </path>
-                                            </svg></div>
-                                    </div>
-                                </div>
-                                <div class="bit-collapse-item">
-                                    <div class="bit-collapse-header" aria-expanded="false" aria-disabled="false"
-                                        role="button" tabindex="0"><span class="bit-collapse-header-text">How to view
-                                            your voucher rewards?</span>
-                                        <div class="bit-collapse-expand-icon"><svg xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="16"
-                                                class="bit-collapse-arrow" style="transition: transform 0.3s;">
-                                                <path
-                                                    d="M17.03 12.53l-7.5 7.5a.75.75 0 11-1.06-1.06L15.44 12 8.47 5.03a.75.75 0 111.06-1.06l7.5 7.5a.75.75 0 010 1.06z">
-                                                </path>
-                                            </svg></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                
                 </div>
             </div>
         </main>
@@ -1401,7 +1321,11 @@ lg:text-[15px] lg:leading-[21px] lg:mx-[10px]">:</span>
 </template>
 
 <script>
-
+// import '@/assets/_nuxt-portal/css/61fc616a17780c98.css';
+// import '@/assets/_nuxt-portal/css/85fc441c3db9c0cd.css';
+// import '@/assets/_nuxt-portal/css/110e3751d1dd5987.css';
+// import '@/assets/_nuxt-portal/css/bbdb4d5cd12cdbba.css';
+// import '@/assets/_nuxt-portal/css/style.bf1ce024.css';
 import LeftDash from "@/components/LeftDash.vue"; // 引入头部组件
 
 export default {
@@ -1409,8 +1333,43 @@ export default {
         LeftDash, // 注册头部组件
     },
 };
+
 </script>
+
+<style scoped src="@/assets/_nuxt-portal/css/61fc616a17780c98.css"></style>
+<style scoped src="@/assets/_nuxt-portal/css/85fc441c3db9c0cd.css"></style>
+<style scoped src="@/assets/_nuxt-portal/css/110e3751d1dd5987.css"></style>
+<style scoped src="@/assets/_nuxt-portal/css/bbdb4d5cd12cdbba.css"></style>
+<style scoped src="@/assets/_nuxt-portal/css/style.bf1ce024.css"></style>
+
+
 <style scoped>
+@media (min-width: 768px) {
+   .relative .md\:text-\[28px\][data-v-76cc884c] {
+        font-size: 28px;
+        color: #000;
+    }
+}
+.relative .bit-btn.bit-btn-round.bit-btn-md[data-v-76cc884c] {
+    border-radius: 48px;
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+    height: 35px !important;
+}
+.relative .\!px-\[16px\] {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+}
+.relative .bit-btn.bit-btn-md[data-v-76cc884c] {
+    font-size: 14px;
+    height: 40px;
+    padding: 8px 15px !important;
+    border-radius: 4px;
+    width: 100% !important;
+}
+h2.rewards_oneLine__Kqdwg.text-\[12px\].font-normal.leading-\[18px\].mt-1.text-\[\#898989\].md\:text-\[14px\].md\:leading-\[16px\].md\:mt-2{
+    color:#000;
+}
 .bit-btn-default:not(:disabled):not(.bit-btn-disabled):hover {
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.12) 100%), #151517;
 }
@@ -1582,7 +1541,7 @@ h2 {
 
 .bit-select-single:not(.bit-select-customize-input) .bit-select-selector {
     width: 100%;
-    height: 32px;
+    height: 28px;
     padding: 0 16px;
 }
 
@@ -1687,3 +1646,4 @@ svg.bit-select-suffix.arrow-down {
 
 
 </style>
+

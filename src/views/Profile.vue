@@ -421,26 +421,25 @@
 </template>
 
 <script>
-//  document.addEventListener('DOMContentLoaded', () => {
-//   const configureButton = document.querySelector('.shippingaaa');
-//   const dialog = document.querySelector('.aaab');
-//
-//   if (configureButton) {
-//     configureButton.addEventListener('click', () => {
-//       // 切换对话框的显示状态
-//       if (dialog.style.display === 'none' || dialog.style.display === '') {
-//         dialog.style.display = 'block';
-//         dialog.style.zIndex = '2066'; // 更新 z-index
-//       } else {
-//         dialog.style.display = 'none'; // 关闭对话框
-//         dialog.style.zIndex = '2064'; // 恢复原 z-index
-//       }
-//     });
-//   } else {
-//     console.error('Element with class "shippingaaa" not found');
-//   }
-// });
+ document.addEventListener('DOMContentLoaded', () => {
+  const configureButton = document.querySelector('.shippingaaa');
+  const dialog = document.querySelector('.aaab');
 
+  if (configureButton) {
+    configureButton.addEventListener('click', () => {
+      // 切换对话框的显示状态
+      if (dialog.style.display === 'none' || dialog.style.display === '') {
+        dialog.style.display = 'block';
+        dialog.style.zIndex = '2066'; // 更新 z-index
+      } else {
+        dialog.style.display = 'none'; // 关闭对话框
+        dialog.style.zIndex = '2064'; // 恢复原 z-index
+      }
+    });
+  } else {
+    console.error('Element with class "shippingaaa" not found');
+  }
+});
 
 import LeftDash from "@/components/LeftDash.vue"; // 引入头部组件
 export default {
@@ -477,5 +476,23 @@ export default {
 
 
 <style scoped>
-
+.personal-main-box {
+    width: 83%;
+    padding: 24px 40px 80px !important;
+}
+.personal-container {
+    display: flex;
+}
+@media screen and (max-width: 575px) {
+  .submenu {
+    display: none;
+  }
+  .personal-main-box[data-v-ced23842] {
+    width: 100%;
+    padding: 24px 20px 80px !important;
+}
+}
+[dir] .-mt-6px {
+    margin-top: 2px;
+}
 </style>

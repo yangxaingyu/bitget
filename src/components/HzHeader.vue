@@ -920,7 +920,8 @@
                                     <span data-v-ada517e7 class="mi-avatar mi-avatar--circle" style="--mi-avatar-size: 48px;"><svg data-v-ada517e7 width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-item w-20px h-20px min-w-20px" style="width: 48px; height: 48px; min-width: 48px;"><g id="Frame 1533210730"><g clip-path="url(#clip0_3447_5316)"><rect width="32" height="32" rx="16" fill="#DDDDDD"></rect><path id="Vector 4611" d="M11.1585 16.2486C11.2558 16.739 12.5284 18.0159 12.5284 18.0159C12.5284 18.0159 10.9591 18.8166 10.1769 17.4425C9.39473 16.0685 11.0613 15.7581 11.1585 16.2486Z" fill="#3E2D32"></path><path id="Vector 4612" d="M20.8844 16.2486C20.7872 16.739 19.5145 18.0159 19.5145 18.0159C19.5145 18.0159 21.0838 18.8166 21.866 17.4425C22.6482 16.0685 20.9817 15.7581 20.8844 16.2486Z" fill="#3E2D32"></path><rect id="Rectangle 34626493" x="13" y="20" width="6" height="4" fill="#F382AB"></rect><circle id="Ellipse 7375" cx="19.5" cy="10.5" r="3.5" fill="#3E2D32"></circle><circle id="Ellipse 7376" cx="12.5" cy="10.5" r="3.5" fill="#3E2D32"></circle><ellipse id="Ellipse 7371" cx="16" cy="40" rx="23" ry="17" fill="#03AAC7"></ellipse><g id="Mask group"><mask id="mask0_3447_5316" style="mask-type:alpha;" maskUnits="userSpaceOnUse" x="-7" y="23" width="46" height="34"><ellipse id="Ellipse 7373" cx="16" cy="40" rx="23" ry="17" fill="#03AAC7"></ellipse></mask><g mask="url(#mask0_3447_5316)"><ellipse id="Ellipse 7372" cx="16" cy="22.5" rx="6" ry="5.5" fill="#F382AB"></ellipse></g></g><rect id="Rectangle 34626491" x="9" y="13" width="14" height="4" rx="2" fill="#F382AB"></rect><rect id="Rectangle 34626490" x="11" y="6" width="10" height="15" rx="5" fill="#FF9DC0"></rect><path id="Rectangle 34626492" d="M10 8.26667C10 5.91025 11.78 4 13.9757 4H18.594C20.5153 4 22 5.67147 22 7.73333C22 9.7952 20.5153 12 18.594 12H10V8.26667Z" fill="#3E2D32"></path><path id="Vector 4610" d="M21.1157 7.5C21.6157 7.5 23.1157 6.5 23.1157 6.5C23.1157 6.5 23.5959 8.19507 22.0959 8.69507C20.5959 9.19507 20.6157 7.5 21.1157 7.5Z" fill="#3E2D32"></path></g></g><defs><clipPath id="clip0_3447_5316"><rect width="32" height="32" rx="16" fill="white"></rect></clipPath></defs></svg></span>
                                   </div>
                                 </div>
-                                <div data-v-4028f250>
+                                <a href="/dashboard">
+                                  <div data-v-4028f250>
                                   <div data-v-4028f250 class="micro-userInfo-displayName text-primaryText max-w-220px text-16px font-700 truncate cursor-pointer leading-24px not-jump mi-tooltip__trigger mi-tooltip__trigger">BGUSER-4WHEY70G</div>
                                   <div data-v-4028f250 class="not-jump mt-2px flex items-center text-thirdText text-12px cursor-pointer leading-18px"> UID: 8938879007
                                     <svg data-v-4028f250 width="12" height="12" class="not-jump not-jump ml-4px" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -930,6 +931,7 @@
                                     </svg>
                                   </div>
                                 </div>
+                                </a>
                               </div>
                               <div data-v-4028f250 class="mt-16px h-18px flex items-center">
                                 <div data-v-4028f250 class="not-jump mr-10px cursor-pointer">
@@ -961,7 +963,7 @@
                           </div>
 
                           <div data-v-a6a2c3ff class="micro-menu-item px-8px w-full rounded-8px transition-[0.3s] hover:bg-bgSecondary cursor-pointer mb-6px last:mb-0" show-hover-arrow>
-                            <a class="text-primaryText flex justify-between items-center h-40px" href="/account/verified" target="_self">
+                            <a class="text-primaryText flex justify-between items-center h-40px" href="/enter" target="_self">
                               <div class="flex justify-between items-center gap-10px">
                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-20px h-20px min-w-20px">
                                   <g id="IdentificationCard">
@@ -1114,7 +1116,7 @@
                         </div>
 
                         <div data-v-a6a2c3ff class="px-24px h-76px min-h-76px pt-8px mt-8px bottom-0 flex justify-center bg-[inherit]">
-                          <button data-v-a6a2c3ff aria-disabled="false" type="button" class="mi-button mi-button--large is-round w-full">
+                          <button data-v-a6a2c3ff aria-disabled="false" type="button" class="mi-button mi-button--large is-round w-full" @click="logout">
                             <span>{{ $t('leftDash.logout') }} </span>
                           </button>
                         </div>
@@ -3017,10 +3019,11 @@
 
                 </div>
                 <div data-v-a6a2c3ff class="px-24px h-76px min-h-76px pt-8px mt-8px bottom-0 flex justify-center bg-[inherit]">
-                  <button data-v-a6a2c3ff aria-disabled="false" type="button" class="mi-button mi-button--large is-round w-full">
+                  <button data-v-a6a2c3ff aria-disabled="false" type="button" class="mi-button mi-button--large is-round w-full" @click="logout">
                     <span class>{{ $t('leftDash.logout') }}</span>
                   </button>
                 </div>
+
               </div>
             </div>
           </div>
@@ -3162,8 +3165,19 @@ export default {
         document.getElementById(id).children[1].classList.remove('is-active');
       }
     }
+  },
+  methods: {
+    logout() {
+      localStorage.removeItem('token'); 
+      window.location.href = '/login'; 
+    }
   }
+
 }
+
+
+
+
 </script>
 
 <style scoped>

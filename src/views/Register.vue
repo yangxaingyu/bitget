@@ -181,10 +181,10 @@
                     </div>
                     <div class="bit-theme-light-vue2" data-v-8ef6bb76>
                       <div class="mt-24px" data-v-8ef6bb76>
-                        <button :disabled="!isAllAgree"
+                        <button 
                                 type="button"
                                 class="bit-button w-full bit-button--chunky bit-button--medium is-round"
-                                :class="{'is-disabled': !isAllAgree}"
+                            
                                 style="box-shadow:0 4px 0 0;"
                                 @click="registerFn"
                                 data-v-8ef6bb76>
