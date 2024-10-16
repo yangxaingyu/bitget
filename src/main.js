@@ -4,7 +4,7 @@ import App from './App.vue'
 import router from './router/index'
 import Antd from 'ant-design-vue'
 import 'ant-design-vue/dist/antd.css'
-// import 'windi.css'
+import 'windi.css'
 
 // 引入语言包
 import en from '@/lang/en'
@@ -90,6 +90,14 @@ Vue.component('Verify', Verify)
 
 
 //Rewards
+// import '@/assets/_nuxt-portal/css/61fc616a17780c98.css'
+// import '@/assets/_nuxt-portal/css/85fc441c3db9c0cd.css'
+// import '@/assets/_nuxt-portal/css/110e3751d1dd5987.css'
+// import '@/assets/_nuxt-portal/css/bbdb4d5cd12cdbba.css'
+// import '@/assets/_nuxt-portal/css/style.bf1ce024.css'
+
+//设置全局变量
+Vue.prototype.$host = 'https://bitgetend.hzdev.top/';
 
 
 Vue.config.productionTip = false

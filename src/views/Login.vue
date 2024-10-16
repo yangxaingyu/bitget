@@ -293,11 +293,18 @@
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                         <path d="M19.28 18.22a.75.75 0 01-.817 1.223.75.75 0 01-.244-.162L12 13.06l-6.22 6.22a.75.75 0 01-1.06-1.062L10.94 12 4.72 5.78a.75.75 0 111.06-1.06L12 10.94l6.22-6.22a.75.75 0 011.06 1.06L13.06 12l6.22 6.22z"></path>
                       </svg>
-                    </i></button>
+                    </i>
+                  </button>
                 </div>
-                <div class="bit-dialog__footer"><span data-v-1a82e5a2 class="dialog-footer grid"><button data-v-1a82e5a2 type="button" class="bit-button bit-button--main bit-button--medium is-round"><span>
-            OK
-        </span></button></span></div>
+                <div class="bit-dialog__footer">
+                  <span data-v-1a82e5a2 class="dialog-footer grid">
+                    <button data-v-1a82e5a2 type="button" class="bit-button bit-button--main bit-button--medium is-round">
+                      <span>
+                        OK
+                      </span>
+                    </button>
+                  </span>
+                </div>
               </div>
             </div>
           </div>
@@ -336,6 +343,9 @@ export default {
       }
     }
   },
+  created() {
+    this.token = localStorage.getItem("token")
+  },
   methods: {
     toggleShow(bool) {
       this.isShowPassword = bool
@@ -373,6 +383,8 @@ export default {
 
       if (res.data.code === 200) {
         localStorage.setItem("token", res.data.data.token)
+        localStorage.setItem("user_name", res.data.data.user_info.user_name)
+
         // 跳转 dashboard
         this.$router.push({
           path: "/dashboard",

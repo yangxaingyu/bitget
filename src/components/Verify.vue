@@ -198,6 +198,7 @@
                                     <a-upload-dragger
                                         name="reverse"
                                         :multiple="true"
+                                        :headers="{Authorization: token}"
                                         action="http://bitgetend.hzdev.top/api/uploadImage"
                                         @change="handleChangeReverse"
                                     >
@@ -535,6 +536,18 @@ export default {
           Authorization: 'Bearer ' + this.token,
         }
       })
+      if (res.data.code === 200) {
+        this.isShowAlertError = true
+        this.alertErrorMsg = res.data.msg
+        this.timer = setTimeout(() => {
+          console.log('timer......')
+          this.isShowAlertError = false
+          this.alertErrorMsg = ''
+          this.$router.push({
+            path: "/dashboard",
+          })
+        }, 5000)
+      }
       console.log(res)
     },
 

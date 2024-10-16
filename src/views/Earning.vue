@@ -159,8 +159,8 @@
             <path d="m11.354 8.354-5 5a.5.5 0 0 1-.708-.708L10.293 8 5.646 3.354a.5.5 0 0 1 .708-.708l5 5a.499.499 0 0 1 0 .708Z" fill="#898989"></path>
           </svg>
         </a></div>
-
-      <main class="mx-auto max-w-[1200px] lg:mx-[40px] xl:mx-auto mobile:mx-[16px] ipad:mx-[24px]">
+      <!--mx-auto-->
+      <main class="max-w-[1200px] lg:mx-[40px] xl:mx-auto mobile:mx-[16px] ipad:mx-[24px]">
         <div class="HotProductCard_recommendation__59mS_ relative mt-6 md:mt-8 lg:mt-[50px]">
           <div class="swiper swiper-initialized swiper-horizontal">
             <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms; transition-delay: 0ms;">
@@ -440,7 +440,7 @@
                             <td class="bit-table-cell" style="text-align: left;">
                               <div class="EarnProductList_earn-prd-col__XgxB5">
                                 <div class="EarnProductList_earn-prd-col-coin_name__7o4U5">
-                                  <img src="https://img.bitgetimg.com/multiLang/coin_img/25bcb059251caa734d596e764838b1aa.png"
+                                  <img :src="item.icon"
                                        alt="USDC-1hhs12k0ifo"
                                        width="24"
                                        class="rounded-full object-cover ltr:mr-[8px] rtl:ml-[8px]">
@@ -453,7 +453,6 @@
                             <td class="bit-table-cell bit-table-column-sort" style="text-align: left;">
                               <div class="EarnProductList_earn-prd-col__XgxB5 flex">
                                 {{ computeApr(item.currency_id) }}
-                                <!--0.30%~8.00%-->
                                 <div class="flex"></div>
                               </div>
                             </td>
@@ -503,7 +502,7 @@
                                                 <td class="bit-table-cell" style="text-align: left;">
                                                   <div class="EarnProductList_earn-prd-col__XgxB5">
                                                     <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">{{ item.current_apr }}</div>
+                                                      <div class="EarnProductList_earn-prd-col__XgxB5">{{ item.current_apr }}%</div>
                                                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-[16px] cursor-pointer text-content-tertiary">
                                                         <path fill-rule="evenodd" d="M3.75 12a8.25 8.25 0 1116.5 0 8.25 8.25 0 01-16.5 0zM12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm1.706 6.957a.947.947 0 01-.703.292.973.973 0 01-.708-.29.943.943 0 01-.295-.706c0-.273.098-.508.295-.705a.977.977 0 01.707-.298.952.952 0 01.704.298.968.968 0 01.294.705.944.944 0 01-.294.705zm.35 6.597c-.412.142-.736.252-.981.329a2.798 2.798 0 01-.853.117c-.495 0-.883-.11-1.156-.324a1.008 1.008 0 01-.416-.829c0-.128.011-.258.032-.393.026-.155.059-.309.098-.46l.514-1.624a.975.975 0 00.032-.25c.003-.064.005-.127.02-.191a1.687 1.687 0 00.047-.465c.002-.165.004-.278-.077-.344-.08-.067-.213-.065-.404-.062l-.145.002c-.134 0-.272.02-.409.052a.805.805 0 01-.193.024c-.06.002-.115.004-.165.023l.138-.504c.333-.124.656-.227.963-.311.282-.085.575-.128.87-.128.495 0 .875.102 1.142.315.268.215.563.493.563.829 0 .065-.01.174-.024.332l-.004.043a2.258 2.258 0 01-.102.486l-.675 1.617a4.576 4.576 0 00-.11.447 1.95 1.95 0 00-.053.375c0 .214.056.362.162.44.11.078.296.117.56.117.123 0 .264-.02.421-.058.16-.039.271-.071.341-.104l-.136.499z" clip-rule="evenodd"></path>
                                                       </svg>
@@ -552,2272 +551,6 @@
                             </td>
                           </tr>
                           </tbody>
-
-                          <tbody v-if="false" class="bit-table-tbody">
-                          <tr @click="switchShow($event, 1)" data-row-key="74" class="bit-table-row bit-table-row-level-0">
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div class="EarnProductList_earn-prd-col-coin_name__7o4U5">
-                                  <img src="https://img.bitgetimg.com/multiLang/coin_img/25bcb059251caa734d596e764838b1aa.png" alt="USDC-1hhs12k0ifo" width="24" class="rounded-full object-cover ltr:mr-[8px] rtl:ml-[8px]">
-                                  <div>
-                                    <div class="inline-block">USDC1</div>
-                                  </div>
-                                </div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell bit-table-column-sort" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5 flex">0.30%~8.00% 8888
-                                <div class="flex"></div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div>Flexible/Fixed</div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: right;">
-                              <div>
-                                <svg svg-key="74" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-[24px] w-[24px] transition duration-300 ease-out">
-                                  <path d="M20.03 9.53l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 15.44l6.97-6.97a.75.75 0 011.06 1.06z"></path>
-                                </svg>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr v-if="" group-key="74" class="bit-table-expanded-row bit-table-expanded-row-level-1 EarnProductList_expanded-row__8_u1N">
-                            <td class="bit-table-cell" colspan="4">
-                              <div class="hidden lg:block">
-                                <div class="bit-table-wrapper Table_pTable__1khAH css-y0hvqx" style="margin: 0px;">
-                                  <div class="bit-spin-nested-loading css-y0hvqx">
-                                    <div class="bit-spin-container">
-                                      <div class="bit-table">
-                                        <div class="bit-table-container">
-                                          <div class="bit-table-content">
-                                            <table style="table-layout: auto;">
-                                              <colgroup>
-                                                <col style="width: 328px;">
-                                                <col style="width: 348px;">
-                                                <col>
-                                                <col style="width: 200px;">
-                                              </colgroup>
-                                              <tbody class="bit-table-tbody">
-                                              <tr data-row-key="984594834441801728" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Savings</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                        0.30%~8.00%
-                                                      </div>
-                                                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-[16px] cursor-pointer text-content-tertiary">
-                                                        <path fill-rule="evenodd" d="M3.75 12a8.25 8.25 0 1116.5 0 8.25 8.25 0 01-16.5 0zM12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm1.706 6.957a.947.947 0 01-.703.292.973.973 0 01-.708-.29.943.943 0 01-.295-.706c0-.273.098-.508.295-.705a.977.977 0 01.707-.298.952.952 0 01.704.298.968.968 0 01.294.705.944.944 0 01-.294.705zm.35 6.597c-.412.142-.736.252-.981.329a2.798 2.798 0 01-.853.117c-.495 0-.883-.11-1.156-.324a1.008 1.008 0 01-.416-.829c0-.128.011-.258.032-.393.026-.155.059-.309.098-.46l.514-1.624a.975.975 0 00.032-.25c.003-.064.005-.127.02-.191a1.687 1.687 0 00.047-.465c.002-.165.004-.278-.077-.344-.08-.067-.213-.065-.404-.062l-.145.002c-.134 0-.272.02-.409.052a.805.805 0 01-.193.024c-.06.002-.115.004-.165.023l.138-.504c.333-.124.656-.227.963-.311.282-.085.575-.128.87-.128.495 0 .875.102 1.142.315.268.215.563.493.563.829 0 .065-.01.174-.024.332l-.004.043a2.258 2.258 0 01-.102.486l-.675 1.617a4.576 4.576 0 00-.11.447 1.95 1.95 0 00-.053.375c0 .214.056.362.162.44.11.078.296.117.56.117.123 0 .264-.02.421-.058.16-.039.271-.071.341-.104l-.136.499z" clip-rule="evenodd"></path>
-                                                      </svg>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[64px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">Flexible</i><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[48px]">
-                                                        <i class="not-italic">7</i></p>
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[48px]">
-                                                        <i class="not-italic">14</i></p></section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <span>Subscribe</span>
-                                                    </button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              <tr data-row-key="996176490851094528" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Savings</div>
-                                                      <div class="flex cursor-pointer EarnProductList_mar-left-4__QcIRp">
-                                                        <div class="EarnStick_vip-pc__WHdlV">VIP</div>
-                                                      </div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">3.00%</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[64px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">Flexible</i><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                    </section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <span>Subscribe</span></button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              </tbody>
-                                            </table>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="block lg:hidden block">
-                                <div class="block flex w-full flex-col justify-center lg:hidden"></div>
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr data-row-key="715" class="bit-table-row bit-table-row-level-0">
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div class="EarnProductList_earn-prd-col-coin_name__7o4U5">
-                                  <img src="https://img.bitgetimg.com/multiLang/coin_img/2ff7f38071e2127494c5f2001d5f4513.png" alt="PEPE-vir60j0glvg" width="24" class="rounded-full object-cover ltr:mr-[8px] rtl:ml-[8px]">
-                                  <div>
-                                    <div class="inline-block">
-                                      <a class="cursor-auto text-inherit hover:text-inherit" href="https://www.bitget.com/price/pepe">PEPE</a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell bit-table-column-sort" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5 flex">0.30%
-                                <div class="flex"></div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div>Flexible</div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: right;">
-                              <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-[24px] w-[24px] transition duration-300 ease-out rotate-180">
-                                  <path d="M20.03 9.53l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 15.44l6.97-6.97a.75.75 0 011.06 1.06z"></path>
-                                </svg>
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr class="bit-table-expanded-row bit-table-expanded-row-level-1 EarnProductList_expanded-row__8_u1N">
-                            <td class="bit-table-cell" colspan="4">
-                              <div class="hidden lg:block">
-                                <div class="bit-table-wrapper Table_pTable__1khAH css-y0hvqx" style="margin: 0">
-                                  <div class="bit-spin-nested-loading css-y0hvqx">
-                                    <div class="bit-spin-container">
-                                      <div class="bit-table">
-                                        <div class="bit-table-container">
-                                          <div class="bit-table-content">
-                                            <table style="table-layout: auto;">
-                                              <colgroup>
-                                                <col style="width: 328px;">
-                                                <col style="width: 348px;">
-                                                <col>
-                                                <col style="width: 200px;">
-                                              </colgroup>
-                                              <tbody class="bit-table-tbody">
-                                              <tr data-row-key="1058246827927031808" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Savings</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">0.30%</div>
-                                                    </div>
-                                                    <div class="mt-[6px] flex flex-wrap items-center leading-[18px]">
-                                                      <div class="flex items-center text-[12px] font-[400] leading-[18px] me-[8px]">
-                                                        <img class="h-[14px] w-[14px] ltr:mr-[2px] rtl:ml-[2px]" src="https://img.bitgetimg.com/multiLang/coin_img/10d0024b93a70ef8562ae11ae5bc1184.png" alt="BGB-10d0024b93a70ef8562ae11ae5bc1184">
-                                                        <div class="text-content-tertiary">Earn BGB</div>
-                                                      </div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal" style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[64px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">Flexible</i><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                    </section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <span>Subscribe</span></button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              </tbody>
-                                            </table>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="block lg:hidden block">
-                                <div class="block flex w-full flex-col justify-center lg:hidden"></div>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr data-row-key="3" class="bit-table-row bit-table-row-level-0">
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div class="EarnProductList_earn-prd-col-coin_name__7o4U5">
-                                  <img src="https://img.bitgetimg.com/multiLang/coin_img/f6eba5dbcb1e8ce5ed7b053985f314b1.png" alt="ETH-t8v9mvkcjm" width="24" class="rounded-full object-cover ltr:mr-[8px] rtl:ml-[8px]">
-                                  <div>
-                                    <div class="inline-block">
-                                      <a class="cursor-auto text-inherit hover:text-inherit" href="https://www.bitget.com/price/ethereum">ETH</a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell bit-table-column-sort" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5 flex">0.40%~247.12%
-                                <div class="flex"></div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div>Flexible/Fixed</div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: right;">
-                              <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-[24px] w-[24px] transition duration-300 ease-out rotate-180">
-                                  <path d="M20.03 9.53l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 15.44l6.97-6.97a.75.75 0 011.06 1.06z"></path>
-                                </svg>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr class="bit-table-expanded-row bit-table-expanded-row-level-1 EarnProductList_expanded-row__8_u1N">
-                            <td class="bit-table-cell" colspan="4">
-                              <div class="hidden lg:block">
-                                <div class="bit-table-wrapper Table_pTable__1khAH css-y0hvqx" style="margin: 0px;">
-                                  <div class="bit-spin-nested-loading css-y0hvqx">
-                                    <div class="bit-spin-container">
-                                      <div class="bit-table">
-                                        <div class="bit-table-container">
-                                          <div class="bit-table-content">
-                                            <table style="table-layout: auto;">
-                                              <colgroup>
-                                                <col style="width: 328px;">
-                                                <col style="width: 348px;">
-                                                <col>
-                                                <col style="width: 200px;">
-                                              </colgroup>
-                                              <tbody class="bit-table-tbody">
-                                              <tr data-row-key="984595776545406976" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Savings</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">0.40%~4.00%</div>
-                                                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-[16px] cursor-pointer text-content-tertiary">
-                                                        <path fill-rule="evenodd" d="M3.75 12a8.25 8.25 0 1116.5 0 8.25 8.25 0 01-16.5 0zM12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm1.706 6.957a.947.947 0 01-.703.292.973.973 0 01-.708-.29.943.943 0 01-.295-.706c0-.273.098-.508.295-.705a.977.977 0 01.707-.298.952.952 0 01.704.298.968.968 0 01.294.705.944.944 0 01-.294.705zm.35 6.597c-.412.142-.736.252-.981.329a2.798 2.798 0 01-.853.117c-.495 0-.883-.11-1.156-.324a1.008 1.008 0 01-.416-.829c0-.128.011-.258.032-.393.026-.155.059-.309.098-.46l.514-1.624a.975.975 0 00.032-.25c.003-.064.005-.127.02-.191a1.687 1.687 0 00.047-.465c.002-.165.004-.278-.077-.344-.08-.067-.213-.065-.404-.062l-.145.002c-.134 0-.272.02-.409.052a.805.805 0 01-.193.024c-.06.002-.115.004-.165.023l.138-.504c.333-.124.656-.227.963-.311.282-.085.575-.128.87-.128.495 0 .875.102 1.142.315.268.215.563.493.563.829 0 .065-.01.174-.024.332l-.004.043a2.258 2.258 0 01-.102.486l-.675 1.617a4.576 4.576 0 00-.11.447 1.95 1.95 0 00-.053.375c0 .214.056.362.162.44.11.078.296.117.56.117.123 0 .264-.02.421-.058.16-.039.271-.071.341-.104l-.136.499z" clip-rule="evenodd"></path>
-                                                      </svg>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[64px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">Flexible</i><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[48px]">
-                                                        <i class="not-italic">7</i></p>
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[48px]">
-                                                        <i class="not-italic">14</i></p></section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <span>Subscribe</span></button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              <tr data-row-key="996175437845909504" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Savings</div>
-                                                      <div class="flex cursor-pointer EarnProductList_mar-left-4__QcIRp">
-                                                        <div class="EarnStick_vip-pc__WHdlV">VIP</div>
-                                                      </div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">3.00%</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[64px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">Flexible</i><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                    </section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <span>Subscribe</span></button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              <tr data-row-key="1067212156002783232" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Staking</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">4.00%</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[64px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">Flexible</i><span class="absolute -top-2 inline-block ltr:-right-[2px] rtl:-left-[2px]"><svg width="25" height="14" viewBox="0 0 25 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.4375 7C0.4375 3.37563 3.37563 0.4375 7 0.4375H18C21.6244 0.4375 24.5625 3.37563 24.5625 7C24.5625 10.6244 21.6244 13.5625 18 13.5625H7C3.37563 13.5625 0.4375 10.6244 0.4375 7Z" fill="#FF9142"></path><path d="M4.11408 10V4.05H5.29533V6.465H7.92908V4.05H9.10158V10H7.92908V7.4275H5.29533V10H4.11408ZM12.996 10.1313C11.1935 10.1313 10.0823 8.95 10.0823 7.03375C10.0823 5.1175 11.1935 3.91875 12.996 3.91875C14.7985 3.91875 15.9185 5.1175 15.9185 7.03375C15.9185 8.95 14.7985 10.1313 12.996 10.1313ZM12.996 9.15125C14.0723 9.15125 14.711 8.355 14.711 7.03375C14.711 5.7125 14.0723 4.89875 12.996 4.89875C11.9198 4.89875 11.2898 5.70375 11.2898 7.03375C11.2898 8.355 11.9198 9.15125 12.996 9.15125ZM18.1388 10V5.02125H16.2226V4.05H21.2363V5.02125H19.3201V10H18.1388Z" fill="white"></path><path d="M0.4375 7C0.4375 3.37563 3.37563 0.4375 7 0.4375H18C21.6244 0.4375 24.5625 3.37563 24.5625 7C24.5625 10.6244 21.6244 13.5625 18 13.5625H7C3.37563 13.5625 0.4375 10.6244 0.4375 7Z" stroke="white" stroke-width="0.875"></path></svg></span><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                    </section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <span>Subscribe</span></button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              <tr data-row-key="i4g5kp8o9to" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Shark Fin</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">6.00%~8.64%</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[48px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">7</i><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                    </section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <a href="/earning/shark-fin" class="!transition-none">View </a>
-                                                    </button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              <tr data-row-key="a4df9bm4qd" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Smart Trend</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">4.00%~19.47%</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[48px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">7</i><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                    </section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <a href="/earning/smart-trend" class="!transition-none">View </a>
-                                                    </button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              <tr data-row-key="na6mttbf81g" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Dual Investment</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">High returns</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">5.10%~247.12%</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[64px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">Fixed</i><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                    </section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <a href="/earning/dual-investment" class="!transition-none">View </a>
-                                                    </button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              </tbody>
-                                            </table>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="block lg:hidden block">
-                                <div class="block flex w-full flex-col justify-center lg:hidden"></div>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr data-row-key="718" class="bit-table-row bit-table-row-level-0">
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div class="EarnProductList_earn-prd-col-coin_name__7o4U5">
-                                  <img src="https://img.bitgetimg.com/multiLang/coin_img/1cce24cb5c280706fcec9a1b223b8210.png" alt="KAS-lvl7jph2hu8" width="24" class="rounded-full object-cover ltr:mr-[8px] rtl:ml-[8px]">
-                                  <div>
-                                    <div class="inline-block">
-                                      <a class="cursor-auto text-inherit hover:text-inherit" href="https://www.bitget.com/price/kaspa">KAS</a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell bit-table-column-sort" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5 flex">0.40%
-                                <div class="flex"></div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div>Flexible</div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: right;">
-                              <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-[24px] w-[24px] transition duration-300 ease-out rotate-180">
-                                  <path d="M20.03 9.53l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 15.44l6.97-6.97a.75.75 0 011.06 1.06z"></path>
-                                </svg>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr class="bit-table-expanded-row bit-table-expanded-row-level-1 EarnProductList_expanded-row__8_u1N">
-                            <td class="bit-table-cell" colspan="4">
-                              <div class="hidden lg:block">
-                                <div class="bit-table-wrapper Table_pTable__1khAH css-y0hvqx" style="margin: 0px;">
-                                  <div class="bit-spin-nested-loading css-y0hvqx">
-                                    <div class="bit-spin-container">
-                                      <div class="bit-table">
-                                        <div class="bit-table-container">
-                                          <div class="bit-table-content">
-                                            <table style="table-layout: auto;">
-                                              <colgroup>
-                                                <col style="width: 328px;">
-                                                <col style="width: 348px;">
-                                                <col>
-                                                <col style="width: 200px;">
-                                              </colgroup>
-                                              <tbody class="bit-table-tbody">
-                                              <tr data-row-key="1058247559807918080" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Savings</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">0.40%</div>
-                                                    </div>
-                                                    <div class="mt-[6px] flex flex-wrap items-center leading-[18px]">
-                                                      <div class="flex items-center text-[12px] font-[400] leading-[18px] me-[8px]">
-                                                        <img class="h-[14px] w-[14px] ltr:mr-[2px] rtl:ml-[2px]" src="https://img.bitgetimg.com/multiLang/coin_img/10d0024b93a70ef8562ae11ae5bc1184.png" alt="BGB-10d0024b93a70ef8562ae11ae5bc1184">
-                                                        <div class="text-content-tertiary">Earn BGB</div>
-                                                      </div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[64px] !bg-transparent !text-disabledText border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">Flexible</i><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                    </section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <span>Sold out</span></button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              </tbody>
-                                            </table>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="block lg:hidden block">
-                                <div class="block flex w-full flex-col justify-center lg:hidden"></div>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr data-row-key="87" class="bit-table-row bit-table-row-level-0">
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div class="EarnProductList_earn-prd-col-coin_name__7o4U5">
-                                  <img src="https://img.bitgetimg.com/multiLang/coin_img/923b2c797a99f6a402c5969dce135b5e.png" alt="BNB-r5j82k11jpg" width="24" class="rounded-full object-cover ltr:mr-[8px] rtl:ml-[8px]">
-                                  <div>
-                                    <div class="inline-block">
-                                      <a class="cursor-auto text-inherit hover:text-inherit" href="https://www.bitget.com/price/binance">BNB</a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell bit-table-column-sort" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5 flex">0.50%~109.69%
-                                <div class="flex"></div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div>Flexible/Fixed</div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: right;">
-                              <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-[24px] w-[24px] transition duration-300 ease-out rotate-180">
-                                  <path d="M20.03 9.53l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 15.44l6.97-6.97a.75.75 0 011.06 1.06z"></path>
-                                </svg>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr class="bit-table-expanded-row bit-table-expanded-row-level-1 EarnProductList_expanded-row__8_u1N">
-                            <td class="bit-table-cell" colspan="4">
-                              <div class="hidden lg:block">
-                                <div class="bit-table-wrapper Table_pTable__1khAH css-y0hvqx" style="margin: 0px;">
-                                  <div class="bit-spin-nested-loading css-y0hvqx">
-                                    <div class="bit-spin-container">
-                                      <div class="bit-table">
-                                        <div class="bit-table-container">
-                                          <div class="bit-table-content">
-                                            <table style="table-layout: auto;">
-                                              <colgroup>
-                                                <col style="width: 328px;">
-                                                <col style="width: 348px;">
-                                                <col>
-                                                <col style="width: 200px;">
-                                              </colgroup>
-                                              <tbody class="bit-table-tbody">
-                                              <tr data-row-key="966540216348610560" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Savings</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">0.50%</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[64px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">Flexible</i><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                    </section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <span>Subscribe</span></button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              <tr data-row-key="4ef9nbelnto" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Dual Investment</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">High returns</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">5.04%~109.69%</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[64px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">Fixed</i><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                    </section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <a href="/earning/dual-investment" class="!transition-none">View </a>
-                                                    </button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              </tbody>
-                                            </table>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="block lg:hidden block">
-                                <div class="block flex w-full flex-col justify-center lg:hidden"></div>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr data-row-key="2" class="bit-table-row bit-table-row-level-0">
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div class="EarnProductList_earn-prd-col-coin_name__7o4U5">
-                                  <img src="https://img.bitgetimg.com/multiLang/coin_img/fcfda5844dcb17d3416221e202dd1266.png" alt="USDT-jeevoo9c7r" width="24" class="rounded-full object-cover ltr:mr-[8px] rtl:ml-[8px]">
-                                  <div>
-                                    <div class="inline-block">USDT</div>
-                                  </div>
-                                </div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell bit-table-column-sort" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5 flex">1.07%~237.81%
-                                <div class="flex"></div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div>Flexible/Fixed</div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: right;">
-                              <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-[24px] w-[24px] transition duration-300 ease-out rotate-180">
-                                  <path d="M20.03 9.53l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 15.44l6.97-6.97a.75.75 0 011.06 1.06z"></path>
-                                </svg>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr class="bit-table-expanded-row bit-table-expanded-row-level-1 EarnProductList_expanded-row__8_u1N">
-                            <td class="bit-table-cell" colspan="4">
-                              <div class="hidden lg:block">
-                                <div class="bit-table-wrapper Table_pTable__1khAH css-y0hvqx" style="margin: 0px;">
-                                  <div class="bit-spin-nested-loading css-y0hvqx">
-                                    <div class="bit-spin-container">
-                                      <div class="bit-table">
-                                        <div class="bit-table-container">
-                                          <div class="bit-table-content">
-                                            <table style="table-layout: auto;">
-                                              <colgroup>
-                                                <col style="width: 328px;">
-                                                <col style="width: 348px;">
-                                                <col>
-                                                <col style="width: 200px;">
-                                              </colgroup>
-                                              <tbody class="bit-table-tbody">
-                                              <tr data-row-key="964334561256718336" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Savings</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">7.80%</div>
-                                                      <span class="ms-1 text-fs14 font-normal text-ds-color-text-tertiary">MAX</span>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[64px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">Flexible</i><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                    </section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <span>Subscribe</span></button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              <tr data-row-key="1073065355653828608" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Savings</div>
-                                                      <div class="flex cursor-pointer EarnProductList_mar-left-4__QcIRp">
-                                                        <div class="EarnStick_vip-pc__WHdlV">VIP</div>
-                                                      </div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">5.00%</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[48px]">
-                                                        <i class="not-italic">7</i></p>
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[48px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">14</i><span class="absolute -top-2 inline-block ltr:-right-[2px] rtl:-left-[2px]"><svg width="28" height="14" viewBox="0 0 28 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.4375 7C0.4375 3.37563 3.37563 0.4375 7 0.4375H21C24.6244 0.4375 27.5625 3.37563 27.5625 7C27.5625 10.6244 24.6244 13.5625 21 13.5625H7C3.37563 13.5625 0.4375 10.6244 0.4375 7Z" fill="#1CD8E9"></path><path d="M4.32807 10V4.05H5.57057L7.77557 7.585L8.18682 8.39875L8.14307 4.05H9.31557V10H8.08182L5.87682 6.47375L5.45682 5.6425L5.50932 10H4.32807ZM10.4975 10V4.05H14.68V4.98625H11.6788V6.47375H14.3475V7.40125H11.6788V9.06375H14.68V10H10.4975ZM20.8832 10L19.7895 6.21125L19.6495 5.6425L19.5095 6.21125L18.4245 10H17.0857L15.2745 4.05H16.5345L17.6632 8.24125L17.8032 8.845L17.9432 8.24125L19.142 4.05H20.2357L21.417 8.24125L21.5657 8.8625L21.697 8.24125L22.8257 4.05H24.0157L22.2132 10H20.8832Z" fill="white"></path><path d="M0.4375 7C0.4375 3.37563 3.37563 0.4375 7 0.4375H21C24.6244 0.4375 27.5625 3.37563 27.5625 7C27.5625 10.6244 24.6244 13.5625 21 13.5625H7C3.37563 13.5625 0.4375 10.6244 0.4375 7Z" stroke="white" stroke-width="0.875"></path></svg></span><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                    </section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <span>Subscribe</span></button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              <tr data-row-key="1083889093655810048" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Wealth Management</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">Guaranteed</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">5.02% ~ 9.20%</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[48px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">Fixed</i><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                    </section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <a href="/earning/wealth-management" class="!transition-none">View </a>
-                                                    </button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              <tr data-row-key="soi8qbfq6g8" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Shark Fin</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">6.00%~9.00%</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[48px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">7</i><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                    </section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <a href="/earning/shark-fin" class="!transition-none">View </a>
-                                                    </button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              <tr data-row-key="41r0c2bm5pg" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Smart Trend</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">4.00%~19.47%</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[48px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">7</i><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                    </section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <a href="/earning/smart-trend" class="!transition-none">View </a>
-                                                    </button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              <tr data-row-key="gjuu91au34" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Dual Investment</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">High returns</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">1.07%~237.81%</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[64px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">Fixed</i><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                    </section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <a href="/earning/dual-investment" class="!transition-none">View </a>
-                                                    </button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              </tbody>
-                                            </table>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="block lg:hidden block">
-                                <div class="block flex w-full flex-col justify-center lg:hidden"></div>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr data-row-key="129" class="bit-table-row bit-table-row-level-0">
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div class="EarnProductList_earn-prd-col-coin_name__7o4U5">
-                                  <img src="https://img.bitgetimg.com/multiLang/coin_img/10d0024b93a70ef8562ae11ae5bc1184.png" alt="BGB-6ouaeeeqf48" width="24" class="rounded-full object-cover ltr:mr-[8px] rtl:ml-[8px]">
-                                  <div>
-                                    <div class="inline-block">
-                                      <a class="cursor-auto text-inherit hover:text-inherit" href="https://www.bitget.com/price/bitget-token">BGB</a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell bit-table-column-sort" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5 flex">1.20%~19.47%
-                                <div class="flex"></div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div>Flexible/Fixed</div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: right;">
-                              <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-[24px] w-[24px] transition duration-300 ease-out rotate-180">
-                                  <path d="M20.03 9.53l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 15.44l6.97-6.97a.75.75 0 011.06 1.06z"></path>
-                                </svg>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr class="bit-table-expanded-row bit-table-expanded-row-level-1 EarnProductList_expanded-row__8_u1N">
-                            <td class="bit-table-cell" colspan="4">
-                              <div class="hidden lg:block">
-                                <div class="bit-table-wrapper Table_pTable__1khAH css-y0hvqx" style="margin: 0px;">
-                                  <div class="bit-spin-nested-loading css-y0hvqx">
-                                    <div class="bit-spin-container">
-                                      <div class="bit-table">
-                                        <div class="bit-table-container">
-                                          <div class="bit-table-content">
-                                            <table style="table-layout: auto;">
-                                              <colgroup>
-                                                <col style="width: 328px;">
-                                                <col style="width: 348px;">
-                                                <col>
-                                                <col style="width: 200px;">
-                                              </colgroup>
-                                              <tbody class="bit-table-tbody">
-                                              <tr data-row-key="1043742729408237568" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Savings</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">1.70%</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[64px]">
-                                                        <i class="not-italic">Flexible</i></p>
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[48px]">
-                                                        <i class="not-italic">7</i></p>
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[48px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">14</i><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                    </section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <span>Subscribe</span></button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              <tr data-row-key="100000000000000000" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">BGB Staking</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">2.00%</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[64px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">Flexible</i><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                    </section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <a href="/earning/bgb-staking" class="!transition-none">View </a>
-                                                    </button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              <tr data-row-key="h39cfmclstg" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Smart Trend</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">4.00%~19.47%</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[48px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">7</i><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                    </section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <a href="/earning/smart-trend" class="!transition-none">View </a>
-                                                    </button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              </tbody>
-                                            </table>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="block lg:hidden block">
-                                <div class="block flex w-full flex-col justify-center lg:hidden"></div>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr data-row-key="1" class="bit-table-row bit-table-row-level-0">
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div class="EarnProductList_earn-prd-col-coin_name__7o4U5">
-                                  <img src="https://img.bitgetimg.com/multiLang/coin_img/2edf1ef8b333c40979976d1a49bc234c.png" alt="BTC-j3q0hsg8q48" width="24" class="rounded-full object-cover ltr:mr-[8px] rtl:ml-[8px]">
-                                  <div>
-                                    <div class="inline-block">
-                                      <a class="cursor-auto text-inherit hover:text-inherit" href="https://www.bitget.com/price/bitcoin">BTC</a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell bit-table-column-sort" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5 flex">1.20%~214.34%
-                                <div class="flex"></div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div>Flexible/Fixed</div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: right;">
-                              <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-[24px] w-[24px] transition duration-300 ease-out rotate-180">
-                                  <path d="M20.03 9.53l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 15.44l6.97-6.97a.75.75 0 011.06 1.06z"></path>
-                                </svg>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr class="bit-table-expanded-row bit-table-expanded-row-level-1 EarnProductList_expanded-row__8_u1N">
-                            <td class="bit-table-cell" colspan="4">
-                              <div class="hidden lg:block">
-                                <div class="bit-table-wrapper Table_pTable__1khAH css-y0hvqx" style="margin: 0px;">
-                                  <div class="bit-spin-nested-loading css-y0hvqx">
-                                    <div class="bit-spin-container">
-                                      <div class="bit-table">
-                                        <div class="bit-table-container">
-                                          <div class="bit-table-content">
-                                            <table style="table-layout: auto;">
-                                              <colgroup>
-                                                <col style="width: 328px;">
-                                                <col style="width: 348px;">
-                                                <col>
-                                                <col style="width: 200px;">
-                                              </colgroup>
-                                              <tbody class="bit-table-tbody">
-                                              <tr data-row-key="928476216922914817" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Savings</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">1.60%</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[64px]">
-                                                        <i class="not-italic">Flexible</i></p>
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[48px]">
-                                                        <i class="not-italic">7</i></p>
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[48px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">14</i><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                    </section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <span>Subscribe</span></button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              <tr data-row-key="996176095743467520" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Savings</div>
-                                                      <div class="flex cursor-pointer EarnProductList_mar-left-4__QcIRp">
-                                                        <div class="EarnStick_vip-pc__WHdlV">VIP</div>
-                                                      </div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">1.60%</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[64px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">Flexible</i><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                    </section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <span>Subscribe</span></button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              <tr data-row-key="uujko3qsntg" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Shark Fin</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">3.50%~7.70%</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[48px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">7</i><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                    </section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <a href="/earning/shark-fin" class="!transition-none">View </a>
-                                                    </button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              <tr data-row-key="tvfr391sov" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Smart Trend</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">3.50%~19.55%</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[48px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">7</i><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                    </section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <a href="/earning/smart-trend" class="!transition-none">View </a>
-                                                    </button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              <tr data-row-key="cfcd1tq08ao" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Dual Investment</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">High returns</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">5.64%~214.34%</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[64px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">Fixed</i><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                    </section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <a href="/earning/dual-investment" class="!transition-none">View </a>
-                                                    </button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              </tbody>
-                                            </table>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="block lg:hidden block">
-                                <div class="block flex w-full flex-col justify-center lg:hidden"></div>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr data-row-key="1075" class="bit-table-row bit-table-row-level-0">
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div class="EarnProductList_earn-prd-col-coin_name__7o4U5">
-                                  <img src="https://img.bitgetimg.com/multiLang/web/0b0245bf4f98df47eded5dc3e119c120.jpg" alt="ONDO-80l28jo27eo" width="24" class="rounded-full object-cover ltr:mr-[8px] rtl:ml-[8px]">
-                                  <div>
-                                    <div class="inline-block">
-                                      <a class="cursor-auto text-inherit hover:text-inherit" href="https://www.bitget.com/price/ondo">ONDO</a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell bit-table-column-sort" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5 flex">1.30%
-                                <div class="flex"></div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div>Flexible</div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: right;">
-                              <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-[24px] w-[24px] transition duration-300 ease-out">
-                                  <path d="M20.03 9.53l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 15.44l6.97-6.97a.75.75 0 011.06 1.06z"></path>
-                                </svg>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr data-row-key="125" class="bit-table-row bit-table-row-level-0">
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div class="EarnProductList_earn-prd-col-coin_name__7o4U5">
-                                  <img src="https://img.bitgetimg.com/multiLang/coin_img/0775c829a7424c40e828e1bd709173d9.png" alt="ADA-vuv9ck0efg" width="24" class="rounded-full object-cover ltr:mr-[8px] rtl:ml-[8px]">
-                                  <div>
-                                    <div class="inline-block">
-                                      <a class="cursor-auto text-inherit hover:text-inherit" href="https://www.bitget.com/price/cardano">ADA</a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell bit-table-column-sort" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5 flex">1.80%~2.50%
-                                <div class="flex"></div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div>Flexible</div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: right;">
-                              <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-[24px] w-[24px] transition duration-300 ease-out">
-                                  <path d="M20.03 9.53l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 15.44l6.97-6.97a.75.75 0 011.06 1.06z"></path>
-                                </svg>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr class="bit-table-expanded-row bit-table-expanded-row-level-1 EarnProductList_expanded-row__8_u1N" style="display: none;">
-                            <td class="bit-table-cell" colspan="4">
-                              <div class="hidden lg:block">
-                                <div class="bit-table-wrapper Table_pTable__1khAH css-y0hvqx" style="margin: 0px;">
-                                  <div class="bit-spin-nested-loading css-y0hvqx">
-                                    <div class="bit-spin-container">
-                                      <div class="bit-table">
-                                        <div class="bit-table-container">
-                                          <div class="bit-table-content">
-                                            <table style="table-layout: auto;">
-                                              <colgroup>
-                                                <col style="width: 328px;">
-                                                <col style="width: 348px;">
-                                                <col>
-                                                <col style="width: 200px;">
-                                              </colgroup>
-                                              <tbody class="bit-table-tbody">
-                                              <tr data-row-key="972002255653224449" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Savings</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">1.80%</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[64px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">Flexible</i><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                    </section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <span>Subscribe</span></button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              <tr data-row-key="1109693064794230784" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Staking</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">2.50%</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[64px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">Flexible</i><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                    </section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <span>Subscribe</span></button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              </tbody>
-                                            </table>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="block lg:hidden block">
-                                <div class="block flex w-full flex-col justify-center lg:hidden"></div>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr data-row-key="1330" class="bit-table-row bit-table-row-level-0">
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div class="EarnProductList_earn-prd-col-coin_name__7o4U5">
-                                  <img src="https://img.bitgetimg.com/multiLang/web/92834cd85b9b34a5fa24dbe0e829932f.jpeg" alt="BWB-nvp04a4cm88" width="24" class="rounded-full object-cover ltr:mr-[8px] rtl:ml-[8px]">
-                                  <div>
-                                    <div class="inline-block">
-                                      <a class="cursor-auto text-inherit hover:text-inherit" href="https://www.bitget.com/price/bitget-wallet-token">BWB</a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell bit-table-column-sort" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5 flex">2.00%~10.00%
-                                <div class="flex"></div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div>Flexible/Fixed</div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: right;">
-                              <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-[24px] w-[24px] transition duration-300 ease-out rotate-180">
-                                  <path d="M20.03 9.53l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 15.44l6.97-6.97a.75.75 0 011.06 1.06z"></path>
-                                </svg>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr class="bit-table-expanded-row bit-table-expanded-row-level-1 EarnProductList_expanded-row__8_u1N">
-                            <td class="bit-table-cell" colspan="4">
-                              <div class="hidden lg:block">
-                                <div class="bit-table-wrapper Table_pTable__1khAH css-y0hvqx" style="margin: 0px;">
-                                  <div class="bit-spin-nested-loading css-y0hvqx">
-                                    <div class="bit-spin-container">
-                                      <div class="bit-table">
-                                        <div class="bit-table-container">
-                                          <div class="bit-table-content">
-                                            <table style="table-layout: auto;">
-                                              <colgroup>
-                                                <col style="width: 328px;">
-                                                <col style="width: 348px;">
-                                                <col>
-                                                <col style="width: 200px;">
-                                              </colgroup>
-                                              <tbody class="bit-table-tbody">
-                                              <tr data-row-key="1182499838366212096" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Savings</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">3.00%</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[64px] !bg-transparent !text-disabledText">
-                                                        <i class="not-italic">Flexible</i>
-                                                      </p>
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[48px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">30</i>
-                                                        <span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[48px] !bg-transparent !text-disabledText">
-                                                        <i class="not-italic">90</i></p>
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[48px] !bg-transparent !text-disabledText">
-                                                        <i class="not-italic">180</i></p></section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <span>Subscribe</span></button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              </tbody>
-                                            </table>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="block lg:hidden block">
-                                <div class="block flex w-full flex-col justify-center lg:hidden"></div>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr data-row-key="122" class="bit-table-row bit-table-row-level-0">
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div class="EarnProductList_earn-prd-col-coin_name__7o4U5">
-                                  <img src="https://img.bitgetimg.com/multiLang/coin_img/1c1b05492d876ab7e3fa96ea2036ceb2.png" alt="SOL-npjn3c4nbg" width="24" class="rounded-full object-cover ltr:mr-[8px] rtl:ml-[8px]">
-                                  <div>
-                                    <div class="inline-block">
-                                      <a class="cursor-auto text-inherit hover:text-inherit" href="https://www.bitget.com/price/solana">SOL</a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell bit-table-column-sort" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5 flex">2.60%~141.46%
-                                <div class="flex"></div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div>Flexible/Fixed</div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: right;">
-                              <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-[24px] w-[24px] transition duration-300 ease-out rotate-180">
-                                  <path d="M20.03 9.53l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 15.44l6.97-6.97a.75.75 0 011.06 1.06z"></path>
-                                </svg>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr class="bit-table-expanded-row bit-table-expanded-row-level-1 EarnProductList_expanded-row__8_u1N">
-                            <td class="bit-table-cell" colspan="4">
-                              <div class="hidden lg:block">
-                                <div class="bit-table-wrapper Table_pTable__1khAH css-y0hvqx" style="margin: 0px;">
-                                  <div class="bit-spin-nested-loading css-y0hvqx">
-                                    <div class="bit-spin-container">
-                                      <div class="bit-table">
-                                        <div class="bit-table-container">
-                                          <div class="bit-table-content">
-                                            <table style="table-layout: auto;">
-                                              <colgroup>
-                                                <col style="width: 328px;">
-                                                <col style="width: 348px;">
-                                                <col>
-                                                <col style="width: 200px;">
-                                              </colgroup>
-                                              <tbody class="bit-table-tbody">
-                                              <tr data-row-key="1049802205617872896" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Savings</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">3.80%</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[64px]">
-                                                        <i class="not-italic">Flexible</i></p>
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[48px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">14</i><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                    </section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <span>Subscribe</span></button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              <tr data-row-key="1075266464287969280" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Staking</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">7.00%~10.00%</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[64px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">Flexible</i><span class="absolute -top-2 inline-block ltr:-right-[2px] rtl:-left-[2px]"><svg width="25" height="14" viewBox="0 0 25 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.4375 7C0.4375 3.37563 3.37563 0.4375 7 0.4375H18C21.6244 0.4375 24.5625 3.37563 24.5625 7C24.5625 10.6244 21.6244 13.5625 18 13.5625H7C3.37563 13.5625 0.4375 10.6244 0.4375 7Z" fill="#FF9142"></path><path d="M4.11408 10V4.05H5.29533V6.465H7.92908V4.05H9.10158V10H7.92908V7.4275H5.29533V10H4.11408ZM12.996 10.1313C11.1935 10.1313 10.0823 8.95 10.0823 7.03375C10.0823 5.1175 11.1935 3.91875 12.996 3.91875C14.7985 3.91875 15.9185 5.1175 15.9185 7.03375C15.9185 8.95 14.7985 10.1313 12.996 10.1313ZM12.996 9.15125C14.0723 9.15125 14.711 8.355 14.711 7.03375C14.711 5.7125 14.0723 4.89875 12.996 4.89875C11.9198 4.89875 11.2898 5.70375 11.2898 7.03375C11.2898 8.355 11.9198 9.15125 12.996 9.15125ZM18.1388 10V5.02125H16.2226V4.05H21.2363V5.02125H19.3201V10H18.1388Z" fill="white"></path><path d="M0.4375 7C0.4375 3.37563 3.37563 0.4375 7 0.4375H18C21.6244 0.4375 24.5625 3.37563 24.5625 7C24.5625 10.6244 21.6244 13.5625 18 13.5625H7C3.37563 13.5625 0.4375 10.6244 0.4375 7Z" stroke="white" stroke-width="0.875"></path></svg></span><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                    </section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <span>Subscribe</span></button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              <tr data-row-key="1gk1nj378qo" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Dual Investment</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">High returns</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">10.70%~141.46%</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[64px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">Fixed</i><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                    </section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <a href="/earning/dual-investment" class="!transition-none">View </a>
-                                                    </button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              </tbody>
-                                            </table>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="block lg:hidden block">
-                                <div class="block flex w-full flex-col justify-center lg:hidden"></div>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr data-row-key="234" class="bit-table-row bit-table-row-level-0">
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div class="EarnProductList_earn-prd-col-coin_name__7o4U5">
-                                  <img src="https://img.bitgetimg.com/multiLang/coin_img/0a7e281b727c103b3d143455f551ad79.png" alt="NEAR-la5rc3o4ij8" width="24" class="rounded-full object-cover ltr:mr-[8px] rtl:ml-[8px]">
-                                  <div>
-                                    <div class="inline-block">
-                                      <a class="cursor-auto text-inherit hover:text-inherit" href="https://www.bitget.com/price/near-protocol">NEAR</a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell bit-table-column-sort" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5 flex">4.20%~9.00%
-                                <div class="flex"></div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div>Flexible</div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: right;">
-                              <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-[24px] w-[24px] transition duration-300 ease-out">
-                                  <path d="M20.03 9.53l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 15.44l6.97-6.97a.75.75 0 011.06 1.06z"></path>
-                                </svg>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr data-row-key="1348" class="bit-table-row bit-table-row-level-0">
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div class="EarnProductList_earn-prd-col-coin_name__7o4U5">
-                                  <img src="https://img.bitgetimg.com/multiLang/web/6bfb0e017be7c649d7e3c5ee1fe9a6d9.png" alt="WUSD-c6mhvd10kkg" width="24" class="rounded-full object-cover ltr:mr-[8px] rtl:ml-[8px]">
-                                  <div>
-                                    <div class="inline-block">
-                                      <a class="cursor-auto text-inherit hover:text-inherit" href="https://www.bitget.com/price/worldwide-usd">WUSD</a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell bit-table-column-sort" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5 flex">5.00%~12.00%
-                                <div class="flex"></div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div>Flexible/Fixed</div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: right;">
-                              <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-[24px] w-[24px] transition duration-300 ease-out rotate-180">
-                                  <path d="M20.03 9.53l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 15.44l6.97-6.97a.75.75 0 011.06 1.06z"></path>
-                                </svg>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr class="bit-table-expanded-row bit-table-expanded-row-level-1 EarnProductList_expanded-row__8_u1N">
-                            <td class="bit-table-cell" colspan="4">
-                              <div class="hidden lg:block">
-                                <div class="bit-table-wrapper Table_pTable__1khAH css-y0hvqx" style="margin: 0px;">
-                                  <div class="bit-spin-nested-loading css-y0hvqx">
-                                    <div class="bit-spin-container">
-                                      <div class="bit-table">
-                                        <div class="bit-table-container">
-                                          <div class="bit-table-content">
-                                            <table style="table-layout: auto;">
-                                              <colgroup>
-                                                <col style="width: 328px;">
-                                                <col style="width: 348px;">
-                                                <col>
-                                                <col style="width: 200px;">
-                                              </colgroup>
-                                              <tbody class="bit-table-tbody">
-                                              <tr data-row-key="1192314998685585408" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Savings</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">12.00%</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[64px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">Flexible</i><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[48px]">
-                                                        <i class="not-italic">7</i></p>
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[48px]">
-                                                        <i class="not-italic">14</i></p></section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <span>Subscribe</span></button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              </tbody>
-                                            </table>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="block lg:hidden block">
-                                <div class="block flex w-full flex-col justify-center lg:hidden"></div>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr data-row-key="1222" class="bit-table-row bit-table-row-level-0">
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div class="EarnProductList_earn-prd-col-coin_name__7o4U5">
-                                  <img src="https://img.bitgetimg.com/multiLang/web/455ecd565da7feaaf69a5fd3549f4fa2.jpeg" alt="USDE-gmlcmqugduo" width="24" class="rounded-full object-cover ltr:mr-[8px] rtl:ml-[8px]">
-                                  <div>
-                                    <div class="inline-block">
-                                      <a class="cursor-auto text-inherit hover:text-inherit" href="https://www.bitget.com/price/ethena-usde">USDE</a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell bit-table-column-sort" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5 flex">6.00%
-                                <div class="flex"></div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div>Flexible/Fixed</div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: right;">
-                              <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-[24px] w-[24px] transition duration-300 ease-out rotate-180">
-                                  <path d="M20.03 9.53l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 15.44l6.97-6.97a.75.75 0 011.06 1.06z"></path>
-                                </svg>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr class="bit-table-expanded-row bit-table-expanded-row-level-1 EarnProductList_expanded-row__8_u1N">
-                            <td class="bit-table-cell" colspan="4">
-                              <div class="hidden lg:block">
-                                <div class="bit-table-wrapper Table_pTable__1khAH css-y0hvqx" style="margin: 0px;">
-                                  <div class="bit-spin-nested-loading css-y0hvqx">
-                                    <div class="bit-spin-container">
-                                      <div class="bit-table">
-                                        <div class="bit-table-container">
-                                          <div class="bit-table-content">
-                                            <table style="table-layout: auto;">
-                                              <colgroup>
-                                                <col style="width: 328px;">
-                                                <col style="width: 348px;">
-                                                <col>
-                                                <col style="width: 200px;">
-                                              </colgroup>
-                                              <tbody class="bit-table-tbody">
-                                              <tr data-row-key="1187253820431581184" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Savings</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">6.00%</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[64px] border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">Flexible</i><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[48px]">
-                                                        <i class="not-italic">30</i></p></section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <span>Subscribe</span></button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              </tbody>
-                                            </table>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="block lg:hidden block">
-                                <div class="block flex w-full flex-col justify-center lg:hidden"></div>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr data-row-key="897" class="bit-table-row bit-table-row-level-0">
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div class="EarnProductList_earn-prd-col-coin_name__7o4U5">
-                                  <img src="https://img.bitgetimg.com/multiLang/coin_img/ffd7ffb4926eafc24e2292ebc4d7125c.png" alt="PYUSD-d78rdupoooo" width="24" class="rounded-full object-cover ltr:mr-[8px] rtl:ml-[8px]">
-                                  <div>
-                                    <div class="inline-block">PYUSD</div>
-                                  </div>
-                                </div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell bit-table-column-sort" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5 flex">10.00%
-                                <div class="flex"></div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div>Flexible</div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: right;">
-                              <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-[24px] w-[24px] transition duration-300 ease-out rotate-180">
-                                  <path d="M20.03 9.53l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 15.44l6.97-6.97a.75.75 0 011.06 1.06z"></path>
-                                </svg>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr class="bit-table-expanded-row bit-table-expanded-row-level-1 EarnProductList_expanded-row__8_u1N">
-                            <td class="bit-table-cell" colspan="4">
-                              <div class="hidden lg:block">
-                                <div class="bit-table-wrapper Table_pTable__1khAH css-y0hvqx" style="margin: 0px;">
-                                  <div class="bit-spin-nested-loading css-y0hvqx">
-                                    <div class="bit-spin-container">
-                                      <div class="bit-table">
-                                        <div class="bit-table-container">
-                                          <div class="bit-table-content">
-                                            <table style="table-layout: auto;">
-                                              <colgroup>
-                                                <col style="width: 328px;">
-                                                <col style="width: 348px;">
-                                                <col>
-                                                <col style="width: 200px;">
-                                              </colgroup>
-                                              <tbody class="bit-table-tbody">
-                                              <tr data-row-key="1212958688043384832" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Savings</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
-                                                    </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">10.00%</div>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[64px] !bg-transparent !text-disabledText border !border-content-link-default !bg-greenBg">
-                                                        <i class="not-italic">Flexible</i><span class="absolute -bottom-[2px] -right-[1px]"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path></svg></span>
-                                                      </p>
-                                                    </section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <span>Sold out</span></button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              </tbody>
-                                            </table>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="block lg:hidden block">
-                                <div class="block flex w-full flex-col justify-center lg:hidden"></div>
-                              </div>
-                            </td>
-                          </tr>
-                          </tbody>
                         </table>
                       </div>
                     </div>
@@ -2828,401 +561,76 @@
           </div>
           <div class="block lg:hidden block">
             <div class="block flex w-full flex-col justify-center lg:hidden">
-              <div class="EarnProductList_earn-list-h5__ni3RI">
+              <div v-for="item in productList" :key="item.currency_id"
+                   @click="switchShow($event, item.currency_id)"
+                   class="EarnProductList_earn-list-h5__ni3RI">
                 <div class="EarnProductList_earn-list-h5-content__2jxNQ">
                   <div class="EarnProductList_card-top__9IpTz">
                     <div class="EarnProductList_coin-info__3wSHG">
                       <img src="https://img.bitgetimg.com/multiLang/coin_img/25bcb059251caa734d596e764838b1aa.png" alt="USDC-vpfcfpqerm" class="EarnProductList_mar-right-8__LubNZ h-[24px] w-[24px] rounded-full object-cover">
                       <div class="flex flex-col">
-                        <div class="coin-info-name flex items-center text-content-primary">USDC</div>
+                        <div class="coin-info-name flex items-center text-content-primary">
+                          {{ item.product_name }}
+                        </div>
                       </div>
                     </div>
                     <div class="EarnProductList_apy-info__r_H4Z">
                       <div class="EarnProductList_apy-info-content__S_EPj">
-                        <div class="leading-22px text-[16px] font-[600] text-content-primary">0.30%~8.00%</div>
+                        <div class="leading-22px text-[16px] font-[600] text-content-primary">
+                          {{ computeApr(item.currency_id) }}
+                        </div>
                         <div class="flex"></div>
                       </div>
                       <div>
                         <div class="ms-1">
-                          <svg width="1em" height="1em" viewBox="0 0 20 20" fill="var(--content-primary)" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4">
+                          <svg :class="{'rotate-[180deg]': item.show_child_dom}"
+                               width="1em" height="1em" viewBox="0 0 20 20" fill="var(--content-primary)" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4">
                             <path d="m16.692 7.942-6.25 6.25a.625.625 0 0 1-.884 0l-6.25-6.25a.625.625 0 1 1 .884-.884L10 12.866l5.808-5.808a.626.626 0 0 1 .884.884Z" fill="current"></path>
                           </svg>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div class="EarnProductList_earn-list-h5__ni3RI">
-                <div class="EarnProductList_earn-list-h5-content__2jxNQ">
-                  <div class="EarnProductList_card-top__9IpTz">
-                    <div class="EarnProductList_coin-info__3wSHG">
-                      <img src="https://img.bitgetimg.com/multiLang/coin_img/2ff7f38071e2127494c5f2001d5f4513.png" alt="PEPE-n09d8h68hso" class="EarnProductList_mar-right-8__LubNZ h-[24px] w-[24px] rounded-full object-cover">
-                      <div class="flex flex-col">
-                        <div class="coin-info-name flex items-center text-content-primary">PEPE</div>
-                      </div>
-                    </div>
-                    <div class="EarnProductList_apy-info__r_H4Z">
-                      <div class="EarnProductList_apy-info-content__S_EPj">
-                        <div class="leading-22px text-[16px] font-[600] text-content-primary">0.30%</div>
-                        <div class="flex"></div>
-                      </div>
-                      <div>
-                        <div class="ms-1">
-                          <svg width="1em" height="1em" viewBox="0 0 20 20" fill="var(--content-primary)" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4">
-                            <path d="m16.692 7.942-6.25 6.25a.625.625 0 0 1-.884 0l-6.25-6.25a.625.625 0 1 1 .884-.884L10 12.866l5.808-5.808a.626.626 0 0 1 .884.884Z" fill="current"></path>
-                          </svg>
+
+                  <div v-if="item.show_child_dom" class="expand-content">
+                    <div class="EarnProductList_expand-content-box__H_Gwv border-t border-ds-color-border-strong">
+                      <div class="mb-[16px] flex justify-between">
+                        <div>
+                          <div class="leading-20px flex items-center text-[14px] text-content-primary">Savings</div>
+                          <div class="EarnProductList_box-tag__ENumq">
+                            <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
+                          </div>
+                        </div>
+
+                        <div>
+                          <div class="leading-22px flex items-center justify-end text-content-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-[16px] cursor-pointer text-content-tertiary">
+                              <path fill-rule="evenodd" d="M3.75 12a8.25 8.25 0 1116.5 0 8.25 8.25 0 01-16.5 0zM12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm1.706 6.957a.947.947 0 01-.703.292.973.973 0 01-.708-.29.943.943 0 01-.295-.706c0-.273.098-.508.295-.705a.977.977 0 01.707-.298.952.952 0 01.704.298.968.968 0 01.294.705.944.944 0 01-.294.705zm.35 6.597c-.412.142-.736.252-.981.329a2.798 2.798 0 01-.853.117c-.495 0-.883-.11-1.156-.324a1.008 1.008 0 01-.416-.829c0-.128.011-.258.032-.393.026-.155.059-.309.098-.46l.514-1.624a.975.975 0 00.032-.25c.003-.064.005-.127.02-.191a1.687 1.687 0 00.047-.465c.002-.165.004-.278-.077-.344-.08-.067-.213-.065-.404-.062l-.145.002c-.134 0-.272.02-.409.052a.805.805 0 01-.193.024c-.06.002-.115.004-.165.023l.138-.504c.333-.124.656-.227.963-.311.282-.085.575-.128.87-.128.495 0 .875.102 1.142.315.268.215.563.493.563.829 0 .065-.01.174-.024.332l-.004.043a2.258 2.258 0 01-.102.486l-.675 1.617a4.576 4.576 0 00-.11.447 1.95 1.95 0 00-.053.375c0 .214.056.362.162.44.11.078.296.117.56.117.123 0 .264-.02.421-.058.16-.039.271-.071.341-.104l-.136.499z" clip-rule="evenodd"></path>
+                            </svg>
+                            <div>{{ item.current_apr }}%</div>
+                          </div>
+                          <div class="flex"></div>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="EarnProductList_earn-list-h5__ni3RI">
-                <div class="EarnProductList_earn-list-h5-content__2jxNQ">
-                  <div class="EarnProductList_card-top__9IpTz">
-                    <div class="EarnProductList_coin-info__3wSHG">
-                      <img src="https://img.bitgetimg.com/multiLang/coin_img/f6eba5dbcb1e8ce5ed7b053985f314b1.png" alt="ETH-hfhuj6qvm9g" class="EarnProductList_mar-right-8__LubNZ h-[24px] w-[24px] rounded-full object-cover">
-                      <div class="flex flex-col">
-                        <div class="coin-info-name flex items-center text-content-primary">ETH</div>
-                      </div>
-                    </div>
-                    <div class="EarnProductList_apy-info__r_H4Z">
-                      <div class="EarnProductList_apy-info-content__S_EPj">
-                        <div class="leading-22px text-[16px] font-[600] text-content-primary">0.40%~247.12%</div>
-                        <div class="flex"></div>
-                      </div>
-                      <div>
-                        <div class="ms-1">
-                          <svg width="1em" height="1em" viewBox="0 0 20 20" fill="var(--content-primary)" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4">
-                            <path d="m16.692 7.942-6.25 6.25a.625.625 0 0 1-.884 0l-6.25-6.25a.625.625 0 1 1 .884-.884L10 12.866l5.808-5.808a.626.626 0 0 1 .884.884Z" fill="current"></path>
-                          </svg>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="EarnProductList_earn-list-h5__ni3RI">
-                <div class="EarnProductList_earn-list-h5-content__2jxNQ">
-                  <div class="EarnProductList_card-top__9IpTz">
-                    <div class="EarnProductList_coin-info__3wSHG">
-                      <img src="https://img.bitgetimg.com/multiLang/coin_img/1cce24cb5c280706fcec9a1b223b8210.png" alt="KAS-839cdpi7on" class="EarnProductList_mar-right-8__LubNZ h-[24px] w-[24px] rounded-full object-cover">
-                      <div class="flex flex-col">
-                        <div class="coin-info-name flex items-center text-content-primary">KAS</div>
-                      </div>
-                    </div>
-                    <div class="EarnProductList_apy-info__r_H4Z">
-                      <div class="EarnProductList_apy-info-content__S_EPj">
-                        <div class="leading-22px text-[16px] font-[600] text-content-primary">0.40%</div>
-                        <div class="flex"></div>
-                      </div>
-                      <div>
-                        <div class="ms-1">
-                          <svg width="1em" height="1em" viewBox="0 0 20 20" fill="var(--content-primary)" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4">
-                            <path d="m16.692 7.942-6.25 6.25a.625.625 0 0 1-.884 0l-6.25-6.25a.625.625 0 1 1 .884-.884L10 12.866l5.808-5.808a.626.626 0 0 1 .884.884Z" fill="current"></path>
-                          </svg>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="EarnProductList_earn-list-h5__ni3RI">
-                <div class="EarnProductList_earn-list-h5-content__2jxNQ">
-                  <div class="EarnProductList_card-top__9IpTz">
-                    <div class="EarnProductList_coin-info__3wSHG">
-                      <img src="https://img.bitgetimg.com/multiLang/coin_img/923b2c797a99f6a402c5969dce135b5e.png" alt="BNB-gsct962h7j8" class="EarnProductList_mar-right-8__LubNZ h-[24px] w-[24px] rounded-full object-cover">
-                      <div class="flex flex-col">
-                        <div class="coin-info-name flex items-center text-content-primary">BNB</div>
-                      </div>
-                    </div>
-                    <div class="EarnProductList_apy-info__r_H4Z">
-                      <div class="EarnProductList_apy-info-content__S_EPj">
-                        <div class="leading-22px text-[16px] font-[600] text-content-primary">0.50%~109.69%</div>
-                        <div class="flex"></div>
-                      </div>
-                      <div>
-                        <div class="ms-1">
-                          <svg width="1em" height="1em" viewBox="0 0 20 20" fill="var(--content-primary)" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4">
-                            <path d="m16.692 7.942-6.25 6.25a.625.625 0 0 1-.884 0l-6.25-6.25a.625.625 0 1 1 .884-.884L10 12.866l5.808-5.808a.626.626 0 0 1 .884.884Z" fill="current"></path>
-                          </svg>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="EarnProductList_earn-list-h5__ni3RI">
-                <div class="EarnProductList_earn-list-h5-content__2jxNQ">
-                  <div class="EarnProductList_card-top__9IpTz">
-                    <div class="EarnProductList_coin-info__3wSHG">
-                      <img src="https://img.bitgetimg.com/multiLang/coin_img/fcfda5844dcb17d3416221e202dd1266.png" alt="USDT-b50hif8kq4" class="EarnProductList_mar-right-8__LubNZ h-[24px] w-[24px] rounded-full object-cover">
-                      <div class="flex flex-col">
-                        <div class="coin-info-name flex items-center text-content-primary">USDT</div>
-                      </div>
-                    </div>
-                    <div class="EarnProductList_apy-info__r_H4Z">
-                      <div class="EarnProductList_apy-info-content__S_EPj">
-                        <div class="leading-22px text-[16px] font-[600] text-content-primary">1.07%~237.81%</div>
-                        <div class="flex"></div>
-                      </div>
-                      <div>
-                        <div class="ms-1">
-                          <svg width="1em" height="1em" viewBox="0 0 20 20" fill="var(--content-primary)" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4">
-                            <path d="m16.692 7.942-6.25 6.25a.625.625 0 0 1-.884 0l-6.25-6.25a.625.625 0 1 1 .884-.884L10 12.866l5.808-5.808a.626.626 0 0 1 .884.884Z" fill="current"></path>
-                          </svg>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="EarnProductList_earn-list-h5__ni3RI">
-                <div class="EarnProductList_earn-list-h5-content__2jxNQ">
-                  <div class="EarnProductList_card-top__9IpTz">
-                    <div class="EarnProductList_coin-info__3wSHG">
-                      <img src="https://img.bitgetimg.com/multiLang/coin_img/10d0024b93a70ef8562ae11ae5bc1184.png" alt="BGB-jvih10rrcgo" class="EarnProductList_mar-right-8__LubNZ h-[24px] w-[24px] rounded-full object-cover">
-                      <div class="flex flex-col">
-                        <div class="coin-info-name flex items-center text-content-primary">BGB</div>
-                      </div>
-                    </div>
-                    <div class="EarnProductList_apy-info__r_H4Z">
-                      <div class="EarnProductList_apy-info-content__S_EPj">
-                        <div class="leading-22px text-[16px] font-[600] text-content-primary">1.20%~19.47%</div>
-                        <div class="flex"></div>
-                      </div>
-                      <div>
-                        <div class="ms-1">
-                          <svg width="1em" height="1em" viewBox="0 0 20 20" fill="var(--content-primary)" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4">
-                            <path d="m16.692 7.942-6.25 6.25a.625.625 0 0 1-.884 0l-6.25-6.25a.625.625 0 1 1 .884-.884L10 12.866l5.808-5.808a.626.626 0 0 1 .884.884Z" fill="current"></path>
-                          </svg>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="EarnProductList_earn-list-h5__ni3RI">
-                <div class="EarnProductList_earn-list-h5-content__2jxNQ">
-                  <div class="EarnProductList_card-top__9IpTz">
-                    <div class="EarnProductList_coin-info__3wSHG">
-                      <img src="https://img.bitgetimg.com/multiLang/coin_img/2edf1ef8b333c40979976d1a49bc234c.png" alt="BTC-ia8i1a3aij" class="EarnProductList_mar-right-8__LubNZ h-[24px] w-[24px] rounded-full object-cover">
-                      <div class="flex flex-col">
-                        <div class="coin-info-name flex items-center text-content-primary">BTC</div>
-                      </div>
-                    </div>
-                    <div class="EarnProductList_apy-info__r_H4Z">
-                      <div class="EarnProductList_apy-info-content__S_EPj">
-                        <div class="leading-22px text-[16px] font-[600] text-content-primary">1.20%~214.34%</div>
-                        <div class="flex"></div>
-                      </div>
-                      <div>
-                        <div class="ms-1">
-                          <svg width="1em" height="1em" viewBox="0 0 20 20" fill="var(--content-primary)" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4">
-                            <path d="m16.692 7.942-6.25 6.25a.625.625 0 0 1-.884 0l-6.25-6.25a.625.625 0 1 1 .884-.884L10 12.866l5.808-5.808a.626.626 0 0 1 .884.884Z" fill="current"></path>
-                          </svg>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="EarnProductList_earn-list-h5__ni3RI">
-                <div class="EarnProductList_earn-list-h5-content__2jxNQ">
-                  <div class="EarnProductList_card-top__9IpTz">
-                    <div class="EarnProductList_coin-info__3wSHG">
-                      <img src="https://img.bitgetimg.com/multiLang/web/0b0245bf4f98df47eded5dc3e119c120.jpg" alt="ONDO-qs1cfd7ds8" class="EarnProductList_mar-right-8__LubNZ h-[24px] w-[24px] rounded-full object-cover">
-                      <div class="flex flex-col">
-                        <div class="coin-info-name flex items-center text-content-primary">ONDO</div>
-                      </div>
-                    </div>
-                    <div class="EarnProductList_apy-info__r_H4Z">
-                      <div class="EarnProductList_apy-info-content__S_EPj">
-                        <div class="leading-22px text-[16px] font-[600] text-content-primary">1.30%</div>
-                        <div class="flex"></div>
-                      </div>
-                      <div>
-                        <div class="ms-1">
-                          <svg width="1em" height="1em" viewBox="0 0 20 20" fill="var(--content-primary)" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4">
-                            <path d="m16.692 7.942-6.25 6.25a.625.625 0 0 1-.884 0l-6.25-6.25a.625.625 0 1 1 .884-.884L10 12.866l5.808-5.808a.626.626 0 0 1 .884.884Z" fill="current"></path>
-                          </svg>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="EarnProductList_earn-list-h5__ni3RI">
-                <div class="EarnProductList_earn-list-h5-content__2jxNQ">
-                  <div class="EarnProductList_card-top__9IpTz">
-                    <div class="EarnProductList_coin-info__3wSHG">
-                      <img src="https://img.bitgetimg.com/multiLang/coin_img/0775c829a7424c40e828e1bd709173d9.png" alt="ADA-ddm5snfv6to" class="EarnProductList_mar-right-8__LubNZ h-[24px] w-[24px] rounded-full object-cover">
-                      <div class="flex flex-col">
-                        <div class="coin-info-name flex items-center text-content-primary">ADA</div>
-                      </div>
-                    </div>
-                    <div class="EarnProductList_apy-info__r_H4Z">
-                      <div class="EarnProductList_apy-info-content__S_EPj">
-                        <div class="leading-22px text-[16px] font-[600] text-content-primary">1.80%~2.50%</div>
-                        <div class="flex"></div>
-                      </div>
-                      <div>
-                        <div class="ms-1">
-                          <svg width="1em" height="1em" viewBox="0 0 20 20" fill="var(--content-primary)" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4">
-                            <path d="m16.692 7.942-6.25 6.25a.625.625 0 0 1-.884 0l-6.25-6.25a.625.625 0 1 1 .884-.884L10 12.866l5.808-5.808a.626.626 0 0 1 .884.884Z" fill="current"></path>
-                          </svg>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="EarnProductList_earn-list-h5__ni3RI">
-                <div class="EarnProductList_earn-list-h5-content__2jxNQ">
-                  <div class="EarnProductList_card-top__9IpTz">
-                    <div class="EarnProductList_coin-info__3wSHG">
-                      <img src="https://img.bitgetimg.com/multiLang/web/92834cd85b9b34a5fa24dbe0e829932f.jpeg" alt="BWB-e2m9f6c4k2o" class="EarnProductList_mar-right-8__LubNZ h-[24px] w-[24px] rounded-full object-cover">
-                      <div class="flex flex-col">
-                        <div class="coin-info-name flex items-center text-content-primary">BWB</div>
-                      </div>
-                    </div>
-                    <div class="EarnProductList_apy-info__r_H4Z">
-                      <div class="EarnProductList_apy-info-content__S_EPj">
-                        <div class="leading-22px text-[16px] font-[600] text-content-primary">2.00%~10.00%</div>
-                        <div class="flex"></div>
-                      </div>
-                      <div>
-                        <div class="ms-1">
-                          <svg width="1em" height="1em" viewBox="0 0 20 20" fill="var(--content-primary)" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4">
-                            <path d="m16.692 7.942-6.25 6.25a.625.625 0 0 1-.884 0l-6.25-6.25a.625.625 0 1 1 .884-.884L10 12.866l5.808-5.808a.626.626 0 0 1 .884.884Z" fill="current"></path>
-                          </svg>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="EarnProductList_earn-list-h5__ni3RI">
-                <div class="EarnProductList_earn-list-h5-content__2jxNQ">
-                  <div class="EarnProductList_card-top__9IpTz">
-                    <div class="EarnProductList_coin-info__3wSHG">
-                      <img src="https://img.bitgetimg.com/multiLang/coin_img/1c1b05492d876ab7e3fa96ea2036ceb2.png" alt="SOL-h0n569ut5oo" class="EarnProductList_mar-right-8__LubNZ h-[24px] w-[24px] rounded-full object-cover">
-                      <div class="flex flex-col">
-                        <div class="coin-info-name flex items-center text-content-primary">SOL</div>
-                      </div>
-                    </div>
-                    <div class="EarnProductList_apy-info__r_H4Z">
-                      <div class="EarnProductList_apy-info-content__S_EPj">
-                        <div class="leading-22px text-[16px] font-[600] text-content-primary">2.60%~141.46%</div>
-                        <div class="flex"></div>
-                      </div>
-                      <div>
-                        <div class="ms-1">
-                          <svg width="1em" height="1em" viewBox="0 0 20 20" fill="var(--content-primary)" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4">
-                            <path d="m16.692 7.942-6.25 6.25a.625.625 0 0 1-.884 0l-6.25-6.25a.625.625 0 1 1 .884-.884L10 12.866l5.808-5.808a.626.626 0 0 1 .884.884Z" fill="current"></path>
-                          </svg>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="EarnProductList_earn-list-h5__ni3RI">
-                <div class="EarnProductList_earn-list-h5-content__2jxNQ">
-                  <div class="EarnProductList_card-top__9IpTz">
-                    <div class="EarnProductList_coin-info__3wSHG">
-                      <img src="https://img.bitgetimg.com/multiLang/coin_img/0a7e281b727c103b3d143455f551ad79.png" alt="NEAR-kjb45e59uj" class="EarnProductList_mar-right-8__LubNZ h-[24px] w-[24px] rounded-full object-cover">
-                      <div class="flex flex-col">
-                        <div class="coin-info-name flex items-center text-content-primary">NEAR</div>
-                      </div>
-                    </div>
-                    <div class="EarnProductList_apy-info__r_H4Z">
-                      <div class="EarnProductList_apy-info-content__S_EPj">
-                        <div class="leading-22px text-[16px] font-[600] text-content-primary">4.20%~9.00%</div>
-                        <div class="flex"></div>
-                      </div>
-                      <div>
-                        <div class="ms-1">
-                          <svg width="1em" height="1em" viewBox="0 0 20 20" fill="var(--content-primary)" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4">
-                            <path d="m16.692 7.942-6.25 6.25a.625.625 0 0 1-.884 0l-6.25-6.25a.625.625 0 1 1 .884-.884L10 12.866l5.808-5.808a.626.626 0 0 1 .884.884Z" fill="current"></path>
-                          </svg>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="EarnProductList_earn-list-h5__ni3RI">
-                <div class="EarnProductList_earn-list-h5-content__2jxNQ">
-                  <div class="EarnProductList_card-top__9IpTz">
-                    <div class="EarnProductList_coin-info__3wSHG">
-                      <img src="https://img.bitgetimg.com/multiLang/web/6bfb0e017be7c649d7e3c5ee1fe9a6d9.png" alt="WUSD-2sh10ttk5to" class="EarnProductList_mar-right-8__LubNZ h-[24px] w-[24px] rounded-full object-cover">
-                      <div class="flex flex-col">
-                        <div class="coin-info-name flex items-center text-content-primary">WUSD</div>
-                      </div>
-                    </div>
-                    <div class="EarnProductList_apy-info__r_H4Z">
-                      <div class="EarnProductList_apy-info-content__S_EPj">
-                        <div class="leading-22px text-[16px] font-[600] text-content-primary">5.00%~12.00%</div>
-                        <div class="flex"></div>
-                      </div>
-                      <div>
-                        <div class="ms-1">
-                          <svg width="1em" height="1em" viewBox="0 0 20 20" fill="var(--content-primary)" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4">
-                            <path d="m16.692 7.942-6.25 6.25a.625.625 0 0 1-.884 0l-6.25-6.25a.625.625 0 1 1 .884-.884L10 12.866l5.808-5.808a.626.626 0 0 1 .884.884Z" fill="current"></path>
-                          </svg>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="EarnProductList_earn-list-h5__ni3RI">
-                <div class="EarnProductList_earn-list-h5-content__2jxNQ">
-                  <div class="EarnProductList_card-top__9IpTz">
-                    <div class="EarnProductList_coin-info__3wSHG">
-                      <img src="https://img.bitgetimg.com/multiLang/web/455ecd565da7feaaf69a5fd3549f4fa2.jpeg" alt="USDE-rbbmhki6ov" class="EarnProductList_mar-right-8__LubNZ h-[24px] w-[24px] rounded-full object-cover">
-                      <div class="flex flex-col">
-                        <div class="coin-info-name flex items-center text-content-primary">USDE</div>
-                      </div>
-                    </div>
-                    <div class="EarnProductList_apy-info__r_H4Z">
-                      <div class="EarnProductList_apy-info-content__S_EPj">
-                        <div class="leading-22px text-[16px] font-[600] text-content-primary">6.00%</div>
-                        <div class="flex"></div>
-                      </div>
-                      <div>
-                        <div class="ms-1">
-                          <svg width="1em" height="1em" viewBox="0 0 20 20" fill="var(--content-primary)" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4">
-                            <path d="m16.692 7.942-6.25 6.25a.625.625 0 0 1-.884 0l-6.25-6.25a.625.625 0 1 1 .884-.884L10 12.866l5.808-5.808a.626.626 0 0 1 .884.884Z" fill="current"></path>
-                          </svg>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="EarnProductList_earn-list-h5__ni3RI">
-                <div class="EarnProductList_earn-list-h5-content__2jxNQ">
-                  <div class="EarnProductList_card-top__9IpTz">
-                    <div class="EarnProductList_coin-info__3wSHG">
-                      <img src="https://img.bitgetimg.com/multiLang/coin_img/ffd7ffb4926eafc24e2292ebc4d7125c.png" alt="PYUSD-ca2tqnn1gpg" class="EarnProductList_mar-right-8__LubNZ h-[24px] w-[24px] rounded-full object-cover">
-                      <div class="flex flex-col">
-                        <div class="coin-info-name flex items-center text-content-primary">PYUSD</div>
-                      </div>
-                    </div>
-                    <div class="EarnProductList_apy-info__r_H4Z">
-                      <div class="EarnProductList_apy-info-content__S_EPj">
-                        <div class="leading-22px text-[16px] font-[600] text-content-primary">10.00%</div>
-                        <div class="flex"></div>
-                      </div>
-                      <div>
-                        <div class="ms-1">
-                          <svg width="1em" height="1em" viewBox="0 0 20 20" fill="var(--content-primary)" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4">
-                            <path d="m16.692 7.942-6.25 6.25a.625.625 0 0 1-.884 0l-6.25-6.25a.625.625 0 1 1 .884-.884L10 12.866l5.808-5.808a.626.626 0 0 1 .884.884Z" fill="current"></path>
-                          </svg>
-                        </div>
+                      <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
+                        <p v-for="(childrenItem, childrenIndex) in item.products" :key="childrenItem.id"
+                           @click.stop="item.current_product_id = childrenItem.id; item.current_index = childrenIndex; item.current_apr = childrenItem.apr;"
+                           class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[64px]"
+                           :class="{'border': childrenIndex === item.current_index, '!border-content-link-default': childrenIndex === item.current_index,'!bg-greenBg': childrenIndex === item.current_index}">
+                          <i class="not-italic">{{ childrenItem.days }}</i>
+                          <span v-if="childrenIndex === item.current_index"
+                                class="absolute -bottom-[2px] -right-[1px]">
+                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path>
+                            </svg>
+                          </span>
+                        </p>
+                      </section>
+                      <div class="flex flex-col items-end justify-end mt-[8px] !w-full items-center">
+                        <button @click="showBuyPanelFn(item.currency_id)" type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none mt-[8px] !w-full items-center">
+                          <span>Subscribe</span>
+                        </button>
+                        <div></div>
                       </div>
                     </div>
                   </div>
@@ -3467,7 +875,7 @@
     </main>
     <HzFooter></HzFooter>
 
-    <!--购买平台-->
+    <!--购买平台 pc-->
     <div v-if="showBuyPanel" class="bit-modal-root css-y0hvqx">
       <div class="bit-modal-mask"></div>
       <div tabindex="-1" class="bit-modal-wrap bit-modal-default bit-modal-centered">
@@ -3486,7 +894,9 @@
               <section class="flex w-full flex-col">
                 <div class="flex h-[68px] items-center border-b border-ds-color-border-subtle text-fs16 font-semibold text-[var(--content-primary)] mobile:h-[37px] mobile:border-none">
                   <p class="ltr:ml-6 ltr:mr-[6px] rtl:ml-[6px] rtl:mr-6 ltr:mobile:ml-0 rtl:mobile:mr-0">Subscribe</p>
-                  <img src="https://img.bitgetimg.com/multiLang/coin_img/10d0024b93a70ef8562ae11ae5bc1184.png" alt="BGB" class="h-7 w-7 rounded-full ltr:mr-[6px] rtl:ml-[6px]">
+                  <img :src="showBuyData.currency_icon"
+                       :alt="showBuyData.currency_name"
+                       class="h-7 w-7 rounded-full ltr:mr-[6px] rtl:ml-[6px]">
                   <div>{{ showBuyData.currency_name }}</div>
                   <div class="ms-[12px] flex cursor-pointer items-center text-[12px]">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-[14px] w-[14px] text-[var(--content-primary)]">
@@ -3501,8 +911,9 @@
                       <div class="mb-1 flex justify-between">
                         <div class="font-semibold">Duration (days)</div>
                         <div class="earn-coin ml-[5px]">
-                          <img src="https://img.bitgetimg.com/multiLang/coin_img/10d0024b93a70ef8562ae11ae5bc1184.png"
-                               class="-mt-[3px] h-[14px] w-[14px] rounded-full ltr:mr-[3px] rtl:ml-[3px]">Earn {{ showBuyData.currency_name }}
+                          <img :src="showBuyData.currency_icon"
+                               class="-mt-[3px] h-[14px] w-[14px] rounded-full ltr:mr-[3px] rtl:ml-[3px]">
+                          Earn {{ showBuyData.currency_name }}
                         </div>
                       </div>
                       <div class="-me-[9px] mb-[12px] mobile:mb-[16px]">
@@ -3531,7 +942,7 @@
                         </section>
                       </div>
                     </div>
-                    <div class="flex justify-between pb-3 mobile:max-h-[378px]">
+                    <div v-if="false" class="flex justify-between pb-3 mobile:max-h-[378px]">
                       <p class="pt-[3px] text-fs12 font-semibold text-primaryText">Vouchers</p>
                       <div class="flex cursor-pointer items-center rounded-full border border-border-strength-100 px-3 py-[2px] text-content-primary">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-[14px]">
@@ -3545,7 +956,8 @@
                     </div>
                     <div class="mb-1 flex items-center justify-between">
                       <div class="flex-1 text-fs12 font-semibold">Subscription amount</div>
-                      <button class="inline-flex items-center gap-1 text-fs12 text-ds-color-text-primary">Add BGB
+                      <button class="inline-flex items-center gap-1 text-fs12 text-ds-color-text-primary">
+                        Add {{ showBuyData.currency_name }}
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-3 w-3 transform rtl:-scale-x-100">
                           <path d="M17.03 12.53l-7.5 7.5a.75.75 0 11-1.06-1.06L15.44 12 8.47 5.03a.75.75 0 111.06-1.06l7.5 7.5a.75.75 0 010 1.06z"></path>
                         </svg>
@@ -3554,7 +966,10 @@
                     <div class="my-2">
                       <div class="PurchaseInput_input-wrap__84Nax">
                         <span class="bit-input-affix-wrapper h-[48px] rounded-[48px] PurchaseInput_purchaseInput__aO77B h-[48px] rounded-[48px] bit-input-affix-wrapper-round css-y0hvqx">
-                          <input data-testid="SavingsApplyDialogBuyAmountInput"  placeholder="Min. 1 BGB" class="bit-input bit-input-round css-y0hvqx" type="text" v-model="showBuyData.subscriptionAmount"><span class="bit-input-suffix"><span class="cursor-pointer text-textBtn" data-testid="SavingsApplyDialogBuyAmountMaxSpan">Max</span></span>
+                          <input data-testid="SavingsApplyDialogBuyAmountInput" placeholder="Min. 1 BGB" class="bit-input bit-input-round css-y0hvqx" type="text" v-model="showBuyData.subscriptionAmount">
+                          <span class="bit-input-suffix">
+                            <span class="cursor-pointer text-textBtn">Max</span>
+                          </span>
                         </span>
                       </div>
                     </div>
@@ -3572,12 +987,20 @@
                         </div>
                       </div>
                     </div>
-                    <p class="mb-1 mt-4 text-fs12 font-semibold"> Subscription quota</p>
+                    <p class="mb-1 mt-4 text-fs12 font-semibold">Subscription quota</p>
                     <div class="mb-1 flex text-fs12">
-                      <span class="text-[var(--ds-color-text-tertiary)]"> Max amount per order:</span><span class="me-[6px] ms-1 text-[var(--content-primary)]"><span>200,000&nbsp;</span><span>BGB</span></span>
+                      <span class="text-[var(--ds-color-text-tertiary)]">Max amount per order:</span>
+                      <span class="me-[6px] ms-1 text-[var(--content-primary)]">
+                      <span>200,000&nbsp;</span>
+                      <span>{{ showBuyData.currency_name }}</span>
+                    </span>
                     </div>
                     <div class="mb-1 text-fs12">
-                      <span class="cursor-pointer text-[12px] text-[var(--ds-color-text-tertiary)] underline decoration-[var(--content-disabled)] decoration-dashed underline-offset-4">Remaining quota</span>:<i class="me-[6px] ms-1 not-italic text-[var(--content-primary)]">200,000&nbsp;BGB</i>
+                      <span class="cursor-pointer text-[12px] text-[var(--ds-color-text-tertiary)] underline decoration-[var(--content-disabled)] decoration-dashed underline-offset-4">Remaining quota
+                      </span>:
+                      <i class="me-[6px] ms-1 not-italic text-[var(--content-primary)]">
+                        200,000&nbsp;{{ showBuyData.currency_name }}
+                      </i>
                     </div>
                   </div>
                   <div class="relative box-border flex flex-1 flex-col bg-background-secondary p-6 text-fs12 mobile:mt-4 mobile:bg-transparent mobile:p-0 ipad:px-4">
@@ -3639,8 +1062,10 @@
                     <div class="mobile:w-full mobile:h-[240px]"></div>
                     <div class="mobile:fixed mobile:bottom-0 mobile:left-0 mobile:z-10 mobile:w-full mobile:bg-background-primray mobile:px-4 mobile:pb-9 mobile:pt-2">
                       <div class="flex items-start text-content-tertiary">
-                        <label class="bit-checkbox-wrapper tap-transparent css-y0hvqx">
-                          <span class="bit-checkbox bit-checkbox-main css-y0hvqx">
+                        <label class="bit-checkbox-wrapper tap-transparent css-y0hvqx"
+                               :class="{'bit-checkbox-wrapper-checked': true}">
+                          <span class="bit-checkbox bit-checkbox-main css-y0hvqx"
+                                :class="{'bit-checkbox-checked': true}">
                             <input class="bit-checkbox-input" type="checkbox">
                             <span class="bit-checkbox-inner"></span>
                           </span>
@@ -3648,8 +1073,9 @@
                         <span class="ms-2 text-fs12 leading-[22px]">I have read and agree to the&nbsp;<a href="https://www.bitget.com/en/support/articles/12560603797489" target="_blank" rel="noreferrer" class="!hover:text-content-primary !text-content-primary">Bitget Savings User Agreement</a></span>
                       </div>
                       <div>
-                        <button data-testid="SavingsApplyDialogConfirmButton" type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-main bit-btn-md bit-btn-block mt-4" disabled="">
-                          <span>Confirm</span></button>
+                        <button data-testid="SavingsApplyDialogConfirmButton" type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-main bit-btn-md bit-btn-block mt-4">
+                          <span>Confirm</span>
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -3661,10 +1087,228 @@
         </div>
       </div>
     </div>
+
+    <!--购买平台 mobile-->
+    <div v-if="showMobileBuyPanel" class="bit-drawer bit-drawer-bottom css-y0hvqx bit-drawer-open" tabindex="-1">
+      <div class="bit-drawer-mask"></div>
+      <div tabindex="0" aria-hidden="true" data-sentinel="start" style="width: 0px; height: 0px; overflow: hidden; outline: none; position: absolute;"></div>
+      <div class="bit-drawer-content-wrapper" style="height: 100%;">
+        <div class="bit-drawer-content SavingsApplyDialog_applyDialogMobile__O7aCm" aria-modal="true" role="dialog">
+          <div class="bit-drawer-wrapper-body">
+            <div class="bit-drawer-header">
+              <div class="bit-drawer-header-title">
+                <div class="bit-drawer-title">
+                  <div class="flex h-[68px] items-center border-b border-ds-color-border-subtle text-fs16 font-semibold text-[var(--content-primary)] mobile:h-[37px] mobile:border-none">
+                    <p class="ltr:ml-6 ltr:mr-[6px] rtl:ml-[6px] rtl:mr-6 ltr:mobile:ml-0 rtl:mobile:mr-0">Subscribe</p>
+                    <img src="https://img.bitgetimg.com/multiLang/coin_img/10d0024b93a70ef8562ae11ae5bc1184.png" alt="BGB" class="h-7 w-7 rounded-full ltr:mr-[6px] rtl:ml-[6px]">
+                    <div>{{ showBuyData.currency_name }}</div>
+                    <div class="ms-[12px] flex cursor-pointer items-center text-[12px]">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-[14px] w-[14px] text-[var(--content-primary)]">
+                        <path d="M17.253 15a3.739 3.739 0 00-2.683 1.133l-4.322-2.777c.34-.872.34-1.84 0-2.712l4.322-2.777a3.75 3.75 0 10-.812-1.261L9.436 9.383a3.75 3.75 0 100 5.234l4.322 2.777A3.75 3.75 0 1017.253 15zm0-12a2.25 2.25 0 110 4.5 2.25 2.25 0 010-4.5zm-10.5 11.25a2.25 2.25 0 110-4.5 2.25 2.25 0 010 4.5zm10.5 6.75a2.25 2.25 0 110-4.5 2.25 2.25 0 010 4.5z"></path>
+                      </svg>
+                      <div class="ms-[8px] font-[400] mobile:hidden">Share with friends</div>
+                    </div>
+                  </div>
+                </div>
+                <button @click="showMobileBuyPanel = false" type="button" aria-label="Close" class="bit-drawer-close">
+                  <span class="bit-drawer-close-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width: 1em; height: 1em;">
+                      <path d="M19.28 18.22a.75.75 0 01-.817 1.223.75.75 0 01-.244-.162L12 13.06l-6.22 6.22a.75.75 0 01-1.06-1.062L10.94 12 4.72 5.78a.75.75 0 111.06-1.06L12 10.94l6.22-6.22a.75.75 0 011.06 1.06L13.06 12l6.22 6.22z"></path>
+                    </svg>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="bit-drawer-body">
+              <section class="flex w-full flex-col">
+                <div class="md:h-523px flex h-full mobile:block">
+                  <div class="SavingsApplyDialog_dialogLeft__PsGIx box-border h-[516px] w-[480px] overflow-y-auto overflow-x-hidden p-4 text-primaryText mobile:h-auto mobile:w-full mobile:p-0 ipad:w-1/2 ipad:px-4 air:w-1/2">
+                    <div class="text-fs12">
+                      <div class="mb-1 flex justify-between">
+                        <div class="font-semibold">Duration (days)</div>
+                        <div class="earn-coin ml-[5px]">
+                          <img src="https://img.bitgetimg.com/multiLang/coin_img/10d0024b93a70ef8562ae11ae5bc1184.png" alt="BGB" class="-mt-[3px] h-[14px] w-[14px] rounded-full ltr:mr-[3px] rtl:ml-[3px]">
+                          Earn {{ showBuyData.currency_name }}
+                        </div>
+                      </div>
+                      <div class="-me-[9px] mb-[12px] mobile:mb-[16px]">
+                        <section class="relative flex flex-wrap content-start font-normal SavingDeadline_isFromDialog__Gaxq1" style="gap: 8px;">
+                          <p v-for="item in showBuyData.products"
+                             @click="showBuyData.product_days = item.days; showBuyData;showBuyData.product_apr = item.apr;"
+                             class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[64px] min-w-[80px]"
+                             :class="{'border': item.days === showBuyData.product_days, '!border-content-link-default': item.days === showBuyData.product_days, '!bg-greenBg': item.days === showBuyData.product_days}">
+                            <span class="text-left text-content-primary">
+                              <span class="flex text-fs12 font-medium ">
+                              <span class="flex"><span>{{ item.apr }}</span><span>%</span></span></span>
+                              <span class="block text-fs12" data-testid="SavingsEarnPeriodSpan">{{ item.days }}</span>
+                            </span>
+                            <span v-show="item.days === showBuyData.product_days"
+                                  class="absolute -bottom-[2px] -right-[1px]">
+                              <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7">
+                                </path>
+                              </svg>
+                            </span>
+                          </p>
+                        </section>
+                      </div>
+                    </div>
+
+                    <div v-if="false" class="flex justify-between pb-3 mobile:max-h-[378px]">
+                      <p class="pt-[3px] text-fs12 font-semibold text-primaryText">Vouchers</p>
+                      <div class="flex cursor-pointer items-center rounded-full border border-border-strength-100 px-3 py-[2px] text-content-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-[14px]">
+                          <path d="M21.3 9.795a1.5 1.5 0 001.2-1.47V6A1.5 1.5 0 0021 4.5H3A1.5 1.5 0 001.5 6v2.326a1.5 1.5 0 001.2 1.469 2.25 2.25 0 010 4.406 1.5 1.5 0 00-1.2 1.473V18A1.5 1.5 0 003 19.5h18a1.5 1.5 0 001.5-1.5v-2.326a1.5 1.5 0 00-1.2-1.469 2.25 2.25 0 010-4.406v-.004zM3 15.675a3.75 3.75 0 000-7.35V6h5.25v12H3v-2.325zm18 0V18H9.75V6H21v2.325a3.75 3.75 0 000 7.35z"></path>
+                        </svg>
+                        <span class="px-1 text-fs12">Select</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-[14px]">
+                          <path d="M20.03 9.53l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 15.44l6.97-6.97a.75.75 0 011.06 1.06z">
+                          </path>
+                        </svg>
+                      </div>
+                    </div>
+
+                    <div class="mb-1 flex items-center justify-between">
+                      <div class="flex-1 text-fs12 font-semibold">Subscription amount</div>
+                      <button class="inline-flex items-center gap-1 text-fs12 text-ds-color-text-primary">
+                        Add BGB
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-3 w-3 transform rtl:-scale-x-100">
+                          <path d="M17.03 12.53l-7.5 7.5a.75.75 0 11-1.06-1.06L15.44 12 8.47 5.03a.75.75 0 111.06-1.06l7.5 7.5a.75.75 0 010 1.06z"></path>
+                        </svg>
+                      </button>
+                    </div>
+                    <div class="my-2">
+                      <div class="PurchaseInput_input-wrap__84Nax">
+                        <span class="bit-input-affix-wrapper h-[48px] rounded-[48px] PurchaseInput_purchaseInput__aO77B h-[48px] rounded-[48px] bit-input-affix-wrapper-round css-y0hvqx">
+                          <input placeholder="Min. 1 BGB" class="bit-input bit-input-round css-y0hvqx" type="text" v-model="showBuyData.subscriptionAmount">
+                          <span class="bit-input-suffix"><span class="cursor-pointer text-textBtn" data-testid="SavingsApplyDialogBuyAmountMaxSpan">Max</span></span>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="mb-1 flex flex-wrap items-center gap-x-1 gap-y-2">
+                      <div>
+                        <span>
+                          <span class="cursor-pointer text-[12px] text-[var(--ds-color-text-tertiary)] underline decoration-[var(--content-disabled)] decoration-dashed underline-offset-4">
+                            Available balance</span>:</span>
+                        <i class="me-[6px] ms-1 text-[12px] not-italic text-[var(--content-primary)]">
+                          0.00&nbsp;
+                        </i>
+                      </div>
+                      <div class="">
+                        <div class="inline-flex items-center text-fs12 text-secondaryText">From: &nbsp;<button class="bit-dropdown-trigger flex transform items-center gap-1 text-primaryText BalanceSource_balance-form__0LFi_">
+                          <span>Spot &amp; funding account</span>
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-3 w-3">
+                            <path d="M20.03 9.53l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 15.44l6.97-6.97a.75.75 0 011.06 1.06z"></path>
+                          </svg>
+                        </button>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="mb-1 mt-4 text-fs12 font-semibold">Subscription quota</p>
+                    <div class="mb-1 flex text-fs12">
+                      <span class="text-[var(--ds-color-text-tertiary)]"> Max amount per order:</span><span class="me-[6px] ms-1 text-[var(--content-primary)]"><span>200,000&nbsp;</span><span>BGB</span></span>
+                    </div>
+                    <div class="mb-1 text-fs12">
+                      <span class="cursor-pointer text-[12px] text-[var(--ds-color-text-tertiary)] underline decoration-[var(--content-disabled)] decoration-dashed underline-offset-4">
+                        Remaining quota</span>:
+                      <i class="me-[6px] ms-1 not-italic text-[var(--content-primary)]">200,000&nbsp;BGB</i>
+                    </div>
+                  </div>
+                  <div class="relative box-border flex flex-1 flex-col bg-background-secondary p-6 text-fs12 mobile:mt-4 mobile:bg-transparent mobile:p-0 ipad:px-4">
+                    <div class="flex-grow overflow-y-auto">
+                      <div>
+                        <div class="relative mb-1 flex text-fs12 font-semibold text-primaryText">
+                          <span class="flex-1 ltr:mr-3 rtl:ml-3">
+                            <i class="not-italic">Est. daily total profit</i>
+                          </span>
+                          <span class="text-right text-primaryBtnBg">{{ dailyInterest }} {{ showBuyData.currency_name }}</span>
+                        </div>
+                        <div class="relative mb-1 flex text-fs12 text-content-tertiary">
+                          <span class="flex-1 ltr:mr-3 rtl:ml-3"><span class="cursor-pointer text-[12px] underline decoration-[var(--content-disabled)] decoration-dashed underline-offset-4">
+                            Daily interest
+                          </span>
+                          </span>
+                          <span class="text-right">{{ dailyInterest }} {{ showBuyData.currency_name }}</span>
+                        </div>
+                        <div class="relative mb-1 flex text-fs12 text-content-tertiary">
+                          <span class="flex-1 ltr:mr-3 rtl:ml-3">
+                            <span class="cursor-pointer text-[12px] underline decoration-[var(--content-disabled)] decoration-dashed underline-offset-4">
+                              Daily interest increase profit
+                            </span>
+                          </span>
+                          <span class="text-right">0.00 {{ showBuyData.currency_name }}</span>
+                        </div>
+                      </div>
+                      <div class="bit-divider css-y0hvqx bit-divider-horizontal !my-4 !border-border-strength-100" role="separator"></div>
+                      <div class="">
+                        <div class="rounded-t-[8px] bg-ds-color-function-brand-soft text-center text-[12px] font-semibold leading-[25px] text-primaryText">
+                          Interest is settled daily, and early redemption is supported.
+                        </div>
+                        <div class="rounded-b-[8px] border border-t-0 border-ds-color-border-subtle px-2 pb-3 pt-2">
+                          <div class="space-y-[14px] text-fs12 text-content-tertiary ps-3">
+                            <div class="TimeBoxList_timeList__V1Xj_ relative flex before:bg-content-secondary after:bg-disabledText after:text-disabledText">
+                              <span class="mr-auto flex-1">Subscription time</span><span class="text-primaryText">2024-10-15 16:27:03</span>
+                            </div>
+                            <div class="TimeBoxList_timeList__V1Xj_ relative flex before:bg-content-secondary after:bg-disabledText after:text-disabledText">
+                              <span class="mr-auto flex-1">Interest accrual start time</span><span class="text-primaryText">2024-10-16 00:00:00</span>
+                            </div>
+                            <div class="TimeBoxList_timeList__V1Xj_ relative flex before:bg-content-secondary after:bg-disabledText after:text-disabledText">
+                              <span class="mr-auto flex-1">Interest distribution time</span><span class="text-primaryText">2024-10-17 08:00:00</span>
+                            </div>
+                            <div class="TimeBoxList_timeList__V1Xj_ relative mb-[14px] flex before:bg-content-secondary after:bg-disabledText after:text-disabledText">
+                              <span class="mr-auto flex-1">Maturity time</span><span class="text-primaryText">2024-10-23 00:00:00</span>
+                            </div>
+                            <div class="TimeBoxList_timeList__V1Xj_ relative flex before:bg-content-secondary after:bg-disabledText after:text-disabledText">
+                              <span class="mr-auto flex-1">Crediting date</span><span class="text-primaryText">2024-10-23 08:00:00</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="relative mt-3 text-fs12 text-secondaryText">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="absolute top-[2px] w-[14px] ltr:left-0 rtl:right-0">
+                          <path d="M12 2.25A9.75 9.75 0 1021.75 12 9.76 9.76 0 0012 2.25zm0 18A8.25 8.25 0 1120.25 12 8.26 8.26 0 0112 20.25zm-.75-7.5V7.5a.75.75 0 111.5 0v5.25a.75.75 0 11-1.5 0zm1.875 3.375a1.125 1.125 0 11-2.25 0 1.125 1.125 0 012.25 0z"></path>
+                        </svg>
+                        <p class="ltr:pl-[18px] rtl:pr-[18px]">After maturity, your principal will automatically be transferred to Flexible Savings for continued interest accrual.</p>
+                      </div>
+                    </div>
+                    <div class="mobile:w-full mobile:h-[240px]"></div>
+                    <div class="mobile:fixed mobile:bottom-0 mobile:left-0 mobile:z-10 mobile:w-full mobile:bg-background-primray mobile:px-4 mobile:pb-9 mobile:pt-2">
+                      <div class="flex items-start text-content-tertiary">
+                        <label class="bit-checkbox-wrapper tap-transparent css-y0hvqx"
+                               :class="{'bit-checkbox-wrapper-checked': true}">
+                          <span class="bit-checkbox bit-checkbox-main css-y0hvqx"
+                                :class="{'bit-checkbox-checked': true}">
+                            <input class="bit-checkbox-input" type="checkbox">
+                            <span class="bit-checkbox-inner"></span>
+                          </span>
+                        </label>
+                        <span class="ms-2 text-fs12 leading-[22px]">I have read and agree to the&nbsp;
+                          <a href="https://www.bitget.com/en/support/articles/12560603797489" target="_blank" rel="noreferrer" class="!hover:text-content-primary !text-content-primary">
+                            Bitget Savings User Agreement
+                          </a>
+                      </span>
+                      </div>
+                      <div>
+                        <button data-testid="SavingsApplyDialogConfirmButton" type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-main bit-btn-md bit-btn-block mt-4">
+                          <span>Confirm</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div tabindex="0" aria-hidden="true" data-sentinel="end" style="width: 0; height: 0; overflow: hidden; outline: none; position: absolute;"></div>
+    </div>
+
   </div>
 </template>
 
 <script>
+import axios from "axios";
 import Swiper from "swiper"
 import "swiper/css/swiper.min.css"
 
@@ -3701,62 +1345,13 @@ export default {
           showAnswer: false
         }
       ],
-      productList: [
-        {
-          currency_id: 1,
-          current_apr: '',
-          current_index: 0,
-          current_product_id: '',
-          show_child_dom: false,
-          product_name: 'BGB',
-          products: [
-            {
-              id: 1,
-              days: "current",
-              apr: "5"
-            },
-            {
-              id: 2,
-              days: "7",
-              apr: "12"
-            },
-            {
-              id: 3,
-              "days": "14",
-              "apr": "25"
-            }
-          ]
-        },
-        {
-          currency_id: 2,
-          current_apr: '',
-          current_index: 0,
-          current_product_id: '',
-          show_child_dom: false,
-          product_name: 'USDT',
-          products: [
-            {
-              id: 1,
-              days: "current",
-              apr: 3
-            },
-            {
-              id: 2,
-              days: "7",
-              apr: 5
-            },
-            {
-              id: 3,
-              days: "14",
-              apr: 8
-            }
-          ]
-        }
-      ],
+      productList: [],
       showBuyPanel: false,
+      showMobileBuyPanel: false,
       showBuyData: {
         currency_id: '',
         currency_name: '',
+        currency_icon: '',
         product_id: '',
         product_apr: '',
         product_days: '',
@@ -3768,11 +1363,14 @@ export default {
     }
   },
   computed: {
-    dailyInterest () {
+    dailyInterest() {
       return this.showBuyData.subscriptionAmount * (Number(this.showBuyData.product_apr) / 365 / 100)
     }
   },
-  mounted() {
+  created () {
+    this.getProductList()
+  },
+  mounted () {
     this.swiper = new Swiper(".swiper-horizontal", {
       slidesPerView: 4,
       spaceBetween: 15,
@@ -3797,6 +1395,28 @@ export default {
     })
   },
   methods: {
+    async getProductList() {
+      let productList = []
+      let res = await axios.get(this.$host + 'api/profit');
+      if(res.data.code === 200) {
+        productList = res.data.data
+        productList = productList.map((item) => {
+          return {
+            ...item,
+            icon: this.$host + item.icon,
+            current_index: 0,
+            current_apr: item.products[0].apr,
+            current_days: item.products[0].days,
+            current_product_id: item.products[0].product_id,
+            show_child_dom: false
+          }
+        })
+        this.productList = productList
+        console.log(this.productList)
+      } else {
+        console.log('网络错误，请稍后再试')
+      }
+    },
     switchShow(e, currency_id) {
       let obj = this.productList.find((item) =>
           item.currency_id === currency_id
@@ -3825,22 +1445,24 @@ export default {
           item.currency_id === currency_id
       )
       this.showBuyData.currency_id = currency_id
-      this.showBuyData.product_id = obj.current_product_id
+      this.showBuyData.currency_icon = obj.icon
       this.showBuyData.currency_name = obj.product_name
 
-      let productObj = {}
-      obj.products.forEach(item => {
-        if (item.id === this.showBuyData.product_id) {
-          productObj = item
-        }
-      })
-
-      this.showBuyData.product_apr = productObj.apr
-      this.showBuyData.product_days = productObj.days
+      this.showBuyData.product_apr = obj.current_apr
       this.showBuyData.products = obj.products
+      this.showBuyData.product_days = obj.current_days
+      this.showBuyData.product_id = obj.current_product_id
       console.log(currency_id)
       console.log('当前数据', this.showBuyData)
-      this.showBuyPanel = true
+      if (this.isMobile()) {
+        this.showMobileBuyPanel = true
+      } else {
+        this.showBuyPanel = true
+      }
+    },
+    isMobile() {   //判断是否为移动端
+      const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+      return /Mobile|iP(hone|od)|Android|BlackBerry|IEMobile/.test(userAgent);
     }
   }
 }
@@ -3851,5 +1473,285 @@ export default {
 <style scoped src="@/assets/_nuxt-portal/css/style.abf3c450.css"></style>
 <style scoped src="@/assets/_nuxt-portal/css/index-692590ca.css"></style>
 <style>
+.css-y0hvqx[class^="bit-checkbox"], .css-y0hvqx[class*=" bit-checkbox"] {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 14px;
+  box-sizing: border-box;
+}
 
+.css-y0hvqx[class^="bit-checkbox"]::before, .css-y0hvqx[class*=" bit-checkbox"]::before, .css-y0hvqx[class^="bit-checkbox"]::after, .css-y0hvqx[class*=" bit-checkbox"]::after {
+  box-sizing: border-box;
+}
+
+.css-y0hvqx[class^="bit-checkbox"] [class^="bit-checkbox"], .css-y0hvqx[class*=" bit-checkbox"] [class^="bit-checkbox"], .css-y0hvqx[class^="bit-checkbox"] [class*=" bit-checkbox"], .css-y0hvqx[class*=" bit-checkbox"] [class*=" bit-checkbox"] {
+  box-sizing: border-box;
+}
+
+.css-y0hvqx[class^="bit-checkbox"] [class^="bit-checkbox"]::before, .css-y0hvqx[class*=" bit-checkbox"] [class^="bit-checkbox"]::before, .css-y0hvqx[class^="bit-checkbox"] [class*=" bit-checkbox"]::before, .css-y0hvqx[class*=" bit-checkbox"] [class*=" bit-checkbox"]::before, .css-y0hvqx[class^="bit-checkbox"] [class^="bit-checkbox"]::after, .css-y0hvqx[class*=" bit-checkbox"] [class^="bit-checkbox"]::after, .css-y0hvqx[class^="bit-checkbox"] [class*=" bit-checkbox"]::after, .css-y0hvqx[class*=" bit-checkbox"] [class*=" bit-checkbox"]::after {
+  box-sizing: border-box;
+}
+
+.css-y0hvqx.bit-checkbox-group {
+  box-sizing: border-box;
+  margin: 0;
+  color: #151517;
+  font-size: 14px;
+  line-height: 1.5714285714285714;
+  list-style: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  display: inline-flex;
+  flex-wrap: wrap;
+  column-gap: 16px;
+}
+
+.css-y0hvqx.bit-checkbox-group > .bit-row {
+  flex: 1;
+}
+
+.css-y0hvqx.bit-checkbox-wrapper {
+  box-sizing: border-box;
+  margin: 0;
+  color: #151517;
+  font-size: 14px;
+  line-height: 1.5714285714285714;
+  list-style: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  display: inline-flex;
+  align-items: baseline;
+  cursor: pointer;
+}
+
+.css-y0hvqx.bit-checkbox-wrapper:after {
+  display: inline-block;
+  width: 0;
+  overflow: hidden;
+  content: '\a0';
+}
+
+.css-y0hvqx.bit-checkbox-wrapper + .bit-checkbox-wrapper {
+  margin-inline-start: 0;
+}
+
+.css-y0hvqx.bit-checkbox-wrapper.bit-checkbox-wrapper-in-form-item input[type="checkbox"] {
+  width: 14px;
+  height: 14px;
+}
+
+.css-y0hvqx.bit-checkbox-wrapper-small {
+  font-size: 12px;
+}
+
+.css-y0hvqx.bit-checkbox-wrapper-small .bit-checkbox .bit-checkbox-inner {
+  width: 14px;
+  height: 14px;
+}
+
+.css-y0hvqx.bit-checkbox-wrapper-small .bit-checkbox .bit-checkbox-inner:after {
+  width: 5px;
+  height: 8px;
+}
+
+.css-y0hvqx.bit-checkbox {
+  box-sizing: border-box;
+  margin: 0;
+  color: #151517;
+  font-size: 14px;
+  line-height: 1;
+  list-style: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  position: relative;
+  white-space: nowrap;
+  cursor: pointer;
+  align-self: center;
+}
+
+.css-y0hvqx.bit-checkbox .bit-checkbox-input {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  cursor: pointer;
+  opacity: 0;
+  margin: 0;
+}
+
+.css-y0hvqx.bit-checkbox .bit-checkbox-input:focus-visible + .bit-checkbox-inner {
+  outlines: 4px solid #eaeaed;
+  outline-offset: 1px;
+  transition: outline-offset 0s, outline 0s;
+}
+
+.css-y0hvqx.bit-checkbox .bit-checkbox-inner {
+  box-sizing: border-box;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 16px;
+  height: 16px;
+  direction: ltr;
+  background-color: #ffffff;
+  border: 1px solid #dedfe0;
+  border-radius: 4px;
+  border-collapse: separate;
+  transition: all 0.3s;
+}
+
+.css-y0hvqx.bit-checkbox .bit-checkbox-inner:after {
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 21.5%;
+  display: table;
+  width: 5.7142857142857135px;
+  height: 9.142857142857142px;
+  border: 2px solid #ffffff;
+  border-top: 0;
+  border-inline-start: 0;
+  transform: rotate(45deg) scale(0) translate(-50%, -50%);
+  opacity: 0;
+  content: "";
+  transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6), opacity 0.1s;
+}
+
+.css-y0hvqx.bit-checkbox + span {
+  padding: 0 8px;
+}
+
+.css-y0hvqx.bit-checkbox-wrapper:hover .bit-checkbox:after {
+  visibility: visible;
+}
+
+.css-y0hvqx.bit-checkbox-wrapper:not(.bit-checkbox-wrapper-disabled):hover .bit-checkbox-inner, .css-y0hvqx.bit-checkbox:not(.bit-checkbox-disabled):hover .bit-checkbox-inner {
+  border-color: #151517;
+}
+
+.css-y0hvqx.bit-checkbox-wrapper:not(.bit-checkbox-wrapper-disabled):hover .bit-checkbox-primary .bit-checkbox-inner {
+  border-color: #03aac7;
+}
+
+.css-y0hvqx.bit-checkbox:not(.bit-checkbox-disabled).bit-checkbox-primary:hover .bit-checkbox-inner {
+  border-color: #03aac7;
+}
+
+.css-y0hvqx.bit-checkbox-wrapper:not(.bit-checkbox-wrapper-disabled):hover .bit-checkbox-checked:not(.bit-checkbox-disabled) .bit-checkbox-inner {
+  background-color: #151517;
+  border-color: transparent;
+}
+
+.css-y0hvqx.bit-checkbox-wrapper:not(.bit-checkbox-wrapper-disabled):hover .bit-checkbox-checked:not(.bit-checkbox-disabled):after {
+  border-color: #151517;
+}
+
+.css-y0hvqx.bit-checkbox-wrapper:not(.bit-checkbox-wrapper-disabled):hover .bit-checkbox-checked.bit-checkbox-primary:not(.bit-checkbox-disabled) .bit-checkbox-inner {
+  background-color: #26bfd4;
+}
+
+.css-y0hvqx.bit-checkbox-wrapper:not(.bit-checkbox-wrapper-disabled):hover .bit-checkbox-checked.bit-checkbox-primary:not(.bit-checkbox-disabled):after {
+  border-color: #26bfd4;
+}
+
+.css-y0hvqx.bit-checkbox-checked .bit-checkbox-inner {
+  background-color: #151517;
+  border-color: #151517;
+}
+
+.css-y0hvqx.bit-checkbox-checked .bit-checkbox-inner:after {
+  opacity: 1;
+  transform: rotate(45deg) scale(1) translate(-50%, -50%);
+  transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
+}
+
+.css-y0hvqx.bit-checkbox-checked:after {
+  position: absolute;
+  top: 0;
+  inset-inline-start: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  visibility: hidden;
+  border: 2px solid #151517;
+  content: "";
+}
+
+.css-y0hvqx.bit-checkbox-checked.bit-checkbox-primary .bit-checkbox-inner {
+  background-color: #03aac7;
+  border-color: #03aac7;
+}
+
+.css-y0hvqx.bit-checkbox-checked.bit-checkbox-primary:after {
+  border-color: #03aac7;
+}
+
+.css-y0hvqx.bit-checkbox-wrapper-checked:not(.bit-checkbox-wrapper-disabled):hover .bit-checkbox-inner, .css-y0hvqx.bit-checkbox-checked:not(.bit-checkbox-disabled):hover .bit-checkbox-inner {
+  background-color: #151517;
+  border-color: transparent;
+}
+
+.css-y0hvqx.bit-checkbox-wrapper-checked:not(.bit-checkbox-wrapper-disabled):hover .bit-checkbox:after, .css-y0hvqx.bit-checkbox-checked:not(.bit-checkbox-disabled):hover .bit-checkbox:after {
+  border-color: #151517;
+}
+
+.css-y0hvqx.bit-checkbox-wrapper-checked:not(.bit-checkbox-wrapper-disabled).bit-checkbox-primary:hover .bit-checkbox-inner, .css-y0hvqx.bit-checkbox-checked:not(.bit-checkbox-disabled).bit-checkbox-primary:hover .bit-checkbox-inner {
+  background-color: #26bfd4;
+}
+
+.css-y0hvqx.bit-checkbox-wrapper-checked:not(.bit-checkbox-wrapper-disabled).bit-checkbox-primary:hover .bit-checkbox:after, .css-y0hvqx.bit-checkbox-checked:not(.bit-checkbox-disabled).bit-checkbox-primary:hover .bit-checkbox:after {
+  border-color: #26bfd4;
+}
+
+.css-y0hvqx.bit-checkbox-indeterminate .bit-checkbox-inner {
+  background-color: #151517;
+  border-color: #252629;
+}
+
+.css-y0hvqx.bit-checkbox-indeterminate .bit-checkbox-inner:after {
+  top: 50%;
+  inset-inline-start: 50%;
+  width: 8px;
+  height: 2px;
+  background-color: #ffffff;
+  border: 0;
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+  content: "";
+}
+
+.css-y0hvqx.bit-checkbox-indeterminate.bit-checkbox-primary .bit-checkbox-inner {
+  background-color: #03aac7;
+  border-color: #03aac7;
+}
+
+.css-y0hvqx.bit-checkbox-indeterminate.bit-checkbox-primary .bit-checkbox-inner:after {
+  background-color: #ffffff;
+}
+
+.css-y0hvqx.bit-checkbox-wrapper-disabled {
+  cursor: not-allowed;
+}
+
+.css-y0hvqx.bit-checkbox-disabled, .css-y0hvqx.bit-checkbox-disabled .bit-checkbox-input {
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.css-y0hvqx.bit-checkbox-disabled .bit-checkbox-inner {
+  background: #eaeaed;
+  border-color: #dedfe0;
+}
+
+.css-y0hvqx.bit-checkbox-disabled .bit-checkbox-inner:after {
+  border-color: #c3c3c7;
+}
+
+.css-y0hvqx.bit-checkbox-disabled:after {
+  display: none;
+}
+
+.css-y0hvqx.bit-checkbox-disabled + span {
+  color: #c3c3c7;
+}
+
+.css-y0hvqx.bit-checkbox-disabled.bit-checkbox-indeterminate .bit-checkbox-inner::after {
+  background: #c3c3c7;
+}
 </style>

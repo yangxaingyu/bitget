@@ -3164,19 +3164,13 @@ export default {
         childDom.style.display = 'none'
         document.getElementById(id).children[1].classList.remove('is-active');
       }
+    },
+    logout() {
+      localStorage.removeItem('token');
+      window.location.href = '/login';
     }
   },
-  methods: {
-    logout() {
-      localStorage.removeItem('token'); 
-      window.location.href = '/login'; 
-    }
-  }
-
 }
-
-
-
 
 </script>
 
