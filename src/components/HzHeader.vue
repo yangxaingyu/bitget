@@ -922,7 +922,7 @@
                                 </div>
                                 <a href="/dashboard">
                                   <div data-v-4028f250>
-                                  <div data-v-4028f250 class="micro-userInfo-displayName text-primaryText max-w-220px text-16px font-700 truncate cursor-pointer leading-24px not-jump mi-tooltip__trigger mi-tooltip__trigger">BGUSER-4WHEY70G</div>
+                                  <div data-v-4028f250 class="micro-userInfo-displayName text-primaryText max-w-220px text-16px font-700 truncate cursor-pointer leading-24px not-jump mi-tooltip__trigger mi-tooltip__trigger">{{ displayName }}</div>
                                   <div data-v-4028f250 class="not-jump mt-2px flex items-center text-thirdText text-12px cursor-pointer leading-18px"> UID: 8938879007
                                     <svg data-v-4028f250 width="12" height="12" class="not-jump not-jump ml-4px" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                       <g id="Copy" class="not-jump">
@@ -3124,6 +3124,7 @@ export default {
     return {
       lang: '',
       token: '',
+      displayName: '',
       isLogin: false,
       screenWidth: null,
       pcUserShow: false,
@@ -3131,7 +3132,12 @@ export default {
       mobileMenuShow: false,
       langCurrencyShow: false,
       mobileLangCurrencyShow: false
+      
     }
+  },
+  created() {
+    this.userEmail = localStorage.getItem("user_email")
+    this.displayName = localStorage.getItem("user_name")
   },
   mounted() {
     this.screenWidth = document.body.clientWidth

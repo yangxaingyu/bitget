@@ -12,9 +12,9 @@
                      class="sep-dashboard-welcome dashboard-welcome mb-24px">
                   <div data-v-0c8c315d=""
                        class="welcome-text text-24px text-v3PrimaryText font-700 leading-34px"><span
-                      data-v-0c8c315d="">Welcome back, </span><span data-v-0c8c315d="">BGUSER-M3C8Z5R6
+                      data-v-0c8c315d="">Welcome back, </span><span data-v-0c8c315d="">{{ displayName }}
                                         <img data-v-0c8c315d="" width="26"
-                                             src="/baseasset/img/dashboardNew/welcome-img.svg"
+                                             src="../assets/img/welcome-img.svg"
                                              class="ml-6px relative top-4px "></span></div>
                   <div data-v-0c8c315d="" class="text-16px text-v3TertiaryText leading-22px mt-4px">
                     Bitcoin will do to banks what email did to the postal industry. — Rick Falkvinge
@@ -36,7 +36,7 @@
                            class="avatar-tags-wrapper ml-16px flex flex-col justify-between md:h-auto">
                         <div data-v-55078d1f=""
                              class="userInfo-displayname text-v3PrimaryText text-24px font-700 leading-34px cursor-pointer">
-                          BGUSER-M3C8Z5R6
+                             {{ displayName }}
                         </div>
                         <div data-v-55078d1f="" class="tags-wrapper flex items-center flex-wrap">
                           <div data-v-55078d1f=""
@@ -177,6 +177,7 @@
                           </div>
                           <div data-v-5d4dfe3b=""
                                class="sep-dashboard-btn-icon-right mt-8px self-end font-600 leading-20px text-v3PrimaryText">
+                           <a href="/enter">
                             <svg data-v-5d4dfe3b="" xmlns="http://www.w3.org/2000/svg"
                                  viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"
                                  class="icon-font w-16px h-16px rtl-rotate">
@@ -184,6 +185,7 @@
                                   d="M20.78 12.53l-6.75 6.75a.75.75 0 01-1.06-1.06l5.47-5.47H3.75a.75.75 0 110-1.5h14.69l-5.47-5.47a.75.75 0 111.06-1.06l6.75 6.75a.747.747 0 010 1.06z">
                               </path>
                             </svg>
+                           </a>
                           </div>
                         </div>
                       </div>
@@ -763,12 +765,55 @@
 
 <script>
 
+import axios from "axios";
 import LeftDash from "@/components/LeftDash.vue"; // 引入头部组件
-
 export default {
   components: {
     LeftDash, // 注册头部组件
   },
+  data() {
+    return {
+      token: '',
+      displayName: '',
+      userEmail: '',
+      displayAddressShow: false,
+      displayNameShow: false,
+      isShowAlertError: false,
+      isShowAlertSuccess: false,
+      alertMsg: '',
+
+      isDisplayNameDialogVisible: false, // 控制显示名称对话框的可见性
+      isUsernameDialogVisible: false, // 控制用户名对话框的可见性
+      isDialogOpen: true, // 控制对话框的可见性
+      address: {
+        recipient: '',
+        shippingaddress: '',
+        note: ''
+      }
+    };
+  },
+  created() {
+    this.token = localStorage.getItem("token")
+    this.userEmail = localStorage.getItem("user_email")
+    this.displayName = localStorage.getItem("user_name")
+  },
+  methods: {
+    async saveAddress() {
+      const res = await axios.post(this.$host + 'api/upaddress', {
+        recipient: this.address.recipient,
+        shippingaddress: this.address.shippingaddress,
+        note: this.address.note
+      }, {headers: {Authorization: 'Bearer ' + this.token}});
+      console.log(res)
+      if (res.data.code === 200) {
+        this.alertMsgFn(1, 'save address successful')
+        this.displayAddressShow = false
+      } else {
+        this.alertMsgFn(2, 'save address fail')
+      }
+    },
+   
+  }
 };
 </script>
 

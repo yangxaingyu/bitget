@@ -378,14 +378,16 @@ export default {
 
       const res = await axios.post('https://bitgetend.hzdev.top/api/login', {
         user_email: this.user.email,
-        user_password: this.user.password
+        user_password: this.user.password,
       });
 
       if (res.data.code === 200) {
+        console.log(res);
+        
         localStorage.setItem("token", res.data.data.token)
         localStorage.setItem("user_name", res.data.data.user_info.user_name)
         localStorage.setItem("user_email", res.data.data.user_info.user_email)
-
+        localStorage.setItem("created_at", res.data.data.user_info.created_at)
 
         // 跳转 dashboard
         this.$router.push({
