@@ -167,7 +167,7 @@
                     Registration date
                   </div>
                   <div data-v-18402fd0 class="font-500">
-                    {{formatDate(createdTime)}}
+                    2024-09-23 15:22:38
                   </div>
                 </div>
                 <div data-v-18402fd0 class="flex flex-row justify-between items-center h-70px text-fs16">
@@ -436,11 +436,8 @@
                 <label for="remark" class="bit-form-item__label">Note</label>
                 <div class="bit-form-item__content">
                   <div data-v-6ee4dd1e class="bit-textarea bit-input--medium bit-input--round">
-                    <textarea v-model="address.note" autocomplete="off" maxlength="120"
-          :placeholder="address.note || 'Provide your details so that delivery personnel can get in touch with you.'"
-          class="bit-textarea__inner" style="min-height: 126px; height: 126px;"></textarea>
-<span class="bit-input__count">{{ address.note.length }} / 120</span>
-</div>
+                    <textarea v-model="address.note" autocomplete="off" maxlength="120" placeholder="Provide your details so that delivery personnel can get in touch with you." class="bit-textarea__inner" style="min-height: 126px; height: 126px;"></textarea><span class="bit-input__count">0 / 120</span>
+                  </div>
                   <div class="bit-form-item__extra"></div>
                 </div>
               </div>
@@ -489,7 +486,7 @@
       </p>
     </div>
 
-    <!-- <p class="bit-message__content">Saved. Under review</p> -->
+    <p class="bit-message__content">Saved. Under review</p>
     <HzFooter></HzFooter>
   </div>
 
@@ -508,12 +505,12 @@ export default {
       token: '',
       displayName: '',
       userEmail: '',
-      createdTime:'',
       displayAddressShow: false,
       displayNameShow: false,
       isShowAlertError: false,
       isShowAlertSuccess: false,
       alertMsg: '',
+
       isDisplayNameDialogVisible: false, // 控制显示名称对话框的可见性
       isUsernameDialogVisible: false, // 控制用户名对话框的可见性
       isDialogOpen: true, // 控制对话框的可见性
@@ -528,7 +525,6 @@ export default {
     this.token = localStorage.getItem("token")
     this.userEmail = localStorage.getItem("user_email")
     this.displayName = localStorage.getItem("user_name")
-    this.createdTime = localStorage.getItem("created_at")
   },
   methods: {
     async saveAddress() {
@@ -537,6 +533,7 @@ export default {
         shippingaddress: this.address.shippingaddress,
         note: this.address.note
       }, {headers: {Authorization: 'Bearer ' + this.token}});
+      console.log(res)
       if (res.data.code === 200) {
         this.alertMsgFn(1, 'save address successful')
         this.displayAddressShow = false
@@ -553,9 +550,12 @@ export default {
       const res = await axios.post(this.$host + 'api/upname', {
         user_name: this.displayName,
       }, {headers: {Authorization: 'Bearer ' + this.token}});
+      console.log('111', res)
       if (res.data.code === 200) {
         this.alertMsgFn(1, 'change display name successful')
-        this.displayNameShow=false
+        this.displayNameShow = false
+        this.displayName = res.data.data.user_name
+        localStorage.setItem("user_name", this.displayName)
       } else {
         this.alertMsgFn(2, 'change display name successful fail')
       }
@@ -575,11 +575,6 @@ export default {
         this.alertMsg = ''
       }, 5000)
     },
-     formatDate(datetime) {
-    const date = new Date(datetime);
-    const formattedDate = date.toISOString().split('.')[0].replace('T', ' ');;
-    return formattedDate
-  },
 
     toggleDisplayNameDialog() {
       this.isDisplayNameDialogVisible = !this.isDisplayNameDialogVisible; // 切换显示名称对话框的显示状态
