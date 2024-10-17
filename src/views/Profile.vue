@@ -555,6 +555,7 @@ export default {
       }, {headers: {Authorization: 'Bearer ' + this.token}});
       if (res.data.code === 200) {
         this.alertMsgFn(1, 'change display name successful')
+        this.displayNameShow=false
       } else {
         this.alertMsgFn(2, 'change display name successful fail')
       }
