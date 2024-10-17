@@ -7807,4 +7807,8 @@ body.black,body.dark,html.black,html.dark {
   border-radius: 15px !important;
 }
 
+.ant-radio-inner::after {
+  background-color: white;
+}
+
 </style>

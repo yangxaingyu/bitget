@@ -384,6 +384,8 @@ export default {
       if (res.data.code === 200) {
         localStorage.setItem("token", res.data.data.token)
         localStorage.setItem("user_name", res.data.data.user_info.user_name)
+        localStorage.setItem("user_email", res.data.data.user_info.user_email)
+
 
         // 跳转 dashboard
         this.$router.push({

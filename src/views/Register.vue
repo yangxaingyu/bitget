@@ -270,16 +270,29 @@
         </div>
       </div>
     </div>
-    <div v-show="isShowAlertError" role="alert" class="bit-message bit-message--error" style="top: 100px; z-index: 2002;">
+
+    <div v-if="isShowAlertError" role="alert" class="bit-message bit-message--error" style="top: 100px; z-index: 9999;">
       <i class="bit-icon bit-message__icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
           <path d="M12 2.25A9.75 9.75 0 1021.75 12 9.76 9.76 0 0012 2.25zm3.53 12.22a.75.75 0 11-1.06 1.06L12 13.06l-2.47 2.47a.75.75 0 11-1.06-1.06L10.94 12 8.47 9.53a.75.75 0 011.06-1.06L12 10.94l2.47-2.47a.751.751 0 011.06 1.06L13.06 12l2.47 2.47z"></path>
         </svg>
       </i>
       <p class="bit-message__content">
-        {{ alertErrorMsg }}
+        {{ alertMsg }}
       </p>
     </div>
+
+    <div v-if="isShowAlertSuccess" role="alert" class="bit-message bit-message--success" style="top: 100px; z-index: 2021;">
+      <i class="bit-icon bit-message__icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M12 2.25A9.75 9.75 0 1021.75 12 9.76 9.76 0 0012 2.25zm4.28 8.03l-5.25 5.25a.747.747 0 01-1.06 0l-2.25-2.25a.75.75 0 111.06-1.06l1.72 1.72 4.72-4.72a.751.751 0 011.06 1.06z"></path>
+        </svg>
+      </i>
+      <p class="bit-message__content">
+        {{ alertMsg }}
+      </p>
+    </div>
+
   </div>
 </template>
 
@@ -298,6 +311,7 @@ export default {
       emailError: '',
       passwordError: '',
       isShowAlertError: false,
+      isShowAlertSuccess: false,
       alertErrorMsg: '',
       user: {
         email: '',
@@ -344,35 +358,31 @@ export default {
       })
 
       if (res.data.code === 200) {
-        // this.emailError = ''
-        // this.passwordError = ''
-        // localStorage.setItem("token", res.data.data.token)
-        // 跳转 dashboard
-        // this.$router.push({
-        //   path:"/dashboard",
-        // })
-        this.isShowAlertError = true
-        this.alertErrorMsg = res.data.msg
+        this.alertMsgFn(1, "register successful")
         this.timer = setTimeout(() => {
-          console.log('timer......')
-          this.isShowAlertError = false
-          this.alertErrorMsg = ''
           this.$router.push({
             path: "/login",
           })
         }, 5000)
       } else {
-        this.isShowAlertError = true
-        this.alertErrorMsg = res.data.msg
-        this.timer = setTimeout(() => {
-          console.log('timer......')
-          this.isShowAlertError = false
-          this.alertErrorMsg = ''
-        }, 5000)
-        //clearTimeout(this.timer)
+        this.alertMsgFn(0, res.data.msg)
       }
-      console.log(res)
-    }
+    },
+
+    alertMsgFn (type, msg) {
+      if (type === 1) {
+        this.isShowAlertSuccess = true
+      } else {
+        this.isShowAlertError = true
+      }
+      this.alertMsg = msg
+      this.timer = setTimeout(() => {
+        this.isShowAlertError = false
+        this.isShowAlertSuccess = false
+        this.alertMsg = ''
+      }, 5000)
+    },
+
   }
 };
 </script>

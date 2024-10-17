@@ -51,7 +51,7 @@
                     </div>
                   </div>
                   <button @click="displayNameShow = true" type="button" class="bit-button bit-button--default is-round">
-                    <span>Change 111</span>
+                    <span>Change</span>
                   </button>
                 </div>
                 <div v-if="false" data-v-18402fd0 class="flex flex-row item-border justify-between items-center h-95px text-fs16">
@@ -107,7 +107,7 @@
                     Email
                   </div>
                   <div data-v-18402fd0 class="font-500">
-                    311****@qq.com
+                    {{ userEmail }}
                   </div>
                 </div>
                 <div data-v-18402fd0 class="flex flex-row justify-between item-border items-center h-70px text-fs16">
@@ -131,7 +131,7 @@
                   <div data-v-18402fd0 class="font-400">
                     Shipping address
                   </div>
-                  <div @click="shippingAddressShow = true" data-v-18402fd0 class="font-500 flex flex-row cursor-pointer justify-end">
+                  <div @click="displayAddressShow = true" data-v-18402fd0 class="font-500 flex flex-row cursor-pointer justify-end">
                     <span data-v-18402fd0 class="text-[#03AAC7] mr-4px shipping">Configure</span>
                     <i data-v-18402fd0 class="bit-icon cursor-pointer rtl-rotate" style="font-size: 20px;">
                       <svg
@@ -395,10 +395,10 @@
     </div>
 
     <!--Shipping address-->
-    <div v-if="shippingAddressShow" data-v-2f3eda9e class="bit-dialog__wrapper is-centered is-responsive" style="z-index: 2003;">
+    <div v-if="displayAddressShow" data-v-2f3eda9e class="bit-dialog__wrapper is-centered is-responsive" style="z-index: 2003;">
       <div role="dialog" aria-modal="true" aria-label="Shipping address" class="bit-dialog" style="margin-top: 15vh; width: 480px;">
         <div class="bit-dialog__header"><span class="bit-dialog__title">Shipping address</span>
-          <button @click="shippingAddressShow = false" type="button" aria-label="Close" class="bit-dialog__headerbtn">
+          <button @click="displayAddressShow = false" type="button" aria-label="Close" class="bit-dialog__headerbtn">
             <i class="bit-icon" style="font-size: 20px;">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                 <path d="M19.28 18.22a.75.75 0 01-.817 1.223.75.75 0 01-.244-.162L12 13.06l-6.22 6.22a.75.75 0 01-1.06-1.062L10.94 12 4.72 5.78a.75.75 0 111.06-1.06L12 10.94l6.22-6.22a.75.75 0 011.06 1.06L13.06 12l6.22 6.22z"></path>
@@ -449,7 +449,7 @@
         </div>
         <div class="bit-dialog__footer">
           <div class="flex mt-4px">
-            <button @click="shippingAddressShow = false" type="button" class="bit-button flex-1 bit-button--default bit-button--medium is-round">
+            <button @click="displayAddressShow = false" type="button" class="bit-button flex-1 bit-button--default bit-button--medium is-round">
               <span>
                 Cancel
               </span>
@@ -471,7 +471,18 @@
         </svg>
       </i>
       <p class="bit-message__content">
-        {{ alertErrorMsg }}
+        {{ alertMsg }}
+      </p>
+    </div>
+
+    <div v-if="isShowAlertSuccess" role="alert" class="bit-message bit-message--success" style="top: 100px; z-index: 2021;">
+      <i class="bit-icon bit-message__icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M12 2.25A9.75 9.75 0 1021.75 12 9.76 9.76 0 0012 2.25zm4.28 8.03l-5.25 5.25a.747.747 0 01-1.06 0l-2.25-2.25a.75.75 0 111.06-1.06l1.72 1.72 4.72-4.72a.751.751 0 011.06 1.06z"></path>
+        </svg>
+      </i>
+      <p class="bit-message__content">
+        {{ alertMsg }}
       </p>
     </div>
 
@@ -493,10 +504,12 @@ export default {
     return {
       token: '',
       displayName: '',
-      shippingAddressShow: false,
+      userEmail: '',
+      displayAddressShow: false,
       displayNameShow: false,
       isShowAlertError: false,
-      alertErrorMsg: '',
+      isShowAlertSuccess: false,
+      alertMsg: '',
 
       isDisplayNameDialogVisible: false, // 控制显示名称对话框的可见性
       isUsernameDialogVisible: false, // 控制用户名对话框的可见性
@@ -510,34 +523,22 @@ export default {
   },
   created() {
     this.token = localStorage.getItem("token")
+    this.userEmail = localStorage.getItem("user_email")
     this.displayName = localStorage.getItem("user_name")
   },
   methods: {
     async saveAddress() {
-      console.log(this.address)
       const res = await axios.post(this.$host + 'api/upaddress', {
         recipient: this.address.recipient,
         shippingaddress: this.address.shippingaddress,
         note: this.address.note
       }, {headers: {Authorization: 'Bearer ' + this.token}});
-      console.log(this.$host + 'api/upaddress')
-      console.log("456")
       console.log(res)
       if (res.data.code === 200) {
-        this.isShowAlertError = true
-        this.alertErrorMsg = 'save address successful'
-        this.timer = setTimeout(() => {
-          this.isShowAlertError = false
-          this.alertErrorMsg = ''
-        }, 5000)
+        this.alertMsgFn(1, 'save address successful')
+        this.displayAddressShow = false
       } else {
-        this.isShowAlertError = true
-        this.alertErrorMsg = 'save address successful'
-        this.timer = setTimeout(() => {
-          this.isShowAlertError = false
-          this.alertErrorMsg = ''
-        }, 5000)
-        //clearTimeout(this.timer)
+        this.alertMsgFn(2, 'save address fail')
       }
     },
     async changeDisplayName() {
@@ -549,15 +550,25 @@ export default {
       const res = await axios.post(this.$host + 'api/upname', {
         user_name: this.displayName,
       }, {headers: {Authorization: 'Bearer ' + this.token}});
+      if (res.data.code === 200) {
+        this.alertMsgFn(1, 'change display name successful')
+      } else {
+        this.alertMsgFn(2, 'change display name successful fail')
+      }
     },
 
-    alertError (msg) {
-      this.isShowAlertError = true
-      this.alertErrorMsg = msg
+    // type 1:成功 2:失败
+    alertMsgFn (type, msg) {
+      if (type === 1) {
+        this.isShowAlertSuccess = true
+      } else {
+        this.isShowAlertError = true
+      }
+      this.alertMsg = msg
       this.timer = setTimeout(() => {
-        console.log('timer......')
         this.isShowAlertError = false
-        this.alertErrorMsg = ''
+        this.isShowAlertSuccess = false
+        this.alertMsg = ''
       }, 5000)
     },
 
