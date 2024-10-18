@@ -311,4 +311,9 @@ export default {
     width: 380px
   }
 }
+@media (max-width: 750px){
+  .w-full.rounded-\[16px\].border-\[1px\].border-solid.border-ds-color-border-subtle.bg-ds-color-background-primary.px-\[32px\].py-\[40px\].xl\:w-\[380px\] {
+    width: 293px;
+  }
+}
 </style>

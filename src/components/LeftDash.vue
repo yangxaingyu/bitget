@@ -125,7 +125,7 @@
                 </button>
               </header>
               <ul ref="leftBox" class="bit-menu bit-mobile-menu">
-                <li data-v-6e832e77 role="menuitem" tabindex="-1" class="bit-menu-item is-active"
+                <li data-v-6e832e77 role="menuitem" tabindex="-1" class="bit-menu-item"
                     :class="{'is-active': this.$route.path === '/dashboard'}">
                   <router-link to="dashboard">
                   <svg data-v-6e832e77 width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">

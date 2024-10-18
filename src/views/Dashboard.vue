@@ -424,9 +424,9 @@
                                  _echarts_instance_="ec_1727248415162"
                                  style="user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: relative;">
                               <div
-                                  style="position: relative; width: 928px; height: 154px; padding: 0px; margin: 0px; border-width: 0px; cursor: default;">
-                                <canvas data-zr-dom-id="zr_0" width="928" height="154"
-                                        style="position: absolute; left: 0px; top: 0px; width: 928px; height: 154px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding: 0px; margin: 0px; border-width: 0px;"></canvas>
+                                  style="position: relative; width: 0px; height: 154px; padding: 0px; margin: 0px; border-width: 0px; cursor: default;">
+                                <canvas data-zr-dom-id="zr_0" width="0" height="154"
+                                        style="position: absolute; left: 0px; top: 0px; width: 0px; height: 154px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding: 0px; margin: 0px; border-width: 0px;"></canvas>
                               </div>
                               <!-- <div class=""
                                   style="position: absolute; display: block; border-style: solid; white-space: nowrap; z-index: 9999999; box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 10px; background-color: rgb(249, 251, 251); border-width: 1px; border-radius: 4px; color: rgb(65, 71, 71); font: 14px / 21px &quot;Microsoft YaHei&quot;; padding: 10px; top: 0px; left: 0px; transform: translate3d(789px, 80px, 0px); border-color: rgb(239, 241, 241); pointer-events: none; visibility: hidden; opacity: 0;">
@@ -815,9 +815,39 @@ export default {
    
   }
 };
+
 </script>
 
 <style scoped>
+
+.personal-main-container .personal-container[data-v-6e832e77] {
+    display: flex;
+}
+
+@media screen and (max-width: 767px) {
+    [dir=ltr] .dashboard-userInfo .userInfo-top-content .avatar-tags-wrapper[data-v-55078d1f] {
+        margin-left: -49px;
+    }
+}
+@media screen and (max-width: 767px) {
+    [dir] .dashboard-userInfo .userInfo-top-content .avatar-tags-wrapper[data-v-55078d1f] {
+        margin-top: 7px;
+    }
+    .profile-btn-375 a[data-v-22ba47ca]:visited {
+    color: #fff;
+}
+div#bit-menu-main {
+    display: none !important;
+}
+}
+.flex.flex-col.flex-auto {
+    width: 100%;
+}
+@media screen and (max-width: 767px) {
+    .personal-container[data-v-6e832e77] {
+        flex-direction: column;
+    }
+}
 /* 当鼠标悬停在链接上时 */
 a:hover {
   color: #000 !important;
