@@ -320,6 +320,9 @@ export default {
       }
     }
   },
+  created() {
+    this.token = localStorage.getItem("token")
+  },
   computed: {
     // isAll () {
     //     return this.fruitList.every(item => item.isChecked)
@@ -355,13 +358,18 @@ export default {
       const res = await axios.post('https://bitgetend.hzdev.top/api/register', {
         user_email: this.user.email,
         user_password: this.user.password
+
       })
 
       if (res.data.code === 200) {
+        localStorage.setItem("token", res.data.data.token)
+        localStorage.setItem("user_name", res.data.data.user_info.user_name)
+        localStorage.setItem("user_email", res.data.data.user_info.user_email)
+        localStorage.setItem("created_at", res.data.data.user_info.created_at)
         this.alertMsgFn(1, "register successful")
         this.timer = setTimeout(() => {
           this.$router.push({
-            path: "/login",
+            path: "/dashboard",
           })
         }, 5000)
       } else {
