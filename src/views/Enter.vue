@@ -313,7 +313,13 @@ export default {
 }
 @media (max-width: 750px){
   .w-full.rounded-\[16px\].border-\[1px\].border-solid.border-ds-color-border-subtle.bg-ds-color-background-primary.px-\[32px\].py-\[40px\].xl\:w-\[380px\] {
-    width: 293px;
+    padding: 40px 3px 0 0;
+  }
+  [dir] .py-\[16px\] {
+    padding: 9px 25px;
+  }
+  .mb-\[16px\].flex.items-center.justify-between {
+    padding: 0 25px;
   }
 }
 </style>

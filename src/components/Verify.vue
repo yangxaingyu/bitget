@@ -1,9 +1,9 @@
 <template>
-  <div id="root">
+  <div id="root" class="mi-drawer" style="padding-top: 20px">
     <div class="h-full w-full">
       <div class="css-diro6f ant-app w-full h-full">
-        <div class="w-full h-full md:bg-ds-color-background-mask-alt ">
-          <div style="height: 70%; overflow-x: hidden; overflow-y: scroll;"
+        <div class="w-full h-full md:bg-ds-color-background-mask-alt">
+          <div style="overflow-x: hidden; overflow-y: scroll;"
                class="bg-ds-color-background-primary w-full h-full md:h-auto md:w-[480px] md:min-h-[200px] md:relative md:rtl:right-[50%] md:ltr:left-[50%] md:top-[50%] md:rtl:translate-x-1/2  md:rtl:-translate-y-1/2 md:ltr:-translate-x-1/2 md:ltr:-translate-y-1/2 md:rounded-[16px] md:p-[32px]">
             <div @click="closeSelfFn" class="flex justify-between pb-[8px] text-[19px]">
               <div class="pl-[14px] font-bold text-ds-color-text-primary md:pt-[0px] md:pl-[0px]">
