@@ -1,1 +1,59 @@
-[dir] .bit-avatar,[dir] .bit-avatar.bit-avatar--default{background-color:var(--bit-bg-color-tertiary)}.bit-avatar{display:inline-block;box-sizing:border-box;overflow:hidden;color:var(--bit-color-white);width:44px;height:44px;line-height:44px;font-size:14px}[dir] .bit-avatar{text-align:center;border:1px solid var(--bit-border-color-primary)}.bit-avatar>img{display:block;height:100%;vertical-align:middle}.bit-avatar.bit-avatar--default .icon-default{color:var(--bit-bg-color-primary)}[dir] .bit-avatar--circle{border-radius:50%}[dir] .bit-avatar--square{border-radius:4px}.bit-avatar--icon{font-size:18px}.bit-avatar--large{width:56px;height:56px;line-height:56px}.bit-avatar--medium{width:44px;height:44px;line-height:44px}.bit-avatar--small{width:32px;height:32px;line-height:32px}
+[dir] .bit-avatar, [dir] .bit-avatar.bit-avatar--default {
+    background-color: var(--bit-bg-color-tertiary)
+}
+
+.bit-avatar {
+    display: inline-block;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: var(--bit-color-white);
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 14px
+}
+
+[dir] .bit-avatar {
+    text-align: center;
+    border: 1px solid var(--bit-border-color-primary)
+}
+
+.bit-avatar > img {
+    display: block;
+    height: 100%;
+    vertical-align: middle
+}
+
+.bit-avatar.bit-avatar--default .icon-default {
+    color: var(--bit-bg-color-primary)
+}
+
+[dir] .bit-avatar--circle {
+    border-radius: 50%
+}
+
+[dir] .bit-avatar--square {
+    border-radius: 4px
+}
+
+.bit-avatar--icon {
+    font-size: 18px
+}
+
+.bit-avatar--large {
+    width: 56px;
+    height: 56px;
+    line-height: 56px
+}
+
+.bit-avatar--medium {
+    width: 44px;
+    height: 44px;
+    line-height: 44px
+}
+
+.bit-avatar--small {
+    width: 32px;
+    height: 32px;
+    line-height: 32px
+}

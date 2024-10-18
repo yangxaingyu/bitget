@@ -1,30 +1,30 @@
 .bit-carousel__item, .bit-carousel__mask {
-    position: absolute;
-    height: 100%;
-    top: 0
+    position:absolute;
+    height:100%;
+    top:0
 }
 
 [dir=ltr] .bit-carousel__item, [dir=ltr] .bit-carousel__mask {
-    left: 0
+    left:0
 }
 
 [dir=rtl] .bit-carousel__item, [dir=rtl] .bit-carousel__mask {
-    right: 0
+    right:0
 }
 
 .bit-carousel__item {
-    width: 100%;
-    display: inline-block;
-    overflow: hidden;
-    z-index: 0
+    width:100%;
+    display:inline-block;
+    overflow:hidden;
+    z-index:0
 }
 
 .bit-carousel__item.is-active {
-    z-index: 2
+    z-index:2
 }
 
 .bit-carousel__item--card, .bit-carousel__item.is-animating {
-    transition: transform .4s ease-in-out
+    transition:transform .4s ease-in-out
 }
 
 [dir] .bit-carousel__item--card, [dir] .bit-carousel__item.is-animating {

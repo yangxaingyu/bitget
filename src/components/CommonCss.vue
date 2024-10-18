@@ -3,6 +3,7 @@
 </template>
 
 <script>
+import '@/assets/_nuxt-portal/css/common.css'
 import '@/assets/_nuxt-portal/css/da524e6.css'
 import '@/assets/_nuxt-portal/css/ea4cf36.css'
 import '@/assets/_nuxt-portal/css/cc0f050.css'

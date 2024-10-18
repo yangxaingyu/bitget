@@ -1,27 +1,27 @@
 .ip-alert-box[data-v-79755347] {
-    box-sizing: border-box;
-    color: var(--content-primary)
+    box-sizing:border-box;
+    color:var(--content-primary)
 }
 
 [dir] .ip-alert-box[data-v-79755347] {
-    background: var(--background-secondary)
+    background:var(--background-secondary)
 }
 
 .ip-alert-box .warn-icon[data-v-79755347] {
-    width: 20px
+    width:20px
 }
 
 [dir=ltr] .ip-alert-box .warn-icon[data-v-79755347] {
-    margin: 2px 6px 3px 0
+    margin:2px 6px 3px 0
 }
 
 [dir=rtl] .ip-alert-box .warn-icon[data-v-79755347] {
-    margin: 2px 0 3px 6px
+    margin:2px 0 3px 6px
 }
 
 .ip-alert-box .el-icon-close[data-v-79755347] {
-    font-size: 16px;
-    color: var(--content-primary)
+    font-size:16px;
+    color:var(--content-primary)
 }
 
 [dir] .ip-alert-box .el-icon-close[data-v-79755347] {

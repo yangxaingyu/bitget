@@ -1,1 +1,527 @@
-.vue-advanced-cropper{position:relative;-webkit-user-select:none;-moz-user-select:none;user-select:none;max-height:100%;max-width:100%}[dir] .vue-advanced-cropper{text-align:center}[dir=ltr] .vue-advanced-cropper{direction:ltr}[dir=rtl] .vue-advanced-cropper{direction:rtl}.vue-advanced-cropper__stretcher{pointer-events:none;position:relative;max-width:100%;max-height:100%}.vue-advanced-cropper__image{-webkit-user-select:none;-moz-user-select:none;user-select:none;position:absolute;-webkit-transform-origin:center;max-width:none!important}[dir] .vue-advanced-cropper__image{transform-origin:center}.vue-advanced-cropper__background,.vue-advanced-cropper__foreground{opacity:1;position:absolute;top:50%}[dir] .vue-advanced-cropper__background,[dir] .vue-advanced-cropper__foreground{background:#000}[dir=ltr] .vue-advanced-cropper__background,[dir=ltr] .vue-advanced-cropper__foreground{transform:translate(-50%,-50%);left:50%}[dir=rtl] .vue-advanced-cropper__background,[dir=rtl] .vue-advanced-cropper__foreground{transform:translate(50%,-50%);right:50%}.vue-advanced-cropper__foreground{opacity:.5}.vue-advanced-cropper__boundaries{opacity:1;position:absolute;top:50%}[dir=ltr] .vue-advanced-cropper__boundaries{transform:translate(-50%,-50%);left:50%}[dir=rtl] .vue-advanced-cropper__boundaries{transform:translate(50%,-50%);right:50%}.vue-advanced-cropper__cropper-wrapper{width:100%;height:100%}.vue-advanced-cropper__image-wrapper{overflow:hidden;position:absolute;width:100%;height:100%}.vue-advanced-cropper__stencil-wrapper{position:absolute}.vue-rectangle-stencil{box-sizing:border-box}.vue-rectangle-stencil,.vue-rectangle-stencil__preview{position:absolute;height:100%;width:100%}[dir] .vue-rectangle-stencil--movable{cursor:move}.vue-preview{overflow:hidden;box-sizing:border-box;position:relative}.vue-preview--fill,.vue-preview__wrapper{width:100%;height:100%;position:absolute}.vue-preview__image{pointer-events:none;position:absolute;-webkit-user-select:none;-moz-user-select:none;user-select:none;-webkit-transform-origin:center;max-width:none!important}[dir] .vue-preview__image{transform-origin:center}.vue-circle-stencil{position:absolute;height:100%;width:100%;box-sizing:content-box}[dir] .vue-circle-stencil{cursor:move}.vue-circle-stencil__preview{position:absolute;width:100%;height:100%}[dir] .vue-circle-stencil__preview{border-radius:50%}[dir] .vue-circle-stencil--movable{cursor:move}.vue-simple-handler{display:block;height:10px;width:10px}[dir] .vue-simple-handler{background:#fff}.vue-line-wrapper{position:absolute;display:flex;align-items:center;justify-content:center}[dir=ltr] .vue-line-wrapper{background:0 0}[dir=rtl] .vue-line-wrapper{background:100% 0}.vue-line-wrapper--north,.vue-line-wrapper--south{height:12px;width:100%;-webkit-transform:translateY(-50%)}[dir] .vue-line-wrapper--north,[dir] .vue-line-wrapper--south{transform:translateY(-50%)}[dir=ltr] .vue-line-wrapper--north,[dir=ltr] .vue-line-wrapper--south{left:0}[dir=rtl] .vue-line-wrapper--north,[dir=rtl] .vue-line-wrapper--south{right:0}.vue-line-wrapper--north{top:0}[dir] .vue-line-wrapper--north{cursor:n-resize}.vue-line-wrapper--south{top:100%}[dir] .vue-line-wrapper--south{cursor:s-resize}.vue-line-wrapper--east,.vue-line-wrapper--west{width:12px;height:100%;top:0}[dir=ltr] .vue-line-wrapper--east,[dir=ltr] .vue-line-wrapper--west{transform:translateX(-50%)}[dir=rtl] .vue-line-wrapper--east,[dir=rtl] .vue-line-wrapper--west{transform:translateX(50%)}[dir] .vue-line-wrapper--east{cursor:e-resize}[dir=ltr] .vue-line-wrapper--east{left:100%}[dir=rtl] .vue-line-wrapper--east{right:100%}[dir] .vue-line-wrapper--west{cursor:w-resize}[dir=ltr] .vue-line-wrapper--west{left:0}[dir=rtl] .vue-line-wrapper--west{right:0}[dir] .vue-line-wrapper--disabled{cursor:auto}.vue-handler-wrapper{position:absolute;width:30px;height:30px}[dir=ltr] .vue-handler-wrapper{transform:translate(-50%,-50%)}[dir=rtl] .vue-handler-wrapper{transform:translate(50%,-50%)}.vue-handler-wrapper__draggable{width:100%;height:100%;display:flex;align-items:center;justify-content:center}[dir=ltr] .vue-handler-wrapper--west-north{cursor:nw-resize}[dir=rtl] .vue-handler-wrapper--west-north{cursor:ne-resize}[dir] .vue-handler-wrapper--north{cursor:n-resize}[dir=ltr] .vue-handler-wrapper--east-north{cursor:ne-resize}[dir=rtl] .vue-handler-wrapper--east-north{cursor:nw-resize}[dir] .vue-handler-wrapper--east{cursor:e-resize}[dir=ltr] .vue-handler-wrapper--east-south{cursor:se-resize}[dir=rtl] .vue-handler-wrapper--east-south{cursor:sw-resize}[dir] .vue-handler-wrapper--south{cursor:s-resize}[dir=ltr] .vue-handler-wrapper--west-south{cursor:sw-resize}[dir=rtl] .vue-handler-wrapper--west-south{cursor:se-resize}[dir] .vue-handler-wrapper--west{cursor:w-resize}[dir] .vue-handler-wrapper--disabled{cursor:auto}.vue-draggable-area{position:relative}.vue-bounding-box{position:relative;height:100%;width:100%}.vue-bounding-box__handler{position:absolute}.vue-bounding-box__handler--west-north{top:0}[dir=ltr] .vue-bounding-box__handler--west-north{left:0}[dir=rtl] .vue-bounding-box__handler--west-north{right:0}.vue-bounding-box__handler--north{top:0}[dir=ltr] .vue-bounding-box__handler--north{left:50%}[dir=rtl] .vue-bounding-box__handler--north{right:50%}.vue-bounding-box__handler--east-north{top:0}[dir=ltr] .vue-bounding-box__handler--east-north{left:100%}[dir=rtl] .vue-bounding-box__handler--east-north{right:100%}.vue-bounding-box__handler--east{top:50%}[dir=ltr] .vue-bounding-box__handler--east{left:100%}[dir=rtl] .vue-bounding-box__handler--east{right:100%}.vue-bounding-box__handler--east-south{top:100%}[dir=ltr] .vue-bounding-box__handler--east-south{left:100%}[dir=rtl] .vue-bounding-box__handler--east-south{right:100%}.vue-bounding-box__handler--south{top:100%}[dir=ltr] .vue-bounding-box__handler--south{left:50%}[dir=rtl] .vue-bounding-box__handler--south{right:50%}.vue-bounding-box__handler--west-south{top:100%}[dir=ltr] .vue-bounding-box__handler--west-south{left:0}[dir=rtl] .vue-bounding-box__handler--west-south{right:0}.vue-bounding-box__handler--west{top:50%}[dir=ltr] .vue-bounding-box__handler--west{left:0}[dir=rtl] .vue-bounding-box__handler--west{right:0}.vue-preview-result{overflow:hidden;box-sizing:border-box;position:absolute;height:100%;width:100%}.vue-preview-result__wrapper{position:absolute}.vue-preview-result__image{pointer-events:none;position:relative;-webkit-user-select:none;-moz-user-select:none;user-select:none;-webkit-transform-origin:center;max-width:none!important}[dir] .vue-preview-result__image{transform-origin:center}.vue-simple-line{transition:border .5s}[dir] .vue-simple-line{-webkit-transition:border .5s;border:0 solid hsla(0,0%,100%,.3)}[dir=ltr] .vue-simple-line{background:0 0}[dir=rtl] .vue-simple-line{background:100% 0}.vue-simple-line--north,.vue-simple-line--south{height:0;width:100%}.vue-simple-line--east,.vue-simple-line--west{height:100%;width:0}[dir=ltr] .vue-simple-line--east{border-right-width:1px}[dir=ltr] .vue-simple-line--west,[dir=rtl] .vue-simple-line--east{border-left-width:1px}[dir=rtl] .vue-simple-line--west{border-right-width:1px}[dir] .vue-simple-line--south{border-bottom-width:1px}[dir] .vue-simple-line--north{border-top-width:1px}.vue-simple-line--hover{opacity:1}[dir] .vue-simple-line--hover{border-color:#fff}
+.vue-advanced-cropper {
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    max-height: 100%;
+    max-width: 100%
+}
+
+[dir] .vue-advanced-cropper {
+    text-align: center
+}
+
+[dir=ltr] .vue-advanced-cropper {
+    direction: ltr
+}
+
+[dir=rtl] .vue-advanced-cropper {
+    direction: rtl
+}
+
+.vue-advanced-cropper__stretcher {
+    pointer-events: none;
+    position: relative;
+    max-width: 100%;
+    max-height: 100%
+}
+
+.vue-advanced-cropper__image {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    position: absolute;
+    -webkit-transform-origin: center;
+    max-width: none !important
+}
+
+[dir] .vue-advanced-cropper__image {
+    transform-origin: center
+}
+
+.vue-advanced-cropper__background, .vue-advanced-cropper__foreground {
+    opacity: 1;
+    position: absolute;
+    top: 50%
+}
+
+[dir] .vue-advanced-cropper__background, [dir] .vue-advanced-cropper__foreground {
+    background: #000
+}
+
+[dir=ltr] .vue-advanced-cropper__background, [dir=ltr] .vue-advanced-cropper__foreground {
+    transform: translate(-50%, -50%);
+    left: 50%
+}
+
+[dir=rtl] .vue-advanced-cropper__background, [dir=rtl] .vue-advanced-cropper__foreground {
+    transform: translate(50%, -50%);
+    right: 50%
+}
+
+.vue-advanced-cropper__foreground {
+    opacity: .5
+}
+
+.vue-advanced-cropper__boundaries {
+    opacity: 1;
+    position: absolute;
+    top: 50%
+}
+
+[dir=ltr] .vue-advanced-cropper__boundaries {
+    transform: translate(-50%, -50%);
+    left: 50%
+}
+
+[dir=rtl] .vue-advanced-cropper__boundaries {
+    transform: translate(50%, -50%);
+    right: 50%
+}
+
+.vue-advanced-cropper__cropper-wrapper {
+    width: 100%;
+    height: 100%
+}
+
+.vue-advanced-cropper__image-wrapper {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%
+}
+
+.vue-advanced-cropper__stencil-wrapper {
+    position: absolute
+}
+
+.vue-rectangle-stencil {
+    box-sizing: border-box
+}
+
+.vue-rectangle-stencil, .vue-rectangle-stencil__preview {
+    position: absolute;
+    height: 100%;
+    width: 100%
+}
+
+[dir] .vue-rectangle-stencil--movable {
+    cursor: move
+}
+
+.vue-preview {
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative
+}
+
+.vue-preview--fill, .vue-preview__wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute
+}
+
+.vue-preview__image {
+    pointer-events: none;
+    position: absolute;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-transform-origin: center;
+    max-width: none !important
+}
+
+[dir] .vue-preview__image {
+    transform-origin: center
+}
+
+.vue-circle-stencil {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    box-sizing: content-box
+}
+
+[dir] .vue-circle-stencil {
+    cursor: move
+}
+
+.vue-circle-stencil__preview {
+    position: absolute;
+    width: 100%;
+    height: 100%
+}
+
+[dir] .vue-circle-stencil__preview {
+    border-radius: 50%
+}
+
+[dir] .vue-circle-stencil--movable {
+    cursor: move
+}
+
+.vue-simple-handler {
+    display: block;
+    height: 10px;
+    width: 10px
+}
+
+[dir] .vue-simple-handler {
+    background: #fff
+}
+
+.vue-line-wrapper {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+[dir=ltr] .vue-line-wrapper {
+    background: 0 0
+}
+
+[dir=rtl] .vue-line-wrapper {
+    background: 100% 0
+}
+
+.vue-line-wrapper--north, .vue-line-wrapper--south {
+    height: 12px;
+    width: 100%;
+    -webkit-transform: translateY(-50%)
+}
+
+[dir] .vue-line-wrapper--north, [dir] .vue-line-wrapper--south {
+    transform: translateY(-50%)
+}
+
+[dir=ltr] .vue-line-wrapper--north, [dir=ltr] .vue-line-wrapper--south {
+    left: 0
+}
+
+[dir=rtl] .vue-line-wrapper--north, [dir=rtl] .vue-line-wrapper--south {
+    right: 0
+}
+
+.vue-line-wrapper--north {
+    top: 0
+}
+
+[dir] .vue-line-wrapper--north {
+    cursor: n-resize
+}
+
+.vue-line-wrapper--south {
+    top: 100%
+}
+
+[dir] .vue-line-wrapper--south {
+    cursor: s-resize
+}
+
+.vue-line-wrapper--east, .vue-line-wrapper--west {
+    width: 12px;
+    height: 100%;
+    top: 0
+}
+
+[dir=ltr] .vue-line-wrapper--east, [dir=ltr] .vue-line-wrapper--west {
+    transform: translateX(-50%)
+}
+
+[dir=rtl] .vue-line-wrapper--east, [dir=rtl] .vue-line-wrapper--west {
+    transform: translateX(50%)
+}
+
+[dir] .vue-line-wrapper--east {
+    cursor: e-resize
+}
+
+[dir=ltr] .vue-line-wrapper--east {
+    left: 100%
+}
+
+[dir=rtl] .vue-line-wrapper--east {
+    right: 100%
+}
+
+[dir] .vue-line-wrapper--west {
+    cursor: w-resize
+}
+
+[dir=ltr] .vue-line-wrapper--west {
+    left: 0
+}
+
+[dir=rtl] .vue-line-wrapper--west {
+    right: 0
+}
+
+[dir] .vue-line-wrapper--disabled {
+    cursor: auto
+}
+
+.vue-handler-wrapper {
+    position: absolute;
+    width: 30px;
+    height: 30px
+}
+
+[dir=ltr] .vue-handler-wrapper {
+    transform: translate(-50%, -50%)
+}
+
+[dir=rtl] .vue-handler-wrapper {
+    transform: translate(50%, -50%)
+}
+
+.vue-handler-wrapper__draggable {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+[dir=ltr] .vue-handler-wrapper--west-north {
+    cursor: nw-resize
+}
+
+[dir=rtl] .vue-handler-wrapper--west-north {
+    cursor: ne-resize
+}
+
+[dir] .vue-handler-wrapper--north {
+    cursor: n-resize
+}
+
+[dir=ltr] .vue-handler-wrapper--east-north {
+    cursor: ne-resize
+}
+
+[dir=rtl] .vue-handler-wrapper--east-north {
+    cursor: nw-resize
+}
+
+[dir] .vue-handler-wrapper--east {
+    cursor: e-resize
+}
+
+[dir=ltr] .vue-handler-wrapper--east-south {
+    cursor: se-resize
+}
+
+[dir=rtl] .vue-handler-wrapper--east-south {
+    cursor: sw-resize
+}
+
+[dir] .vue-handler-wrapper--south {
+    cursor: s-resize
+}
+
+[dir=ltr] .vue-handler-wrapper--west-south {
+    cursor: sw-resize
+}
+
+[dir=rtl] .vue-handler-wrapper--west-south {
+    cursor: se-resize
+}
+
+[dir] .vue-handler-wrapper--west {
+    cursor: w-resize
+}
+
+[dir] .vue-handler-wrapper--disabled {
+    cursor: auto
+}
+
+.vue-draggable-area {
+    position: relative
+}
+
+.vue-bounding-box {
+    position: relative;
+    height: 100%;
+    width: 100%
+}
+
+.vue-bounding-box__handler {
+    position: absolute
+}
+
+.vue-bounding-box__handler--west-north {
+    top: 0
+}
+
+[dir=ltr] .vue-bounding-box__handler--west-north {
+    left: 0
+}
+
+[dir=rtl] .vue-bounding-box__handler--west-north {
+    right: 0
+}
+
+.vue-bounding-box__handler--north {
+    top: 0
+}
+
+[dir=ltr] .vue-bounding-box__handler--north {
+    left: 50%
+}
+
+[dir=rtl] .vue-bounding-box__handler--north {
+    right: 50%
+}
+
+.vue-bounding-box__handler--east-north {
+    top: 0
+}
+
+[dir=ltr] .vue-bounding-box__handler--east-north {
+    left: 100%
+}
+
+[dir=rtl] .vue-bounding-box__handler--east-north {
+    right: 100%
+}
+
+.vue-bounding-box__handler--east {
+    top: 50%
+}
+
+[dir=ltr] .vue-bounding-box__handler--east {
+    left: 100%
+}
+
+[dir=rtl] .vue-bounding-box__handler--east {
+    right: 100%
+}
+
+.vue-bounding-box__handler--east-south {
+    top: 100%
+}
+
+[dir=ltr] .vue-bounding-box__handler--east-south {
+    left: 100%
+}
+
+[dir=rtl] .vue-bounding-box__handler--east-south {
+    right: 100%
+}
+
+.vue-bounding-box__handler--south {
+    top: 100%
+}
+
+[dir=ltr] .vue-bounding-box__handler--south {
+    left: 50%
+}
+
+[dir=rtl] .vue-bounding-box__handler--south {
+    right: 50%
+}
+
+.vue-bounding-box__handler--west-south {
+    top: 100%
+}
+
+[dir=ltr] .vue-bounding-box__handler--west-south {
+    left: 0
+}
+
+[dir=rtl] .vue-bounding-box__handler--west-south {
+    right: 0
+}
+
+.vue-bounding-box__handler--west {
+    top: 50%
+}
+
+[dir=ltr] .vue-bounding-box__handler--west {
+    left: 0
+}
+
+[dir=rtl] .vue-bounding-box__handler--west {
+    right: 0
+}
+
+.vue-preview-result {
+    overflow: hidden;
+    box-sizing: border-box;
+    position: absolute;
+    height: 100%;
+    width: 100%
+}
+
+.vue-preview-result__wrapper {
+    position: absolute
+}
+
+.vue-preview-result__image {
+    pointer-events: none;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-transform-origin: center;
+    max-width: none !important
+}
+
+[dir] .vue-preview-result__image {
+    transform-origin: center
+}
+
+.vue-simple-line {
+    transition: border .5s
+}
+
+[dir] .vue-simple-line {
+    -webkit-transition: border .5s;
+    border: 0 solid hsla(0, 0%, 100%, .3)
+}
+
+[dir=ltr] .vue-simple-line {
+    background: 0 0
+}
+
+[dir=rtl] .vue-simple-line {
+    background: 100% 0
+}
+
+.vue-simple-line--north, .vue-simple-line--south {
+    height: 0;
+    width: 100%
+}
+
+.vue-simple-line--east, .vue-simple-line--west {
+    height: 100%;
+    width: 0
+}
+
+[dir=ltr] .vue-simple-line--east {
+    border-right-width: 1px
+}
+
+[dir=ltr] .vue-simple-line--west, [dir=rtl] .vue-simple-line--east {
+    border-left-width: 1px
+}
+
+[dir=rtl] .vue-simple-line--west {
+    border-right-width: 1px
+}
+
+[dir] .vue-simple-line--south {
+    border-bottom-width: 1px
+}
+
+[dir] .vue-simple-line--north {
+    border-top-width: 1px
+}
+
+.vue-simple-line--hover {
+    opacity: 1
+}
+
+[dir] .vue-simple-line--hover {
+    border-color: #fff
+}

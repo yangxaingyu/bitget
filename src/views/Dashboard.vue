@@ -36,7 +36,7 @@
                            class="avatar-tags-wrapper ml-16px flex flex-col justify-between md:h-auto">
                         <div data-v-55078d1f=""
                              class="userInfo-displayname text-v3PrimaryText text-24px font-700 leading-34px cursor-pointer">
-                             {{ displayName }}
+                          {{ displayName }}
                         </div>
                         <div data-v-55078d1f="" class="tags-wrapper flex items-center flex-wrap">
                           <div data-v-55078d1f=""
@@ -177,15 +177,15 @@
                           </div>
                           <div data-v-5d4dfe3b=""
                                class="sep-dashboard-btn-icon-right mt-8px self-end font-600 leading-20px text-v3PrimaryText">
-                           <a href="/enter">
-                            <svg data-v-5d4dfe3b="" xmlns="http://www.w3.org/2000/svg"
-                                 viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"
-                                 class="icon-font w-16px h-16px rtl-rotate">
-                              <path
-                                  d="M20.78 12.53l-6.75 6.75a.75.75 0 01-1.06-1.06l5.47-5.47H3.75a.75.75 0 110-1.5h14.69l-5.47-5.47a.75.75 0 111.06-1.06l6.75 6.75a.747.747 0 010 1.06z">
-                              </path>
-                            </svg>
-                           </a>
+                            <a href="/enter">
+                              <svg data-v-5d4dfe3b="" xmlns="http://www.w3.org/2000/svg"
+                                   viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"
+                                   class="icon-font w-16px h-16px rtl-rotate">
+                                <path
+                                    d="M20.78 12.53l-6.75 6.75a.75.75 0 01-1.06-1.06l5.47-5.47H3.75a.75.75 0 110-1.5h14.69l-5.47-5.47a.75.75 0 111.06-1.06l6.75 6.75a.747.747 0 010 1.06z">
+                                </path>
+                              </svg>
+                            </a>
                           </div>
                         </div>
                       </div>
@@ -812,7 +812,7 @@ export default {
         this.alertMsgFn(2, 'save address fail')
       }
     },
-   
+
   }
 };
 
@@ -821,33 +821,39 @@ export default {
 <style scoped>
 
 .personal-main-container .personal-container[data-v-6e832e77] {
-    display: flex;
+  display: flex;
 }
 
 @media screen and (max-width: 767px) {
-    [dir=ltr] .dashboard-userInfo .userInfo-top-content .avatar-tags-wrapper[data-v-55078d1f] {
-        margin-left: -49px;
-    }
+  [dir=ltr] .dashboard-userInfo .userInfo-top-content .avatar-tags-wrapper[data-v-55078d1f] {
+    margin-left: -49px;
+  }
 }
+
 @media screen and (max-width: 767px) {
-    [dir] .dashboard-userInfo .userInfo-top-content .avatar-tags-wrapper[data-v-55078d1f] {
-        margin-top: 7px;
-    }
-    .profile-btn-375 a[data-v-22ba47ca]:visited {
+  [dir] .dashboard-userInfo .userInfo-top-content .avatar-tags-wrapper[data-v-55078d1f] {
+    margin-top: 7px;
+  }
+
+  .profile-btn-375 a[data-v-22ba47ca]:visited {
     color: #fff;
-}
-div#bit-menu-main {
+  }
+
+  div#bit-menu-main {
     display: none !important;
+  }
 }
-}
+
 .flex.flex-col.flex-auto {
-    width: 100%;
+  width: 100%;
 }
+
 @media screen and (max-width: 767px) {
-    .personal-container[data-v-6e832e77] {
-        flex-direction: column;
-    }
+  .personal-container[data-v-6e832e77] {
+    flex-direction: column;
+  }
 }
+
 /* 当鼠标悬停在链接上时 */
 a:hover {
   color: #000 !important;
@@ -865,7 +871,9 @@ button.bit-button.profile-btn.ml-12px.bit-button--main.is-round a:hover {
 
 button.bit-button.profile-btn.ml-12px.bit-button--main.is-round a {
   color: #fff !important;
-
 }
 
+.profile-btn-375 a:visited {
+  color: #fff;
+}
 </style>

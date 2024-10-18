@@ -21,7 +21,7 @@
                                     </h1>
                                     <div class="line-clamp-2 mt-18px text-20px leading-[140%] text-v3PrimaryText phone:line-clamp-1 phone:mt-4px phone:text-12px" data-v-3ded291d="">
                                       Join the largest copy trading platform today
-                                    </div> <!----></div>
+                                    </div> </div>
                                   <div class="top-banner-image w-500px h-500px mt-50px h-1/1 flex pad:mt-24px minPhone:hidden phone:w-132px phone:h-132px phone:mt-0" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/fc435e9f27bd2b1af619995b433ecdc0.png&quot;);" data-v-3ded291d=""></div>
                                 </div>
                                 <div data-v-71b06a1e="" data-v-3ded291d="" class="">
@@ -32,27 +32,27 @@
                                         <div class="flex box-border w-full" data-v-55be6e78="">
                                           <div class="w-364px mr-8px pad:flex-auto phone:flex-auto phone:mr-6px bit-theme-light-vue2" style="background:transparent !important;" data-v-55be6e78="">
                                             <div class="home-login-input" style="background-color: rgb(255, 255, 255);" data-v-55be6e78="">
-                                              <div class="bit-input bit-input--large bit-input--round" data-v-55be6e78=""><!----><!----><input type="text" autocomplete="off" placeholder="Email/Phone number" class="bit-input__inner"><!----><!----><!----><!----><!----><!---->
+                                              <div class="bit-input bit-input--large bit-input--round" data-v-55be6e78=""><input type="text" autocomplete="off" placeholder="Email/Phone number" class="bit-input__inner">
                                               </div>
                                             </div>
                                           </div>
                                           <div class="flex-shrink-0 w-160px <xl:w-140px pad:w-182px phone:w-117px" data-v-55be6e78="">
-                                            <button type="button" class="bit-button resgiter-btn w-full bit-button--primary bit-button--large is-round" data-v-55be6e78=""><!----><!----><!----><span>Sign up</span><!---->
+                                            <button type="button" class="bit-button resgiter-btn w-full bit-button--primary bit-button--large is-round" data-v-55be6e78=""><span>Sign up</span>
                                             </button>
                                           </div>
-                                          <span class="pad:hidden <md:hidden" data-v-55be6e78=""><div role="tooltip" id="bit-popover-8078" aria-hidden="true" class="bit-popover bit-popper" style="width:120px;display:none;" tabindex="0"><!----><div class="bit-popover__message-text"><!----><div class="bit-popover__content"><div data-v-55be6e78="" class="flex flex-col justify-center items-center"><div data-v-55be6e78="" class="text-v3PrimaryText text-14px font-600 leading-20px">Scan to download</div> <div data-v-55be6e78="" class="w-108px h-108px box-border bg-v3ContentAlwaysWhite px-4px py-4px rounded-4px mt-12px mb-24px"><canvas height="100" width="100"></canvas></div> <button data-v-55be6e78="" type="button" class="bit-button bit-button--primary is-round"><!----><!----><!----><span><span data-v-55be6e78="" class="inline-block max-w-86px truncate">More downloads</span></span><!----></button></div> </div></div></div><span class="bit-popover__reference-wrapper"><div class="box-border w-48px h-48px rounded-1 flex justify-center items-center ml-8px bg-v3LinkDefaultText text-v3ContentAlwaysWhite bit-popover__reference" data-v-55be6e78="" aria-describedby="bit-popover-8078" tabindex="0"><i class="bit-icon" style="font-size:28px;" data-v-55be6e78=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-v-55be6e78=""><path d="M9.75 3.75h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm0 3h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm9-15h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm-6 6.75v-3a.75.75 0 111.5 0v3a.75.75 0 11-1.5 0zm7.5-1.5a.75.75 0 01-.75.75h-2.25v3.75a.75.75 0 01-.75.75h-3a.75.75 0 110-1.5h2.25V13.5a.75.75 0 111.5 0v.75h2.25a.75.75 0 01.75.75zm0 3v1.5a.75.75 0 11-1.5 0V18a.75.75 0 111.5 0z"></path></svg></i></div></span></span>
+                                          <span class="pad:hidden <md:hidden" data-v-55be6e78=""><div role="tooltip" id="bit-popover-8078" aria-hidden="true" class="bit-popover bit-popper" style="width:120px;display:none;" tabindex="0"><div class="bit-popover__message-text"><div class="bit-popover__content"><div data-v-55be6e78="" class="flex flex-col justify-center items-center"><div data-v-55be6e78="" class="text-v3PrimaryText text-14px font-600 leading-20px">Scan to download</div> <div data-v-55be6e78="" class="w-108px h-108px box-border bg-v3ContentAlwaysWhite px-4px py-4px rounded-4px mt-12px mb-24px"><canvas height="100" width="100"></canvas></div> <button data-v-55be6e78="" type="button" class="bit-button bit-button--primary is-round"><span><span data-v-55be6e78="" class="inline-block max-w-86px truncate">More downloads</span></span></button></div> </div></div></div><span class="bit-popover__reference-wrapper"><div class="box-border w-48px h-48px rounded-1 flex justify-center items-center ml-8px bg-v3LinkDefaultText text-v3ContentAlwaysWhite bit-popover__reference" data-v-55be6e78="" aria-describedby="bit-popover-8078" tabindex="0"><i class="bit-icon" style="font-size:28px;" data-v-55be6e78=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-v-55be6e78=""><path d="M9.75 3.75h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm0 3h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm9-15h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm-6 6.75v-3a.75.75 0 111.5 0v3a.75.75 0 11-1.5 0zm7.5-1.5a.75.75 0 01-.75.75h-2.25v3.75a.75.75 0 01-.75.75h-3a.75.75 0 110-1.5h2.25V13.5a.75.75 0 111.5 0v.75h2.25a.75.75 0 01.75.75zm0 3v1.5a.75.75 0 11-1.5 0V18a.75.75 0 111.5 0z"></path></svg></i></div></span></span>
                                         </div>
                                       </div>
                                       <div class="mt-16px flex justify-around gap-4px minPhone:hidden" data-v-55be6e78="">
-                                        <button type="button" class="bit-button register-button w-[50%] bit-button--default bit-button--large is-round" data-v-55be6e78=""><!----><!----><!----><span>Sign Up</span><!---->
+                                        <button type="button" class="bit-button register-button w-[50%] bit-button--default bit-button--large is-round" data-v-55be6e78=""><span>Sign Up</span>
                                         </button>
-                                        <button type="button" class="bit-button w-[50%] bit-button--primary bit-button--large is-round" data-v-55be6e78=""><!----><!----><!----><span>Login</span><!---->
+                                        <button type="button" class="bit-button w-[50%] bit-button--primary bit-button--large is-round" data-v-55be6e78=""><span>Login</span>
                                         </button>
                                       </div>
                                     </div>
-                                  </div> <!----></div>
+                                  </div> </div>
                               </div>
-                              <div class="top-banner-image w-500px h-500px h-1/1 flex pad:mt-24px phone:hidden phone:w-132px phone:h-132px" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/fc435e9f27bd2b1af619995b433ecdc0.png&quot;);" data-v-3ded291d=""></div> <!---->
+                              <div class="top-banner-image w-500px h-500px h-1/1 flex pad:mt-24px phone:hidden phone:w-132px phone:h-132px" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/fc435e9f27bd2b1af619995b433ecdc0.png&quot;);" data-v-3ded291d=""></div> 
                             </div>
                           </div>
                         </div>
@@ -71,7 +71,7 @@
                                     </h1>
                                     <div class="line-clamp-2 mt-18px text-20px leading-[140%] text-v3PrimaryText phone:line-clamp-1 phone:mt-4px phone:text-12px" data-v-3ded291d="">
                                       Trade to win your favorite beers and Munich Trip fund！
-                                    </div> <!----></div>
+                                    </div> </div>
                                   <div class="top-banner-image w-500px h-500px mt-50px h-1/1 flex pad:mt-24px minPhone:hidden phone:w-132px phone:h-132px phone:mt-0" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/8a362d707de0b30ae0c15f6bf6fadb7d.png&quot;);" data-v-3ded291d=""></div>
                                 </div>
                                 <div data-v-71b06a1e="" data-v-3ded291d="" class="">
@@ -82,63 +82,213 @@
                                         <div class="flex box-border w-full" data-v-55be6e78="">
                                           <div class="w-364px mr-8px pad:flex-auto phone:flex-auto phone:mr-6px bit-theme-light-vue2" style="background:transparent !important;" data-v-55be6e78="">
                                             <div class="home-login-input" style="background-color: rgb(255, 255, 255);" data-v-55be6e78="">
-                                              <div class="bit-input bit-input--large bit-input--round" data-v-55be6e78=""><!----><!----><input type="text" autocomplete="off" placeholder="Email/Phone number" class="bit-input__inner"><!----><!----><!----><!----><!----><!---->
+                                              <div class="bit-input bit-input--large bit-input--round" data-v-55be6e78=""><input type="text" autocomplete="off" placeholder="Email/Phone number" class="bit-input__inner">
                                               </div>
                                             </div>
                                           </div>
                                           <div class="flex-shrink-0 w-160px <xl:w-140px pad:w-182px phone:w-117px" data-v-55be6e78="">
-                                            <button type="button" class="bit-button resgiter-btn w-full bit-button--primary bit-button--large is-round" data-v-55be6e78=""><!----><!----><!----><span>Sign up</span><!---->
+                                            <button type="button" class="bit-button resgiter-btn w-full bit-button--primary bit-button--large is-round" data-v-55be6e78=""><span>Sign up</span>
                                             </button>
                                           </div>
-                                          <span class="pad:hidden <md:hidden" data-v-55be6e78=""><div role="tooltip" id="bit-popover-1837" aria-hidden="true" class="bit-popover bit-popper" style="width:120px;display:none;" tabindex="0"><!----><div class="bit-popover__message-text"><!----><div class="bit-popover__content"><div data-v-55be6e78="" class="flex flex-col justify-center items-center"><div data-v-55be6e78="" class="text-v3PrimaryText text-14px font-600 leading-20px">Scan to download</div> <div data-v-55be6e78="" class="w-108px h-108px box-border bg-v3ContentAlwaysWhite px-4px py-4px rounded-4px mt-12px mb-24px"><canvas height="100" width="100"></canvas></div> <button data-v-55be6e78="" type="button" class="bit-button bit-button--primary is-round"><!----><!----><!----><span><span data-v-55be6e78="" class="inline-block max-w-86px truncate">More downloads</span></span><!----></button></div> </div></div></div><span class="bit-popover__reference-wrapper"><div class="box-border w-48px h-48px rounded-1 flex justify-center items-center ml-8px bg-v3LinkDefaultText text-v3ContentAlwaysWhite bit-popover__reference" data-v-55be6e78="" aria-describedby="bit-popover-1837" tabindex="0"><i class="bit-icon" style="font-size:28px;" data-v-55be6e78=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-v-55be6e78=""><path d="M9.75 3.75h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm0 3h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm9-15h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm-6 6.75v-3a.75.75 0 111.5 0v3a.75.75 0 11-1.5 0zm7.5-1.5a.75.75 0 01-.75.75h-2.25v3.75a.75.75 0 01-.75.75h-3a.75.75 0 110-1.5h2.25V13.5a.75.75 0 111.5 0v.75h2.25a.75.75 0 01.75.75zm0 3v1.5a.75.75 0 11-1.5 0V18a.75.75 0 111.5 0z"></path></svg></i></div></span></span>
+                                          <span class="pad:hidden <md:hidden" data-v-55be6e78=""><div role="tooltip" id="bit-popover-1837" aria-hidden="true" class="bit-popover bit-popper" style="width:120px;display:none;" tabindex="0"><div class="bit-popover__message-text"><div class="bit-popover__content"><div data-v-55be6e78="" class="flex flex-col justify-center items-center"><div data-v-55be6e78="" class="text-v3PrimaryText text-14px font-600 leading-20px">Scan to download</div> <div data-v-55be6e78="" class="w-108px h-108px box-border bg-v3ContentAlwaysWhite px-4px py-4px rounded-4px mt-12px mb-24px"><canvas height="100" width="100"></canvas></div> <button data-v-55be6e78="" type="button" class="bit-button bit-button--primary is-round"><span><span data-v-55be6e78="" class="inline-block max-w-86px truncate">More downloads</span></span></button></div> </div></div></div><span class="bit-popover__reference-wrapper"><div class="box-border w-48px h-48px rounded-1 flex justify-center items-center ml-8px bg-v3LinkDefaultText text-v3ContentAlwaysWhite bit-popover__reference" data-v-55be6e78="" aria-describedby="bit-popover-1837" tabindex="0"><i class="bit-icon" style="font-size:28px;" data-v-55be6e78=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-v-55be6e78=""><path d="M9.75 3.75h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm0 3h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm9-15h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm-6 6.75v-3a.75.75 0 111.5 0v3a.75.75 0 11-1.5 0zm7.5-1.5a.75.75 0 01-.75.75h-2.25v3.75a.75.75 0 01-.75.75h-3a.75.75 0 110-1.5h2.25V13.5a.75.75 0 111.5 0v.75h2.25a.75.75 0 01.75.75zm0 3v1.5a.75.75 0 11-1.5 0V18a.75.75 0 111.5 0z"></path></svg></i></div></span></span>
                                         </div>
                                       </div>
                                       <div class="mt-16px flex justify-around gap-4px minPhone:hidden" data-v-55be6e78="">
-                                        <button type="button" class="bit-button register-button w-[50%] bit-button--default bit-button--large is-round" data-v-55be6e78=""><!----><!----><!----><span>Sign Up</span><!---->
+                                        <button type="button" class="bit-button register-button w-[50%] bit-button--default bit-button--large is-round" data-v-55be6e78=""><span>Sign Up</span>
                                         </button>
-                                        <button type="button" class="bit-button w-[50%] bit-button--primary bit-button--large is-round" data-v-55be6e78=""><!----><!----><!----><span>Login</span><!---->
+                                        <button type="button" class="bit-button w-[50%] bit-button--primary bit-button--large is-round" data-v-55be6e78=""><span>Login</span>
                                         </button>
                                       </div>
                                     </div>
-                                  </div> <!----></div>
+                                  </div> </div>
                               </div>
-                              <div class="top-banner-image w-500px h-500px h-1/1 flex pad:mt-24px phone:hidden phone:w-132px phone:h-132px" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/8a362d707de0b30ae0c15f6bf6fadb7d.png&quot;);" data-v-3ded291d=""></div> <!---->
+                              <div class="top-banner-image w-500px h-500px h-1/1 flex pad:mt-24px phone:hidden phone:w-132px phone:h-132px" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/8a362d707de0b30ae0c15f6bf6fadb7d.png&quot;);" data-v-3ded291d=""></div> 
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div id="homeBanner" class="home-box minPhone:min-h-500px phone:hidden" data-v-79af3888=""><div class="h-500px pad:h-auto phone:hidden"><div data-v-759fbb3f="" class="overflow-hidden webHomeConfig relative"><div data-v-759fbb3f="" class="relative swiper-container swiper-container-horizontal h-500px pad:h-auto swiper-container-pc swiper-no-swiping phone:h-132px phone:rounded-12px swiper-container-initialized"><div data-v-759fbb3f="" class="h-500px swiper-wrapper relative phone:min-h-132px phone:h-132px" style="transition-duration: 0ms; transform: translate3d(-3338px, 0px, 0px);"><div data-v-759fbb3f="" class="swiper-slide box-border overflow-hidden swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="2" style="width: 1669px;"><div data-v-759fbb3f="" class="mx-auto h-1/1"><div data-v-759fbb3f="" class="mx-auto box-border"><div data-v-56acff74="" id="contentBoxId" class="contentBox h-500px relative box-border flex overflow-hidden w-1/1 pad:h-906px  min-h-500px pad:min-h-906px phone:min-h-132px phone:h-132px cursor-pointer" style="background-color: rgb(255, 255, 255);"><div data-v-56acff74="" class="relative justify-between flex w-1200px mx-auto box-border <xl:w-full <xl:px-24px pad:flex-col pad:flex-col-reverse pad:justify-end pad:items-center pad:px-24px phone:justify-around phone:items-center phone:pl-12px phone:pr-0"><div data-v-56acff74="" class="w-600px z-1 h-360px flex flex-col justify-start mt-80px box-border <xl:w-528px !pad:mt-16px !pad:w-full pad:h-302px !phone:w-full !phone:mt-0 phone:h-auto"><div data-v-56acff74="" class="phone:flex phone:justify-between phone:items-center phone:gap-8px"><div data-v-56acff74="" class="flex flex-col phone:max-w-170px"><h1 data-v-56acff74="" class="m-0 line-clamp-2 flex flex-wrap text-56px font-600 leading-67px text-v3PrimaryText pad:text-48px pad:font-700 pad:leading-[120%] phone:font-700 phone:text-16px phone:leading-22px">
-                        Sign up to get 15,730 USDT in rewards!
-                    </h1>  <!----></div> <div data-v-56acff74="" class="top-banner-image w-500px h-500px mt-50px h-1/1 flex pad:mt-24px minPhone:hidden phone:w-132px phone:h-132px phone:mt-0" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/b0c4757b52560c365ba1d611c90b8409.png&quot;);"></div></div> <div data-v-427d4aae="" data-v-56acff74="" class="phone:hidden"><!----> <div data-v-427d4aae="" class="mt-32px pad:mt-32px phone:mt-24px"><a data-v-427d4aae="" href="/asia/events/activities/466520da43605895ab6ba2d56dd777e1?color=black" target="_blank" class="bit-link bit-link--default"><!----><span class="bit-link--inner"><button data-v-427d4aae="" type="button" class="bit-button w-260px phone:w-214px bit-button--primary bit-button--large is-round"><!----><!----><!----><span><span data-v-427d4aae="" class="inline-block max-w-190px truncate phone:max-w-180px">
+                    <div id="homeBanner" class="home-box minPhone:min-h-500px phone:hidden" data-v-79af3888="">
+                      <div class="h-500px pad:h-auto phone:hidden">
+                        <div data-v-759fbb3f="" class="overflow-hidden webHomeConfig relative">
+                          <div data-v-759fbb3f="" class="relative swiper-container swiper-container-horizontal h-500px pad:h-auto swiper-container-pc swiper-no-swiping phone:h-132px phone:rounded-12px swiper-container-initialized">
+                            <div data-v-759fbb3f="" class="h-500px swiper-wrapper relative phone:min-h-132px phone:h-132px" style="transition-duration: 0ms; transform: translate3d(-3338px, 0px, 0px);">
+                              <div data-v-759fbb3f="" class="swiper-slide box-border overflow-hidden swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="2" style="width: 1669px;">
+                                <div data-v-759fbb3f="" class="mx-auto h-1/1">
+                                  <div data-v-759fbb3f="" class="mx-auto box-border">
+                                    <div data-v-56acff74="" id="contentBoxId" class="contentBox h-500px relative box-border flex overflow-hidden w-1/1 pad:h-906px  min-h-500px pad:min-h-906px phone:min-h-132px phone:h-132px cursor-pointer" style="background-color: rgb(255, 255, 255);">
+                                      <div data-v-56acff74="" class="relative justify-between flex w-1200px mx-auto box-border <xl:w-full <xl:px-24px pad:flex-col pad:flex-col-reverse pad:justify-end pad:items-center pad:px-24px phone:justify-around phone:items-center phone:pl-12px phone:pr-0">
+                                        <div data-v-56acff74="" class="w-600px z-1 h-360px flex flex-col justify-start mt-80px box-border <xl:w-528px !pad:mt-16px !pad:w-full pad:h-302px !phone:w-full !phone:mt-0 phone:h-auto">
+                                          <div data-v-56acff74="" class="phone:flex phone:justify-between phone:items-center phone:gap-8px">
+                                            <div data-v-56acff74="" class="flex flex-col phone:max-w-170px">
+                                              <h1 data-v-56acff74="" class="m-0 line-clamp-2 flex flex-wrap text-56px font-600 leading-67px text-v3PrimaryText pad:text-48px pad:font-700 pad:leading-[120%] phone:font-700 phone:text-16px phone:leading-22px">
+                                                Sign up to get 15,730 USDT in rewards!
+                                              </h1>  </div>
+                                            <div data-v-56acff74="" class="top-banner-image w-500px h-500px mt-50px h-1/1 flex pad:mt-24px minPhone:hidden phone:w-132px phone:h-132px phone:mt-0" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/b0c4757b52560c365ba1d611c90b8409.png&quot;);"></div>
+                                          </div>
+                                          <div data-v-427d4aae="" data-v-56acff74="" class="phone:hidden">
+                                            <div data-v-427d4aae="" class="mt-32px pad:mt-32px phone:mt-24px">
+                                              <a data-v-427d4aae="" href="/asia/events/activities/466520da43605895ab6ba2d56dd777e1?color=black" target="_blank" class="bit-link bit-link--default"><span class="bit-link--inner"><button data-v-427d4aae="" type="button" class="bit-button w-260px phone:w-214px bit-button--primary bit-button--large is-round"><span><span data-v-427d4aae="" class="inline-block max-w-190px truncate phone:max-w-180px">
                                 <a src="/">Join now</a>
-                            </span></span><!----></button></span><!----></a></div></div></div> <div data-v-56acff74="" class="top-banner-image w-500px h-500px h-1/1 flex pad:mt-24px phone:hidden phone:w-132px phone:h-132px" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/b0c4757b52560c365ba1d611c90b8409.png&quot;);"></div> <!----></div></div></div></div></div><div data-v-759fbb3f="" class="swiper-slide box-border overflow-hidden swiper-slide-prev" data-swiper-slide-index="0" style="width: 1669px;"><div data-v-759fbb3f="" class="mx-auto h-1/1"><div data-v-759fbb3f="" class="mx-auto box-border"><div data-v-56acff74="" id="contentBoxId" class="contentBox h-500px relative box-border flex overflow-hidden w-1/1 pad:h-906px  min-h-500px pad:min-h-906px phone:min-h-132px phone:h-132px cursor-pointer" style="background-color: rgb(255, 255, 255);"><div data-v-56acff74="" class="relative justify-between flex w-1200px mx-auto box-border <xl:w-full <xl:px-24px pad:flex-col pad:flex-col-reverse pad:justify-end pad:items-center pad:px-24px phone:justify-around phone:items-center phone:pl-12px phone:pr-0"><div data-v-56acff74="" class="w-600px z-1 h-360px flex flex-col justify-start mt-80px box-border <xl:w-528px !pad:mt-16px !pad:w-full pad:h-302px !phone:w-full !phone:mt-0 phone:h-auto"><div data-v-56acff74="" class="phone:flex phone:justify-between phone:items-center phone:gap-8px"><div data-v-56acff74="" class="flex flex-col phone:max-w-170px"><h1 data-v-56acff74="" class="m-0 line-clamp-2 flex flex-wrap text-56px font-600 leading-67px text-v3PrimaryText pad:text-48px pad:font-700 pad:leading-[120%] phone:font-700 phone:text-16px phone:leading-22px">
-                        Futures Elite Trader Leaderboard
-                    </h1> <div data-v-56acff74="" class="line-clamp-2 mt-18px text-20px leading-[140%] text-v3PrimaryText phone:line-clamp-1 phone:mt-4px phone:text-12px">
-                        Halloween carnival month — Trade to share a 458,000 USDT airdrop!
-                    </div> <!----></div> <div data-v-56acff74="" class="top-banner-image w-500px h-500px mt-50px h-1/1 flex pad:mt-24px minPhone:hidden phone:w-132px phone:h-132px phone:mt-0" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/d64d03823fe5a0774348125f4bc40b3f.png&quot;);"></div></div> <div data-v-427d4aae="" data-v-56acff74="" class="phone:hidden"><!----> <div data-v-427d4aae="" class="mt-32px pad:mt-32px phone:mt-24px"><a data-v-427d4aae="" href="/asia/events/elite-list/detail/9845" target="_blank" class="bit-link bit-link--default"><!----><span class="bit-link--inner"><button data-v-427d4aae="" type="button" class="bit-button w-260px phone:w-214px bit-button--primary bit-button--large is-round"><!----><!----><!----><span><span data-v-427d4aae="" class="inline-block max-w-190px truncate phone:max-w-180px">
+                            </span></span></button></span></a></div>
+                                          </div>
+                                        </div>
+                                        <div data-v-56acff74="" class="top-banner-image w-500px h-500px h-1/1 flex pad:mt-24px phone:hidden phone:w-132px phone:h-132px" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/b0c4757b52560c365ba1d611c90b8409.png&quot;);"></div> 
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div data-v-759fbb3f="" class="swiper-slide box-border overflow-hidden swiper-slide-prev" data-swiper-slide-index="0" style="width: 1669px;">
+                                <div data-v-759fbb3f="" class="mx-auto h-1/1">
+                                  <div data-v-759fbb3f="" class="mx-auto box-border">
+                                    <div data-v-56acff74="" id="contentBoxId" class="contentBox h-500px relative box-border flex overflow-hidden w-1/1 pad:h-906px  min-h-500px pad:min-h-906px phone:min-h-132px phone:h-132px cursor-pointer" style="background-color: rgb(255, 255, 255);">
+                                      <div data-v-56acff74="" class="relative justify-between flex w-1200px mx-auto box-border <xl:w-full <xl:px-24px pad:flex-col pad:flex-col-reverse pad:justify-end pad:items-center pad:px-24px phone:justify-around phone:items-center phone:pl-12px phone:pr-0">
+                                        <div data-v-56acff74="" class="w-600px z-1 h-360px flex flex-col justify-start mt-80px box-border <xl:w-528px !pad:mt-16px !pad:w-full pad:h-302px !phone:w-full !phone:mt-0 phone:h-auto">
+                                          <div data-v-56acff74="" class="phone:flex phone:justify-between phone:items-center phone:gap-8px">
+                                            <div data-v-56acff74="" class="flex flex-col phone:max-w-170px">
+                                              <h1 data-v-56acff74="" class="m-0 line-clamp-2 flex flex-wrap text-56px font-600 leading-67px text-v3PrimaryText pad:text-48px pad:font-700 pad:leading-[120%] phone:font-700 phone:text-16px phone:leading-22px">
+                                                Futures Elite Trader Leaderboard
+                                              </h1>
+                                              <div data-v-56acff74="" class="line-clamp-2 mt-18px text-20px leading-[140%] text-v3PrimaryText phone:line-clamp-1 phone:mt-4px phone:text-12px">
+                                                Halloween carnival month — Trade to share a 458,000 USDT airdrop!
+                                              </div> </div>
+                                            <div data-v-56acff74="" class="top-banner-image w-500px h-500px mt-50px h-1/1 flex pad:mt-24px minPhone:hidden phone:w-132px phone:h-132px phone:mt-0" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/d64d03823fe5a0774348125f4bc40b3f.png&quot;);"></div>
+                                          </div>
+                                          <div data-v-427d4aae="" data-v-56acff74="" class="phone:hidden">
+                                            <div data-v-427d4aae="" class="mt-32px pad:mt-32px phone:mt-24px">
+                                              <a data-v-427d4aae="" href="/asia/events/elite-list/detail/9845" target="_blank" class="bit-link bit-link--default"><span class="bit-link--inner"><button data-v-427d4aae="" type="button" class="bit-button w-260px phone:w-214px bit-button--primary bit-button--large is-round"><span><span data-v-427d4aae="" class="inline-block max-w-190px truncate phone:max-w-180px">
                                 Join now
-                            </span></span><!----></button></span><!----></a></div></div></div> <div data-v-56acff74="" class="top-banner-image w-500px h-500px h-1/1 flex pad:mt-24px phone:hidden phone:w-132px phone:h-132px" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/d64d03823fe5a0774348125f4bc40b3f.png&quot;);"></div> <!----></div></div></div></div></div><div data-v-759fbb3f="" class="swiper-slide box-border overflow-hidden swiper-slide-active" data-swiper-slide-index="1" style="width: 1669px;"><div data-v-759fbb3f="" class="mx-auto h-1/1"><div data-v-759fbb3f="" class="mx-auto box-border"><div data-v-56acff74="" id="contentBoxId" class="contentBox h-500px relative box-border flex overflow-hidden w-1/1 pad:h-906px  min-h-500px pad:min-h-906px phone:min-h-132px phone:h-132px cursor-pointer" style="background-color: rgb(255, 255, 255);"><div data-v-56acff74="" class="relative justify-between flex w-1200px mx-auto box-border <xl:w-full <xl:px-24px pad:flex-col pad:flex-col-reverse pad:justify-end pad:items-center pad:px-24px phone:justify-around phone:items-center phone:pl-12px phone:pr-0"><div data-v-56acff74="" class="w-600px z-1 h-360px flex flex-col justify-start mt-80px box-border <xl:w-528px !pad:mt-16px !pad:w-full pad:h-302px !phone:w-full !phone:mt-0 phone:h-auto"><div data-v-56acff74="" class="phone:flex phone:justify-between phone:items-center phone:gap-8px"><div data-v-56acff74="" class="flex flex-col phone:max-w-170px"><h1 data-v-56acff74="" class="m-0 line-clamp-2 flex flex-wrap text-56px font-600 leading-67px text-v3PrimaryText pad:text-48px pad:font-700 pad:leading-[120%] phone:font-700 phone:text-16px phone:leading-22px">
-                        Puffer (PUFFER) listed on Launchpool
-                    </h1> <div data-v-56acff74="" class="line-clamp-2 mt-18px text-20px leading-[140%] text-v3PrimaryText phone:line-clamp-1 phone:mt-4px phone:text-12px">
-                        Grab a share of 2,700,000 PUFFER
-                    </div> <!----></div> <div data-v-56acff74="" class="top-banner-image w-500px h-500px mt-50px h-1/1 flex pad:mt-24px minPhone:hidden phone:w-132px phone:h-132px phone:mt-0" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/40f4048c78aa4884a3cdc7e881a5a0ab.png&quot;);"></div></div> <div data-v-427d4aae="" data-v-56acff74="" class="phone:hidden"><!----> <div data-v-427d4aae="" class="mt-32px pad:mt-32px phone:mt-24px"><a data-v-427d4aae="" href="/earning" target="_blank" class="bit-link bit-link--default"><!----><span class="bit-link--inner"><button data-v-427d4aae="" type="button" class="bit-button w-260px phone:w-214px bit-button--primary bit-button--large is-round"><!----><!----><!----><span><span data-v-427d4aae="" class="inline-block max-w-190px truncate phone:max-w-180px">
+                            </span></span></button></span></a></div>
+                                          </div>
+                                        </div>
+                                        <div data-v-56acff74="" class="top-banner-image w-500px h-500px h-1/1 flex pad:mt-24px phone:hidden phone:w-132px phone:h-132px" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/d64d03823fe5a0774348125f4bc40b3f.png&quot;);"></div> 
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div data-v-759fbb3f="" class="swiper-slide box-border overflow-hidden swiper-slide-active" data-swiper-slide-index="1" style="width: 1669px;">
+                                <div data-v-759fbb3f="" class="mx-auto h-1/1">
+                                  <div data-v-759fbb3f="" class="mx-auto box-border">
+                                    <div data-v-56acff74="" id="contentBoxId" class="contentBox h-500px relative box-border flex overflow-hidden w-1/1 pad:h-906px  min-h-500px pad:min-h-906px phone:min-h-132px phone:h-132px cursor-pointer" style="background-color: rgb(255, 255, 255);">
+                                      <div data-v-56acff74="" class="relative justify-between flex w-1200px mx-auto box-border <xl:w-full <xl:px-24px pad:flex-col pad:flex-col-reverse pad:justify-end pad:items-center pad:px-24px phone:justify-around phone:items-center phone:pl-12px phone:pr-0">
+                                        <div data-v-56acff74="" class="w-600px z-1 h-360px flex flex-col justify-start mt-80px box-border <xl:w-528px !pad:mt-16px !pad:w-full pad:h-302px !phone:w-full !phone:mt-0 phone:h-auto">
+                                          <div data-v-56acff74="" class="phone:flex phone:justify-between phone:items-center phone:gap-8px">
+                                            <div data-v-56acff74="" class="flex flex-col phone:max-w-170px">
+                                              <h1 data-v-56acff74="" class="m-0 line-clamp-2 flex flex-wrap text-56px font-600 leading-67px text-v3PrimaryText pad:text-48px pad:font-700 pad:leading-[120%] phone:font-700 phone:text-16px phone:leading-22px">
+                                                Puffer (PUFFER) listed on Launchpool
+                                              </h1>
+                                              <div data-v-56acff74="" class="line-clamp-2 mt-18px text-20px leading-[140%] text-v3PrimaryText phone:line-clamp-1 phone:mt-4px phone:text-12px">
+                                                Grab a share of 2,700,000 PUFFER
+                                              </div> </div>
+                                            <div data-v-56acff74="" class="top-banner-image w-500px h-500px mt-50px h-1/1 flex pad:mt-24px minPhone:hidden phone:w-132px phone:h-132px phone:mt-0" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/40f4048c78aa4884a3cdc7e881a5a0ab.png&quot;);"></div>
+                                          </div>
+                                          <div data-v-427d4aae="" data-v-56acff74="" class="phone:hidden">
+                                            <div data-v-427d4aae="" class="mt-32px pad:mt-32px phone:mt-24px">
+                                              <a data-v-427d4aae="" href="/earning" class="bit-link bit-link--default"><span class="bit-link--inner"><button data-v-427d4aae="" type="button" class="bit-button w-260px phone:w-214px bit-button--primary bit-button--large is-round"><span><span data-v-427d4aae="" class="inline-block max-w-190px truncate phone:max-w-180px">
                                 Join now
-                            </span></span><!----></button></span><!----></a></div></div></div> <div data-v-56acff74="" class="top-banner-image w-500px h-500px h-1/1 flex pad:mt-24px phone:hidden phone:w-132px phone:h-132px" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/40f4048c78aa4884a3cdc7e881a5a0ab.png&quot;);"></div> <!----></div></div></div></div></div><div data-v-759fbb3f="" class="swiper-slide box-border overflow-hidden swiper-slide-next" data-swiper-slide-index="2" style="width: 1669px;"><div data-v-759fbb3f="" class="mx-auto h-1/1"><div data-v-759fbb3f="" class="mx-auto box-border"><div data-v-56acff74="" id="contentBoxId" class="contentBox h-500px relative box-border flex overflow-hidden w-1/1 pad:h-906px  min-h-500px pad:min-h-906px phone:min-h-132px phone:h-132px cursor-pointer" style="background-color: rgb(255, 255, 255);"><div data-v-56acff74="" class="relative justify-between flex w-1200px mx-auto box-border <xl:w-full <xl:px-24px pad:flex-col pad:flex-col-reverse pad:justify-end pad:items-center pad:px-24px phone:justify-around phone:items-center phone:pl-12px phone:pr-0"><div data-v-56acff74="" class="w-600px z-1 h-360px flex flex-col justify-start mt-80px box-border <xl:w-528px !pad:mt-16px !pad:w-full pad:h-302px !phone:w-full !phone:mt-0 phone:h-auto"><div data-v-56acff74="" class="phone:flex phone:justify-between phone:items-center phone:gap-8px"><div data-v-56acff74="" class="flex flex-col phone:max-w-170px"><h1 data-v-56acff74="" class="m-0 line-clamp-2 flex flex-wrap text-56px font-600 leading-67px text-v3PrimaryText pad:text-48px pad:font-700 pad:leading-[120%] phone:font-700 phone:text-16px phone:leading-22px">
-                        Sign up to get 15,730 USDT in rewards!
-                    </h1>  <!----></div> <div data-v-56acff74="" class="top-banner-image w-500px h-500px mt-50px h-1/1 flex pad:mt-24px minPhone:hidden phone:w-132px phone:h-132px phone:mt-0" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/b0c4757b52560c365ba1d611c90b8409.png&quot;);"></div></div> <div data-v-427d4aae="" data-v-56acff74="" class="phone:hidden"><!----> <div data-v-427d4aae="" class="mt-32px pad:mt-32px phone:mt-24px"><a data-v-427d4aae="" href="/asia/events/activities/466520da43605895ab6ba2d56dd777e1?color=black" target="_blank" class="bit-link bit-link--default"><!----><span class="bit-link--inner"><button data-v-427d4aae="" type="button" class="bit-button w-260px phone:w-214px bit-button--primary bit-button--large is-round"><!----><!----><!----><span><span data-v-427d4aae="" class="inline-block max-w-190px truncate phone:max-w-180px">
+                            </span></span></button></span></a></div>
+                                          </div>
+                                        </div>
+                                        <div data-v-56acff74="" class="top-banner-image w-500px h-500px h-1/1 flex pad:mt-24px phone:hidden phone:w-132px phone:h-132px" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/40f4048c78aa4884a3cdc7e881a5a0ab.png&quot;);"></div> 
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div data-v-759fbb3f="" class="swiper-slide box-border overflow-hidden swiper-slide-next" data-swiper-slide-index="2" style="width: 1669px;">
+                                <div data-v-759fbb3f="" class="mx-auto h-1/1">
+                                  <div data-v-759fbb3f="" class="mx-auto box-border">
+                                    <div data-v-56acff74="" id="contentBoxId" class="contentBox h-500px relative box-border flex overflow-hidden w-1/1 pad:h-906px  min-h-500px pad:min-h-906px phone:min-h-132px phone:h-132px cursor-pointer" style="background-color: rgb(255, 255, 255);">
+                                      <div data-v-56acff74="" class="relative justify-between flex w-1200px mx-auto box-border <xl:w-full <xl:px-24px pad:flex-col pad:flex-col-reverse pad:justify-end pad:items-center pad:px-24px phone:justify-around phone:items-center phone:pl-12px phone:pr-0">
+                                        <div data-v-56acff74="" class="w-600px z-1 h-360px flex flex-col justify-start mt-80px box-border <xl:w-528px !pad:mt-16px !pad:w-full pad:h-302px !phone:w-full !phone:mt-0 phone:h-auto">
+                                          <div data-v-56acff74="" class="phone:flex phone:justify-between phone:items-center phone:gap-8px">
+                                            <div data-v-56acff74="" class="flex flex-col phone:max-w-170px">
+                                              <h1 data-v-56acff74="" class="m-0 line-clamp-2 flex flex-wrap text-56px font-600 leading-67px text-v3PrimaryText pad:text-48px pad:font-700 pad:leading-[120%] phone:font-700 phone:text-16px phone:leading-22px">
+                                                Sign up to get 15,730 USDT in rewards!
+                                              </h1>  </div>
+                                            <div data-v-56acff74="" class="top-banner-image w-500px h-500px mt-50px h-1/1 flex pad:mt-24px minPhone:hidden phone:w-132px phone:h-132px phone:mt-0" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/b0c4757b52560c365ba1d611c90b8409.png&quot;);"></div>
+                                          </div>
+                                          <div data-v-427d4aae="" data-v-56acff74="" class="phone:hidden">
+                                            <div data-v-427d4aae="" class="mt-32px pad:mt-32px phone:mt-24px">
+                                              <a data-v-427d4aae="" href="/asia/events/activities/466520da43605895ab6ba2d56dd777e1?color=black" target="_blank" class="bit-link bit-link--default"><span class="bit-link--inner"><button data-v-427d4aae="" type="button" class="bit-button w-260px phone:w-214px bit-button--primary bit-button--large is-round"><span><span data-v-427d4aae="" class="inline-block max-w-190px truncate phone:max-w-180px">
                                 Join now
-                            </span></span><!----></button></span><!----></a></div></div></div> <div data-v-56acff74="" class="top-banner-image w-500px h-500px h-1/1 flex pad:mt-24px phone:hidden phone:w-132px phone:h-132px" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/b0c4757b52560c365ba1d611c90b8409.png&quot;);"></div> <!----></div></div></div></div></div><div data-v-759fbb3f="" class="swiper-slide box-border overflow-hidden swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="0" style="width: 1669px;"><div data-v-759fbb3f="" class="mx-auto h-1/1"><div data-v-759fbb3f="" class="mx-auto box-border"><div data-v-56acff74="" id="contentBoxId" class="contentBox h-500px relative box-border flex overflow-hidden w-1/1 pad:h-906px  min-h-500px pad:min-h-906px phone:min-h-132px phone:h-132px cursor-pointer" style="background-color: rgb(255, 255, 255);"><div data-v-56acff74="" class="relative justify-between flex w-1200px mx-auto box-border <xl:w-full <xl:px-24px pad:flex-col pad:flex-col-reverse pad:justify-end pad:items-center pad:px-24px phone:justify-around phone:items-center phone:pl-12px phone:pr-0"><div data-v-56acff74="" class="w-600px z-1 h-360px flex flex-col justify-start mt-80px box-border <xl:w-528px !pad:mt-16px !pad:w-full pad:h-302px !phone:w-full !phone:mt-0 phone:h-auto"><div data-v-56acff74="" class="phone:flex phone:justify-between phone:items-center phone:gap-8px"><div data-v-56acff74="" class="flex flex-col phone:max-w-170px"><h1 data-v-56acff74="" class="m-0 line-clamp-2 flex flex-wrap text-56px font-600 leading-67px text-v3PrimaryText pad:text-48px pad:font-700 pad:leading-[120%] phone:font-700 phone:text-16px phone:leading-22px">
-                        Futures Elite Trader Leaderboard
-                    </h1> <div data-v-56acff74="" class="line-clamp-2 mt-18px text-20px leading-[140%] text-v3PrimaryText phone:line-clamp-1 phone:mt-4px phone:text-12px">
-                        Halloween carnival month — Trade to share a 458,000 USDT airdrop!
-                    </div> <!----></div> <div data-v-56acff74="" class="top-banner-image w-500px h-500px mt-50px h-1/1 flex pad:mt-24px minPhone:hidden phone:w-132px phone:h-132px phone:mt-0" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/d64d03823fe5a0774348125f4bc40b3f.png&quot;);"></div></div> <div data-v-427d4aae="" data-v-56acff74="" class="phone:hidden"><!----> <div data-v-427d4aae="" class="mt-32px pad:mt-32px phone:mt-24px"><a data-v-427d4aae="" href="/asia/events/elite-list/detail/9845" target="_blank" class="bit-link bit-link--default"><!----><span class="bit-link--inner"><button data-v-427d4aae="" type="button" class="bit-button w-260px phone:w-214px bit-button--primary bit-button--large is-round"><!----><!----><!----><span><span data-v-427d4aae="" class="inline-block max-w-190px truncate phone:max-w-180px">
+                            </span></span></button></span></a></div>
+                                          </div>
+                                        </div>
+                                        <div data-v-56acff74="" class="top-banner-image w-500px h-500px h-1/1 flex pad:mt-24px phone:hidden phone:w-132px phone:h-132px" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/b0c4757b52560c365ba1d611c90b8409.png&quot;);"></div> 
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div data-v-759fbb3f="" class="swiper-slide box-border overflow-hidden swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="0" style="width: 1669px;">
+                                <div data-v-759fbb3f="" class="mx-auto h-1/1">
+                                  <div data-v-759fbb3f="" class="mx-auto box-border">
+                                    <div data-v-56acff74="" id="contentBoxId" class="contentBox h-500px relative box-border flex overflow-hidden w-1/1 pad:h-906px  min-h-500px pad:min-h-906px phone:min-h-132px phone:h-132px cursor-pointer" style="background-color: rgb(255, 255, 255);">
+                                      <div data-v-56acff74="" class="relative justify-between flex w-1200px mx-auto box-border <xl:w-full <xl:px-24px pad:flex-col pad:flex-col-reverse pad:justify-end pad:items-center pad:px-24px phone:justify-around phone:items-center phone:pl-12px phone:pr-0">
+                                        <div data-v-56acff74="" class="w-600px z-1 h-360px flex flex-col justify-start mt-80px box-border <xl:w-528px !pad:mt-16px !pad:w-full pad:h-302px !phone:w-full !phone:mt-0 phone:h-auto">
+                                          <div data-v-56acff74="" class="phone:flex phone:justify-between phone:items-center phone:gap-8px">
+                                            <div data-v-56acff74="" class="flex flex-col phone:max-w-170px">
+                                              <h1 data-v-56acff74="" class="m-0 line-clamp-2 flex flex-wrap text-56px font-600 leading-67px text-v3PrimaryText pad:text-48px pad:font-700 pad:leading-[120%] phone:font-700 phone:text-16px phone:leading-22px">
+                                                Futures Elite Trader Leaderboard
+                                              </h1>
+                                              <div data-v-56acff74="" class="line-clamp-2 mt-18px text-20px leading-[140%] text-v3PrimaryText phone:line-clamp-1 phone:mt-4px phone:text-12px">
+                                                Halloween carnival month — Trade to share a 458,000 USDT airdrop!
+                                              </div> </div>
+                                            <div data-v-56acff74="" class="top-banner-image w-500px h-500px mt-50px h-1/1 flex pad:mt-24px minPhone:hidden phone:w-132px phone:h-132px phone:mt-0" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/d64d03823fe5a0774348125f4bc40b3f.png&quot;);"></div>
+                                          </div>
+                                          <div data-v-427d4aae="" data-v-56acff74="" class="phone:hidden">
+                                            <div data-v-427d4aae="" class="mt-32px pad:mt-32px phone:mt-24px">
+                                              <a data-v-427d4aae="" href="/asia/events/elite-list/detail/9845" target="_blank" class="bit-link bit-link--default"><span class="bit-link--inner"><button data-v-427d4aae="" type="button" class="bit-button w-260px phone:w-214px bit-button--primary bit-button--large is-round"><span><span data-v-427d4aae="" class="inline-block max-w-190px truncate phone:max-w-180px">
                                 Join now
-                            </span></span><!----></button></span><!----></a></div></div></div> <div data-v-56acff74="" class="top-banner-image w-500px h-500px h-1/1 flex pad:mt-24px phone:hidden phone:w-132px phone:h-132px" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/d64d03823fe5a0774348125f4bc40b3f.png&quot;);"></div> <!----></div></div></div></div></div></div> <div data-v-759fbb3f="" class="swiper-pagination-banner absolute text-center z-3 !bottom-20px !pad:bottom-24px swiper-container-pc-pagination !phone:bottom-4px swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span></div><span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div></div></div> <!----> <!----> <div class="minPhone:hidden"><div data-v-57f1b3bc="" class="bit-theme-dark-vue2"><div data-v-57f1b3bc="" class="messi-top-banner h-600px relative box-border flex overflow-hidden w-1/1 pb-32px bg-[#00040C] pad:max-h-928px pad:h-auto pad:pb-54px phone:max-h-680px phone:h-auto phone:pb-12px"><div data-v-57f1b3bc="" class="relative justify-between flex w-1200px mx-auto box-border <xl:w-full <xl:px-24px pad:flex-col pad:items-center pad:px-24px phone:flex-col phone:items-center phone:px-16px"><div data-v-57f1b3bc="" class="minPhone:hidden phone:w-full phone:flex phone:justify-between phone:items-center phone:gap-8px"><div data-v-57f1b3bc="" class="flex flex-col"><h1 data-v-57f1b3bc="" class="m-0 leading-67px whitespace-pre-line text-[var(--ds-color-always-white)] pad:text-48px pad:font-700 pad:leading-[120%] minPhone:hidden phone:max-w-full phone:text-20px phone:font-700 phone:leading-[120%]">Trade <span class="homepage-brand-color">smarter.</span>
-Trade on Bitget.</h1></div> <img data-v-57f1b3bc="" alt="messi-banner-h50.25893668344994314" fetchpriority="high" width="132" height="132" src="/baseasset/img/v3-home/laliga_brand_h5.png?t=20240925" class="top-banner-image pro:hidden air:hidden pad:hidden phone:w-132px phone:h-132px phone:mt-10px"></div> <div data-v-57f1b3bc="" class="w-600px h-360px z-1 flex flex-col mt-120px box-border <xl:w-448px !pad:w-full pad:mt-0 pad:h-auto phone:w-full phone:mt-10px phone:h-auto"><h1 data-v-57f1b3bc="" class="text-56px font-600 leading-67px text-[var(--ds-color-always-white)] whitespace-pre-line pad:text-48px pad:font-700 pad:leading-[120%] phone:hidden phone:max-w-full phone:font-700 phone:text-32px phone:font-700 phone:leading-38px">Trade <span class="homepage-brand-color">smarter.</span>
-Trade on Bitget.</h1> <div data-v-57f1b3bc="" class="mt-120px w-1/1 pc:mt-32px air:mt-55px pad:w-full pad:mt-68px phone:w-full phone:mt-0px"><div data-v-57f1b3bc="" class="pad:mt-32px phone:hidden phone:mt-24px phone:pb-62px"><a data-v-57f1b3bc="" href="/asia/asset/recharge" class=""><button data-v-57f1b3bc="" type="button" class="bit-button w-260px phone:w-132px bit-button--primary bit-button--large is-round"><!----><!----><!----><span>
+                            </span></span></button></span></a></div>
+                                          </div>
+                                        </div>
+                                        <div data-v-56acff74="" class="top-banner-image w-500px h-500px h-1/1 flex pad:mt-24px phone:hidden phone:w-132px phone:h-132px" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/d64d03823fe5a0774348125f4bc40b3f.png&quot;);"></div> 
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div data-v-759fbb3f="" class="swiper-pagination-banner absolute text-center z-3 !bottom-20px !pad:bottom-24px swiper-container-pc-pagination !phone:bottom-4px swiper-pagination-clickable swiper-pagination-bullets">
+                              <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span>
+                            </div>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                        </div>
+                      </div>  
+                      <div class="minPhone:hidden">
+                        <div data-v-57f1b3bc="" class="bit-theme-dark-vue2">
+                          <div data-v-57f1b3bc="" class="messi-top-banner h-600px relative box-border flex overflow-hidden w-1/1 pb-32px bg-[#00040C] pad:max-h-928px pad:h-auto pad:pb-54px phone:max-h-680px phone:h-auto phone:pb-12px">
+                            <div data-v-57f1b3bc="" class="relative justify-between flex w-1200px mx-auto box-border <xl:w-full <xl:px-24px pad:flex-col pad:items-center pad:px-24px phone:flex-col phone:items-center phone:px-16px">
+                              <div data-v-57f1b3bc="" class="minPhone:hidden phone:w-full phone:flex phone:justify-between phone:items-center phone:gap-8px">
+                                <div data-v-57f1b3bc="" class="flex flex-col">
+                                  <h1 data-v-57f1b3bc="" class="m-0 leading-67px whitespace-pre-line text-[var(--ds-color-always-white)] pad:text-48px pad:font-700 pad:leading-[120%] minPhone:hidden phone:max-w-full phone:text-20px phone:font-700 phone:leading-[120%]">Trade
+                                    <span class="homepage-brand-color">smarter.</span>
+                                    Trade on Bitget.</h1></div>
+                                <img data-v-57f1b3bc="" alt="messi-banner-h50.25893668344994314" fetchpriority="high" width="132" height="132" src="/baseasset/img/v3-home/laliga_brand_h5.png?t=20240925" class="top-banner-image pro:hidden air:hidden pad:hidden phone:w-132px phone:h-132px phone:mt-10px">
+                              </div>
+                              <div data-v-57f1b3bc="" class="w-600px h-360px z-1 flex flex-col mt-120px box-border <xl:w-448px !pad:w-full pad:mt-0 pad:h-auto phone:w-full phone:mt-10px phone:h-auto">
+                                <h1 data-v-57f1b3bc="" class="text-56px font-600 leading-67px text-[var(--ds-color-always-white)] whitespace-pre-line pad:text-48px pad:font-700 pad:leading-[120%] phone:hidden phone:max-w-full phone:font-700 phone:text-32px phone:font-700 phone:leading-38px">Trade
+                                  <span class="homepage-brand-color">smarter.</span>
+                                  Trade on Bitget.</h1>
+                                <div data-v-57f1b3bc="" class="mt-120px w-1/1 pc:mt-32px air:mt-55px pad:w-full pad:mt-68px phone:w-full phone:mt-0px">
+                                  <div data-v-57f1b3bc="" class="pad:mt-32px phone:hidden phone:mt-24px phone:pb-62px">
+                                    <a data-v-57f1b3bc="" href="/asia/asset/recharge" class="">
+                                      <button data-v-57f1b3bc="" type="button" class="bit-button w-260px phone:w-132px bit-button--primary bit-button--large is-round"><span>
                                                 Deposit
-                                            </span><!----></button></a></div></div></div> <img data-v-57f1b3bc="" alt="messi-banner-pc0.7194479124092983" fetchpriority="high" width="488" height="488" src="/baseasset/img/v3-home/laliga_brand_web.png?t=20240925" class="top-banner-image w-488px h-488px flex mt-50px <xl:-ml-120px air:w-488px air:h-488px air:mt-50px pad:order-first pad:ml-0 !pad:m-auto phone:hidden"></div></div></div></div></div>
+                                            </span></button>
+                                    </a></div>
+                                </div>
+                              </div>
+                              <img data-v-57f1b3bc="" alt="messi-banner-pc0.7194479124092983" fetchpriority="high" width="488" height="488" src="/baseasset/img/v3-home/laliga_brand_web.png?t=20240925" class="top-banner-image w-488px h-488px flex mt-50px <xl:-ml-120px air:w-488px air:h-488px air:mt-50px pad:order-first pad:ml-0 !pad:m-auto phone:hidden">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                     <div class="swiper-slide box-border overflow-hidden swiper-slide-next" data-v-759fbb3f="" data-swiper-slide-index="2" style="width: 1817px;">
                       <div class="mx-auto h-1/1" data-v-759fbb3f="">
                         <div class="mx-auto box-border" data-v-759fbb3f="">
@@ -152,7 +302,7 @@ Trade on Bitget.</h1> <div data-v-57f1b3bc="" class="mt-120px w-1/1 pc:mt-32px a
                                     </h1>
                                     <div class="line-clamp-2 mt-18px text-20px leading-[140%] text-v3PrimaryText phone:line-clamp-1 phone:mt-4px phone:text-12px" data-v-3ded291d="">
                                       Join the largest copy trading platform today
-                                    </div> <!----></div>
+                                    </div> </div>
                                   <div class="top-banner-image w-500px h-500px mt-50px h-1/1 flex pad:mt-24px minPhone:hidden phone:w-132px phone:h-132px phone:mt-0" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/fc435e9f27bd2b1af619995b433ecdc0.png&quot;);" data-v-3ded291d=""></div>
                                 </div>
                                 <div data-v-71b06a1e="" data-v-3ded291d="" class="">
@@ -163,27 +313,27 @@ Trade on Bitget.</h1> <div data-v-57f1b3bc="" class="mt-120px w-1/1 pc:mt-32px a
                                         <div class="flex box-border w-full" data-v-55be6e78="">
                                           <div class="w-364px mr-8px pad:flex-auto phone:flex-auto phone:mr-6px bit-theme-light-vue2" style="background:transparent !important;" data-v-55be6e78="">
                                             <div class="home-login-input" style="background-color: rgb(255, 255, 255);" data-v-55be6e78="">
-                                              <div class="bit-input bit-input--large bit-input--round" data-v-55be6e78=""><!----><!----><input type="text" autocomplete="off" placeholder="Email/Phone number" class="bit-input__inner"><!----><!----><!----><!----><!----><!---->
+                                              <div class="bit-input bit-input--large bit-input--round" data-v-55be6e78=""><input type="text" autocomplete="off" placeholder="Email/Phone number" class="bit-input__inner">
                                               </div>
                                             </div>
                                           </div>
                                           <div class="flex-shrink-0 w-160px <xl:w-140px pad:w-182px phone:w-117px" data-v-55be6e78="">
-                                            <button type="button" class="bit-button resgiter-btn w-full bit-button--primary bit-button--large is-round" data-v-55be6e78=""><!----><!----><!----><span>Sign up</span><!---->
+                                            <button type="button" class="bit-button resgiter-btn w-full bit-button--primary bit-button--large is-round" data-v-55be6e78=""><span>Sign up</span>
                                             </button>
                                           </div>
                                           <span class="pad:hidden <md:hidden" data-v-55be6e78=""><span class="bit-popover__reference-wrapper"><div class="box-border w-48px h-48px rounded-1 flex justify-center items-center ml-8px bg-v3LinkDefaultText text-v3ContentAlwaysWhite bit-popover__reference" data-v-55be6e78="" aria-describedby="bit-popover-8078" tabindex="0"><i class="bit-icon" style="font-size:28px;" data-v-55be6e78=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-v-55be6e78=""><path d="M9.75 3.75h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm0 3h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm9-15h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm-6 6.75v-3a.75.75 0 111.5 0v3a.75.75 0 11-1.5 0zm7.5-1.5a.75.75 0 01-.75.75h-2.25v3.75a.75.75 0 01-.75.75h-3a.75.75 0 110-1.5h2.25V13.5a.75.75 0 111.5 0v.75h2.25a.75.75 0 01.75.75zm0 3v1.5a.75.75 0 11-1.5 0V18a.75.75 0 111.5 0z"></path></svg></i></div></span></span>
                                         </div>
                                       </div>
                                       <div class="mt-16px flex justify-around gap-4px minPhone:hidden" data-v-55be6e78="">
-                                        <button type="button" class="bit-button register-button w-[50%] bit-button--default bit-button--large is-round" data-v-55be6e78=""><!----><!----><!----><span>Sign Up</span><!---->
+                                        <button type="button" class="bit-button register-button w-[50%] bit-button--default bit-button--large is-round" data-v-55be6e78=""><span>Sign Up</span>
                                         </button>
-                                        <button type="button" class="bit-button w-[50%] bit-button--primary bit-button--large is-round" data-v-55be6e78=""><!----><!----><!----><span>Login</span><!---->
+                                        <button type="button" class="bit-button w-[50%] bit-button--primary bit-button--large is-round" data-v-55be6e78=""><span>Login</span>
                                         </button>
                                       </div>
                                     </div>
-                                  </div> <!----></div>
+                                  </div> </div>
                               </div>
-                              <div class="top-banner-image w-500px h-500px h-1/1 flex pad:mt-24px phone:hidden phone:w-132px phone:h-132px" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/fc435e9f27bd2b1af619995b433ecdc0.png&quot;);" data-v-3ded291d=""></div> <!---->
+                              <div class="top-banner-image w-500px h-500px h-1/1 flex pad:mt-24px phone:hidden phone:w-132px phone:h-132px" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/fc435e9f27bd2b1af619995b433ecdc0.png&quot;);" data-v-3ded291d=""></div> 
                             </div>
                           </div>
                         </div>
@@ -202,7 +352,7 @@ Trade on Bitget.</h1> <div data-v-57f1b3bc="" class="mt-120px w-1/1 pc:mt-32px a
                                     </h1>
                                     <div class="line-clamp-2 mt-18px text-20px leading-[140%] text-v3PrimaryText phone:line-clamp-1 phone:mt-4px phone:text-12px" data-v-3ded291d="">
                                       Trade to win your favorite beers and Munich Trip fund！
-                                    </div> <!----></div>
+                                    </div> </div>
                                   <div class="top-banner-image w-500px h-500px mt-50px h-1/1 flex pad:mt-24px minPhone:hidden phone:w-132px phone:h-132px phone:mt-0" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/8a362d707de0b30ae0c15f6bf6fadb7d.png&quot;);" data-v-3ded291d=""></div>
                                 </div>
                                 <div data-v-71b06a1e="" data-v-3ded291d="" class="">
@@ -213,27 +363,27 @@ Trade on Bitget.</h1> <div data-v-57f1b3bc="" class="mt-120px w-1/1 pc:mt-32px a
                                         <div class="flex box-border w-full" data-v-55be6e78="">
                                           <div class="w-364px mr-8px pad:flex-auto phone:flex-auto phone:mr-6px bit-theme-light-vue2" style="background:transparent !important;" data-v-55be6e78="">
                                             <div class="home-login-input" style="background-color: rgb(255, 255, 255);" data-v-55be6e78="">
-                                              <div class="bit-input bit-input--large bit-input--round" data-v-55be6e78=""><!----><!----><input type="text" autocomplete="off" placeholder="Email/Phone number" class="bit-input__inner"><!----><!----><!----><!----><!----><!---->
+                                              <div class="bit-input bit-input--large bit-input--round" data-v-55be6e78=""><input type="text" autocomplete="off" placeholder="Email/Phone number" class="bit-input__inner">
                                               </div>
                                             </div>
                                           </div>
                                           <div class="flex-shrink-0 w-160px <xl:w-140px pad:w-182px phone:w-117px" data-v-55be6e78="">
-                                            <button type="button" class="bit-button resgiter-btn w-full bit-button--primary bit-button--large is-round" data-v-55be6e78=""><!----><!----><!----><span>Sign up</span><!---->
+                                            <button type="button" class="bit-button resgiter-btn w-full bit-button--primary bit-button--large is-round" data-v-55be6e78=""><span>Sign up</span>
                                             </button>
                                           </div>
-                                          <span class="pad:hidden <md:hidden" data-v-55be6e78=""><div role="tooltip" id="bit-popover-1837" aria-hidden="true" class="bit-popover bit-popper" style="width:120px;display:none;" tabindex="0"><!----><div class="bit-popover__message-text"><!----><div class="bit-popover__content"><div data-v-55be6e78="" class="flex flex-col justify-center items-center"><div data-v-55be6e78="" class="text-v3PrimaryText text-14px font-600 leading-20px">Scan to download</div> <div data-v-55be6e78="" class="w-108px h-108px box-border bg-v3ContentAlwaysWhite px-4px py-4px rounded-4px mt-12px mb-24px"><canvas height="100" width="100"></canvas></div> <button data-v-55be6e78="" type="button" class="bit-button bit-button--primary is-round"><!----><!----><!----><span><span data-v-55be6e78="" class="inline-block max-w-86px truncate">More downloads</span></span><!----></button></div> </div></div></div><span class="bit-popover__reference-wrapper"><div class="box-border w-48px h-48px rounded-1 flex justify-center items-center ml-8px bg-v3LinkDefaultText text-v3ContentAlwaysWhite bit-popover__reference" data-v-55be6e78="" aria-describedby="bit-popover-1837" tabindex="0"><i class="bit-icon" style="font-size:28px;" data-v-55be6e78=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-v-55be6e78=""><path d="M9.75 3.75h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm0 3h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm9-15h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm-6 6.75v-3a.75.75 0 111.5 0v3a.75.75 0 11-1.5 0zm7.5-1.5a.75.75 0 01-.75.75h-2.25v3.75a.75.75 0 01-.75.75h-3a.75.75 0 110-1.5h2.25V13.5a.75.75 0 111.5 0v.75h2.25a.75.75 0 01.75.75zm0 3v1.5a.75.75 0 11-1.5 0V18a.75.75 0 111.5 0z"></path></svg></i></div></span></span>
+                                          <span class="pad:hidden <md:hidden" data-v-55be6e78=""><div role="tooltip" id="bit-popover-1837" aria-hidden="true" class="bit-popover bit-popper" style="width:120px;display:none;" tabindex="0"><div class="bit-popover__message-text"><div class="bit-popover__content"><div data-v-55be6e78="" class="flex flex-col justify-center items-center"><div data-v-55be6e78="" class="text-v3PrimaryText text-14px font-600 leading-20px">Scan to download</div> <div data-v-55be6e78="" class="w-108px h-108px box-border bg-v3ContentAlwaysWhite px-4px py-4px rounded-4px mt-12px mb-24px"><canvas height="100" width="100"></canvas></div> <button data-v-55be6e78="" type="button" class="bit-button bit-button--primary is-round"><span><span data-v-55be6e78="" class="inline-block max-w-86px truncate">More downloads</span></span></button></div> </div></div></div><span class="bit-popover__reference-wrapper"><div class="box-border w-48px h-48px rounded-1 flex justify-center items-center ml-8px bg-v3LinkDefaultText text-v3ContentAlwaysWhite bit-popover__reference" data-v-55be6e78="" aria-describedby="bit-popover-1837" tabindex="0"><i class="bit-icon" style="font-size:28px;" data-v-55be6e78=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-v-55be6e78=""><path d="M9.75 3.75h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm0 3h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm9-15h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm-6 6.75v-3a.75.75 0 111.5 0v3a.75.75 0 11-1.5 0zm7.5-1.5a.75.75 0 01-.75.75h-2.25v3.75a.75.75 0 01-.75.75h-3a.75.75 0 110-1.5h2.25V13.5a.75.75 0 111.5 0v.75h2.25a.75.75 0 01.75.75zm0 3v1.5a.75.75 0 11-1.5 0V18a.75.75 0 111.5 0z"></path></svg></i></div></span></span>
                                         </div>
                                       </div>
                                       <div class="mt-16px flex justify-around gap-4px minPhone:hidden" data-v-55be6e78="">
-                                        <button type="button" class="bit-button register-button w-[50%] bit-button--default bit-button--large is-round" data-v-55be6e78=""><!----><!----><!----><span>Sign Up</span><!---->
+                                        <button type="button" class="bit-button register-button w-[50%] bit-button--default bit-button--large is-round" data-v-55be6e78=""><span>Sign Up</span>
                                         </button>
-                                        <button type="button" class="bit-button w-[50%] bit-button--primary bit-button--large is-round" data-v-55be6e78=""><!----><!----><!----><span>Login</span><!---->
+                                        <button type="button" class="bit-button w-[50%] bit-button--primary bit-button--large is-round" data-v-55be6e78=""><span>Login</span>
                                         </button>
                                       </div>
                                     </div>
-                                  </div> <!----></div>
+                                  </div> </div>
                               </div>
-                              <div class="top-banner-image w-500px h-500px h-1/1 flex pad:mt-24px phone:hidden phone:w-132px phone:h-132px" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/8a362d707de0b30ae0c15f6bf6fadb7d.png&quot;);" data-v-3ded291d=""></div> <!---->
+                              <div class="top-banner-image w-500px h-500px h-1/1 flex pad:mt-24px phone:hidden phone:w-132px phone:h-132px" style="background-image: url(&quot;https://img.bitgetimg.com/multiLang/web/8a362d707de0b30ae0c15f6bf6fadb7d.png&quot;);" data-v-3ded291d=""></div> 
                             </div>
                           </div>
                         </div>
@@ -267,21 +417,21 @@ Trade on Bitget.</h1> <div data-v-57f1b3bc="" class="mt-120px w-1/1 pc:mt-32px a
                             <div data-v-55be6e78="" class="flex box-border w-full">
                               <div data-v-55be6e78="" class="w-364px mr-8px pad:flex-auto phone:flex-auto phone:mr-6px bit-theme-light-vue2" style="background: transparent !important;">
                                 <div data-v-55be6e78="" class="home-login-input">
-                                  <div data-v-55be6e78="" class="bit-input bit-input--large bit-input--round"><!----><!----><input type="text" autocomplete="off" placeholder="Email/Phone number" class="bit-input__inner"><!----><!----><!----><!----><!----><!---->
+                                  <div data-v-55be6e78="" class="bit-input bit-input--large bit-input--round"><input type="text" autocomplete="off" placeholder="Email/Phone number" class="bit-input__inner">
                                   </div>
                                 </div>
                               </div>
                               <div data-v-55be6e78="" class="flex-shrink-0 w-160px <xl:w-140px pad:w-182px phone:w-117px">
-                                <button data-v-55be6e78="" type="button" class="bit-button resgiter-btn w-full bit-button--primary bit-button--large is-round"><!----><!----><!----><span>Sign up</span><!---->
+                                <button data-v-55be6e78="" type="button" class="bit-button resgiter-btn w-full bit-button--primary bit-button--large is-round"><span>Sign up</span>
                                 </button>
                               </div>
-                              <span data-v-55be6e78="" class="pad:hidden <md:hidden"><div role="tooltip" id="bit-popover-677" aria-hidden="true" class="bit-popover bit-popper" tabindex="0" style="width: 120px; display: none;"><!----><div class="bit-popover__message-text"><!----><div class="bit-popover__content"><div data-v-55be6e78="" class="flex flex-col justify-center items-center"><div data-v-55be6e78="" class="text-v3PrimaryText text-14px font-600 leading-20px">Scan to download</div> <div data-v-55be6e78="" class="w-108px h-108px box-border bg-v3ContentAlwaysWhite px-4px py-4px rounded-4px mt-12px mb-24px"><canvas height="100" width="100"></canvas></div> <button data-v-55be6e78="" type="button" class="bit-button bit-button--primary is-round"><!----><!----><!----><span><span data-v-55be6e78="" class="inline-block max-w-86px truncate">More downloads</span></span><!----></button></div> </div></div></div><span class="bit-popover__reference-wrapper"><div data-v-55be6e78="" class="box-border w-48px h-48px rounded-1 flex justify-center items-center ml-8px bg-v3LinkDefaultText text-v3ContentAlwaysWhite bit-popover__reference" aria-describedby="bit-popover-677" tabindex="0"><i data-v-55be6e78="" class="bit-icon" style="font-size: 28px;"><svg data-v-55be6e78="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9.75 3.75h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm0 3h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm9-15h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm-6 6.75v-3a.75.75 0 111.5 0v3a.75.75 0 11-1.5 0zm7.5-1.5a.75.75 0 01-.75.75h-2.25v3.75a.75.75 0 01-.75.75h-3a.75.75 0 110-1.5h2.25V13.5a.75.75 0 111.5 0v.75h2.25a.75.75 0 01.75.75zm0 3v1.5a.75.75 0 11-1.5 0V18a.75.75 0 111.5 0z"></path></svg></i></div></span></span>
+                              <span data-v-55be6e78="" class="pad:hidden <md:hidden"><div role="tooltip" id="bit-popover-677" aria-hidden="true" class="bit-popover bit-popper" tabindex="0" style="width: 120px; display: none;"><div class="bit-popover__message-text"><div class="bit-popover__content"><div data-v-55be6e78="" class="flex flex-col justify-center items-center"><div data-v-55be6e78="" class="text-v3PrimaryText text-14px font-600 leading-20px">Scan to download</div> <div data-v-55be6e78="" class="w-108px h-108px box-border bg-v3ContentAlwaysWhite px-4px py-4px rounded-4px mt-12px mb-24px"><canvas height="100" width="100"></canvas></div> <button data-v-55be6e78="" type="button" class="bit-button bit-button--primary is-round"><span><span data-v-55be6e78="" class="inline-block max-w-86px truncate">More downloads</span></span></button></div> </div></div></div><span class="bit-popover__reference-wrapper"><div data-v-55be6e78="" class="box-border w-48px h-48px rounded-1 flex justify-center items-center ml-8px bg-v3LinkDefaultText text-v3ContentAlwaysWhite bit-popover__reference" aria-describedby="bit-popover-677" tabindex="0"><i data-v-55be6e78="" class="bit-icon" style="font-size: 28px;"><svg data-v-55be6e78="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9.75 3.75h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm0 3h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm9-15h-4.5a1.5 1.5 0 00-1.5 1.5v4.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-4.5a1.5 1.5 0 00-1.5-1.5zm0 6h-4.5v-4.5h4.5v4.5zm-6 6.75v-3a.75.75 0 111.5 0v3a.75.75 0 11-1.5 0zm7.5-1.5a.75.75 0 01-.75.75h-2.25v3.75a.75.75 0 01-.75.75h-3a.75.75 0 110-1.5h2.25V13.5a.75.75 0 111.5 0v.75h2.25a.75.75 0 01.75.75zm0 3v1.5a.75.75 0 11-1.5 0V18a.75.75 0 111.5 0z"></path></svg></i></div></span></span>
                             </div>
                           </div>
                           <div data-v-55be6e78="" class="mt-16px flex justify-around gap-4px minPhone:hidden">
-                            <button data-v-55be6e78="" type="button" class="bit-button register-button w-[50%] bit-button--default bit-button--large is-round"><!----><!----><!----><span>Sign Up</span><!---->
+                            <button data-v-55be6e78="" type="button" class="bit-button register-button w-[50%] bit-button--default bit-button--large is-round"><span>Sign Up</span>
                             </button>
-                            <button data-v-55be6e78="" type="button" class="bit-button w-[50%] bit-button--primary bit-button--large is-round"><!----><!----><!----><span>Login</span><!---->
+                            <button data-v-55be6e78="" type="button" class="bit-button w-[50%] bit-button--primary bit-button--large is-round"><span>Login</span>
                             </button>
                           </div>
                         </div>
@@ -441,309 +591,309 @@ Trade on Bitget.</h1> <div data-v-57f1b3bc="" class="mt-120px w-1/1 pc:mt-32px a
             </div>
           </div>
           <div class="EarnProductList_earn-product-list__48s9C">
-          <div class="EarnProductList_earn-product-list-title__ZKAwU">
-            <h3 class="cursor-pointer text-fs20 font-normal text-content-tertiary lg:text-fs32 mobile:text-fs18 !font-bold !text-content-primary">All products</h3>
-            <h3 class="cursor-pointer text-fs20 font-normal text-content-tertiary lg:text-fs32 mobile:text-fs18 ps-[32px] mobile:ps-[16px]">Simple</h3>
-            <h3 class="cursor-pointer text-fs20 font-normal text-content-tertiary lg:text-fs32 mobile:text-fs18 ps-[32px] mobile:ps-[16px]">Structured</h3>
-          </div>
-          <div class="mb-4 mt-4 flex justify-between mobile:mt-2 ipad:justify-start">
-            <div class="mobile:flex-1">
-              <div class="filterCondition w-[220px]">
-                <div class="bit-select bit-select-medium bit-select-round select-earn-coin css-y0hvqx bit-select-single bit-select-show-arrow bit-select-show-search" style="width: 100%;">
-                  <div class="bit-select-selector">
-                    <span class="bit-select-selection-search"><input type="search" autocomplete="off" class="bit-select-selection-search-input" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-owns="rc_select_9_list" aria-autocomplete="list" aria-controls="rc_select_9_list" aria-activedescendant="rc_select_9_list_4" data-testid="SavingsSelectEarnCoinSelect" value="" id="rc_select_9"></span><span class="bit-select-selection-placeholder">Search coin</span>
-                  </div>
-                  <span class="bit-select-arrow" unselectable="on" aria-hidden="true" style="user-select: none;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="bit-select-suffix arrow-down"><path d="M20.03 9.53l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 15.44l6.97-6.97a.75.75 0 011.06 1.06z"></path></svg></span>
-                </div>
-              </div>
+            <div class="EarnProductList_earn-product-list-title__ZKAwU">
+              <h3 class="cursor-pointer text-fs20 font-normal text-content-tertiary lg:text-fs32 mobile:text-fs18 !font-bold !text-content-primary">All products</h3>
+              <h3 class="cursor-pointer text-fs20 font-normal text-content-tertiary lg:text-fs32 mobile:text-fs18 ps-[32px] mobile:ps-[16px]">Simple</h3>
+              <h3 class="cursor-pointer text-fs20 font-normal text-content-tertiary lg:text-fs32 mobile:text-fs18 ps-[32px] mobile:ps-[16px]">Structured</h3>
             </div>
-            <div class="flex justify-end">
-              <div class="ml-2 flex hidden h-[42px] w-[42px] items-center justify-center rounded-full bg-background-secondary mobile:flex">
-                <span class="bit-badge css-y0hvqx"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-[20px]"><path d="M21.619 4.643a1.482 1.482 0 00-1.369-.893H3.75a1.5 1.5 0 00-1.107 2.509l.007.008L9 13.047v7.203a1.5 1.5 0 002.332 1.249l3-2a1.5 1.5 0 00.668-1.25v-5.202l6.35-6.78.008-.008a1.482 1.482 0 00.26-1.616zm-7.712 7.383c-.26.277-.406.642-.407 1.021v5.202l-3 2.001v-7.203c0-.38-.144-.748-.405-1.025L3.75 5.25h16.5l-6.343 6.776z"></path></svg></span>
-              </div>
-              <div class="flex mobile:hidden">
-                <div class="ml-4 w-[220px]">
-                  <div class="earn-search-select w-full">
-                    <div class="bit-select bit-select-medium bit-select-round css-y0hvqx bit-select-multiple bit-select-show-arrow" style="width: 100%;">
-                      <div class="bit-select-selector">
-                        <div class="bit-select-selection-overflow">
-                          <div class="bit-select-selection-overflow-item bit-select-selection-overflow-item-suffix" style="opacity: 1; order: 0;">
-                            <div class="bit-select-selection-search" style="width: 4px;">
-                              <input type="search" autocomplete="off" class="bit-select-selection-search-input" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-owns="rc_select_10_list" aria-autocomplete="list" aria-controls="rc_select_10_list" aria-activedescendant="rc_select_10_list_0" readonly="" unselectable="on" value="" id="rc_select_10" style="opacity: 0;"><span class="bit-select-selection-search-mirror" aria-hidden="true">&nbsp;</span>
-                            </div>
-                          </div>
-                        </div>
-                        <span class="bit-select-selection-placeholder">Product type</span></div>
-                      <span class="bit-select-arrow" unselectable="on" aria-hidden="true" style="user-select: none;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="bit-select-suffix arrow-down"><path d="M20.03 9.53l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 15.44l6.97-6.97a.75.75 0 011.06 1.06z"></path></svg></span>
+            <div class="mb-4 mt-4 flex justify-between mobile:mt-2 ipad:justify-start">
+              <div class="mobile:flex-1">
+                <div class="filterCondition w-[220px]">
+                  <div class="bit-select bit-select-medium bit-select-round select-earn-coin css-y0hvqx bit-select-single bit-select-show-arrow bit-select-show-search" style="width: 100%;">
+                    <div class="bit-select-selector">
+                      <span class="bit-select-selection-search"><input type="search" autocomplete="off" class="bit-select-selection-search-input" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-owns="rc_select_9_list" aria-autocomplete="list" aria-controls="rc_select_9_list" aria-activedescendant="rc_select_9_list_4" data-testid="SavingsSelectEarnCoinSelect" value="" id="rc_select_9"></span><span class="bit-select-selection-placeholder">Search coin</span>
                     </div>
-                  </div>
-                </div>
-                <div class="ml-4 w-[220px]">
-                  <div class="earn-search-select">
-                    <div class="bit-select bit-select-medium bit-select-round css-y0hvqx bit-select-multiple bit-select-show-arrow" style="width: 100%;">
-                      <div class="bit-select-selector">
-                        <div class="bit-select-selection-overflow">
-                          <div class="bit-select-selection-overflow-item bit-select-selection-overflow-item-suffix" style="opacity: 1; order: 0;">
-                            <div class="bit-select-selection-search" style="width: 4px;">
-                              <input type="search" autocomplete="off" class="bit-select-selection-search-input" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-owns="rc_select_11_list" aria-autocomplete="list" aria-controls="rc_select_11_list" aria-activedescendant="rc_select_11_list_0" readonly="" unselectable="on" value="" id="rc_select_11" style="opacity: 0;"><span class="bit-select-selection-search-mirror" aria-hidden="true">&nbsp;</span>
-                            </div>
-                          </div>
-                        </div>
-                        <span class="bit-select-selection-placeholder">Filters</span></div>
-                      <span class="bit-select-arrow" unselectable="on" aria-hidden="true" style="user-select: none;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="bit-select-suffix arrow-down"><path d="M20.03 9.53l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 15.44l6.97-6.97a.75.75 0 011.06 1.06z"></path></svg></span>
-                    </div>
+                    <span class="bit-select-arrow" unselectable="on" aria-hidden="true" style="user-select: none;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="bit-select-suffix arrow-down"><path d="M20.03 9.53l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 15.44l6.97-6.97a.75.75 0 011.06 1.06z"></path></svg></span>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="hidden lg:block">
-            <div class="bit-table-wrapper Table_pTable__1khAH css-y0hvqx">
-              <div class="bit-spin-nested-loading css-y0hvqx">
-                <div class="bit-spin-container">
-                  <div class="bit-table">
-                    <div class="bit-table-container">
-                      <div class="bit-table-content">
-                        <table style="table-layout: auto;">
-                          <colgroup>
-                            <col style="width: 328px;">
-                            <col style="width: 348px;">
-                            <col>
-                            <col style="width: 200px;">
-                          </colgroup>
-                          <thead class="bit-table-thead">
-                          <tr>
-                            <th class="bit-table-cell" scope="col" style="text-align: left;">Coin</th>
-                            <th class="bit-table-cell bit-table-column-sort bit-table-column-has-sorters" tabindex="0" scope="col" style="text-align: left;" aria-sort="ascending">
-                              <div class="bit-table-column-sorters">
-                                <span class="bit-table-column-title">APR</span><span class="bit-table-column-sorter bit-table-column-sorter-full"><span class="bit-table-column-sorter-inner" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="8" class="bit-table-column-sorter-up active"><path d="M2.863 18.89c-1.754 0-2.633-2.12-1.392-3.36L11.89 5.11 22.31 15.53c1.24 1.24.361 3.36-1.392 3.36H2.863z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="8" class="bit-table-column-sorter-down"><path d="M20.918 5.11c1.753 0 2.632 2.12 1.392 3.36L11.89 18.89 1.47 8.47C.23 7.23 1.11 5.11 2.864 5.11h18.055z"></path></svg></span></span>
+              <div class="flex justify-end">
+                <div class="ml-2 flex hidden h-[42px] w-[42px] items-center justify-center rounded-full bg-background-secondary mobile:flex">
+                  <span class="bit-badge css-y0hvqx"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-[20px]"><path d="M21.619 4.643a1.482 1.482 0 00-1.369-.893H3.75a1.5 1.5 0 00-1.107 2.509l.007.008L9 13.047v7.203a1.5 1.5 0 002.332 1.249l3-2a1.5 1.5 0 00.668-1.25v-5.202l6.35-6.78.008-.008a1.482 1.482 0 00.26-1.616zm-7.712 7.383c-.26.277-.406.642-.407 1.021v5.202l-3 2.001v-7.203c0-.38-.144-.748-.405-1.025L3.75 5.25h16.5l-6.343 6.776z"></path></svg></span>
+                </div>
+                <div class="flex mobile:hidden">
+                  <div class="ml-4 w-[220px]">
+                    <div class="earn-search-select w-full">
+                      <div class="bit-select bit-select-medium bit-select-round css-y0hvqx bit-select-multiple bit-select-show-arrow" style="width: 100%;">
+                        <div class="bit-select-selector">
+                          <div class="bit-select-selection-overflow">
+                            <div class="bit-select-selection-overflow-item bit-select-selection-overflow-item-suffix" style="opacity: 1; order: 0;">
+                              <div class="bit-select-selection-search" style="width: 4px;">
+                                <input type="search" autocomplete="off" class="bit-select-selection-search-input" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-owns="rc_select_10_list" aria-autocomplete="list" aria-controls="rc_select_10_list" aria-activedescendant="rc_select_10_list_0" readonly="" unselectable="on" value="" id="rc_select_10" style="opacity: 0;"><span class="bit-select-selection-search-mirror" aria-hidden="true">&nbsp;</span>
                               </div>
-                            </th>
-                            <th class="bit-table-cell" scope="col" style="text-align: left;">Duration (days)</th>
-                            <th class="bit-table-cell" scope="col" style="text-align: right;">Action</th>
-                          </tr>
-                          </thead>
-                          <!--flag-->
-                          <!--productList-->
-                          <tbody v-for="(item) in productList" :key="item.currency_id" class="bit-table-tbody">
-                          <tr @click="switchShow($event, item.currency_id)" :data-row-key="item.currency_id" class="bit-table-row bit-table-row-level-0">
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div class="EarnProductList_earn-prd-col-coin_name__7o4U5">
-                                  <img :src="item.icon"
-                                       alt="USDC-1hhs12k0ifo"
-                                       width="24"
-                                       class="rounded-full object-cover ltr:mr-[8px] rtl:ml-[8px]">
-                                  <div>
-                                    <div class="inline-block">{{ item.product_name }}</div>
+                            </div>
+                          </div>
+                          <span class="bit-select-selection-placeholder">Product type</span></div>
+                        <span class="bit-select-arrow" unselectable="on" aria-hidden="true" style="user-select: none;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="bit-select-suffix arrow-down"><path d="M20.03 9.53l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 15.44l6.97-6.97a.75.75 0 011.06 1.06z"></path></svg></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ml-4 w-[220px]">
+                    <div class="earn-search-select">
+                      <div class="bit-select bit-select-medium bit-select-round css-y0hvqx bit-select-multiple bit-select-show-arrow" style="width: 100%;">
+                        <div class="bit-select-selector">
+                          <div class="bit-select-selection-overflow">
+                            <div class="bit-select-selection-overflow-item bit-select-selection-overflow-item-suffix" style="opacity: 1; order: 0;">
+                              <div class="bit-select-selection-search" style="width: 4px;">
+                                <input type="search" autocomplete="off" class="bit-select-selection-search-input" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-owns="rc_select_11_list" aria-autocomplete="list" aria-controls="rc_select_11_list" aria-activedescendant="rc_select_11_list_0" readonly="" unselectable="on" value="" id="rc_select_11" style="opacity: 0;"><span class="bit-select-selection-search-mirror" aria-hidden="true">&nbsp;</span>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="bit-select-selection-placeholder">Filters</span></div>
+                        <span class="bit-select-arrow" unselectable="on" aria-hidden="true" style="user-select: none;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="bit-select-suffix arrow-down"><path d="M20.03 9.53l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 15.44l6.97-6.97a.75.75 0 011.06 1.06z"></path></svg></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="hidden lg:block">
+              <div class="bit-table-wrapper Table_pTable__1khAH css-y0hvqx">
+                <div class="bit-spin-nested-loading css-y0hvqx">
+                  <div class="bit-spin-container">
+                    <div class="bit-table">
+                      <div class="bit-table-container">
+                        <div class="bit-table-content">
+                          <table style="table-layout: auto;">
+                            <colgroup>
+                              <col style="width: 328px;">
+                              <col style="width: 348px;">
+                              <col>
+                              <col style="width: 200px;">
+                            </colgroup>
+                            <thead class="bit-table-thead">
+                            <tr>
+                              <th class="bit-table-cell" scope="col" style="text-align: left;">Coin</th>
+                              <th class="bit-table-cell bit-table-column-sort bit-table-column-has-sorters" tabindex="0" scope="col" style="text-align: left;" aria-sort="ascending">
+                                <div class="bit-table-column-sorters">
+                                  <span class="bit-table-column-title">APR</span><span class="bit-table-column-sorter bit-table-column-sorter-full"><span class="bit-table-column-sorter-inner" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="8" class="bit-table-column-sorter-up active"><path d="M2.863 18.89c-1.754 0-2.633-2.12-1.392-3.36L11.89 5.11 22.31 15.53c1.24 1.24.361 3.36-1.392 3.36H2.863z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="8" class="bit-table-column-sorter-down"><path d="M20.918 5.11c1.753 0 2.632 2.12 1.392 3.36L11.89 18.89 1.47 8.47C.23 7.23 1.11 5.11 2.864 5.11h18.055z"></path></svg></span></span>
+                                </div>
+                              </th>
+                              <th class="bit-table-cell" scope="col" style="text-align: left;">Duration (days)</th>
+                              <th class="bit-table-cell" scope="col" style="text-align: right;">Action</th>
+                            </tr>
+                            </thead>
+                            <!--flag-->
+                            <!--productList-->
+                            <tbody v-for="(item) in productList" :key="item.currency_id" class="bit-table-tbody">
+                            <tr @click="switchShow($event, item.currency_id)" :data-row-key="item.currency_id" class="bit-table-row bit-table-row-level-0">
+                              <td class="bit-table-cell" style="text-align: left;">
+                                <div class="EarnProductList_earn-prd-col__XgxB5">
+                                  <div class="EarnProductList_earn-prd-col-coin_name__7o4U5">
+                                    <img :src="item.icon"
+                                         alt="USDC-1hhs12k0ifo"
+                                         width="24"
+                                         class="rounded-full object-cover ltr:mr-[8px] rtl:ml-[8px]">
+                                    <div>
+                                      <div class="inline-block">{{ item.product_name }}</div>
+                                    </div>
                                   </div>
                                 </div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell bit-table-column-sort" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5 flex">
-                                {{ computeApr(item.currency_id) }}
-                                <div class="flex"></div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: left;">
-                              <div class="EarnProductList_earn-prd-col__XgxB5">
-                                <div>Flexible/Fixed</div>
-                              </div>
-                            </td>
-                            <td class="bit-table-cell" style="text-align: right;">
-                              <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-[24px] w-[24px] transition duration-300 ease-out"
-                                     :class="{'rotate-180': item.show_child_dom}">
-                                  <path d="M20.03 9.53l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 15.44l6.97-6.97a.75.75 0 011.06 1.06z"></path>
-                                </svg>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr v-if="item.show_child_dom" class="bit-table-expanded-row bit-table-expanded-row-level-1 EarnProductList_expanded-row__8_u1N">
-                            <td class="bit-table-cell" colspan="4">
-                              <div class="hidden lg:block">
-                                <div class="bit-table-wrapper Table_pTable__1khAH css-y0hvqx" style="margin: 0">
-                                  <div class="bit-spin-nested-loading css-y0hvqx">
-                                    <div class="bit-spin-container">
-                                      <div class="bit-table">
-                                        <div class="bit-table-container">
-                                          <div class="bit-table-content">
-                                            <table style="table-layout: auto;">
-                                              <colgroup>
-                                                <col style="width: 328px;">
-                                                <col style="width: 348px;">
-                                                <col>
-                                                <col style="width: 200px;">
-                                              </colgroup>
-                                              <tbody class="bit-table-tbody">
-                                              <tr data-row-key="984594834441801728" class="bit-table-row bit-table-row-level-0">
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Savings</div>
-                                                      <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
+                              </td>
+                              <td class="bit-table-cell bit-table-column-sort" style="text-align: left;">
+                                <div class="EarnProductList_earn-prd-col__XgxB5 flex">
+                                  {{ computeApr(item.currency_id) }}
+                                  <div class="flex"></div>
+                                </div>
+                              </td>
+                              <td class="bit-table-cell" style="text-align: left;">
+                                <div class="EarnProductList_earn-prd-col__XgxB5">
+                                  <div>Flexible/Fixed</div>
+                                </div>
+                              </td>
+                              <td class="bit-table-cell" style="text-align: right;">
+                                <div>
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-[24px] w-[24px] transition duration-300 ease-out"
+                                       :class="{'rotate-180': item.show_child_dom}">
+                                    <path d="M20.03 9.53l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 15.44l6.97-6.97a.75.75 0 011.06 1.06z"></path>
+                                  </svg>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr v-if="item.show_child_dom" class="bit-table-expanded-row bit-table-expanded-row-level-1 EarnProductList_expanded-row__8_u1N">
+                              <td class="bit-table-cell" colspan="4">
+                                <div class="hidden lg:block">
+                                  <div class="bit-table-wrapper Table_pTable__1khAH css-y0hvqx" style="margin: 0">
+                                    <div class="bit-spin-nested-loading css-y0hvqx">
+                                      <div class="bit-spin-container">
+                                        <div class="bit-table">
+                                          <div class="bit-table-container">
+                                            <div class="bit-table-content">
+                                              <table style="table-layout: auto;">
+                                                <colgroup>
+                                                  <col style="width: 328px;">
+                                                  <col style="width: 348px;">
+                                                  <col>
+                                                  <col style="width: 200px;">
+                                                </colgroup>
+                                                <tbody class="bit-table-tbody">
+                                                <tr data-row-key="984594834441801728" class="bit-table-row bit-table-row-level-0">
+                                                  <td class="bit-table-cell" style="text-align: left;">
+                                                    <div class="EarnProductList_earn-prd-col__XgxB5 ltr:ml-[32px] rtl:mr-[32px]">
+                                                      <div class="flex items-center">
+                                                        <div class="EarnProductList_earn-prd-col-coin_name__7o4U5 !pb-0">Savings</div>
+                                                        <div class="EarnProductList_earn-prd-col-coin_balance__aIT95"></div>
+                                                      </div>
+                                                      <div class="EarnProductList_box-tag__ENumq">
+                                                        <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
+                                                      </div>
                                                     </div>
-                                                    <div class="EarnProductList_box-tag__ENumq">
-                                                      <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
+                                                  </td>
+                                                  <td class="bit-table-cell" style="text-align: left;">
+                                                    <div class="EarnProductList_earn-prd-col__XgxB5">
+                                                      <div class="flex items-center">
+                                                        <div class="EarnProductList_earn-prd-col__XgxB5">{{ item.current_apr }}%</div>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-[16px] cursor-pointer text-content-tertiary">
+                                                          <path fill-rule="evenodd" d="M3.75 12a8.25 8.25 0 1116.5 0 8.25 8.25 0 01-16.5 0zM12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm1.706 6.957a.947.947 0 01-.703.292.973.973 0 01-.708-.29.943.943 0 01-.295-.706c0-.273.098-.508.295-.705a.977.977 0 01.707-.298.952.952 0 01.704.298.968.968 0 01.294.705.944.944 0 01-.294.705zm.35 6.597c-.412.142-.736.252-.981.329a2.798 2.798 0 01-.853.117c-.495 0-.883-.11-1.156-.324a1.008 1.008 0 01-.416-.829c0-.128.011-.258.032-.393.026-.155.059-.309.098-.46l.514-1.624a.975.975 0 00.032-.25c.003-.064.005-.127.02-.191a1.687 1.687 0 00.047-.465c.002-.165.004-.278-.077-.344-.08-.067-.213-.065-.404-.062l-.145.002c-.134 0-.272.02-.409.052a.805.805 0 01-.193.024c-.06.002-.115.004-.165.023l.138-.504c.333-.124.656-.227.963-.311.282-.085.575-.128.87-.128.495 0 .875.102 1.142.315.268.215.563.493.563.829 0 .065-.01.174-.024.332l-.004.043a2.258 2.258 0 01-.102.486l-.675 1.617a4.576 4.576 0 00-.11.447 1.95 1.95 0 00-.053.375c0 .214.056.362.162.44.11.078.296.117.56.117.123 0 .264-.02.421-.058.16-.039.271-.071.341-.104l-.136.499z" clip-rule="evenodd"></path>
+                                                        </svg>
+                                                      </div>
                                                     </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <div class="flex items-center">
-                                                      <div class="EarnProductList_earn-prd-col__XgxB5">{{ item.current_apr }}%</div>
-                                                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-[16px] cursor-pointer text-content-tertiary">
-                                                        <path fill-rule="evenodd" d="M3.75 12a8.25 8.25 0 1116.5 0 8.25 8.25 0 01-16.5 0zM12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm1.706 6.957a.947.947 0 01-.703.292.973.973 0 01-.708-.29.943.943 0 01-.295-.706c0-.273.098-.508.295-.705a.977.977 0 01.707-.298.952.952 0 01.704.298.968.968 0 01.294.705.944.944 0 01-.294.705zm.35 6.597c-.412.142-.736.252-.981.329a2.798 2.798 0 01-.853.117c-.495 0-.883-.11-1.156-.324a1.008 1.008 0 01-.416-.829c0-.128.011-.258.032-.393.026-.155.059-.309.098-.46l.514-1.624a.975.975 0 00.032-.25c.003-.064.005-.127.02-.191a1.687 1.687 0 00.047-.465c.002-.165.004-.278-.077-.344-.08-.067-.213-.065-.404-.062l-.145.002c-.134 0-.272.02-.409.052a.805.805 0 01-.193.024c-.06.002-.115.004-.165.023l.138-.504c.333-.124.656-.227.963-.311.282-.085.575-.128.87-.128.495 0 .875.102 1.142.315.268.215.563.493.563.829 0 .065-.01.174-.024.332l-.004.043a2.258 2.258 0 01-.102.486l-.675 1.617a4.576 4.576 0 00-.11.447 1.95 1.95 0 00-.053.375c0 .214.056.362.162.44.11.078.296.117.56.117.123 0 .264-.02.421-.058.16-.039.271-.071.341-.104l-.136.499z" clip-rule="evenodd"></path>
-                                                      </svg>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: left;">
-                                                  <div class="EarnProductList_earn-prd-col__XgxB5">
-                                                    <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                                                      <p v-for="(childrenItem, childrenIndex) in item.products" :key="childrenItem.id"
-                                                         @click="item.current_product_id = childrenItem.id; item.current_index = childrenIndex; item.current_apr = childrenItem.apr;"
-                                                         class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 border"
-                                                         :class="{'!border-content-link-default': childrenIndex === item.current_index, '!bg-greenBg': childrenIndex === item.current_index}">
-                                                        <i class="not-italic">{{ childrenItem.days }}</i>
-                                                        <span v-if="childrenIndex === item.current_index" class="absolute -bottom-[2px] -right-[1px]">
+                                                  </td>
+                                                  <td class="bit-table-cell" style="text-align: left;">
+                                                    <div class="EarnProductList_earn-prd-col__XgxB5">
+                                                      <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
+                                                        <p v-for="(childrenItem, childrenIndex) in item.products" :key="childrenItem.id"
+                                                           @click="item.current_product_id = childrenItem.id; item.current_index = childrenIndex; item.current_apr = childrenItem.apr;"
+                                                           class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 border"
+                                                           :class="{'!border-content-link-default': childrenIndex === item.current_index, '!bg-greenBg': childrenIndex === item.current_index}">
+                                                          <i class="not-italic">{{ childrenItem.days }}</i>
+                                                          <span v-if="childrenIndex === item.current_index" class="absolute -bottom-[2px] -right-[1px]">
                                                           <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7">
                                                             </path>
                                                           </svg>
                                                         </span>
-                                                      </p>
-                                                    </section>
-                                                  </div>
-                                                </td>
-                                                <td class="bit-table-cell" style="text-align: right;">
-                                                  <div class="flex flex-col items-end justify-end">
-                                                    <button @click="showBuyPanelFn(item.currency_id)" type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
-                                                      <span>Subscribe</span>
-                                                    </button>
-                                                    <div></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              </tbody>
-                                            </table>
+                                                        </p>
+                                                      </section>
+                                                    </div>
+                                                  </td>
+                                                  <td class="bit-table-cell" style="text-align: right;">
+                                                    <div class="flex flex-col items-end justify-end">
+                                                      <button @click="showBuyPanelFn(item.currency_id)" type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none undefined">
+                                                        <span>Subscribe</span>
+                                                      </button>
+                                                      <div></div>
+                                                    </div>
+                                                  </td>
+                                                </tr>
+                                                </tbody>
+                                              </table>
+                                            </div>
                                           </div>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-                              </div>
-                              <div class="block lg:hidden block">
-                                <div class="block flex w-full flex-col justify-center lg:hidden"></div>
-                              </div>
-                            </td>
-                          </tr>
-                          </tbody>
-                        </table>
+                                <div class="block lg:hidden block">
+                                  <div class="block flex w-full flex-col justify-center lg:hidden"></div>
+                                </div>
+                              </td>
+                            </tr>
+                            </tbody>
+                          </table>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="block lg:hidden block">
-            <div class="block flex w-full flex-col justify-center lg:hidden">
-              <div v-for="item in productList" :key="item.currency_id"
-                   @click="switchShow($event, item.currency_id)"
-                   class="EarnProductList_earn-list-h5__ni3RI">
-                <div class="EarnProductList_earn-list-h5-content__2jxNQ">
-                  <div class="EarnProductList_card-top__9IpTz">
-                    <div class="EarnProductList_coin-info__3wSHG">
-                      <img :src="item.icon" alt="USDC-vpfcfpqerm" class="EarnProductList_mar-right-8__LubNZ h-[24px] w-[24px] rounded-full object-cover">
-                      <div class="flex flex-col">
-                        <div class="coin-info-name flex items-center text-content-primary">
-                          {{ item.product_name }}
-                        </div>
-                      </div>
-                    </div>
-                    <div class="EarnProductList_apy-info__r_H4Z">
-                      <div class="EarnProductList_apy-info-content__S_EPj">
-                        <div class="leading-22px text-[16px] font-[600] text-content-primary">
-                          {{ computeApr(item.currency_id) }}
-                        </div>
-                        <div class="flex"></div>
-                      </div>
-                      <div>
-                        <div class="ms-1">
-                          <svg :class="{'rotate-[180deg]': item.show_child_dom}"
-                               width="1em" height="1em" viewBox="0 0 20 20" fill="var(--content-primary)" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4">
-                            <path d="m16.692 7.942-6.25 6.25a.625.625 0 0 1-.884 0l-6.25-6.25a.625.625 0 1 1 .884-.884L10 12.866l5.808-5.808a.626.626 0 0 1 .884.884Z" fill="current"></path>
-                          </svg>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div v-if="item.show_child_dom" class="expand-content">
-                    <div class="EarnProductList_expand-content-box__H_Gwv border-t border-ds-color-border-strong">
-                      <div class="mb-[16px] flex justify-between">
-                        <div>
-                          <div class="leading-20px flex items-center text-[14px] text-content-primary">Savings</div>
-                          <div class="EarnProductList_box-tag__ENumq">
-                            <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
+            <div class="block lg:hidden block">
+              <div class="block flex w-full flex-col justify-center lg:hidden">
+                <div v-for="item in productList" :key="item.currency_id"
+                     @click="switchShow($event, item.currency_id)"
+                     class="EarnProductList_earn-list-h5__ni3RI">
+                  <div class="EarnProductList_earn-list-h5-content__2jxNQ">
+                    <div class="EarnProductList_card-top__9IpTz">
+                      <div class="EarnProductList_coin-info__3wSHG">
+                        <img :src="item.icon" alt="USDC-vpfcfpqerm" class="EarnProductList_mar-right-8__LubNZ h-[24px] w-[24px] rounded-full object-cover">
+                        <div class="flex flex-col">
+                          <div class="coin-info-name flex items-center text-content-primary">
+                            {{ item.product_name }}
                           </div>
                         </div>
-
-                        <div>
-                          <div class="leading-22px flex items-center justify-end text-content-primary">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-[16px] cursor-pointer text-content-tertiary">
-                              <path fill-rule="evenodd" d="M3.75 12a8.25 8.25 0 1116.5 0 8.25 8.25 0 01-16.5 0zM12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm1.706 6.957a.947.947 0 01-.703.292.973.973 0 01-.708-.29.943.943 0 01-.295-.706c0-.273.098-.508.295-.705a.977.977 0 01.707-.298.952.952 0 01.704.298.968.968 0 01.294.705.944.944 0 01-.294.705zm.35 6.597c-.412.142-.736.252-.981.329a2.798 2.798 0 01-.853.117c-.495 0-.883-.11-1.156-.324a1.008 1.008 0 01-.416-.829c0-.128.011-.258.032-.393.026-.155.059-.309.098-.46l.514-1.624a.975.975 0 00.032-.25c.003-.064.005-.127.02-.191a1.687 1.687 0 00.047-.465c.002-.165.004-.278-.077-.344-.08-.067-.213-.065-.404-.062l-.145.002c-.134 0-.272.02-.409.052a.805.805 0 01-.193.024c-.06.002-.115.004-.165.023l.138-.504c.333-.124.656-.227.963-.311.282-.085.575-.128.87-.128.495 0 .875.102 1.142.315.268.215.563.493.563.829 0 .065-.01.174-.024.332l-.004.043a2.258 2.258 0 01-.102.486l-.675 1.617a4.576 4.576 0 00-.11.447 1.95 1.95 0 00-.053.375c0 .214.056.362.162.44.11.078.296.117.56.117.123 0 .264-.02.421-.058.16-.039.271-.071.341-.104l-.136.499z" clip-rule="evenodd"></path>
-                            </svg>
-                            <div>{{ item.current_apr }}%</div>
+                      </div>
+                      <div class="EarnProductList_apy-info__r_H4Z">
+                        <div class="EarnProductList_apy-info-content__S_EPj">
+                          <div class="leading-22px text-[16px] font-[600] text-content-primary">
+                            {{ computeApr(item.currency_id) }}
                           </div>
                           <div class="flex"></div>
                         </div>
+                        <div>
+                          <div class="ms-1">
+                            <svg :class="{'rotate-[180deg]': item.show_child_dom}"
+                                 width="1em" height="1em" viewBox="0 0 20 20" fill="var(--content-primary)" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4">
+                              <path d="m16.692 7.942-6.25 6.25a.625.625 0 0 1-.884 0l-6.25-6.25a.625.625 0 1 1 .884-.884L10 12.866l5.808-5.808a.626.626 0 0 1 .884.884Z" fill="current"></path>
+                            </svg>
+                          </div>
+                        </div>
                       </div>
-                      <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
-                        <p v-for="(childrenItem, childrenIndex) in item.products" :key="childrenItem.id"
-                           @click.stop="item.current_product_id = childrenItem.id; item.current_index = childrenIndex; item.current_apr = childrenItem.apr;"
-                           class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[64px]"
-                           :class="{'border': childrenIndex === item.current_index, '!border-content-link-default': childrenIndex === item.current_index,'!bg-greenBg': childrenIndex === item.current_index}">
-                          <i class="not-italic">{{ childrenItem.days }}</i>
-                          <span v-if="childrenIndex === item.current_index"
-                                class="absolute -bottom-[2px] -right-[1px]">
+                    </div>
+
+                    <div v-if="item.show_child_dom" class="expand-content">
+                      <div class="EarnProductList_expand-content-box__H_Gwv border-t border-ds-color-border-strong">
+                        <div class="mb-[16px] flex justify-between">
+                          <div>
+                            <div class="leading-20px flex items-center text-[14px] text-content-primary">Savings</div>
+                            <div class="EarnProductList_box-tag__ENumq">
+                              <div class="EarnProductList_box-tag-name__nlYZT">Protected</div>
+                            </div>
+                          </div>
+
+                          <div>
+                            <div class="leading-22px flex items-center justify-end text-content-primary">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-[16px] cursor-pointer text-content-tertiary">
+                                <path fill-rule="evenodd" d="M3.75 12a8.25 8.25 0 1116.5 0 8.25 8.25 0 01-16.5 0zM12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm1.706 6.957a.947.947 0 01-.703.292.973.973 0 01-.708-.29.943.943 0 01-.295-.706c0-.273.098-.508.295-.705a.977.977 0 01.707-.298.952.952 0 01.704.298.968.968 0 01.294.705.944.944 0 01-.294.705zm.35 6.597c-.412.142-.736.252-.981.329a2.798 2.798 0 01-.853.117c-.495 0-.883-.11-1.156-.324a1.008 1.008 0 01-.416-.829c0-.128.011-.258.032-.393.026-.155.059-.309.098-.46l.514-1.624a.975.975 0 00.032-.25c.003-.064.005-.127.02-.191a1.687 1.687 0 00.047-.465c.002-.165.004-.278-.077-.344-.08-.067-.213-.065-.404-.062l-.145.002c-.134 0-.272.02-.409.052a.805.805 0 01-.193.024c-.06.002-.115.004-.165.023l.138-.504c.333-.124.656-.227.963-.311.282-.085.575-.128.87-.128.495 0 .875.102 1.142.315.268.215.563.493.563.829 0 .065-.01.174-.024.332l-.004.043a2.258 2.258 0 01-.102.486l-.675 1.617a4.576 4.576 0 00-.11.447 1.95 1.95 0 00-.053.375c0 .214.056.362.162.44.11.078.296.117.56.117.123 0 .264-.02.421-.058.16-.039.271-.071.341-.104l-.136.499z" clip-rule="evenodd"></path>
+                              </svg>
+                              <div>{{ item.current_apr }}%</div>
+                            </div>
+                            <div class="flex"></div>
+                          </div>
+                        </div>
+                        <section class="relative flex flex-wrap content-start font-normal " style="gap: 8px;">
+                          <p v-for="(childrenItem, childrenIndex) in item.products" :key="childrenItem.id"
+                             @click.stop="item.current_product_id = childrenItem.id; item.current_index = childrenIndex; item.current_apr = childrenItem.apr;"
+                             class="item relative box-border inline-block h-auto cursor-pointer rounded-[8px] border border-ds-color-border-subtle bg-background-secondary px-3 py-[7px] text-center text-fs14 text-primaryText first:ml-0 ltr:last:mr-0 min-w-[64px]"
+                             :class="{'border': childrenIndex === item.current_index, '!border-content-link-default': childrenIndex === item.current_index,'!bg-greenBg': childrenIndex === item.current_index}">
+                            <i class="not-italic">{{ childrenItem.days }}</i>
+                            <span v-if="childrenIndex === item.current_index"
+                                  class="absolute -bottom-[2px] -right-[1px]">
                             <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58172 0 8V17H9C13.4183 17 17 13.4183 17 9V0H8ZM11.6583 5.21726C11.9728 4.91977 12.4629 4.92892 12.7664 5.23776C13.0703 5.54647 13.0787 6.04311 12.7856 6.36227L7.46826 11.7631C7.15686 12.079 6.65235 12.079 6.34095 11.7631L4.21412 9.60273C3.92123 9.28357 3.92984 8.78615 4.23366 8.47757C4.53734 8.16911 5.02707 8.16036 5.3413 8.45772L6.90461 10.0456L11.6583 5.21726Z" fill="#03AAC7"></path>
                             </svg>
                           </span>
-                        </p>
-                      </section>
-                      <div class="flex flex-col items-end justify-end mt-[8px] !w-full items-center">
-                        <button @click="showBuyPanelFn(item.currency_id)" type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none mt-[8px] !w-full items-center">
-                          <span>Subscribe</span>
-                        </button>
-                        <div></div>
+                          </p>
+                        </section>
+                        <div class="flex flex-col items-end justify-end mt-[8px] !w-full items-center">
+                          <button @click="showBuyPanelFn(item.currency_id)" type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-inverse min-w-[80px] !transition-none mt-[8px] !w-full items-center">
+                            <span>Subscribe</span>
+                          </button>
+                          <div></div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div v-if="false" class="mt-[24px] flex w-full items-center justify-center">
-            <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-default !hidden items-center mobile:!flex ipad:!flex">
-              <span>Show 185 more</span>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="!ml-[4px] !h-[16px] !w-[16px] rotate-90" style="color: var(--content-primary);">
-                <path d="M17.03 12.53l-7.5 7.5a.75.75 0 11-1.06-1.06L15.44 12 8.47 5.03a.75.75 0 111.06-1.06l7.5 7.5a.75.75 0 010 1.06z"></path>
-              </svg>
-            </button>
+            <div v-if="false" class="mt-[24px] flex w-full items-center justify-center">
+              <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-default !hidden items-center mobile:!flex ipad:!flex">
+                <span>Show 185 more</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="!ml-[4px] !h-[16px] !w-[16px] rotate-90" style="color: var(--content-primary);">
+                  <path d="M17.03 12.53l-7.5 7.5a.75.75 0 11-1.06-1.06L15.44 12 8.47 5.03a.75.75 0 111.06-1.06l7.5 7.5a.75.75 0 010 1.06z"></path>
+                </svg>
+              </button>
 
-            <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-default bit-btn-md !hidden items-center air:!flex pc:!flex">
-              <span>Show 185 more</span>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="!ml-[4px] !h-[16px] !w-[16px] transition rotate-90" style="color: var(--content-primary);">
-                <path d="M17.03 12.53l-7.5 7.5a.75.75 0 11-1.06-1.06L15.44 12 8.47 5.03a.75.75 0 111.06-1.06l7.5 7.5a.75.75 0 010 1.06z"></path>
-              </svg>
-            </button>
+              <button type="button" class="bit-btn css-y0hvqx bit-btn-round bit-btn-default bit-btn-md !hidden items-center air:!flex pc:!flex">
+                <span>Show 185 more</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="!ml-[4px] !h-[16px] !w-[16px] transition rotate-90" style="color: var(--content-primary);">
+                  <path d="M17.03 12.53l-7.5 7.5a.75.75 0 11-1.06-1.06L15.44 12 8.47 5.03a.75.75 0 111.06-1.06l7.5 7.5a.75.75 0 010 1.06z"></path>
+                </svg>
+              </button>
+            </div>
           </div>
-        </div>
           <div data-v-08a1c11c="" style="min-height: 0px;">
             <div data-v-02a41350="" data-v-08a1c11c="" class="copytrading">
               <div data-v-02a41350="">
@@ -5147,10 +5297,10 @@ export default {
       return this.showBuyData.subscriptionAmount * (Number(this.showBuyData.product_apr) / 365 / 100)
     }
   },
-  created () {
+  created() {
     this.getProductList()
   },
-  mounted () {
+  mounted() {
     this.swiper = new Swiper(".swiper-horizontal", {
       slidesPerView: 4,
       spaceBetween: 15,
@@ -5178,7 +5328,7 @@ export default {
     async getProductList() {
       let productList = []
       let res = await axios.get(this.$host + 'api/profit');
-      if(res.data.code === 200) {
+      if (res.data.code === 200) {
         productList = res.data.data
         productList = productList.map((item) => {
           return {
@@ -5288,29 +5438,35 @@ export default {
 <style scoped src="@/assets/_nuxt-portal/css/index-692590ca.css"></style>
 <style scoped>
 .EarnProductList_earn-product-list__48s9C {
-    margin: 0 250px;
+  margin: 0 250px;
 }
+
 .\<lg-new\:flex.\<lg-new\:justify-between.\<lg-new\:items-center {
-    margin-top: 100px;
+  margin-top: 100px;
 }
+
 .mt-16px.flex.justify-around.gap-4px.minPhone\:hidden {
-    display: none;
+  display: none;
 }
+
 [dir] .bit-button--large.is-round {
-    padding: 15px 24px;
-    font-size: 16px;
-    color: #ffff;
+  padding: 15px 24px;
+  font-size: 16px;
+  color: #ffff;
 }
+
 h1.m-0.line-clamp-2.flex.flex-wrap.text-56px.font-600.leading-67px.text-v3PrimaryText.pad\:text-48px.pad\:font-700.pad\:leading-\[120\%\].phone\:font-700.phone\:text-16px.phone\:leading-22px {
-    font-size: 48px;
-    font-weight: 700;
+  font-size: 48px;
+  font-weight: 700;
 }
-@media (max-width: 750px){
+
+@media (max-width: 750px) {
   .EarnProductList_earn-product-list__48s9C {
     margin: 0px !important;
+  }
 }
-}
+
 button.bit-button.journey-crypto-content-footer.bit-button--main.is-round {
-    color: #fff;
+  color: #fff;
 }
 </style>

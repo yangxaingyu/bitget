@@ -1,17 +1,17 @@
 .bit-button-group > .bit-button.is-active, .bit-button-group > .bit-button.is-disabled, .bit-button-group > .bit-button:not(.is-disabled):active, .bit-button-group > .bit-button:not(.is-disabled):focus, .bit-button-group > .bit-button:not(.is-disabled):hover {
-    z-index: 1
+    z-index:1
 }
 
 .bit-button {
-    display: inline-block;
-    line-height: 1;
-    white-space: nowrap;
-    color: var(--bit-color-text-primary);
-    -webkit-appearance: none;
-    box-sizing: border-box;
-    outline: 0;
-    transition: .1s;
-    -moz-user-select: none;
+    display:inline-block;
+    line-height:1;
+    white-space:nowrap;
+    color:var(--bit-color-text-primary);
+    -webkit-appearance:none;
+    box-sizing:border-box;
+    outline:0;
+    transition:.1s;
+    -moz-user-select:none;
     -webkit-user-select: none;
     -ms-user-select: none;
     font-size: 14px

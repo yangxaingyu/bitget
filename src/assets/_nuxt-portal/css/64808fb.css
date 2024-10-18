@@ -1,16 +1,16 @@
 .bit-checkbox, .bit-checkbox__input {
-    white-space: nowrap
+    white-space:nowrap
 }
 
 .bit-checkbox__input {
-    outline: 0;
-    vertical-align: middle
+    outline:0;
+    vertical-align:middle
 }
 
 .bit-checkbox-button__inner, .bit-tag {
-    -webkit-box-sizing: border-box;
-    white-space: nowrap;
-    font-weight: 400
+    -webkit-box-sizing:border-box;
+    white-space:nowrap;
+    font-weight:400
 }
 
 .bit-checkbox-button__inner {
