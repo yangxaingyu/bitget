@@ -353,10 +353,10 @@
         <div class="EarnProductList_earn-product-list__48s9C">
           <div class="EarnProductList_earn-product-list-title__ZKAwU">
             <h3 class="cursor-pointer text-fs20 font-normal text-content-tertiary lg:text-fs32 mobile:text-fs18 !font-bold !text-content-primary">All products</h3>
-            <h3 class="cursor-pointer text-fs20 font-normal text-content-tertiary lg:text-fs32 mobile:text-fs18 ps-[32px] mobile:ps-[16px]">Simple</h3>
-            <h3 class="cursor-pointer text-fs20 font-normal text-content-tertiary lg:text-fs32 mobile:text-fs18 ps-[32px] mobile:ps-[16px]">Structured</h3>
+<!--            <h3 class="cursor-pointer text-fs20 font-normal text-content-tertiary lg:text-fs32 mobile:text-fs18 ps-[32px] mobile:ps-[16px]">Simple</h3>-->
+<!--            <h3 class="cursor-pointer text-fs20 font-normal text-content-tertiary lg:text-fs32 mobile:text-fs18 ps-[32px] mobile:ps-[16px]">Structured</h3>-->
           </div>
-          <div class="mb-4 mt-4 flex justify-between mobile:mt-2 ipad:justify-start">
+          <div v-if="false" class="mb-4 mt-4 flex justify-between mobile:mt-2 ipad:justify-start">
             <div class="mobile:flex-1">
               <div class="filterCondition w-[220px]">
                 <div class="bit-select bit-select-medium bit-select-round select-earn-coin css-y0hvqx bit-select-single bit-select-show-arrow bit-select-show-search" style="width: 100%;">
@@ -567,7 +567,7 @@
                 <div class="EarnProductList_earn-list-h5-content__2jxNQ">
                   <div class="EarnProductList_card-top__9IpTz">
                     <div class="EarnProductList_coin-info__3wSHG">
-                      <img src="https://img.bitgetimg.com/multiLang/coin_img/25bcb059251caa734d596e764838b1aa.png" alt="USDC-vpfcfpqerm" class="EarnProductList_mar-right-8__LubNZ h-[24px] w-[24px] rounded-full object-cover">
+                      <img :src="item.icon" alt="USDC-vpfcfpqerm" class="EarnProductList_mar-right-8__LubNZ h-[24px] w-[24px] rounded-full object-cover">
                       <div class="flex flex-col">
                         <div class="coin-info-name flex items-center text-content-primary">
                           {{ item.product_name }}
