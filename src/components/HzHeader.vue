@@ -825,7 +825,7 @@
                     <div data-v-d8e0da7c>
                       <a class="text-primaryText text-16px cursor-pointer leading-40px text-center" href="/login" target="_self" rel="nofollow">Log in</a>
                     </div>
-                    <div data-v-d8e0da7c class="popover absolute z-1000 opacity-0 invisible left" lt-md="fixed left-0" style="top: calc(100% + 0px); padding-top: 0">
+                    <div data-v-d8e0da7c class="popover absolute z-1000 opacity-0 invisible left" lt-md="fixed left-0" style="top: calc(100% + 0); padding-top: 0">
                       <i data-v-d8e0da7c class="absolute -top-6px !right-20px w-12px h-12px rounded-[3px_0_0_0] rotate-45deg transition-opacity light:shadow-popover light:border-1px light:border-line light:bg-bg dark:bg-cardBg !border-b-0px !border-r-0px" style="display: none;"></i>
                     </div>
                   </div>
@@ -844,7 +844,7 @@
                       </svg>
                     </div>
                   </div>
-                  <div data-v-d8e0da7c class="popover absolute z-1000 opacity-0 invisible left" lt-md="fixed left-0" style="top: calc(100% + 0px); padding-top: 0px;">
+                  <div data-v-d8e0da7c class="popover absolute z-1000 opacity-0 invisible left" lt-md="fixed left-0" style="top: calc(100% + 0); padding-top: 0;">
                     <div data-v-d8e0da7c class="popover-main rounded-12px overflow-y-auto light:shadow light:border-1px light:border-line light:bg-bg dark:bg-cardBg" style="display: none;"></div>
                     <i data-v-d8e0da7c class="absolute -top-6px !right-20px w-12px h-12px rounded-[3px_0_0_0] rotate-45deg transition-opacity light:shadow-popover light:border-1px light:border-line light:bg-bg dark:bg-cardBg !border-b-0px !border-r-0px" style="display: none;"></i>
                   </div>
@@ -1194,6 +1194,7 @@
         </div>
       </header>
     </div>
+
     <div id="MicroTeleport" class="micro micro-teleport">
       <div v-if="mobileMenuShow" class="relative z-10000">
         <div class="mi-overlay" style="z-index: 2015;">
@@ -1209,6 +1210,16 @@
               </button>
             </header>
             <div id="mi-id-9420-1" class="mi-drawer__body">
+              <div v-if="!isLogin" class="flex items-center gap-20px whitespace-nowrap flex-col !gap-4px !items-stretch text-center mb-16px px-16px md:!hidden">
+                <div data-v-d8e0da7c="" class="relative inline-flex items-center h-full login-popover-move">
+                  <div data-v-d8e0da7c="">
+                    <a class="text-primaryText text-16px cursor-pointer leading-40px text-center flex items-center justify-center px-18px h-40px w-full rounded-20px border-1 border-placeholderText" href="/login" target="_self" rel="nofollow">Log in</a>
+                  </div>
+                  <div data-v-d8e0da7c="" class="popover absolute z-1000 opacity-0 invisible left" lt-md="fixed left-0" style="top: calc(100% + 0); padding-top: 0;"><i data-v-d8e0da7c="" class="absolute -top-6px !right-20px w-12px h-12px rounded-[3px_0_0_0] rotate-45deg transition-opacity light:shadow-popover light:border-1px light:border-line light:bg-bg dark:bg-cardBg !border-b-0px !border-r-0px" style="display: none;"></i>
+                  </div>
+                </div>
+                <a class="text-primaryText inline-flex items-center justify-center px-18px h-40px min-w-87px text-16px rounded-20px bg-contentPrimary cursor-pointer !text-contentInversePrimary mt-10px" href="/register" target="_self" rel="nofollow">Sign up</a>
+              </div>
               <div data-v-565de79f class="mi-collapse menu-collapse border-0 mb-16px pb-8px border-t-0 !border-b-1 border-b-line border-opacity-5" role="tablist" aria-multiselectable="true">
                 <div data-v-565de79f class="mi-collapse-item">
                   <div role="tab" aria-expanded="false" aria-controls="mi-collapse-content-2314" aria-describedby="mi-collapse-content-2314">

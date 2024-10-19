@@ -1358,7 +1358,10 @@ export default {
         products: [],
         subscriptionAmount: 0.00,
         subscriptionTime: '',
-        interestAccrualStartTime: ''
+        interestAccrualStartTime: '',
+        interestDistributionTime: '',
+        maturityTime: '',
+        creditingDate: '',
       }
     }
   },
