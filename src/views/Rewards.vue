@@ -6,8 +6,8 @@
         <div class="w-full rewards_rewardsPublicColor__o_ecd rewards_bannerBgH5__I5FGb">
           <div class="relative" style="background-color: #151517;">
             <div class="relative overflow-hidden rewards_bannerBg__Dxtxv">
-              <img src="../assets/img/banner-bg-h5.d39a02a1.png" alt="banner-bg-h5" loading="lazy"
-                   decoding="async" class="w-[767px] h-[208px] absolute left-1/2 -translate-x-[375px] md:hidden">
+              <!-- <img src="../assets/img/banner-bg-h5.d39a02a1.png" alt="banner-bg-h5" loading="lazy"
+                   decoding="async" class="w-[767px] h-[208px] absolute left-1/2 -translate-x-[375px] md:hidden"> -->
               <div class="mx-auto px-[16px] md:px-[24px] lg:px-[40px] 2xl:max-w-[1200px] 2xl:px-0 w-full relative min-h-[200px] pb-[32px] md:pb-[60px]">
                 <div class="relative z-10 w-full h-full flex flex-col justify-between md:flex-row">
                   <div class="w-full flex gap-6 flex-row justify-between md:justify-start md:flex-col md:mr-5 lg:mr-0 pt-[32px] md:pt-[52px] lg:pt-[56px] 2xl:pt-[70px]">
@@ -1887,6 +1887,9 @@ h1.rewards_oneLine__Kqdwg.text-\[28px\].leading-\[36px\].text-\[\#fff\].m-0.p-0.
     padding: 10px;
     width: 100%;
   }
+}
+[dir] .pb-\[32px\] {
+    padding-bottom: 42px;
 }
 </style>
 
